@@ -1,0 +1,49 @@
+{% extends "layout.html" %}
+{% block title %}{{ this.title }}{% endblock %}
+{% block body %}
+<h1>Frequently Asked Questions</h1>
+<div class="row">
+  <div class="col-lg-6">
+    <h2>General</h2>
+    <div class="panel-group" id="accordion-general" role="tablist" aria-multiselectable="true">
+      {% for blk in this.faqlist.blocks %}
+        {% if blk.category == 'general' %}
+          {{ blk }}
+        {% endif %}
+      {% endfor %}
+    </div>
+    <h2>Technical</h2>
+    <div class="panel-group" id="accordion-technical" role="tablist" aria-multiselectable="true">
+      {% for blk in this.faqlist.blocks %}
+        {% if blk.category == 'technical' %}
+          {{ blk }}
+        {% endif %}
+      {% endfor %}
+    </div>
+  </div>
+  <div class="col-lg-6">
+    <h2>Policies</h2>
+    <div class="panel-group" id="accordion-policies" role="tablist" aria-multiselectable="true">
+      {% for blk in this.faqlist.blocks %}
+        {% if blk.category == 'policies' %}
+          {{ blk }}
+        {% endif %}
+      {% endfor %}
+    </div>
+    <h2>GitHub</h2>
+    <div class="panel-group" id="accordion-github" role="tablist" aria-multiselectable="true">
+      {% for blk in this.faqlist.blocks %}
+        {% if blk.category == 'github' %}
+          {{ blk }}
+        {% endif %}
+      {% endfor %}
+    </div>
+  </div>
+</div>
+<div class="bs-callout bs-callout-info">
+
+<h3>Couldn't find the answer to your question?</h3>
+Contact us and we will add it to this list.
+</div>
+
+{% endblock %}

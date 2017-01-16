@@ -1,0 +1,38 @@
+.header-title {
+  font-weight: 200;
+  font-size: 42px;
+  color: white;
+  display: inline-block;
+  position: relative;
+  top: 3px;
+}
+
+.header-subtitle li a span {
+  font-weight: 200;
+  font-size: 26px;
+  color: black;
+  display: inline-block;
+  position: relative;
+}
+
+.navbar-right li a {
+    font-size: 18px;
+}
+
+.logo-divider {
+    width: 1px;
+    height: 64px;
+    display: inline-block;
+    position: relative;
+    top: 16px;
+    background-color: #fff;
+  }
+
+.subbar {
+    background-color: gray;
+    font-size: 16px;
+}
+
+.subbar2 {
+    height:14px;
+}

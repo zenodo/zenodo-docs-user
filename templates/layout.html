@@ -1,0 +1,148 @@
+<!doctype html>
+<meta charset="utf-8">
+<link rel="stylesheet" href="{{ '/static/zenodo.css'|url }}">
+<link rel="stylesheet" href="{{ '/static/style.css'|url }}">
+<link rel="stylesheet" href="{{ '/static/font-awesome/css/font-awesome.min.css'|url}}">
+<title>{% block title %}Welcome to{% endblock %} This is Zenodo Help Pages</title>
+<script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+<body>
+  <header>
+    <nav class="navbar navbar-default navbar-static-top">
+      <div class="container">
+        <div class="navbar-header">
+          <a href="/"><img class="navbar-brand" src="/static/img/zenodo.svg" alt="Zenodo" /></a>
+          <span class="logo-divider"></span>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+          <ul class="nav navbar-nav">
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle header-title" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><span class="header-title">Help</span><span class="caret"></span></a>
+              <ul class="dropdown-menu header-subtitle">
+                <li><a href="#"><span>News</span></a></li>
+                <li><a href="#"><span>Help</span></a></li>
+                <li><a href="#"><span>Developers</span></a></li>
+                <li><a href="#"><span>About</span></a></li>
+              </ul>
+            </li>
+          </ul>
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="...">News</a></li>
+            <li><a href="...">Help</a></li>
+            <li><a href="...">Developers</a></li>
+            <li><a href="...">About</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="row subbar">
+        <div class="container">
+          <ul class="nav navbar-nav navbar">
+          {% for path, label in bag('main-nav').iteritems() %}
+            <li{% if this.is_child_of(path) %} class="active"{% endif %}><a href="{{ path|url }}">{{ label }}</a></li>
+          {% endfor %}
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+<!--
+  <header>
+    <div class="page-title">
+      <div class="container">
+        <div class="row">
+          <a href="/"><img class="navbar-brand" src="/static/img/zenodo.svg" alt="Zenodo" /></a>
+          <span class="logo-divider"></span>
+          <span class="header-title">Help</span>
+            <a href="...">News</a>
+            <a href="...">Help</a>
+            <a href="...">Developers</a>
+            <a href="...">About</a>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row">
+          {% for path, label in bag('main-nav').iteritems() %}
+            <a{% if this.is_child_of(path) %} class="active"{% endif %}><a href="{{ path|url }}">{{ label }}</a>
+          {% endfor %}
+      </div>
+    </div>
+  </header>
+-->
+
+<div class="page">
+  <div class="container body-container">
+    <div class="col-md-12">
+      {% block body %}{% endblock %}
+    </div>
+  </div>
+</div>
+<footer class="footer">
+  <div class="menu-wrapper">
+    <div class="container">
+      <div class="row footer-menu">
+        <div class="col-xs-3 col-md-2">
+          <h5>News</h5>
+          <ul class="list-unstyled">
+            <li><a href="/about">Blog</a></li>
+            <li><a href="/contact">What's New</a></li>
+          </ul>
+        </div>
+        <div class="col-xs-3 col-md-2">
+          <h5>Help</h5>
+          <ul class="list-unstyled">
+            <li><a href="/features">Getting Started</a></li>
+            <li><a href="/faq">FAQ</a></li>
+            <li><a href="/features">Guides</a></li>
+            <li><a href="/features">Support</a></li>
+          </ul>
+        </div>
+        <div class="col-xs-3 col-md-2">
+          <h5>Developers</h5>
+          <ul class="list-unstyled">
+          <li><a href="/dev">REST API</a></li>
+          <li><a href="/dev">OAI-PMH</a></li>
+          <li><a href="http://github.com/zenodo/zenodo"><i class="fa fa-external-link"></i> GitHub</a></li>
+          </ul>
+        </div>
+        <div class="col-xs-3 col-md-2">
+          <h5>About</h5>
+          <ul class="list-unstyled">
+            <li><a href="/about">About</a></li>
+            <li><a href="/contact">Contact</a></li>
+            <li><a href="/policies">Policies</a></li>
+          </ul>
+        </div>
+        <div class="col-xs-12 text-center-sm col-md-4">
+          <div class="pull-right-md text-center-xs">
+            <h5>Funded by</h5>
+            <ul class="list-inline">
+              <li><a href="http://home.cern"><img src="/static/img/cern.png" width="60" height="60" /></a></li>
+              <li><a href="http://www.openaire.eu"><img src="/static/img/openaire.png" width="80" height="60" /></a></li>
+              <li><a href="https://ec.europa.eu/programmes/horizon2020/"><img src="/static/img/eu.png" width="88" height="60" /></a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-12 col-sm-6 col-sm-push-6">
+        <div class="pull-right-sm text-center-xs">
+          <ul class="list-inline">
+            <li><a href="/privacy-policy">Privacy policy</a></li>
+            <li><a href="/terms">Terms of Use</a></li>
+            <li><a href="/support">Contact</a></li>
+            <li><a href="/donate"><i class="fa fa-external-link"></i><b> Donate to Zenodo!</b></a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="col-xs-12 col-sm-6 col-sm-pull-6 text-center-xs">
+        <p>Powered by <a href="http://information-technology.web.cern.ch/about/computer-centre">CERN Data Centre</a> &amp; <a href="http://inveniosoftware.org">Invenio</a></p>
+      </div>
+    </div>
+  </div>
+</footer>
+</body>
