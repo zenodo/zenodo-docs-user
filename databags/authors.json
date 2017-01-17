@@ -1,0 +1,14 @@
+{
+  "knowak": {
+    "name": "Krzysztof Nowak",
+    "img": "/static/img/authors/knowak.jpg"
+  },
+  "lnielsen": {
+    "name": "Lars Holm Nielsen",
+    "img": "/static/img/authors/lnielsen.jpg"
+  },
+  "aioannidis": {
+    "name": "Alexander Ioannidis",
+    "img": "/static/img/authors/aioannidis.jpg"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "news": [
+    ["/blog", "Blog"]
+  ],
+  "help": [
+    ["/help/getting-started", "Getting Started"],
+    ["/help/features", "Features"],
+    ["/help/guides", "Guides"],
+    ["/help/faq", "FAQ"],
+    ["/help/whatsnew", "What's New"]
+  ],
+  "about": [
+    ["/about/", "About"],
+    ["/about/policies", "Policies"],
+    ["/about/privacy-policy", "Privacy Policy"],
+    ["/about/terms-of-use", "Terms of Use"],
+    ["/about/contact", "Contact"]
+  ],
+  "main": [
+    ["http://localhost:5000/blog", "Blog"],
+    ["http://localhost:5000/help", "Help"],
+    ["http://localhost:5000/developers", "Developers"],
+    ["http://localhost:5000/about", "About"]
+  ]
+}

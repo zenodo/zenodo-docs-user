@@ -1,10 +1,10 @@
-{% extends "layout.html" %}
+{% extends "help_page.html" %}
 {% block title %}{{ this.title }}{% endblock %}
 {% block body %}
-<h1>Frequently Asked Questions</h1>
+{{ this.toptext }}
 <div class="row">
   <div class="col-lg-6">
-    <h2>General</h2>
+    <h3>General</h3>
     <div class="panel-group" id="accordion-general" role="tablist" aria-multiselectable="true">
       {% for blk in this.faqlist.blocks %}
         {% if blk.category == 'general' %}
@@ -12,7 +12,7 @@
         {% endif %}
       {% endfor %}
     </div>
-    <h2>Technical</h2>
+    <h3>Technical</h3>
     <div class="panel-group" id="accordion-technical" role="tablist" aria-multiselectable="true">
       {% for blk in this.faqlist.blocks %}
         {% if blk.category == 'technical' %}
@@ -22,7 +22,7 @@
     </div>
   </div>
   <div class="col-lg-6">
-    <h2>Policies</h2>
+    <h3>Policies</h3>
     <div class="panel-group" id="accordion-policies" role="tablist" aria-multiselectable="true">
       {% for blk in this.faqlist.blocks %}
         {% if blk.category == 'policies' %}
@@ -30,7 +30,7 @@
         {% endif %}
       {% endfor %}
     </div>
-    <h2>GitHub</h2>
+    <h3>GitHub</h3>
     <div class="panel-group" id="accordion-github" role="tablist" aria-multiselectable="true">
       {% for blk in this.faqlist.blocks %}
         {% if blk.category == 'github' %}
@@ -42,8 +42,6 @@
 </div>
 <div class="bs-callout bs-callout-info">
 
-<h3>Couldn't find the answer to your question?</h3>
-Contact us and we will add it to this list.
-</div>
+{{ this.bottomtext }}
 
 {% endblock %}

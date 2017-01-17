@@ -1,0 +1,25 @@
+{
+  "news": [
+    ["/", "Blog"]
+  ],
+  "help": [
+    ["/getting-started", "Getting Started"],
+    ["/faq", "FAQ"],
+    ["/guides", "Guides"],
+    ["/features", "Features"],
+    ["/whatsnew", "What's New"]
+  ],
+  "about": [
+    ["/", "About"],
+    ["/policies", "Policies"],
+    ["/privacy-policy", "Privacy Policy"],
+    ["/terms-of-use", "Terms of Use"],
+    ["/contact", "Contact"]
+  ],
+  "main": [
+    ["http://blog.zenodo.org", "Blog"],
+    ["http://help.zenodo.org", "Help"],
+    ["http://developers.zenodo.org", "Developers"],
+    ["http://about.zenodo.org", "About"]
+  ]
+}

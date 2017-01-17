@@ -3,7 +3,7 @@
 <link rel="stylesheet" href="{{ '/static/zenodo.css'|url }}">
 <link rel="stylesheet" href="{{ '/static/style.css'|url }}">
 <link rel="stylesheet" href="{{ '/static/font-awesome/css/font-awesome.min.css'|url}}">
-<title>{% block title %}Welcome to{% endblock %} This is Zenodo Help Pages</title>
+<title>{% block title %}{% endblock %} - Zenodo Pages</title>
 <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 <body>
@@ -13,63 +13,28 @@
         <div class="navbar-header">
           <a href="/"><img class="navbar-brand" src="/static/img/zenodo.svg" alt="Zenodo" /></a>
           <span class="logo-divider"></span>
+          <span class="header-title">{% block subpagename %}Docs{% endblock %}</span>
         </div>
         <div id="navbar" class="navbar-collapse collapse">
-          <ul class="nav navbar-nav">
-            <li class="dropdown">
-              <a href="#" class="dropdown-toggle header-title" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><span class="header-title">Help</span><span class="caret"></span></a>
-              <ul class="dropdown-menu header-subtitle">
-                <li><a href="#"><span>News</span></a></li>
-                <li><a href="#"><span>Help</span></a></li>
-                <li><a href="#"><span>Developers</span></a></li>
-                <li><a href="#"><span>About</span></a></li>
-              </ul>
-            </li>
-          </ul>
           <ul class="nav navbar-nav navbar-right">
-            <li><a href="...">News</a></li>
-            <li><a href="...">Help</a></li>
-            <li><a href="...">Developers</a></li>
-            <li><a href="...">About</a></li>
+            {% for path, label in bag('navigation.main') %}
+              <li><a href="{{ path }}">{{ label }}</a></li>
+            {% endfor %}
           </ul>
         </div>
       </div>
+      {% block subnavbar %}
       <div class="row subbar">
         <div class="container">
           <ul class="nav navbar-nav navbar">
-          {% for path, label in bag('main-nav').iteritems() %}
-            <li{% if this.is_child_of(path) %} class="active"{% endif %}><a href="{{ path|url }}">{{ label }}</a></li>
-          {% endfor %}
+            {% block subnavbaritems %}
+            {% endblock %}
           </ul>
         </div>
       </div>
+      {% endblock %}
     </nav>
   </header>
-
-<!--
-  <header>
-    <div class="page-title">
-      <div class="container">
-        <div class="row">
-          <a href="/"><img class="navbar-brand" src="/static/img/zenodo.svg" alt="Zenodo" /></a>
-          <span class="logo-divider"></span>
-          <span class="header-title">Help</span>
-            <a href="...">News</a>
-            <a href="...">Help</a>
-            <a href="...">Developers</a>
-            <a href="...">About</a>
-        </div>
-      </div>
-    </div>
-    <div class="container">
-      <div class="row">
-          {% for path, label in bag('main-nav').iteritems() %}
-            <a{% if this.is_child_of(path) %} class="active"{% endif %}><a href="{{ path|url }}">{{ label }}</a>
-          {% endfor %}
-      </div>
-    </div>
-  </header>
--->
 
 <div class="page">
   <div class="container body-container">

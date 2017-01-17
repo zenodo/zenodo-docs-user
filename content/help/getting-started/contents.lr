@@ -1,4 +1,4 @@
-_model: page
+_model: help_page
 ---
 title: Getting Started
 ---
@@ -11,4 +11,3 @@ Some markdown guide on getting started
 
 Some pictures:
 ![Sign-In to Zendo](signin.png "Sign-In to Zenodo")
-

@@ -1,0 +1,7 @@
+language: python
+python: 2.7
+install: "pip install Lektor"
+script: "sh ./travis_test.sh"
+deploy:
+  provider: script
+  script: "sh ./travis_deploy.sh"

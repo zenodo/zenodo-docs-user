@@ -1,0 +1,9 @@
+{% extends "base.html" %}
+{% block subpagename %}Blog{% endblock %}
+{% block subnavbar %}
+{% for path, label in bag('navigation.news') %}
+  <li{% if this.is_child_of(path) %} class="active"{% endif %}><a href="{{ path|url }}">{{ label }}</a></li>
+{% endfor %}
+{% endblock %}
+{% block title %}{{ this.title }}{% endblock %}
+{% block body %}{{ this.body }}{% endblock %}

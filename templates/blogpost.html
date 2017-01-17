@@ -1,0 +1,12 @@
+{% extends "news_page.html" %}
+{% block title %}{{ this.title }} | Zenodo News {% endblock %}
+{% block body %}
+  <h1>{{ this.title }}</h1>
+  <p class="meta">
+    by <img class="img-rounded" width=18 height=18 src="{{ bag('authors.' + this.author + ".img") |url}}" />
+    {{ bag('authors.' + this.author + ".name") }}
+    on {{ this.date | dateformat('long') }}
+  </p>
+  <hr />
+  <div class="body">{{ this.body }}</div>
+{% endblock %}

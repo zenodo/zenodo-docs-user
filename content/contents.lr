@@ -1,6 +1,8 @@
-title: Welcome to help.zenodo.org!
+_model: rootpage
 ---
 body:
 
-This is a basic demo website that shows how to use Lektor for a basic
-website with some pages.
+## Welcome to the root page of this documentation.
+
+It only renders because you are running this documentation locally.
+Navigate to corresponding sub-sites (Blog, Help, About) to see the real content.

@@ -1,0 +1,34 @@
+{% extends "base.html" %}
+{% from "macros/pagination.html" import render_pagination %}
+{% block subpagename %}Blog{% endblock %}
+{% block title %}Zenodo Blog{% endblock %}
+{% block subnavbar %}
+{% endblock %}
+{% block body %}
+  {% set first_post = this.pagination.items.first() %}
+
+  <a href="{{ first_post|url }}"><h1>{{ first_post.title }}</h1></a>
+  <p class="meta">
+    by <img class="img-rounded" width=18 height=18 src="{{ bag('authors.' + first_post.author + ".img") |url}}" />
+    {{ bag('authors.' + first_post.author + ".name") }}
+    on {{ first_post.date | dateformat('long') }}
+  </p>
+  <hr />
+  <div class="body">{{ first_post.body }}</div>
+  <hr />
+
+  <h3>Previous posts</h3>
+  <ul class="blog-index">
+  {% for post in this.pagination.items %}
+    <li>
+      <a href="{{ post|url }}">{{ post.title }}</a> —
+      by {{ bag('authors.' + post.author + ".name") }}
+      on {{ post.date|dateformat }}
+    </li>
+  {% endfor %}
+  </ul>
+
+  {% if this.pagination.pages > 1 %}
+    {{ render_pagination(this.pagination) }}
+  {% endif %}
+{% endblock %}
