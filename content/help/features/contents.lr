@@ -29,7 +29,7 @@ body:
         </div>
         <div class="col-sm-4 col-md-4">
           <img class="img-circle hide" data-src="holder.js/140x140" alt="140x140" style="width: 140px; height: 140px;">
-          <h2>Community<br>Collections</h2>
+          <h2><br />Communities</h2>
           <h4>— create your own repository</h4>
           <p>Zenodo allows you to create your own collection and accept or reject uploads submitted to it. Creating a space for your next workshop or project has never been easier. Plus, everything is citeable and discoverable!</p>
         </div>

@@ -10,7 +10,7 @@
     ["/help/whatsnew", "What's New"]
   ],
   "about": [
-    ["/about/", "About"],
+    ["/about", "About"],
     ["/about/policies", "Policies"],
     ["/about/privacy-policy", "Privacy Policy"],
     ["/about/terms-of-use", "Terms of Use"],
