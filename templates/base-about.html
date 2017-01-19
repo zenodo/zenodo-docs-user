@@ -2,7 +2,8 @@
 {% block subpagename %}About{% endblock %}
 {% block subnavbaritems %}
 {% for path, label in bag('navigation.about') %}
-  <li{% if this.is_child_of(path) %} class="active"{% endif %}><a href="{{ path|url }}">{{ label }}</a></li>
+  {% set highlight = (path != "/" and this.is_child_of(path)) or (this.path == path and path == "/")%}
+  <li{% if highlight %} class="active"{% endif %}><a href="{{ path|url }}">{{ label }}</a></li>
 {% endfor %}
 {% endblock %}
 {% block title %}{{ this.title }}{% endblock %}
