@@ -1,0 +1,22 @@
+{% macro render_pagination(pagination) %}
+<div class="pagination">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-4 text-center">
+        {% if pagination.has_next %}
+          <b><a href="{{ pagination.next|url }}">Older</a></b>
+        {% endif %}
+      </div>
+      <div class="col-md-4 text-center">
+
+        <b><a href="{{ bag('navigation.blog-pagination-all') }}">All</a></b>
+      </div>
+      <div class="col-md-4 text-center">
+        {% if pagination.has_prev %}
+          <b><a href="{{ pagination.prev|url }}">Newer</a></b>
+        {% endif %}
+      </div>
+    </div>
+  </div>
+</div>
+{% endmacro %}

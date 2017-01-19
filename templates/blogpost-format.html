@@ -1,0 +1,12 @@
+{% if title_link %}
+<a href="{{ this|url }}"><h1>{{ this.title }}</h1></a>
+{% else %}
+<h1>{{ this.title }}</h1>
+{% endif %}
+<p class="meta">
+  by <img class="img-rounded" width=18 height=18 src="{{ bag('authors.' + this.author + ".img") |url}}" />
+  {{ bag('authors.' + this.author + ".name") }}
+  on {{ this.date | dateformat('long') }}
+</p>
+<hr />
+<div class="body">{{ this.body }}</div>

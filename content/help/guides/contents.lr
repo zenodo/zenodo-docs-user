@@ -4,5 +4,45 @@ title: Guides
 ---
 body:
 
-Foobar
-<input></input>
+<h1>User Guides</h1>
+
+Want a step-by-step explanation of some of Zenodo's features? You've found the right place.
+Learn how to set up a Zenodo Community, enable GitHub archiving or choose the right license for your software.
+
+<div class="row">
+  <div class="col-sm-6 col-md-4">
+    <div class="thumbnail">
+      <a href="github"><img src="github_zenodo_guide.png" alt="..."></a>
+      <div class="caption">
+        <h3>Integrate GitHub with Zenodo</h3>
+        <p>In this guide you will learn on how to make your GitHub repository automatically archive in Zenodo after version releases as well as how to get and use the DOI.</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="col-sm-6 col-md-4">
+    <div class="thumbnail">
+      <img src="wordcloud2.png" alt="...">
+      <div class="caption">
+        <h3>Zenodo Communities</h3>
+        <p>Learn everything about setting up a Zenodo community, curating its content and harvesting the community resources.</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="col-sm-6 col-md-4">
+    <div class="thumbnail">
+      <img src="wordcloud2.png" alt="...">
+      <div class="caption">
+        <h3>How to choose a License</h3>
+        <p>Having trouble choosing a license for your paper, dataset or software? Learn how to publish your content under the license that's the best for you</p>
+      </div>
+    </div>
+  </div>
+
+</div>
+
+<h3>Any topic you would like us to cover in more detail?</h3>
+Please check our other advanced guides in the developers section.
+If you still feel like there is a topic which you would like us to cover in more detail, let us know.
+

@@ -2,8 +2,9 @@
   "blog": [
     ["/blog", "Blog"]
   ],
+  "blog-pagination-all": "/blog/all",
   "help": [
-    ["/help/getting-started", "Getting Started"],
+    ["/help", "Getting Started"],
     ["/help/features", "Features"],
     ["/help/guides", "Guides"],
     ["/help/faq", "FAQ"],
