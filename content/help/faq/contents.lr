@@ -2,8 +2,6 @@ _model: faq
 ---
 title: FAQ
 ---
-body: Some common Questions and answers
----
 faqlist:
 
 #### qaitem ####

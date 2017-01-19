@@ -37,11 +37,13 @@
   </header>
 
 <div class="page">
+  {% block bodycontainer %}
   <div class="container body-container">
     <div class="col-md-12">
       {% block body %}{% endblock %}
     </div>
   </div>
+  {% endblock %}
 </div>
 <footer class="footer">
   <div class="menu-wrapper">
