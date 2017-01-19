@@ -5,7 +5,7 @@
   <ul class="blog-index">
   {% for post in this.parent.pagination.items.filter((F._model=='blogpost')) %}
     <li>
-      <a href="{{ post|url }}">{{ post.title }}</a> — by {{ post.author }} on {{ post.date|dateformat }}
+      <a href="{{ post|url }}">{{ post.title }}</a> — by {{ bag('authors.' + post.author + '.name') }} on {{ post.date|dateformat }}
     </li>
   {% endfor %}
   </ul>
