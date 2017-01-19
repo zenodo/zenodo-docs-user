@@ -1,47 +1,36 @@
-{% extends "help_page.html" %}
+{% extends "base-help.html" %}
 {% block title %}{{ this.title }}{% endblock %}
 {% block body %}
 {{ this.toptext }}
 <div class="row">
   <div class="col-lg-6">
     <h3>General</h3>
-    <div class="panel-group" id="accordion-general" role="tablist" aria-multiselectable="true">
       {% for blk in this.faqlist.blocks %}
         {% if blk.category == 'general' %}
           {{ blk }}
         {% endif %}
       {% endfor %}
-    </div>
     <h3>Technical</h3>
-    <div class="panel-group" id="accordion-technical" role="tablist" aria-multiselectable="true">
       {% for blk in this.faqlist.blocks %}
         {% if blk.category == 'technical' %}
           {{ blk }}
         {% endif %}
       {% endfor %}
-    </div>
   </div>
   <div class="col-lg-6">
     <h3>Policies</h3>
-    <div class="panel-group" id="accordion-policies" role="tablist" aria-multiselectable="true">
       {% for blk in this.faqlist.blocks %}
         {% if blk.category == 'policies' %}
           {{ blk }}
         {% endif %}
       {% endfor %}
-    </div>
     <h3>GitHub</h3>
-    <div class="panel-group" id="accordion-github" role="tablist" aria-multiselectable="true">
       {% for blk in this.faqlist.blocks %}
         {% if blk.category == 'github' %}
           {{ blk }}
         {% endif %}
       {% endfor %}
-    </div>
   </div>
 </div>
-<div class="bs-callout bs-callout-info">
-
 {{ this.bottomtext }}
-
 {% endblock %}

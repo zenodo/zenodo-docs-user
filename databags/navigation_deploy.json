@@ -1,12 +1,12 @@
 {
-  "news": [
+  "blog": [
     ["/", "Blog"]
   ],
   "help": [
     ["/getting-started", "Getting Started"],
-    ["/faq", "FAQ"],
-    ["/guides", "Guides"],
     ["/features", "Features"],
+    ["/guides", "Guides"],
+    ["/faq", "FAQ"],
     ["/whatsnew", "What's New"]
   ],
   "about": [

@@ -1,9 +1,6 @@
-{% extends "base.html" %}
+{% extends "base-blog.html" %}
 {% from "macros/pagination.html" import render_pagination %}
-{% block subpagename %}Blog{% endblock %}
 {% block title %}Zenodo Blog{% endblock %}
-{% block subnavbar %}
-{% endblock %}
 {% block body %}
   {% set first_post = this.pagination.items.first() %}
 
@@ -27,7 +24,6 @@
     </li>
   {% endfor %}
   </ul>
-
   {% if this.pagination.pages > 1 %}
     {{ render_pagination(this.pagination) }}
   {% endif %}
