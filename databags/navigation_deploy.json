@@ -4,23 +4,21 @@
   ],
   "blog-pagination-all": "/all",
   "help": [
-    ["/", "Getting Started"],
-    ["/features", "Features"],
-    ["/guides", "Guides"],
-    ["/faq", "FAQ"],
-    ["/whatsnew", "What's New"]
+    ["/", "FAQ"],
+    ["/features/", "Features"],
+    ["/whatsnew/", "What's New"]
   ],
   "about": [
     ["/", "About"],
-    ["/policies", "Policies"],
-    ["/privacy-policy", "Privacy Policy"],
-    ["/terms-of-use", "Terms of Use"],
-    ["/contact", "Contact"]
+    ["/policies/", "Policies"],
+    ["/privacy-policy/", "Privacy Policy"],
+    ["/terms-of-use/", "Terms of Use"],
+    ["/contact/", "Contact"]
   ],
   "main": [
+    ["http://about.zenodo.org", "About"],
     ["http://blog.zenodo.org", "Blog"],
     ["http://help.zenodo.org", "Help"],
-    ["http://developers.zenodo.org", "Developers"],
-    ["http://about.zenodo.org", "About"]
+    ["http://developers.zenodo.org", "Developers"]
   ]
 }

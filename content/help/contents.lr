@@ -1,11 +1,183 @@
-_model: base-help
+_model: faq
 ---
-title: Help
+title: FAQ
 ---
-body:
+faqlist:
 
-The Zenodo Getting started guide.
-Some markdown guide on getting started
+#### qaitem ####
+question: How can I edit the metadata of a published record?
+----
+answer: On the record page and click the orange ``Edit`` button in the top-right corner. You will be taken to a form similar to the upload form, where you will be able to edit almost all of the record's metadata. Once you are done modifying it, click "Save" and then "Publish".
+----
+category: technical
+#### qaitem ####
+question: Can I change the file in the already published record?
+----
+answer:
 
-1. Create a Zenodo account
-2. Foobar
+Once the record has been published, you can no longer change the files. Exceptions are small modifications to the record, and only if the record was published recently. If you have spotted some mistakes in the document, forgot to include some files or you would like to have some removed, contact us and we can replace it for you. When contacting us, it's important to include the following:
+
+* Your Zenodo username or email, if it's different than the email you are contacting us from
+* The DOI of the record you would like to update
+* Specify if the DOI has been already used anywhere (other publications, social media etc.)
+* Include the files as email attachment or include the public URL to files (if they are too big for email), so we can download them
+* Reason for update
+
+Meeting above points will assure that we can resolve your case faster.
+----
+category: general
+#### qaitem ####
+question: What are the size limits in Zenodo?
+----
+answer:
+
+We currently accept up to 50GB per dataset (you can have multiple datasets); there is no size limit on communities.
+However, we don't want to turn away larger use cases.
+If you would like to upload larger files, please <a href="http://about.zenodo.org/contact">contact us</a>, and we will do our best to help you.
+Please be aware that we cannot offer infinite space for free, so donations from heavy users towards sustainability are encouraged.
+Since we target the long-tail of science, we want public user uploads to always be free.
+----
+category: policies
+#### qaitem ####
+question: What can I upload?
+----
+answer:
+
+All research outputs from all fields of science are welcome.
+In the upload form you can choose between types of files: publications (book, book section, conference paper, journal article, patent, preprint, report, thesis, technical note, working paper, etc.), posters, presentations, datasets, images (figures, plots, drawings, diagrams, photos), software, videos/audio and interactive materials such as lessons.
+We do check every piece of content being uploaded to ensure it is research related. Please see further information in our <a href="http://about.zenodo.org/terms">Terms of Use</a> and <a href="http://about.zenodo.org/policies">Policies</a>.
+----
+category: policies
+#### qaitem ####
+question: My organizational repository does not show up on the GitHub list.
+----
+answer:
+
+In order to see and archive your organizational repositories on Zenodo you will need to have "Admin" permissions on said repository, either as an Admin of the organization or an Admin of one of your organization's repositories.
+Additionally, please make sure that the OAuth application on GitHub is granting permissions not only to your personal repositories but also to your organizational ones - to verify that go to your GitHub OAuth settings in your profile (https://github.com/settings/applications), and click on the Zenodo application to see more details. Make sure that Zenodo is given access (green tick) to your organization under "Organization access".
+
+After that, navigate to your Zenodo GitHub settings page: https://zenodo.org/account/settings/github/ and click the "Sync now" button at the top.
+----
+category: github
+#### qaitem ####
+question: I made a GitHub release, but it does not show up on Zenodo.
+----
+answer: Make sure the repository was enabled before the release was made, otherwise feel free to contact us.
+----
+category: github
+#### qaitem ####
+question: Is it possible to archive a GitHub repository, before it was enabled on Zenodo?
+----
+answer: Only the repositories which were enabled before a release was made will be archived automatically. If you want to archive some of your old releases, you can always download a release ZIP from GitHub and upload it to Zenodo using our web interface as a regular upload.
+----
+category: github
+#### qaitem ####
+question: Is Zenodo only for EU-funded research?
+----
+answer:
+
+No.
+We are open to all research outputs from all fields of science regardless of funding source.
+Given that Zenodo was launched within an EU funded project, the knowledge bases were first filled with EU grants codes, but we are extending this to other funders.
+----
+category: policies
+#### qaitem ####
+question: How do you plan to secure ongoing funding for Zenodo?
+----
+answer:
+
+Zenodo is still in its infancy, so whilst this is a good question to ask, we don’t have just one definitive answer since we are exploring several avenues as we mature our services.
+Zenodo was launched within the <a href="http://www.openaire.eu">OpenAIREplus</a> project as part of a Europe-wide research infrastructure.
+OpenAIREplus will deliver a sustainability plan for this infrastructure with an eye towards future Horizon 2020 projects and is thus one of our possible funding sources.
+Another possible source of funding is CERN itself.
+CERN hosts and develops several large services, such as <a href="http://cds.cern.ch">CERN Document Server</a> and <a href="http://inspirehep.net">INSPIRE-HEP</a>, which run the same software as Zenodo.
+Additionally, CERN is familiar with preserving large research datasets because of managing the Large Hadron Collider data archive of 100 petabytes.
+As you can see, our sustainability plan is still in development, but we are fully dedicated to delivering an open service and preserving your research for the future.
+----
+category: policies
+#### qaitem ####
+question: Is my data safe with you / What will happen to my uploads in the unlikely event that Zenodo has to close?
+----
+answer:
+
+Yes, your data is stored in CERN Data Center.
+Both data files and metadata are kept in multiple online replicas and independent replicas.
+CERN has considerable knowledge and experience in building and operating large scale digital repositories and a commitment to maintain this data centre to collect and store 100s of PBs of LHC data as it grows over the next 20 years.
+In the highly unlikely event that Zenodo will have to close operations, we guarantee that we will migrate all content to other suitable repositories, and since all uploads have DOIs, all citations and links to Zenodo resources (such as your data) will not be affected.
+----
+category: policies
+#### qaitem ####
+question: What does it cost? / Can we pay for Zenodo services?
+----
+answer:
+
+Zenodo is free for the long tail of Science.
+In order to offer services to the more resource hungry research, we will introduce a ceiling to the free slice and offer paid for slices above, according to the business model developed within the sustainability plan.
+If you can't wait but immediately want to explore these paid for options, please <a href="http://about.zenodo.org/contact">contact us</a> and we will look at interim measures with you.
+----
+category: general
+#### qaitem ####
+question: Really, who pays for this?
+----
+answer: Zenodo is developed by <a href="http://www.cern.ch">CERN</a> under the EU FP7 project <a href="http://www.openaire.eu">OpenAIREplus</a> (grant agreement no. 283595) and OpenAIRE2020.
+----
+category: general
+#### qaitem ####
+question: Why is my closed access upload not on the front-page?
+----
+answer:
+
+Zenodo is a strong supporter of open data in all its forms (meaning data that anyone is free to use, reuse, and redistribute) and takes an incentives approach to encourage depositing under an open license.
+We therefore only display Open Access uploads on the front-page.
+Your Closed Access upload is still discoverable through search queries, its DOI, and any community collections where it is included.
+----
+category: general
+#### qaitem ####
+question: Why do you allow closed access uploads?
+----
+answer:
+
+Since there isn't a unique way of licensing openly and nor a consensus on the practice of adding attribution restrictions, we accept data under a variety of licenses in order to be inclusive.
+We will, however, take an active lead in signaling the extra benefits of the most open licenses, in terms of visibility and credit, and offer additional services and upload quotas on such data to encourage using them.
+This follows naturally from the publications policy of the <a href="http://www.openaire.eu">OpenAIRE initiative</a>, which has been supporting Open Access throughout, but since it aims to gather all European Commission/European Research Area research results, it allows submission of material that is not yet Open Access.
+----
+category: general
+#### qaitem ####
+question: What happened to the OpenAIRE Orphan Record Repository?
+----
+answer:
+
+OpenAIRE Orphan Record Repository got a make-over and was re-branded as Zenodo.
+If you deposited your article in OpenAIRE Orphan Record Repository, it is also available in Zenodo.
+However, your user account was not transferred to Zenodo, so you will have to <a href="https://zenodo.org/signup/">register</a> again.
+If you register with the same email address in Zenodo as you used in OpenAIRE Orphan Record Repository, you will still have access to your publications.
+Don't hesitate to <a href="http://about.zenodo.org/contact">contact us</a> for further information.
+----
+category: general
+#### qaitem ####
+question: Where does the name come from?
+----
+answer: Zenodo is derived from <a href="http://en.wikipedia.org/wiki/Zenodotus">Zenodotus</a>, the first librarian of the Ancient Library of Alexandria and father of the first recorded use of metadata, a landmark in library history.
+----
+category: general
+#### qaitem ####
+question: How much digital storage-space does CERN have available?
+----
+answer:
+
+Zenodo is currently a drop in the ocean.
+CERN stores more than 100PB (petabytes) of physics data from the <a href="http://home.web.cern.ch/about/accelerators/large-hadron-collider">Large Hadron Collider (LHC)</a>, and produces roughly 25PB per year when the LHC is running.
+----
+category: general
+---
+bottomtext:
+
+## Couldn't find the answer to your question?
+
+Contact us and we will include it in this list.
+---
+toptext:
+
+## Frequently Asked Questions
+
+See also <a href="http://www.openaire.eu/support/faq">OpenAIRE FAQ</a> for general information on Open Access and European Commission funded research.

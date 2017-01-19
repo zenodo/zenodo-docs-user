@@ -5,15 +5,25 @@ title: FAQ
 faqlist:
 
 #### qaitem ####
-question: How can I edit the metadata of the published record?
+question: How can I edit the metadata of a published record?
 ----
-answer: Go to your record page and click the orange ``Edit`` button in the top-right corner. You will be taken to a form similar to the upload form, where you will be able to edit almost all of the record's metadata. Once you are done, click "Save" and then "Publish".
+answer: On the record page and click the orange ``Edit`` button in the top-right corner. You will be taken to a form similar to the upload form, where you will be able to edit almost all of the record's metadata. Once you are done modifying it, click "Save" and then "Publish".
 ----
 category: technical
 #### qaitem ####
 question: Can I change the file in the already published record?
 ----
-answer: Once the DOI has been minted, it is not possible to change the files behind it. Doing so would be against a fundamental idea behind the DOI, which is the persistence of the content behind the DOI. If you have just made a new deposit and made a small typo in the text, contact us and we can replace it for you.
+answer:
+
+Once the record has been published, you can no longer change the files. Exceptions are small modifications to the record, and only if the record was published recently. If you have spotted some mistakes in the document, forgot to include some files or you would like to have some removed, contact us and we can replace it for you. When contacting us, it's important to include the following:
+
+* Your Zenodo username or email, if it's different than the email you are contacting us from
+* The DOI of the record you would like to update
+* Specify if the DOI has been already used anywhere (other publications, social media etc.)
+* Include the files as email attachment or include the public URL to files (if they are too big for email), so we can download them
+* Reason for update
+
+Meeting above points will assure that we can resolve your case faster.
 ----
 category: general
 #### qaitem ####
@@ -41,33 +51,26 @@ category: policies
 #### qaitem ####
 question: My organizational repository does not show up on the GitHub list.
 ----
-answer: Please refresh it - click the Sync Now button.
+answer:
+
+In order to see and archive your organizational repositories on Zenodo you will need to have "Admin" permissions on said repository, either as an Admin of the organization or an Admin of one of your organization's repositories.
+Additionally, please make sure that the OAuth application on GitHub is granting permissions not only to your personal repositories but also to your organizational ones - to verify that go to your GitHub OAuth settings in your profile (https://github.com/settings/applications), and click on the Zenodo application to see more details. Make sure that Zenodo is given access (green tick) to your organization under "Organization access".
+
+After that, navigate to your Zenodo GitHub settings page: https://zenodo.org/account/settings/github/ and click the "Sync now" button at the top.
 ----
 category: github
 #### qaitem ####
-question: I made a GitHub release, but it did not end up on Zenodo.
+question: I made a GitHub release, but it does not show up on Zenodo.
 ----
-answer: Make sure it was enabled before the time of the publishing.
+answer: Make sure the repository was enabled before the release was made, otherwise feel free to contact us.
 ----
 category: github
 #### qaitem ####
 question: Is it possible to archive a GitHub repository, before it was enabled on Zenodo?
 ----
-answer: Only the repositories which were enabled **at the time of the publishing**, will be archived automatically. If you want, you can always download a ZIP from GitHub and upload it to Zenodo using our web interface.
+answer: Only the repositories which were enabled before a release was made will be archived automatically. If you want to archive some of your old releases, you can always download a release ZIP from GitHub and upload it to Zenodo using our web interface as a regular upload.
 ----
 category: github
-#### qaitem ####
-question: Why won't my records on Google/Google Scholar or other third-party search engine?
-----
-answer: Google as well as other search engines index Zenodo pages periodically. We do not have control over how often Google is crawling our service, hence we cannot "force" the records to appear in Google/Google Scholar search results. Your record will eventually appear in Google, but we cannot determine when this will happen. To increase the visibility of your record, we recommend including its DOI and/or Zenodo URL to your homepage, as well as include those in your research profiles.
-----
-category: general
-#### qaitem ####
-question: How can I push my records to ORCID
-----
-answer: You cannot automatically report Zenodo records to ORCID just now. You will have to do this manually.
-----
-category: general
 #### qaitem ####
 question: Is Zenodo only for EU-funded research?
 ----
