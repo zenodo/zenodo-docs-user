@@ -4,7 +4,6 @@ title: Contact
 ---
 body:
 
-<div class="container">
   <div class="row">
     <div class="col-xs-12">
     <h1>Contact</h1>
@@ -33,4 +32,3 @@ Switzerland<br />
 </p>
     </div>
   </div>
-</div>

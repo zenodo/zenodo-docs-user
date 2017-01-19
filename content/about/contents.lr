@@ -4,7 +4,6 @@ title: About
 ---
 body:
 
-<div class="container">
   <div class="row">
     <div class="col-xs-12">
     <h1>About Zenodo</h1>
@@ -108,4 +107,3 @@ body:
 </div> <!-- .row -->
     </div>
   </div>
-</div>
