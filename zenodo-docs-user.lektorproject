@@ -2,10 +2,10 @@
 name = zenodo-docs-user
 
 [servers.ghpageshelp]
-target = ghpages+https://zenodo/help.zenodo.org.git?cname=help.zenodo.org
+target = ghpages+ssh://zenodo/help.zenodo.org?cname=help.zenodo.org
 
 [servers.ghpagesabout]
-target = ghpages+https://zenodo/about.zenodo.org.git?cname=about.zenodo.org
+target = ghpages+ssh://zenodo/about.zenodo.org?cname=about.zenodo.org
 
 [servers.ghpagesblog]
-target = ghpages+https://zenodo/blog.zenodo.org.git?cname=blog.zenodo.org
+target = ghpages+ssh://zenodo/blog.zenodo.org?cname=blog.zenodo.org
