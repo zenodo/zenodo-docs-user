@@ -1,10 +1,10 @@
 set -e
-mv content/ content_root/
 cd databags
 mv navigation.json navigation_local.json
 ln -s navigation_deploy.json navigation.json
 cd ..
 
+mv content/ content_root/
 ln -s content_root/help content
 lektor clean --yes
 lektor build

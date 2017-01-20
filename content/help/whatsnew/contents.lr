@@ -3,9 +3,8 @@ _model: base-help-full
 title: Whats New
 ---
 body:
-
 <div class="static-page content">
-    <div class="features-page">
+  <div class="features-page">
   <div class="container">
     <div class="row">
       <div class="jumbotron introducing" align="center">
@@ -15,6 +14,7 @@ body:
       </div>
     </div>
   </div>
+
   <div class="features">
     <div class="container-fluid">
       <div class="row">
