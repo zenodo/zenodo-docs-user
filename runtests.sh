@@ -18,19 +18,25 @@
 # granted to it by virtue of its status as an Intergovernmental Organization or
 # submit itself to any jurisdiction.
 
-language: python
+set -e
+cd databags
+mv navigation.json navigation_local.json
+ln -s navigation_deploy.json navigation.json
+cd ..
 
-python: 2.7
-
-install: "pip install Lektor"
-
-script: "sh ./runtests.sh"
-
-before_deploy:
-  - openssl aes-256-cbc -K $encrypted_1c9ebd4878cf_key -iv $encrypted_1c9ebd4878cf_iv -in deploy_keys.tar.enc -out deploy_keys.tar -d
-  - tar xvf deploy_keys.tar
-  - ls -l
-
-deploy:
-  provider: script
-  script: "sh ./rundeploy.sh"
+mv content/ content_root/
+ln -s content_root/help content
+lektor clean --yes
+lektor build
+rm content
+ln -s content_root/about content
+lektor clean --yes
+lektor build
+rm content
+ln -s content_root/blog content
+lektor clean --yes
+lektor build
+rm content
+mv content_root/ content/
+rm databags/navigation.json
+mv databags/navigation_local.json databags/navigation.json
