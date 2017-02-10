@@ -32,7 +32,7 @@ Copy/paste the following to your command prompt to install Lektor (or see
 [Lektor's website](https://www.getlektor.com/downloads/) for alternative ways):
 
 ```console
-curl -sf https://www.getlektor.com/install.sh | sh
+$ curl -sf https://www.getlektor.com/install.sh | sh
 ```
 
 Next, go into the root directory of the repository and run
@@ -47,9 +47,3 @@ $ lektor server
 
 Contributions are welcome, and they are greatly appreciated! Every little bit
 helps, and credit will always be given.
-
-
-### Deployment
-
-Zenodo REST API documentation is currently hosted on GitHub pages, and uses
-Travis-CI to be built and deployed.
