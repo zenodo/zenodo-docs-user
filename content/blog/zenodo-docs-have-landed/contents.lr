@@ -1,21 +1,17 @@
-title: Zenodo docs have landed!
+title: The Zenodo Blog has landed!
 ---
-author: knowak
+author: lnielsen
 ---
 body:
 
-After a week-long sprint, we have a pleasure to present the new look-and-feel for Zenodo documentation as well introduce the Zenodo Blog.
-From now on, all major announcements will happen here, with a link to the article on our Twitter [@ZENODO_ORG](https://twitter.com/ZENODO_ORG). In addition to that we have launched four sub-domains, which topically separate the content into:
+After a week-long sprint, we have the pleasure to present the new look-and-feel for Zenodo documentation as well as introduce the Zenodo Blog.
+From now on, in addition to broadcasting on Twitter [@zenodo_org](https://twitter.com/zenodo_org), all major announcements will also happen on this blog. We have also launched four new sub-domains, which topically separate the content into:
 
-* [blog.zenodo.org](http://blog.zenodo.org) - Zenodo Blog with major announcements and articles written by our team members
-* [developers.zenodo.org](http://developers.zenodo.org) - Refreshed REST API documentation
-* [help.zenodo.org](http://help.zenodo.org) - Help pages with FAQ and features showcase
-* [about.zenodo.org](http://about.zenodo.org) - General information on Zenodo as well as terms of use, policies and contact information
+* [blog.zenodo.org](http://blog.zenodo.org) - Blog with major announcements and articles written by our team members.
+* [developers.zenodo.org](http://developers.zenodo.org) - Refreshed REST API documentation.
+* [help.zenodo.org](http://help.zenodo.org) - Help pages with FAQ and features showcase.
+* [about.zenodo.org](http://about.zenodo.org) - General information as well as terms of use, policies and contact information.
 
-All of that content is integrated into one, easy to navigate structure, all thanks to the fantastically easy to use static content management tools, [Slate](https://github.com/lord/slate) and [Lektor](https://www.getlektor.com/), as well as to our team that worked on this for the last week. Besides keeping an eye on this Blog, you can also be at the frontier of what's next for Zenodo, by watching our [GitHub repository](https://github.com/zenodo/zenodo) - this is where all the magic happens.
-
-Feel free to let us know what you think about the new pages on [Twitter](https://twitter.com/ZENODO_ORG) or simply send us an email at <a href="mailto:info@zenodo.org">info@zenodo.org</a>.
-
-Write you soon!
+During the spring we will gradually be launching new content on these pages so stay tuned. Write you soon!
 ---
-date: 2017-01-23
+date: 2017-02-28

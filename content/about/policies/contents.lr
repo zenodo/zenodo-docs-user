@@ -3,6 +3,7 @@ _model: base-about
 title: Policies
 ---
 body:
+
 <div class="row">
 <div class="col-xs-12">
   <h1>Policies</h1>
@@ -12,7 +13,7 @@ body:
       <dl>
         <dt>Scope</dt>
         <dd>
-          All fields of science.
+          All fields of research.
           All types of research artifacts.
           Content must not violate privacy or copyright, or breach confidentiality or non-disclosure agreements for data collected from human subjects.
         </dd>
@@ -83,7 +84,7 @@ body:
       </dd>
 
       <dt>Metadata types and sources</dt>
-      <dd>All metadata is stored internally in MARC according to the schema defined in <a href="http://inveniosoftware.org/wiki/Project/OpenAIREplus/DevelopmentRecordMarkup">http://inveniosoftware.org/wiki/Project/OpenAIREplus/DevelopmentRecordMarkup</a>. Metadata is exported in several standard formats such as MARCXML, Dublin Core, and DataCite Metadata Schema according to OpenAIRE Guidelines.</dd>
+      <dd>All metadata is stored internally in JSON-format according to a defined <a href="https://zenodo.org/schemas/records/record-v1.0.0.json">JSON schema</a>. Metadata is exported in several standard formats such as MARCXML, Dublin Core, and DataCite Metadata Schema (according to the <a href="http://guidelines.openaire.eu">OpenAIRE Guidelines</a>).</dd>
 
       <dt>Language</dt>
       <dd>For textual items, English is preferred but all languages are accepted.</dd>

@@ -25,7 +25,7 @@
 <link rel="stylesheet" href="{{ '/static/style.css'|url }}">
 <link rel="stylesheet" href="{{ '/static/font-awesome/css/font-awesome.min.css'|url}}">
 <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,100,italic" rel="stylesheet">
-<title>{% block title %}{% endblock %} - Zenodo Pages</title>
+<title>{% if title %}{% block title %}{% endblock %} | {% endif %}Zenodo</title>
 <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 <body>
@@ -47,7 +47,6 @@
       </div>
     </nav>
   </header>
-
   <div class="communities">
     {% block subnavbar %}
     <div class="header">
@@ -76,41 +75,43 @@
       <div class="container">
         <div class="row footer-menu">
           <div class="col-xs-12 col-md-8">
-            <div class="col-xs-2 col-md">
-              <h5>About</h5>
-              <ul class="list-unstyled">
-                <li><a href="http://about.zenodo.org">About</a></li>
-                <li><a href="http://about.zenodo.org/policies">Policies</a></li>
-                <li><a href="http://about.zenodo.org/contact">Contact</a></li>
-              </ul>
-            </div>
-            <div class="col-xs-2 col-md">
-              <h5>Blog</h5>
-              <ul class="list-unstyled">
-                <li><a href="http://blog.zenodo.org">Blog</a></li>
-              </ul>
-            </div>
-            <div class="col-xs-2 col-md">
-              <h5>Help</h5>
-              <ul class="list-unstyled">
-                <li><a href="http://help.zenodo.org">FAQ</a></li>
-                <li><a href="http://help.zenodo.org/features">Features</a></li>
-                <li><a href="http://help.zenodo.org/whatsnew">What's New</a></li>
-              </ul>
-            </div>
-            <div class="col-xs-2 col-md">
-              <h5>Developers</h5>
-              <ul class="list-unstyled">
-              <li><a href="http://developers.zenodo.org">REST API</a></li>
-              <li><a href="http://developers.zenodo.org#oai-pmh">OAI-PMH</a></li>
-              </ul>
-            </div>
-            <div class="col-xs-2 col-md">
-              <h5>Contribute</h5>
-              <ul class="list-unstyled">
-                <li><a href="http://github.com/zenodo/zenodo"><i class="fa fa-external-link"></i> GitHub</a></li>
-                <li><a href="https://zenodo.org/donate"><i class="fa fa-external-link"></i> Donate</a></li>
-              </ul>
+            <div class="row">
+              <div class="col-xs-2 col-md-2">
+                <h5>About</h5>
+                <ul class="list-unstyled">
+                  <li><a href="http://about.zenodo.org">About</a></li>
+                  <li><a href="http://about.zenodo.org/policies">Policies</a></li>
+                  <li><a href="http://about.zenodo.org/contact">Contact</a></li>
+                </ul>
+              </div>
+              <div class="col-xs-2 col-md-2">
+                <h5>Blog</h5>
+                <ul class="list-unstyled">
+                  <li><a href="http://blog.zenodo.org">Blog</a></li>
+                </ul>
+              </div>
+              <div class="col-xs-2 col-md-2">
+                <h5>Help</h5>
+                <ul class="list-unstyled">
+                  <li><a href="http://help.zenodo.org">FAQ</a></li>
+                  <li><a href="http://help.zenodo.org/features">Features</a></li>
+                  <li><a href="http://help.zenodo.org/whatsnew">What's New</a></li>
+                </ul>
+              </div>
+              <div class="col-xs-2 col-md-2">
+                <h5>Developers</h5>
+                <ul class="list-unstyled">
+                <li><a href="http://developers.zenodo.org">REST API</a></li>
+                <li><a href="http://developers.zenodo.org#oai-pmh">OAI-PMH</a></li>
+                </ul>
+              </div>
+              <div class="col-xs-2 col-md-2">
+                <h5>Contribute</h5>
+                <ul class="list-unstyled">
+                  <li><a href="http://github.com/zenodo/zenodo"><i class="fa fa-external-link"></i> GitHub</a></li>
+                  <li><a href="https://zenodo.org/donate"><i class="fa fa-external-link"></i> Donate</a></li>
+                </ul>
+              </div>
             </div>
           </div>
           <div class="col-xs-12 col-md-4">

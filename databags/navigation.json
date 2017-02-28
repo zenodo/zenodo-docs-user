@@ -10,6 +10,7 @@
   ],
   "about": [
     ["/about", "About"],
+    ["/about/infrastructure/", "Infrastructure"],
     ["/about/policies/", "Policies"],
     ["/about/privacy-policy/", "Privacy Policy"],
     ["/about/terms-of-use/", "Terms of Use"],
