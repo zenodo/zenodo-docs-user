@@ -6,7 +6,7 @@ body:
 
   <div class="row">
     <div class="col-xs-12">
-    <h1>Terms of Use (Version 1.0)</h1>
+    <h1>Terms of Use <small>v1.0</small></h1>
 
 <p>The Zenodo service (“Zenodo”) is offered by CERN as part of its mission to make available the results of its work.</p>
 

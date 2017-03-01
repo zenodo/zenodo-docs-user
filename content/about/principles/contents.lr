@@ -1,0 +1,41 @@
+_model: base-about
+---
+title: Principles
+---
+body:
+
+## Best Effort Principles 
+Zenodo does not sign SLAs. This is not a weakness, it is by design and marks a philosophy that we believe is most appropriate for Science. Instead, Zenodo is run by leading practitioners according to best practices.
+
+What Science needs is inherent reliability, or more accurately demonstrated reliability based on open best practices. Furthermore the users should be able to influence these best practices. In the long-term, a service which is trusted is much more valuable than one for which assurances must be bought.
+
+Service failure can never be undone. Enforcing an SLA means being prepared to litigate against the contract, which means compensation, frequently assessed on the basis of loss of revenue… but none of these concepts have any place or relevance in the free exchange of research results!
+
+Living by these principles, Zenodo strives to make available architecture, implementation, practices and statistics. Please see for example the infrastructure page. We are also aiming to have these certified.
+
+## FAIR Principles
+
+### To be Findable:
+- **F1**: (meta)data are assigned a globally unique and persistent identifier
+ - A DOI is issued to every record uploaded
+- **F2**: data are described with rich metadata (defined by R1 below)
+- **F3**: metadata clearly and explicitly include the identifier of the data it describes
+- **F4**: (meta)data are registered or indexed in a searchable resource
+
+### To be Accessible:
+- **A1**: (meta)data are retrievable by their identifier using a standardized communications protocol
+- **A1.1**: the protocol is open, free, and universally implementable
+- **A1.2**: the protocol allows for an authentication and authorization procedure, where necessary
+- **A2**: metadata are accessible, even when the data are no longer available
+
+### To be Interoperable:
+- **I1**: (meta)data use a formal, accessible, shared, and broadly applicable language for knowledge representation.
+- **I2**: (meta)data use vocabularies that follow FAIR principles
+- **I3**: (meta)data include qualified references to other (meta)data
+
+### To be Reusable:
+- **R1**: meta(data) are richly described with a plurality of accurate and relevant attributes
+- **R1.1**: (meta)data are released with a clear and accessible data usage license
+- **R1.2**: (meta)data are associated with detailed provenance
+- **R1.3**: (meta)data meet domain-relevant community standards
+

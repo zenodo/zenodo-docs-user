@@ -2,9 +2,6 @@ _model: rootpage
 ---
 body:
 
-# Welcome to the root page of this documentation.
+# End-user Documentation
 
-## Editing Guide
-
-It only renders because you are running this documentation locally.
-Navigate to corresponding sub-sites (Blog, Help, About) to see the real content.
+This page only renders when you are running locally. Please navigate to corresponding sub-sites (Blog, Help, About) to see the real content.
