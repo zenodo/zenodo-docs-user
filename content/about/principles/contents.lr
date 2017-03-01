@@ -1,0 +1,14 @@
+_model: base-about
+---
+title: Principles
+---
+body:
+
+## Best Effort principles 
+Zenodo does not sign SLAs, Zenodo is run on a best-effort basis. This is not a weakness, it is by design and marks a philosophy that we believe is most appropriate for Science.
+
+What Science needs is inherent reliability, or more accurately demonstrated reliability based on open best practices. Furthermore the users should be able to influence these best practices. In the long-term, a service which is trusted is much more valuable than one for which assurances must be bought.
+
+Service failure can never be undone. Enforcing an SLA means being prepared to litigate against the contract, which means compensation, frequently assessed on the basis of loss of revenue… but none of these concepts have any place or relevance in the free exchange of research results!
+
+Living by these principles, Zenodo strives to make available architecture, implementation, practices and statistics. Please see for example the infrastructure page. We are also aiming to have these certified.
