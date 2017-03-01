@@ -10,10 +10,11 @@
   ],
   "about": [
     ["/", "About"],
-    ["/infrastructure/", "Infrastructure"],
-    ["/policies/", "Policies"],
     ["/privacy-policy/", "Privacy Policy"],
     ["/terms-of-use/", "Terms of Use"],
+    ["/policies/", "General Policies"],
+    ["/infrastructure/", "Infrastructure"],
+    ["/principles/", "Principles"],
     ["/contact/", "Contact"]
   ],
   "main": [
