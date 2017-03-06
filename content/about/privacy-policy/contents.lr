@@ -33,7 +33,7 @@ Zenodo's Pikwik instance is hosted at CERN and the data it stores is compliant w
  Our Pikwik instance respects the browser's ["Do Not Track"](http://donottrack.us/) settings.
 
 We embed several third-party Javascript widgets on our web pages, such as ``@ZENODO_ORD`` [Twitter](https://twitter.com) feed, [Altmetric](https://altmetric.com) donut on the record pages.
-We also embed [AddThis](https://addthis.com) widget on each record page for 'share' buttons to popular social media sites.
+We also embed [AddThis](https://addthis.com) widget on each of record pages, which renders "share" buttons for popular social media sites.
 
 We never expose your account's email address on any of the public Zenodo pages.
 

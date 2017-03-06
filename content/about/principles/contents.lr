@@ -4,7 +4,8 @@ title: Principles
 ---
 body:
 
-## Best Effort Principles 
+# Principles
+## Best Effort Principles
 Zenodo does not sign SLAs. This is not a weakness, it is by design and marks a philosophy that we believe is most appropriate for Science. Instead, Zenodo is run by leading practitioners according to best practices.
 
 What Science needs is inherent reliability, or more accurately demonstrated reliability based on open best practices. Furthermore the users should be able to influence these best practices. In the long-term, a service which is trusted is much more valuable than one for which assurances must be bought.
@@ -17,7 +18,7 @@ Living by these principles, Zenodo strives to make available architecture, imple
 
 ### To be Findable:
 - **F1**: (meta)data are assigned a globally unique and persistent identifier
- - A DOI is issued to every record uploaded
+ - A DOI is issued to every published record
 - **F2**: data are described with rich metadata (defined by R1 below)
 - **F3**: metadata clearly and explicitly include the identifier of the data it describes
 - **F4**: (meta)data are registered or indexed in a searchable resource
@@ -38,4 +39,3 @@ Living by these principles, Zenodo strives to make available architecture, imple
 - **R1.1**: (meta)data are released with a clear and accessible data usage license
 - **R1.2**: (meta)data are associated with detailed provenance
 - **R1.3**: (meta)data meet domain-relevant community standards
-
