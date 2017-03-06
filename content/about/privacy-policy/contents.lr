@@ -7,15 +7,35 @@ body:
 # Privacy policy
 
 ### Principles
-Zenodo does not track, collect or retain personal information from users of Zenodo except as otherwise detailed herein. Zenodo only collects personal information in order to operate, secure, and enhance its service. Zenodo does not advertise nor does it tailor information to users, and hence evidently does not collect personal information for these purposes
+Zenodo does not track, collect or retain personal information from users of Zenodo except as otherwise detailed herein.
+Zenodo only collects personal information in order to operate, secure, and enhance its service.
+Zenodo does not advertise nor does it tailor information to users, and hence evidently does not collect personal information for these purposes.
 
-### What Information we collect
-Zenodo monitors traffic,  IP addresses and cookies.
+### What information we collect
+Zenodo's browsing data storage policies are compliant with our general security policies outlined in the [Security](/infrastructure#security) section.
+Zenodo uses standard web technologies for tracking and collecting data from users,
+such as cookies and web server logs.
+During browsing activity we store basic server access information in our logs, such as the IP and the User Agent information.
+Upon login we store previous and current IP addresses and keep track of multiple live Zenodo sessions.
+
+Zenodo allows connecting and authenticating using [GitHub](https://github.com) and ORCID ([orcid.com](https://orcid.com)] accounts using OAuth standard.
+In both case we collect minimal information, necessary to provide a secure authentication, and only afters users's confirmation on each of the corresponding services' OAuth authentication pages.
+In case of GitHub we collect your primary GitHub email address and GitHub user ID, and associate it with your Zenodo account.
+In case of ORCID we collect the ORCID ID and associate it with your Zenodo account.
 
 ### How we use the information
 
-Log files may be shared, in aggregation, with other community services (in particular OpenAIREplus partners).
+Log files may be shared, always in aggregation or anonymized, with other community services (in particular OpenAIREplus partners).
 User provided information, like corrections of metadata or paper claims, will be integrated into the database without displaying its source and may be shared with other services.
+
+We use [Pikwik](https://piwik.org/), for tracking web analytics.
+Zenodo's Pikwik instance is hosted at CERN and the data it stores is compliant with our security policies.
+ Our Pikwik instance respects the browser's ["Do Not Track"](http://donottrack.us/) settings.
+
+We embed several third-party Javascript widgets on our web pages, such as ``@ZENODO_ORD`` [Twitter](https://twitter.com) feed, [Altmetric](https://altmetric.com) donut on the record pages.
+We also embed [AddThis](https://addthis.com) widget on each record page for 'share' buttons to popular social media sites.
+
+We never expose your account's email address on any of the public Zenodo pages.
 
 ### Information security
 
