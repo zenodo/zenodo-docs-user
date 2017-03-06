@@ -8,7 +8,7 @@ body:
 ## Organisational
 
 #### Host institution
-Zenodo is hosted by CERN which has existed since 1954 and currently has an experimental programme defined for the next 20+ years. CERN is a memory institution for High Energy Physics and renowned for its pioneering work in Open Access. Organisationally Zenodo is embedded in the IT Department, Collaboration Devices and Applications Group, Digital Repositories Section (IT-CDA-DR). 
+Zenodo is hosted by CERN which has existed since 1954 and currently has an experimental programme defined for the next 20+ years. CERN is a memory institution for High Energy Physics and renowned for its pioneering work in Open Access. Organisationally Zenodo is embedded in the IT Department, Collaboration Devices and Applications Group, Digital Repositories Section (IT-CDA-DR).
 
 Zenodo is offered by CERN as part of its mission to make available the results of its work ([CERN Convention, Article II, §1](https://council.web.cern.ch/en/content/convention-establishment-european-organization-nuclear-research#2)).
 
@@ -30,9 +30,9 @@ Zenodo is operated currently by:
 - **Executive:** Tim Smith
 - **Service Manager:** Lars Holm Nielsen
 - **Developers:** Krzystztof Nowak, Alexander Ioannidis-Pantopikos.
- 
+
 Zenodo is however embedded in a much larger team, headed by Jose Benito Gonzalez Lopez,  which runs services such as [CERN Document Server](http://cds.cern.ch), [CERN Open Data](http://opendata.cern.ch), CERN Analysis Preservation and we rely heavily on co-developing features via the [Invenio digital library framework](http://inveniosoftware.org).
- 
+
 #### Memberships
 
 CERN is an active member of the following organisations and international bodies (non-exhaustive):
@@ -52,7 +52,7 @@ We are partners in multiple European Commission funded projects, amongst others:
 Zenodo is powered by [CERN Data Centre](http://information-technology.web.cern.ch/about/computer-centre) and the [Invenio digital library framework](http://inveniosoftware.org) and is fully run on open source products all the way through.
 
 #### Server management
-Zenodo servers are managed via [OpenStack](http://openstack.org/) and [Puppet](https://puppet.com) configuration management system which ensures that our servers always have the latest security patches applied. Servers are monitored via CERN’s monitoring infrastructure based on Flume, Elasticsearch, Kibana and Hadoop. Application errors are logged and aggregated in a local [Sentry](https://sentry.io/) instance. Traffic to Zenodo frontend servers is load balanced via a combination of DNS load balancing and HAProxy load balancers. 
+Zenodo servers are managed via [OpenStack](http://openstack.org/) and [Puppet](https://puppet.com) configuration management system which ensures that our servers always have the latest security patches applied. Servers are monitored via CERN’s monitoring infrastructure based on Flume, Elasticsearch, Kibana and Hadoop. Application errors are logged and aggregated in a local [Sentry](https://sentry.io/) instance. Traffic to Zenodo frontend servers is load balanced via a combination of DNS load balancing and HAProxy load balancers.
 
 We are furthermore running two independent systems: one **production** system and one **quality assurance** system. This ensures that all changes, whether at infrastructure level or source code level, can be tested and validated on our quality assurance system prior to being applied to our production system.
 
@@ -60,13 +60,13 @@ We are furthermore running two independent systems: one **production** system an
 Zenodo frontend servers are responsible for running the Invenio repository platform application which is based on Python and the Flask web development framework. The frontend servers are running nginx HTTP server and uwsgi application server in front of the application and nginx is in addition in charge of serving static content.
 
 #### Data storage
-All files uploaded to Zenodo are stored in CERN’s [EOS service](http://eos.web.cern.ch/content/about-eos) in an 18 petabytes disk cluster. Each file copy has two replicas located on different disk servers. 
+All files uploaded to Zenodo are stored in CERN’s [EOS service](http://eos.web.cern.ch/content/about-eos) in an 18 petabytes disk cluster. Each file copy has two replicas located on different disk servers.
 
 For each file we store two independent MD5 checksums. One checksum is stored by Invenio, and used to detect changes to files made from outside of Invenio. The other checksum is stored by EOS, and used for automatic detection and recovery of file corruption on disks.
 
 Zenodo may, depending on access patterns in the future, move the archival and/or the online copy to CERN’s offline long-term tape storage system CASTOR in order to minimize long-term storage costs.
 
-EOS is the primary low latency storage infrastructure for physics data from the Large Hadron Collider (LHC) and CERN currently operates multiple instances totalling 150+ petabytes of data with expected growth rates of 30-50 petabytes per year. CERN’s CASTOR system currently manages 100+ petabytes of LHC data which are regularly checked for data corruption. 
+EOS is the primary low latency storage infrastructure for physics data from the Large Hadron Collider (LHC) and CERN currently operates multiple instances totalling 150+ petabytes of data with expected growth rates of 30-50 petabytes per year. CERN’s CASTOR system currently manages 100+ petabytes of LHC data which are regularly checked for data corruption.
 
 Invenio provides an object store like file management layer on top of EOS which is in charge of e.g. version changes to files.
 
@@ -75,7 +75,7 @@ Metadata and persistent identifiers in Zenodo are stored in a PostgreSQL instanc
 
 In addition to the metadata and data storage, Zenodo relies on Redis for caching and RabbitMQ and python Celery for distributed background jobs.
 
-## Security
+## <a id="security"></a> Security
 We take security very serious and do our best to protect your data.
 
 - CERN Data Centre: Our data centres is located on CERN premises and all physical access is restricted to a limited number of staff with appropriate training and who have been granted access in line with their professional duties (e.g. Zendo staff do not have physical access to the CERN Data Centre) .
@@ -83,11 +83,11 @@ We take security very serious and do our best to protect your data.
 - Network: CERN Security Team runs both host and network based intrusion detection systems and monitors the traffic flow, pattern and contents into and out of CERN networks in order to detect attacks. All access to zenodo.org happens over HTTPS, except for static documentation pages which are hosted on GitHub Pages.
 - Data: Zenodo stores user passwords using strong cryptographic password hashing algorithms (currently PBKDF2+SHA512). Users’ access tokens to GitHub and ORCID are stored encrypted and can only be decrypted with the application’s secret key.
 - Application: We are employing a suite of techniques to protect your session from being stolen by an attacker when you are logged in and run vulnerability scans against the application.
-- Staff: CERN staff with access to user data operate under [CERN Operational Circular no. 5](https://security.web.cern.ch/security/rules/en/OC5_english.pdf), meaning among other things that 
+- Staff: CERN staff with access to user data operate under [CERN Operational Circular no. 5](https://security.web.cern.ch/security/rules/en/OC5_english.pdf), meaning among other things that
   - staff should not exchange among themselves information acquired unless it is expressly required for the execution of their duties.
   - access to user data must always be consistent with the professional duties and only permitted for resolution of problems, detection of security issues,  monitoring of resources and similar.
   - staff are liable for damage resulting from any infringement and can have access withdrawn and/or be subject to disciplinary or legal proceedings depending on seriousness of the infringement.
 
 **Special note on closed access data**
 
-Zenodo allows users to upload files under closed access. Closed access means that zenodo.org users will not be able to access the files you uploaded. The files are however stored unencrypted and **may** be viewed by Zenodo operational staff under specific conditions. This means that “closed access” on Zenodo **is not** suitable for secret or confidential data. 
+Zenodo allows users to upload files under closed access. Closed access means that zenodo.org users will not be able to access the files you uploaded. The files are however stored unencrypted and **may** be viewed by Zenodo operational staff under specific conditions. This means that “closed access” on Zenodo **is not** suitable for secret or confidential data.
