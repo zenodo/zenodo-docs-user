@@ -6,8 +6,45 @@ body:
 
 <div align="center" style="padding: 10px;"><img src="https://developers.google.com/open-source/gsoc/resources/downloads/GSoC-logo-horizontal.svg" width="50%" alt="Google Summer of Code 2017"></div>
 
-We happy to announce that Zenodo has been accepted as an organisation for [Google Summer of Code 2017](https://summerofcode.withgoogle.com/organizations/4630502569934848/). This is a great opportunity for computer science students. You will be able to work on projects such as researcher profiles, research data metadata extraction, spam filtering or more (see the [ideas list](https://github.com/zenodo/zenodo/wiki/Google-Summer-of-Code-2017#ideas-list)).
+We are happy to announce that Zenodo has been accepted as a mentoring organisation for [Google Summer of Code 2017](https://summerofcode.withgoogle.com/organizations/4630502569934848/)!
 
-If you interested in joining Zenodo this summer, take a look at our [guide on how to apply](https://github.com/zenodo/zenodo/wiki/Google-Summer-of-Code-2017).
+It's a great opportunity for university students to contribute to Zenodo and make an impact on Open Science.
+By applying with us you will be able to work on several projects such as public researcher profiles, research data metadata extraction, spam filtering (using machine learning!) and more.
+
+See our full **[list of project ideas](https://github.com/zenodo/zenodo/wiki/Google-Summer-of-Code-2017#ideas-list)**.
+
+## What is Google Summer of Code (GSoC)?
+
+GSoC involves a remote, full-time software development work for three months during summer.
+An exempt from the official GSoC page:
+
+> "Google Summer of Code is a global program focused on introducing students to open source software development.
+  Students work on a 3 month programming project with an open source organization during their break from university."
+>
+  (...)
+
+> "As a part of Google Summer of Code, student participants are paired with a mentor from the participating organizations, gaining exposure to real-world software development and techniques.
+  Students have the opportunity to spend the break between their school semesters earning a stipend while working in areas related to their interests.
+  In turn, the participating organizations are able to identify and bring in new developers who implement new features and hopefully continue to contribute to open source even after the program is over.
+  Most importantly, more code is created and released for the use and benefit of all."
+
+More information on the [official GSoC page](https://summerofcode.withgoogle.com/about/).
+
+## Who can take part?
+
+In short, university students from accredited universities that are at least 18 years of age and eligible to work in their country.
+Full conditions can be found in the [GSoC FAQ](https://developers.google.com/open-source/gsoc/faq) under *"What are the eligibility requirements for participation?"*.
+
+Since Zenodo is a web platform, a good knowledge of Python, web development, relational databases and object oriented programming is required if you want to apply with us.
+
+## When does it start?
+
+It has already started! You still have time until 3rd of April to submit a proposal with us, but if you're considering applying, you should start getting familiar our project as soon as possible.
+This will increase your chances of being selected! See the [GSoC Timeline](https://developers.google.com/open-source/gsoc/timeline).
+
+## Interested?
+Take a look at our organization [profile page](https://summerofcode.withgoogle.com/organizations/4630502569934848/)
+and find more information on how to apply on our [GSoC Wiki](https://github.com/zenodo/zenodo/wiki/Google-Summer-of-Code-2017)!
+
 ---
 date: 2017-03-01
