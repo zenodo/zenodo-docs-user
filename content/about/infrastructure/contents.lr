@@ -5,6 +5,7 @@ title: Infrastructure
 body:
 
 # Infrastructure
+<hr />
 ## Organisational
 
 #### Host institution
@@ -48,6 +49,7 @@ We are partners in multiple European Commission funded projects, amongst others:
 - [OpenAIRE](http://www.openaire.eu)
 - [EUDAT](http://www.eudat.eu)
 
+<hr />
 ## Technical
 Zenodo is powered by [CERN Data Centre](http://information-technology.web.cern.ch/about/computer-centre) and the [Invenio digital library framework](http://inveniosoftware.org) and is fully run on open source products all the way through.
 
@@ -75,6 +77,7 @@ Metadata and persistent identifiers in Zenodo are stored in a PostgreSQL instanc
 
 In addition to the metadata and data storage, Zenodo relies on Redis for caching and RabbitMQ and python Celery for distributed background jobs.
 
+<hr />
 ## <a id="security"></a> Security
 We take security very serious and do our best to protect your data.
 

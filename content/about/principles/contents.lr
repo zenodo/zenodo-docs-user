@@ -53,7 +53,6 @@ FAIR Principles definition as referenced from:
 - **I1**: (meta)data use a formal, accessible, shared, and broadly applicable language for knowledge representation.
  - Zenodo uses [JSON Schema](http://json-schema.org) as internal representation of metadata and offers export to other popular formats such as [Dublin Core](http://dublincore.org) or [MARCXML](https://www.loc.gov/marc/marcxml.html).
 - **I2**: (meta)data use vocabularies that follow FAIR principles
- - In case of terms, which are using
  - For certain terms we refer to open, external vocabularies, e.g.: license ([Open Definition](http://opendefinition.org)), funders ([FundRef](https://www.crossref.org/services/funder-registry/)) and grants ([OpenAIRE](http://api.openaire.eu/)).
 - **I3**: (meta)data include qualified references to other (meta)data
  - Each referrenced external piece of metadata is qualified by a resolvable URL.

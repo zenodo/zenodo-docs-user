@@ -13,7 +13,7 @@ By applying with us you will be able to work on several projects such as public 
 
 See our full **[list of project ideas](https://github.com/zenodo/zenodo/wiki/Google-Summer-of-Code-2017#ideas-list)**.
 
-## What is Google Summer of Code (GSoC)?
+### What is Google Summer of Code (GSoC)?
 
 GSoC involves a remote, full-time software development work for three months during summer.
 An exempt from the official GSoC page:
@@ -30,21 +30,21 @@ An exempt from the official GSoC page:
 
 More information on the [official GSoC page](https://summerofcode.withgoogle.com/about/).
 
-## Who can take part?
+### Who can take part?
 
 In short, university students from accredited universities that are at least 18 years of age and eligible to work in their country.
 Full conditions can be found in the [GSoC FAQ](https://developers.google.com/open-source/gsoc/faq) under *"What are the eligibility requirements for participation?"*.
 
 Since Zenodo is a web platform, a good knowledge of Python, web development, relational databases and object oriented programming is required if you want to apply with us.
 
-## When does it start?
+### When does it start?
 
 It has already started! You still have time until 3rd of April to submit a proposal with us, but if you're considering applying, you should start getting familiar our project as soon as possible.
 This will increase your chances of being selected! See the [GSoC Timeline](https://developers.google.com/open-source/gsoc/timeline).
 
-## Interested?
+### Interested?
 Take a look at our organization [profile page](https://summerofcode.withgoogle.com/organizations/4630502569934848/)
 and find more information on how to apply on our [GSoC Wiki](https://github.com/zenodo/zenodo/wiki/Google-Summer-of-Code-2017)!
 
 ---
-date: 2017-03-01
+date: 2017-03-10
