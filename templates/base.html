@@ -21,6 +21,18 @@
 -#}
 <!doctype html>
 <meta charset="utf-8">
+{% block og_image %}
+<meta property="og:image" content="http://blog.zenodo.org/static/img/logos/zenodo-gradient-1000.png" />
+{% endblock %}
+{% block og_title %}
+<meta property="og:title" content="Zenodo - Research. Shared." />
+{% endblock %}
+{% block og_type %}
+<meta property="og:type" content="website" />
+{% endblock %}
+{% block og_description %}
+<meta property="og:description" content="Zenodo is a free and open digital archive built by CERN and OpenAIRE, enabling researchers to share and preserve research output in any size, format and from all fields of research." />
+{% endblock %}
 <link rel="stylesheet" href="{{ '/static/zenodo.css'|url }}">
 <link rel="stylesheet" href="{{ '/static/style.css'|url }}">
 <link rel="stylesheet" href="{{ '/static/font-awesome/css/font-awesome.min.css'|url}}">
