@@ -33,6 +33,17 @@
 {% block og_description %}
 <meta property="og:description" content="Zenodo is a free and open digital archive built by CERN and OpenAIRE, enabling researchers to share and preserve research output in any size, format and from all fields of research." />
 {% endblock %}
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:site" content="@zenodo_org" />
+<meta name="twitter:creator" content="@zenodo_org" />
+{% block twitter_title %}
+<meta name="twitter:title" content="Zenodo - Research. Shared." />
+{% endblock %}
+
+{% block twitter_description %}
+<meta name="twitter:description" content="Zenodo is a free and open digital archive built by CERN and OpenAIRE, enabling researchers to share and preserve research output in any size, format and from all fields of research." />
+{% endblock %}
+<meta name="twitter:image" content="http://blog.zenodo.org/static/img/logos/zenodo-gradient-1000.png" />
 <link rel="stylesheet" href="{{ '/static/zenodo.css'|url }}">
 <link rel="stylesheet" href="{{ '/static/style.css'|url }}">
 <link rel="stylesheet" href="{{ '/static/font-awesome/css/font-awesome.min.css'|url}}">
