@@ -46,3 +46,7 @@
 .subbar > li.active {
   background-color: #eeeeee;
 }
+
+h5 {
+  font-weight: 700!important;
+}

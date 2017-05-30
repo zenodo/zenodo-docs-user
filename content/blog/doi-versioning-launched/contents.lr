@@ -1,0 +1,19 @@
+title: Zenodo now supports DOI versioning!
+---
+_discoverable: yes
+---
+author: lnielsen
+---
+date: 2017-05-30
+---
+body:
+
+We are pleased to announce the launch of DOI versioning support in Zenodo - the open research repository from OpenAIRE and CERN. This new feature enables users to update the record’s files after they have been made public and researchers to easily cite either specific versions of a record or to cite, via a top-level DOI, all the versions of a record.
+
+DOI versioning support was one of our most requested features for Zenodo, and it has been co-developed by OpenAIRE’s Zenodo team and EUDAT’s B2SHARE team as an extension module for CERN’s Invenio digital repository platform, which powers both Zenodo and B2SHARE.
+
+This update comes hot on the heels of the recent relaunch which made Zenodo faster, improved GitHub integration, integrated support for Horizon 2020 grant information, and enabled 50 gigabyte uploads!
+
+Read more about the inner workings of new feature in the [DOI Versioning FAQ](http://help.zenodo.org#versioning).
+
+![DOI versioning for Zenodo](screenshot2.png)
