@@ -164,9 +164,9 @@ Afterwards, we register a DOI for every new version of your upload.
 
 This is best illustrated by an example of a software package. If the software has been released in two versions (v1.0 and v1.1) on Zenodo, then the following DOIs would have been registered:
 
-* **v1.0 (specific version):** 10.5281/zenodo.1234
-* **v1.1 (specific version):** 10.5281/zenodo.4321
-* **Concept (all versions):** 10.5281/zenodo.5678
+* **v1.0 (specific version):** 10.5281/zenodo.60943
+* **v1.1 (specific version):** 10.5281/zenodo.800648
+* **Concept (all versions):** 10.5281/zenodo.705645
 
 The first two DOIs for versions **v1.0** and **v.1.1** represent the specific versions of the software. The last DOI represents all the versions of the given software package, i.e. the concept of the software package and the ensemble of versions. We therefore also call the them **Version DOIs** and **Concept DOIs** (note, technically both are just normal DOIs).
 
