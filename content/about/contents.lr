@@ -110,6 +110,22 @@ body:
         </tbody>
       </table> <!-- .table table-hover -->
     </div> <!-- .col-md-6 col-lg-5 -->
+    <div class="well">
+      <h4>Zenodo Advocacy</h4>
+      <p>
+      Happy with Zenodo? Every little effort helps reach a global audience and 
+      spread the word about Open Science and how Zenodo makes it possible.
+      </p>
+
+      <h5>Material</h5>
+      <p>Feel free to use the following material to help present Zenodo. All
+      material is licensed CC-BY.</p>
+
+      <ul>
+        <li><a href="https://doi.org/10.5281/zenodo.8428">Poster</a></li>
+        <li><a href="https://doi.org/10.5281/zenodo.787445">Presentation</a></li>
+      </ul>
+    </div>
   </div> <!-- .col-md-6 col-lg-7 -->
 </div> <!-- .row -->
     </div>
