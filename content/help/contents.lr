@@ -15,13 +15,20 @@ question: Can I change the file in the already published record?
 ----
 answer:
 
-Once the record has been published, you can no longer change the files. Exceptionally, we allow small modifications to a record's files, if and only if the record was published recently (less than a month). If you have spotted mistakes such as typos, accidental omission of important files/inclusion of hidden files or confidential files and would like to update them, please contact us and include the following information:
+Once the record has been published, you can no longer change the files in the record, nonetheless, there are several options:
+1. If the record has a Zenodo DOI (prefix: ``10.5281``):
+ * The recommended way is to create a new version of a record (more details availabe [here](/#versioning)).
+   Most of the cases fall under this category, which include modifications of the dataset/software, addition or removal of files, new versions of datasets, software or revisions of the papers, including major revisions as well typos and formatting/styling.
+ * Exceptionally, we allow small modifications to the record's files, if and only if the record was published recently (less than one week). If you have spotted mistakes such as typos, accidental omission of important files/inclusion of hidden files or confidential files and would like to update them, please contact us and include the following information.
+1. If the record has a non-Zenodo DOI:
+ * Since it is not possible to create new versions for the non-Zenodo DOIs you should contact us about the file update directly.
 
-* Send us the email from the address your are registered with in Zenodo.
-* Direct link to the record you would like to update (e.g. DOI or URL).
-* Mention any use of the DOI in e.g. papers or social media.
-* Include the new files as email attachment or provide the public URL to files if they are too big for email.
-* Provide a reason for update.
+To request for a manual file-change by our staff, proceed as follows:
+1. Send us the email from the address your are registered with in Zenodo.
+1. Include a direct link to the record you would like to update (e.g. DOI or URL).
+1. Mention any use of the DOI in, e.g.: refer to the papers or social media posts.
+1. Include the new files as email attachment or provide the public URL to files if they are too big for email.
+1. Provide a reason for update.
 
 Meeting above points ensures that we can resolve your case faster. Please note that we may reject your request if we deem that it is not a small change.
 ----
