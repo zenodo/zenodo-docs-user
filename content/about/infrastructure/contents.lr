@@ -13,6 +13,15 @@ Zenodo is hosted by CERN which has existed since 1954 and currently has an exper
 
 Zenodo is offered by CERN as part of its mission to make available the results of its work ([CERN Convention, Article II, §1](https://council.web.cern.ch/en/content/convention-establishment-european-organization-nuclear-research#2)).
 
+#### Legal status
+CERN is an international organisation and has legal personality in the metropolitan territories of all CERN Member States ([CERN Convention, Article IX](https://council.web.cern.ch/en/content/convention-establishment-european-organization-nuclear-research#9)) and enjoys the corresponding legal capacity under public international law.
+
+As an international organization CERN enjoys certain privileges and immunities, including e.g. immunity from jurisdiction of the national courts to ensure our independence from individual Member States. This does not mean that CERN operate in some kind of legal vacuum as protocols requires that CERN settle its disputes by other means. Read more about CERN's legal status in the [CERN Bulletin](http://cds.cern.ch/record/1035135?ln=en).
+
+Legal documents:
+- [CERN Convention](https://council.web.cern.ch/en/content/convention-establishment-european-organization-nuclear-research)
+- [Protocol on the privileges and immunities of the European Organization for Nuclear Research](http://cds.cern.ch/record/1035110/)
+
 #### Funding
 
 Zenodo is funded by:
@@ -21,6 +30,7 @@ Zenodo is funded by:
  - FP7: OpenAIRE (246686), OpenAIREplus (283595)
  - Horizon 2020: OpenAIRE2020 (643410) and OpenAIRE-Connect (731011).
 - [CERN](http://home.cern)
+- [Alfred P. Sloan Foundation](https://sloan.org)
 - Donations via [CERN & Society Foundation](https://giving.web.cern.ch/content/cern-society-foundation)
 
 Zenodo is developed and supported as a marginal activity, and hosted on top of existing infrastructure and services at CERN, in order to reduce operational costs and rely on existing efforts for High Energy Physics. CERN has some of the world’s top experts in running large scale research data infrastructures and digital repositories that we rely on in order to deliver a trusted digital repository.
@@ -52,6 +62,8 @@ We are partners in multiple European Commission funded projects, amongst others:
 <hr />
 ## Technical
 Zenodo is powered by [CERN Data Centre](http://information-technology.web.cern.ch/about/computer-centre) and the [Invenio digital library framework](http://inveniosoftware.org) and is fully run on open source products all the way through.
+
+Physically, Zenodo's entire technical infrastructure is located on CERN's premises which as subject to CERN's legal status (see above).
 
 #### Server management
 Zenodo servers are managed via [OpenStack](http://openstack.org/) and [Puppet](https://puppet.com) configuration management system which ensures that our servers always have the latest security patches applied. Servers are monitored via CERN’s monitoring infrastructure based on Flume, Elasticsearch, Kibana and Hadoop. Application errors are logged and aggregated in a local [Sentry](https://sentry.io/) instance. Traffic to Zenodo frontend servers is load balanced via a combination of DNS load balancing and HAProxy load balancers.
