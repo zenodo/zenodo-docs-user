@@ -22,7 +22,7 @@ We are working on guidelines and features that will help people deposit in prese
 - **Volume and size limitations**: Total files size limit per record is 50GB.
 Higher quotas can be requested and granted on a case-by-case basis.
 - **Data quality**: All information is provided “as-is”, and the user shall hold Zenodo and information providers supplying data to Zenodo free and harmless in connection with the use of such information.
-- **Metadata types and sources**: All metadata is stored internally in JSON-format according to a defined <a href="https://zenodo.org/schemas/records/record-v1.0.0.json">JSON schema</a>. Metadata is exported in several standard formats such as MARCXML, Dublin Core, and DataCite Metadata Schema (according to the <a href="http://guidelines.openaire.eu">OpenAIRE Guidelines</a>).
+- **Metadata types and sources**: All metadata is stored internally in JSON-format according to a defined [JSON schema](https://zenodo.org/schemas/records/record-v1.0.0.json). Metadata is exported in several standard formats such as MARCXML, Dublin Core, and DataCite Metadata Schema (according to the [OpenAIRE Guidelines](http://guidelines.openaire.eu)).
 - **Language**: For textual items, English is preferred but all languages are accepted.
 - **Licenses**: Users must specify a license for all publicly available files. Licenses for closed access files may be specified in the description field.
 

@@ -40,7 +40,7 @@ answer:
 
 We currently accept up to 50GB per dataset (you can have multiple datasets); there is no size limit on communities.
 However, we don't want to turn away larger use cases.
-If you would like to upload larger files, please <a href="http://about.zenodo.org/contact">contact us</a>, and we will do our best to help you.
+If you would like to upload larger files, please [contact us](http://about.zenodo.org/contact), and we will do our best to help you.
 Please be aware that we cannot offer infinite space for free, so donations towards sustainability are encouraged.
 ----
 category: policies
@@ -51,7 +51,7 @@ answer:
 
 All research outputs from all fields of science are welcome.
 In the upload form you can choose between types of files: publications (book, book section, conference paper, journal article, patent, preprint, report, thesis, technical note, working paper, etc.), posters, presentations, datasets, images (figures, plots, drawings, diagrams, photos), software, videos/audio and interactive materials such as lessons.
-Please see further information in our <a href="http://about.zenodo.org/terms">Terms of Use</a> and <a href="http://about.zenodo.org/policies">Policies</a>.
+Please see further information in our [Terms of Use](http://about.zenodo.org/terms) and [Policies](http://about.zenodo.org/policies).
 ----
 category: policies
 #### qaitem ####
@@ -60,9 +60,9 @@ question: My organizational repository does not show up on the GitHub list.
 answer:
 
 In order to see and archive your organizational repositories on Zenodo you will need to have "Admin" permissions on said repository, either as an Admin of the organization or an Admin of one of your organization's repositories.
-Additionally, please make sure that the OAuth application on GitHub is granting permissions not only to your personal repositories but also to your organizational ones - to verify that go to your GitHub OAuth settings in your profile (https://github.com/settings/applications), and click on the Zenodo application to see more details. Make sure that Zenodo is given access (green tick) to your organization under "Organization access".
+Additionally, please make sure that the OAuth application on GitHub is granting permissions not only to your personal repositories but also to your organizational ones - to verify that go to your GitHub OAuth settings in [your profile](https://github.com/settings/applications), and click on the Zenodo application to see more details. Make sure that Zenodo is given access (green tick) to your organization under "Organization access".
 
-After that, navigate to your Zenodo GitHub settings page: https://zenodo.org/account/settings/github/ and click the "Sync now" button at the top.
+After that, navigate to your Zenodo [GitHub settings page](https://zenodo.org/account/settings/github/) and click the "Sync now" button at the top.
 ----
 category: github
 #### qaitem ####
@@ -115,7 +115,7 @@ answer:
 
 Since there isn't a unique way of licensing openly and nor a consensus on the practice of adding attribution restrictions, we accept data under a variety of licenses in order to be inclusive.
 We will, however, take an active lead in signaling the extra benefits of the most open licenses, in terms of visibility and credit, and offer additional services and upload quotas on such data to encourage using them.
-This follows naturally from the publications policy of the <a href="http://www.openaire.eu">OpenAIRE initiative</a>, which has been supporting Open Access throughout, but since it aims to gather all European Commission/European Research Area research results, it allows submission of material that is not yet Open Access.
+This follows naturally from the publications policy of the [OpenAIRE initiative](http://www.openaire.eu), which has been supporting Open Access throughout, but since it aims to gather all European Commission/European Research Area research results, it allows submission of material that is not yet Open Access.
 ----
 category: general
 #### qaitem ####
@@ -125,15 +125,15 @@ answer:
 
 OpenAIRE Orphan Record Repository got a make-over and was re-branded as Zenodo.
 If you deposited your article in OpenAIRE Orphan Record Repository, it is also available in Zenodo.
-However, your user account was not transferred to Zenodo, so you will have to <a href="https://zenodo.org/signup/">register</a> again.
+However, your user account was not transferred to Zenodo, so you will have to [register](https://zenodo.org/signup/) again.
 If you register with the same email address in Zenodo as you used in OpenAIRE Orphan Record Repository, you will still have access to your publications.
-Don't hesitate to <a href="http://about.zenodo.org/contact">contact us</a> for further information.
+Don't hesitate to [contact us](http://about.zenodo.org/contact) for further information.
 ----
 category: general
 #### qaitem ####
 question: Where does the name come from?
 ----
-answer: Zenodo is derived from <a href="http://en.wikipedia.org/wiki/Zenodotus">Zenodotus</a>, the first librarian of the Ancient Library of Alexandria and father of the first recorded use of metadata, a landmark in library history.
+answer: Zenodo is derived from [Zenodotus](http://en.wikipedia.org/wiki/Zenodotus), the first librarian of the Ancient Library of Alexandria and father of the first recorded use of metadata, a landmark in library history.
 ----
 category: general
 #### qaitem ####
@@ -142,7 +142,7 @@ question: How much digital storage-space does CERN have available?
 answer:
 
 Zenodo is currently a drop in the ocean.
-CERN stores more than 100PB (petabytes) of physics data from the <a href="http://home.web.cern.ch/about/accelerators/large-hadron-collider">Large Hadron Collider (LHC)</a>, and produces roughly 25PB per year when the LHC is running.
+CERN stores more than 100PB (petabytes) of physics data from the [Large Hadron Collider (LHC)](http://home.web.cern.ch/about/accelerators/large-hadron-collider), and produces roughly 25PB per year when the LHC is running.
 ----
 category: general
 #### qaitem ####
@@ -347,4 +347,4 @@ toptext:
 # Frequently Asked Questions
 <hr />
 
-See also <a href="http://www.openaire.eu/support/faq">OpenAIRE FAQ</a> for general information on Open Access and European Commission funded research.
+See also [OpenAIRE FAQ](http://www.openaire.eu/support/faq) for general information on Open Access and European Commission funded research.
