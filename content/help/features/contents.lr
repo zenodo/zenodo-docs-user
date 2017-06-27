@@ -45,13 +45,13 @@ body:
           <img class="img-circle hide" data-src="holder.js/140x140" alt="140x140" style="width: 140px; height: 140px;">
           <h2>Safe</h2>
           <h4>— more than just a drop box!</h4>
-          <p>Your research output is stored safely for the future in same cloud infrastructure as research data from CERN's <a href="http://home.web.cern.ch/about/accelerators/large-hadron-collider">Large Hadron Collider</a> and using CERN's battle-tested repository software <a href="http://inveniosoftware.org">INVENIO</a>, which is used by some of the world's largest repositories such as <a href="http://inspirehep.net">INSPIRE HEP</a> and <a href="http://cds.cern.ch">CERN Document Server</a>.</p>
+          <p>Your research output is stored safely for the future in same cloud infrastructure as research data from CERN's [Large Hadron Collider](http://home.web.cern.ch/about/accelerators/large-hadron-collider) and using CERN's battle-tested repository software [INVENIO](http://inveniosoftware.org), which is used by some of the world's largest repositories such as [INSPIRE HEP](http://inspirehep.net) and [CERN Document Server](http://cds.cern.ch).</p>
         </div>
         <div class="col-sm-4 col-md-4">
           <img class="img-circle hide" data-src="holder.js/140x140" alt="140x140" style="width: 140px; height: 140px;">
           <h2>Reporting</h2>
           <h4>— tell your funding agency!</h4>
-          <p>Zenodo is integrated into reporting lines for research funded by the European Commission via <a href="http://www.openaire.eu">OpenAIRE</a>. Just upload your research to Zenodo, and we will take care of the reporting for you. We plan to expand this feature with further funding agencies in the future, so stay tuned!</p>
+          <p>Zenodo is integrated into reporting lines for research funded by the European Commission via [OpenAIRE](http://www.openaire.eu). Just upload your research to Zenodo, and we will take care of the reporting for you. We plan to expand this feature with further funding agencies in the future, so stay tuned!</p>
         </div>
         <div class="col-sm-4 col-md-4">
           <img class="img-circle hide" data-src="holder.js/140x140" alt="140x140" style="width: 140px; height: 140px;">
