@@ -22,7 +22,7 @@ language: python
 
 python: 2.7
 
-install: "pip install Lektor"
+install: "pip install Lektor==3.0.1"
 
 script: "sh ./runtests.sh"
 
