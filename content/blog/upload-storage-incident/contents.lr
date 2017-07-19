@@ -1,0 +1,37 @@
+title: Upload storage incident
+---
+author: lnielsen
+---
+body:
+
+#### What happened?
+As a result of a regular automatic file integrity check, as well as some user reports, we have discovered that 18 files uploaded to Zenodo after June 21st this year were not stored successfully. Despite serious efforts we have not been able to recover any of these 18 files from the CERN storage servers.
+
+#### How did it happen?
+We are taking this incident very seriously and have thoroughly investigated what happened. The root cause was the coincidence of two software bugs; one bug was found in the underlying disk storage system and the other bug was found in the client software that our web servers uses to connect to the disk storage system. The two bugs were activated on June 21st when our underlying CERN disk storage system was upgraded to a new major software release. Only recent files uploaded on or after June 21st could have been affected, and of those, only 18 out of the 15,000 files uploaded to Zenodo since June 21st were actually affected.
+
+An in-depth explanation of the incident is provided below.
+
+#### Is it fixed?
+Yes. We have already deployed fixes for the two software bugs. We have also taken further measures to ensure similar issues cannot happen. Even though it was good that our file integrity checks caught the errors, we have taken steps to improve this monitoring and ensure that we are alerted immediately in the future. 
+
+####  Is my file affected?
+We have personally contacted all affected users by email, and since only a tiny fraction of recently uploaded files were affected we are hoping to recover all files from their respective uploaders.
+
+#### Why could you not recover the files?
+The reason we could not recover any of the files was because the files was never stored on our storage system, and thus our backups did also not have the file (see in-depth explanation below). The information we do have is metadata such as the file size and file fingerprint (MD5 checksum) as these a calculated on the web server side. This information allows us to check if files recovered from the respective uploaders is indeed the exact same files.
+
+#### What measures are you taking to prevent this in the future?
+We are operating complex systems with tens of terabytes of data and millions of files, and we anticipate failures to inevitably happen. That's also why we go to a great deal of length to safeguard files that users upload on Zenodo. In this case, one of our many checks also caught the problem, however with a delay of three weeks instead of immediately. We have now measures in place that ensures we catch a similar problem right away, and will continue to proactively anticipate other types of failures and build countermeasures against them as part of our preservation strategy.
+
+#### In-depth explanation of the incident
+When a user uploads a file to Zenodo, the file is streamed through one of our web servers down to a storage server in our disk storage system. The disk storage system then immediately replicates the file to another storage server in the cluster before sending back a response to the web server that the file was successfully written to disk. On a successful write, the web server will then record metadata about the file in our database and let the user know the file was successfully uploaded.
+
+One of the software bugs affected the underlying client library that Zenodo uses to connect to the storage system. After a complete file was sent from the web server to the storage system, the client library did not properly check the final reply from the storage system for errors. This meant that some particular errors reported by the storage system would not be caught by the client library and lead the web server to think that the file was written successfully to disk when in fact there was an error.
+
+The other software bug was found in the new version of the disk storage system software. Once the storage server had received the entire file it would try to replicate the file to another storage server in the cluster. If this other storage server was unresponsive (e.g. due to high workload or network congestion), the replication operation would timeout. The storage server would then proceed to cleanup the file (i.e. delete it) and send back an error reply.
+
+Thus, when a file replication operation failed in the storage system, the client library did not catch that there had been an error, leading the web server to think the file was successfully written to disk when in fact the storage system had never stored the file. This error did not expose itself prior to June 21st,  because the previous software version on the disk storage system would automatically recover from the replication failure and not send an error reply back. As a result of this incident, the disk storage system software will reinstantiate the previous behaviour and try to immediately recover from the replication failure.
+
+---
+date: 2017-07-19
