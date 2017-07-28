@@ -19,18 +19,14 @@ Once the record has been published, you can no longer change the files in the re
 1. If the record has a Zenodo DOI (prefix: ``10.5281``):
  * The recommended way is to create a new version of a record (more details availabe [here](/#versioning)).
    Most of the cases fall under this category, which include modifications of the dataset/software, addition or removal of files, new versions of datasets, software or revisions of the papers, including major revisions as well typos and formatting/styling.
- * Exceptionally, we allow small modifications to the record's files, if and only if the record was published recently (less than one week). If you have spotted mistakes such as typos, accidental omission of important files/inclusion of hidden files or confidential files and would like to update them, please contact us and include the following information.
+ * Exceptionally, we allow small modifications to the record's files, if and only if the record was published recently (less than one week). If you have spotted mistakes such as typos, accidental omission of important files/inclusion of hidden files or confidential files and would like to update them, please contact us.
 1. If the record has a non-Zenodo DOI:
  * Since it is not possible to create new versions for the non-Zenodo DOIs you should contact us about the file update directly.
 
-To request for a manual file-change by our staff, proceed as follows:
-1. Send us the email from the address your are registered with in Zenodo.
-1. Include a direct link to the record you would like to update (e.g. DOI or URL).
-1. Mention any use of the DOI in, e.g.: refer to the papers or social media posts.
-1. Include the new files as email attachment or provide the public URL to files if they are too big for email.
-1. Provide a reason for update.
+All file update requests need to be submitted through our [contact form](https://zenodo.org/support).
 
-Meeting above points ensures that we can resolve your case faster. Please note that we may reject your request if we deem that it is not a small change.
+Meeting above points ensures that we can resolve your case faster.
+Please note that we may reject your request if we deem that it is not a small change.
 ----
 category: general
 #### qaitem ####
@@ -40,7 +36,7 @@ answer:
 
 We currently accept up to 50GB per dataset (you can have multiple datasets); there is no size limit on communities.
 However, we don't want to turn away larger use cases.
-If you would like to upload larger files, please [contact us](http://about.zenodo.org/contact), and we will do our best to help you.
+If you would like to upload larger files, please [contact us](https://zenodo.org/support), and we will do our best to help you.
 Please be aware that we cannot offer infinite space for free, so donations towards sustainability are encouraged.
 ----
 category: policies
@@ -204,7 +200,7 @@ answer:
 Yes. However, for uploads published before the 30th of May 2017, you have to first upgrade your record to support versioning. This is done by clicking the “Upgrade to versioned record” button on the record page.
 
 IMPORTANT
-If you have previously uploaded multiple versions of an upload as individual records on Zenodo, then DO NOT click the button to upgrade your record with versioning support. Please contact us on info@zenodo.org so we can link the records under one versioning scheme.
+If you have previously uploaded multiple versions of an upload as individual records on Zenodo, then DO NOT click the button to upgrade your record with versioning support. Please [contact us](https://zenodo.org/support) so we can link the records under one versioning scheme.
 
 Clicking the “Upgrade to versioned record” button on any of the records you would like to link, will irreversibly register them as individually-versioned records.
 
@@ -340,7 +336,7 @@ First check on above list if your funder is supported by Zenodo. If the funder i
 ----
 category: openaire-col2
 ---
-bottomtext: ## Couldn't find the answer to your question? [Contact us](http://about.zenodo.org/contact/).
+bottomtext: ## Couldn't find the answer to your question? [Contact us](https://zenodo.org/support).
 ---
 toptext:
 
