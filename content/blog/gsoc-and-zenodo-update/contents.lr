@@ -1,0 +1,42 @@
+title: Google Summer of Code and Zenodo summer update
+---
+author: knowak
+---
+body:
+
+## Google Summer of Code 2017
+Zenodo has been taking part in Google Summer of Code 2017 and since June two
+students, Aman Jain and Xiao Meng, have been working with our team on
+introducing two exciting features to Zenodo by the end of the summer.
+
+Aman Jain's project will introduce public user profiles on Zenodo that will
+allow our users to share and show case their uploads on Zenodo.
+
+Xiao Meng's project introduces a new backend files processing module, which will
+enable us to e.g. extract the metadata from the PDF documents and use that
+information to improve search or easy pre-filling of upload forms.
+
+## New feature: support contact form
+Thanks to Aman Jain, one of our GSoC students, you can now contact us more
+efficiently through a contact form available at
+[zenodo.org/support](https://zenodo.org/support). This will allow us to
+organize and resolve our support requests better and faster.
+
+## New feature: logged in devices
+We recently updated Zenodo to the latest Invenio version which brought along a
+new feature that allow users to view all devices currently logged into their
+account. This security feature allow you to remotely log out of devices in case
+you e.g. forgot to logout of your Zenodo account on a public computer.
+
+You can view all currently logged-in devices by navigating to the
+[Security](https://zenodo.org/account/settings/security/) tab in your account
+settings.
+
+![Active sessions](active_sessions.png)
+
+## New feature: status page
+On the footer of all Zenodo pages you will now find a "Status" hyperlink
+([status.zenodo.org](https://status.zenodo.org/)), which will show you status
+of Zenodo and uptime statistics for Zenodo pages and services.
+---
+date: 2017-07-31
