@@ -4,35 +4,30 @@ title: Terms of Use
 ---
 body:
 
-  <div class="row">
-    <div class="col-xs-12">
-    <h1>Terms of Use <small>v1.0</small></h1>
+# Terms of Use <small>v1.0</small>
 
 <hr />
 
-<p>The Zenodo service (“Zenodo”) is offered by CERN as part of its mission to make available the results of its work.</p>
+The Zenodo service (“Zenodo”) is offered by CERN as part of its mission to make available the results of its work.
 
-<p>Use of Zenodo, both the uploading and downloading of data, denotes agreement with the following terms:</p>
-<ol>
-    <li>Zenodo is a research data repository for the preservation and making available of research, educational and informational content. Access to Zenodo’s content is open to all, for non-military purposes only. </li>
+Use of Zenodo, both the uploading and downloading of data, denotes agreement with the following terms:
 
-    <li>Content may be uploaded free of charge by those without ready access to an organized data centre.</li>
+1. Zenodo is a research data repository for the preservation and making available of research, educational and informational content. Access to Zenodo’s content is open to all, for non-military purposes only.
 
-    <li>The uploader shall ensure that their content is suitable for open dissemination, and that it complies with these terms and applicable laws, including, but not limited to, privacy, data protection and intellectual property rights.</li>
+1. Content may be uploaded free of charge by those without ready access to an organized data centre.
 
-    <li>All content is provided “as-is”. Users of content (“Users”) shall respect applicable license conditions. Download and use of content from Zenodo does not transfer any intellectual property rights in the content to the User.</li>
+1. The uploader shall ensure that their content is suitable for open dissemination, and that it complies with these terms and applicable laws, including, but not limited to, privacy, data protection and intellectual property rights.
 
-    <li>Users are exclusively responsible for their use of content, and shall hold CERN free and harmless in connection with their download and/or use.</li>
+1. All content is provided “as-is”. Users of content (“Users”) shall respect applicable license conditions. Download and use of content from Zenodo does not transfer any intellectual property rights in the content to the User.
 
-    <li>CERN reserves the right, without notice, at its sole discretion and without liability, (i) to alter or delete inappropriate content, and (ii) to restrict or remove User access where it considers that use of Zenodo interferes with its operations or violates these Terms of Use or applicable laws.</li>
+1. Users are exclusively responsible for their use of content, and shall hold CERN free and harmless in connection with their download and/or use.
 
-    <li>Unless specified otherwise, Zenodo metadata may be freely reused under the [CC0 waiver](http://creativecommons.org/publicdomain/zero/1.0/). Bulk downloading of email addresses taken from Zenodo is not allowed.</li>
+1. CERN reserves the right, without notice, at its sole discretion and without liability, (i) to alter or delete inappropriate content, and (ii) to restrict or remove User access where it considers that use of Zenodo interferes with its operations or violates these Terms of Use or applicable laws.
 
-    <li>These Terms of Use are subject to change by CERN at any time and without notice, other than through posting the updated Terms of Use on the Zenodo website.</li>
-</ol>
+1. Unless specified otherwise, Zenodo metadata may be freely reused under the [CC0 waiver](http://creativecommons.org/publicdomain/zero/1.0/). Bulk downloading of email addresses taken from Zenodo is not allowed.
 
-<p>If you have any questions or comments with respect to Zenodo, or if you are unsure whether your intended use is in line with these Terms of Use, or if you seek permission for a use that does not fall within these Terms of Use, please <a href="https://zenodo.org/support">contact us</a>.</p>
-    </div>
-  </div>
+1. These Terms of Use are subject to change by CERN at any time and without notice, other than through posting the updated Terms of Use on the Zenodo website.
+
+If you have any questions or comments with respect to Zenodo, or if you are unsure whether your intended use is in line with these Terms of Use, or if you seek permission for a use that does not fall within these Terms of Use, please [contact us](https://zenodo.org/support).
 ---
 _slug: /terms
