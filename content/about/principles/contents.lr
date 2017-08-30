@@ -8,7 +8,7 @@ body:
 
 <hr />
 ## Best Effort Principles
-Zenodo does not sign SLAs. This is not a weakness, it is by design and marks a philosophy that we believe is most appropriate for Science. Instead, Zenodo is run by leading practitioners according to best practices.
+Zenodo does not sign SLAs (service-level agreements). This is not a weakness, it is by design and marks a philosophy that we believe is most appropriate for Science. Instead, Zenodo is run by leading practitioners according to best practices.
 
 What Science needs is inherent reliability, or more accurately demonstrated reliability based on open best practices. Furthermore the users should be able to influence these best practices. In the long-term, a service which is trusted is much more valuable than one for which assurances must be bought.
 
