@@ -146,7 +146,7 @@ question: Can I know the DOI of my record before publishing, so that I can inclu
 ----
 answer:
 
-Yes you can! On the upload page under *Basic Information* and *Digital Object Identifier* click the *Pre-reserve DOI* button.
+Yes you can! On the upload page under *Basic Information* and *Digital Object Identifier* click the *Reserve DOI* button.
 The text field above will display the DOI that your record will have once it is published. This will not register the DOI yet, nor will it publish your record (so you can still update the files).
 This DOI can be safely used in the record's own content as well as any other separate datasets or papers you might be planning to publish.
 ----
