@@ -1,0 +1,52 @@
+title: Extended grant support, ORCID and language field.
+---
+author: knowak
+---
+body:
+Today, we are introducing three additions to Zenodo:
+
+1. Extended grant support
+2. Language field
+3. ORCID for authors
+
+## Extended grant support (powered by OpenAIRE)
+
+We are expanding our grants database from 40.000 to over 600,000 more grants from 8 new funders such as National Science Foundation (US) and Wellcome Trust (UK) - all thanks to [OpenAIRE](https://openaire.eu/)'s ever growing grants database.
+
+![Zenodo OpenAIRE grants database](grants.png)
+
+So far we have been supporting only grants from the European Commission (FP7 and Horizon 2020). Today our dataset contains grants from the following funders:
+
+* National Science Foundation (USA) - 497646 grants
+* European Commission (EU) - 39409 grants
+* Foundation for Science and Technology (Portugal) - 37277 grants
+* National Health and Medical Research Council (Australia) - 24354 grants
+* Netherlands Organisation for Scientific Research (The Netherlands) - 24180 grants
+* Australian Research Council (Australia) - 23011 grants
+* Wellcome Trust (United Kingdom)  - 12196 grants
+* Ministry of Science and Education (Croatia) - 2120 grants
+* Ministry of Education, Science and Technological Development (Serbia) - 777 grants
+
+which means that our grants database grew from close **40 000** to over **630 000** grants! We wouldn't be able to do that if it wasn't for the OpenAIRE team and their hard work in collecting, maintaining and distributing the grants database for the benefit of Open Science!
+
+## Language field
+
+Today we are also adding a new language field to our metadata, which allows you to record the primary language of an upload. You can select the language in the upload form simply by starting to type the English name, a 2-letter or a 3-letter ISO 639 code:
+
+![Language for Zenodo](language.png)
+
+The new language field supports all languages defined in ISO 639-3, which in total defines 436 individual and macro-languages. For full reference of language codes see [Library of Congress ISO 639 Language List](https://www.loc.gov/standards/iso639-2/php/code_list.php).
+
+#### What if my record contains more than one language?
+
+The field is used to specify the primary language of the resource, hence if e.g. a thesis is written in Danish and have an English abstract then the primary language is Danish. Similarly, the primary language of a paper written in English on Greek linguistics, hence containing a lot of text in Greek, is English.
+
+There are always cases where it's not possible to clearly determine the primary language, for example for a dataset containing the mapping between common Polish and French phrases. In those special cases you can always use ISO 639-3 code [`mul` (Multiple Languages)](https://www.loc.gov/standards/iso639-2/php/langcodes_name.php?code_ID=306).
+
+## ORCID for authors
+
+Last but not least, you can now include an author's ORCID under the *Authors* section of the metadata on the deposit web interface.
+![Zenodo author ORCID](orcid.png)
+
+---
+date: 2017-10-04
