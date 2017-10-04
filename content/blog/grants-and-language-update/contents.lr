@@ -15,7 +15,7 @@ We are expanding our grants database with over 620,000 grants from 8 new funders
 
 ![Zenodo OpenAIRE grants database](grants.png)
 
-So far we have been supporting only grants from the European Commission (FP7 and Horizon 2020). Today our dataset contains grants from the following funders:
+So far we have only been supporting grants from the European Commission (FP7 and Horizon 2020). Today our dataset has grown and contains grants from the following funders:
 
 * National Science Foundation (USA) - 497646 grants
 * European Commission (EU) - 39409 grants
@@ -27,7 +27,7 @@ So far we have been supporting only grants from the European Commission (FP7 and
 * Ministry of Science and Education (Croatia) - 2120 grants
 * Ministry of Education, Science and Technological Development (Serbia) - 777 grants
 
-which means that our grants database grew from close **40,000** to over **660,000** grants! We wouldn't be able to do that if it wasn't for the OpenAIRE team and their hard work in collecting, maintaining and distributing the grants database for the benefit of Open Science!
+which means that our grants database grew from nearly **40,000** to over **660,000** grants! We wouldn't have been able to do that if it wasn't for the OpenAIRE team and their hard work in collecting, maintaining and distributing the grants database for the benefit of Open Science!
 
 ## Language field
 
@@ -35,13 +35,13 @@ Today we are also adding a new language field to our metadata, which allows you 
 
 ![Language for Zenodo](language.png)
 
-The new language field supports all languages defined in ISO 639-3, which in total defines 436 individual and macro-languages. For full reference of language codes see [Library of Congress ISO 639 Language List](https://www.loc.gov/standards/iso639-2/php/code_list.php).
+The new language field supports all languages defined in ISO 639-3, which in total defines 436 individual and macro-languages. For the full reference of language codes see [Library of Congress ISO 639 Language List](https://www.loc.gov/standards/iso639-2/php/code_list.php).
 
 #### What if my record contains more than one language?
 
 The field is used to specify the primary language of the resource, hence if, e.g., a thesis is written in Danish and has an English abstract, then the primary language is Danish. Similarly, the primary language of a paper written in English, which is on the topic of Greek linguistics, thus containing a lot of text in Greek, is English.
 
-There are always cases where it's not possible to clearly determine the primary language, for example for a dataset containing the mapping between common Polish and French phrases. In those special cases you can always use ISO 639-3 code [`mul` (Multiple Languages)](https://www.loc.gov/standards/iso639-2/php/langcodes_name.php?code_ID=306).
+There are always cases where it is not possible to clearly determine the primary language, for example for a dataset containing the mapping between common Polish and French phrases. In those special cases you can always use ISO 639-3 code [`mul` (Multiple Languages)](https://www.loc.gov/standards/iso639-2/php/langcodes_name.php?code_ID=306).
 
 ## ORCID for authors
 
