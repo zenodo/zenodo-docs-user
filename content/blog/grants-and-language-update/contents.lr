@@ -11,7 +11,7 @@ Today, we are introducing three additions to Zenodo:
 
 ## Extended grant support (powered by OpenAIRE)
 
-We are expanding our grants database with over 620,000 grants from 8 new funders such as National Science Foundation (US) and Wellcome Trust (UK) - all thanks to [OpenAIRE](https://openaire.eu/)'s ever growing grants database.
+We are expanding our grants database with over 620,000 grants from 8 new funders such as the National Science Foundation (US) and Wellcome Trust (UK) - all thanks to [OpenAIRE](https://openaire.eu/)'s ever growing grants database.
 
 ![Zenodo OpenAIRE grants database](grants.png)
 
@@ -35,7 +35,7 @@ Today we are also adding a new language field to our metadata, which allows you 
 
 ![Language for Zenodo](language.png)
 
-The new language field supports all languages defined in ISO 639-3, which in total defines 436 individual and macro-languages. For the full reference of language codes see [Library of Congress ISO 639 Language List](https://www.loc.gov/standards/iso639-2/php/code_list.php).
+The new language field supports all languages defined in ISO 639-3, which in total defines 436 individual and macro-languages. For the full reference of language codes see the [Library of Congress ISO 639 Language List](https://www.loc.gov/standards/iso639-2/php/code_list.php).
 
 #### What if my record contains more than one language?
 
