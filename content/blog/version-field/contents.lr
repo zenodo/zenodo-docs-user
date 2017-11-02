@@ -1,0 +1,25 @@
+title: Version field launched!
+---
+author: aioannidis
+---
+body:
+As of today, we have added a version field has to our metadata schema, in order for you to be able to explicitly specify the version of your software, dataset, or any type of upload over which a versioning scheme could be applied. This addition is also part of our efforts to make software a first-class citizen in the world of scientific research.
+
+![Deposit form](version-field.png)
+
+At the moment the field accepts any kind of text as input, although we strongly suggest that you use [semantic versioning](http://semver.org/) for machine-readability.
+
+The version field is directly integrated within our search results and record pages.
+
+![Record page](version-records-search.png)
+![Record page](version-records-ui.png)
+
+#### What about GitHub releases?
+
+This change extends to our GitHub integration, which from now on will automatically populate the version field using the git tag of your release. You don't have to worry about older releases since they have all been updated with their respective release tags.
+
+#### Does this affect the order of the record versions?
+
+No, the order of the record's versions remains as before, i.e.: record versions are ordered chronologically by the record creation time.
+---
+date: 2017-11-02
