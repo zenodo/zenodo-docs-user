@@ -3,7 +3,9 @@ title: Version field launched!
 author: aioannidis
 ---
 body:
-As of today, we have added a version field to our metadata schema, so you can explicitly specify the version of your software, dataset, or any other type of upload. This allows you to use version numbers such as 1.2.1 or 2017.01 instead of the default version numbers such as 1, 2 or 3. The addition is also part of our efforts to make software a first-class citable citizen in the world of scientific research.
+As of today, we have extended our metadata schema with the ``version`` term, so you can explicitly specify the version of your software, dataset, or any other type of upload.
+This allows you to use the version tags such as 1.2.1 or 2017.01 instead of the default version numbers such as 1, 2 or 3.
+The addition is part of our efforts to make software a citable, first-class citizen in the world of scientific research.
 
 ![Deposit form](version-field.png)
 
@@ -16,7 +18,8 @@ The version field is directly integrated within our search results and record pa
 
 #### What about GitHub releases?
 
-This change extends to our GitHub integration, which from now on will automatically populate the version field using the git tag of your release. You don't have to worry about older releases since they have all been updated with their respective release tags.
+This change extends to our GitHub integration, which from now on will automatically populate the version field using the git tag of your GitHub release.
+You don't have to worry about all GitHub releases that have been already published on Zenodo - they have all been updated with their corresponding release tags.
 
 #### Does this affect the order of the record versions?
 
