@@ -3,7 +3,7 @@ title: Version field launched!
 author: aioannidis
 ---
 body:
-As of today, we have added a version field has to our metadata schema, in order for you to be able to explicitly specify the version of your software, dataset, or any type of upload over which a versioning scheme could be applied. This addition is also part of our efforts to make software a first-class citizen in the world of scientific research.
+As of today, we have added a version field to our metadata schema, so you can explicitly specify the version of your software, dataset, or any other type of upload. This allows you to use version numbers such as 1.2.1 or 2017.01 instead of the default version numbers such as 1, 2 or 3. The addition is also part of our efforts to make software a first-class citable citizen in the world of scientific research.
 
 ![Deposit form](version-field.png)
 
