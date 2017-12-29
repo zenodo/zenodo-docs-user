@@ -45,13 +45,13 @@ body:
   <div class="col-md-6 col-lg-5">
     <div class="well">
       <h4>The name</h4>
-      <p>Zenodo is derived from [Zenodotus](https://en.wikipedia.org/wiki/Zenodotus), the first librarian of the Ancient Library of Alexandria and father of the first recorded use of metadata, a landmark in library history.</p>
+      <p>Zenodo is derived from <a href="https://en.wikipedia.org/wiki/Zenodotus">Zenodotus</a>, the first librarian of the Ancient Library of Alexandria and father of the first recorded use of metadata, a landmark in library history.</p>
     </div>
     <div class="well">
       <h4>Open in every sense</h4>
       <p>
-        Zenodo code is itself open source, and is built on the foundation of the [Invenio](http://inveniosoftware.org) digital library which is also open source.
-        The work-in-progress, open issues, and roadmap are shared openly in [GitHub](https://github.com/zenodo/zenodo), and contributions to any aspect are welcomed from anyone.
+        Zenodo code is itself open source, and is built on the foundation of the <a href="http://inveniosoftware.org">Invenio</a> digital library which is also open source.
+        The work-in-progress, open issues, and roadmap are shared openly in <a href="https://github.com/zenodo/zenodo">GitHub</a>, and contributions to any aspect are welcomed from anyone.
       </p>
       <p>All meta data is openly available under CC0 licence, and all open content is openly accessible through open APIs.</p>
       <p>Open to all suggestions for new features, via GitHub, and especially open to all contributions of code via pull requests!</p>
@@ -72,39 +72,39 @@ body:
             <td>Color</td>
             <td><img class="img-rounded" src="/static/img/logos/zenodo-gradient-200.png"></td>
             <td>
-              [2500px](/static/img/logos/zenodo-gradient-2500.png)<br>
-              [1000px](/static/img/logos/zenodo-gradient-1000.png)<br>
-              [200px](/static/img/logos/zenodo-gradient-200.png)<br>
+              <a href="/static/img/logos/zenodo-gradient-2500.png">2500px</a><br>
+              <a href="/static/img/logos/zenodo-gradient-1000.png">1000px</a><br>
+              <a href="/static/img/logos/zenodo-gradient-200.png">200px</a><br>
             </td>
             <td>
-              [round](/static/img/logos/zenodo-gradient-round.svg)<br>
-              [square](/static/img/logos/zenodo-gradient-square.svg)<br>
+              <a href="/static/img/logos/zenodo-gradient-round.svg">round</a><br>
+              <a href="/static/img/logos/zenodo-gradient-square.svg">square</a><br>
             </td>
           </tr>
           <tr>
             <td>Black</td>
             <td><img class="img-rounded" style="background-color: white;" src="/static/img/logos/zenodo-black-200.png"></td>
             <td>
-              [2500px](/static/img/logos/zenodo-black-2500.png)<br>
-              [1000px](/static/img/logos/zenodo-black-1000.png)<br>
-              [200px](/static/img/logos/zenodo-black-200.png)<br>
+              <a href="/static/img/logos/zenodo-black-2500.png">2500px</a><br>
+              <a href="/static/img/logos/zenodo-black-1000.png">1000px</a><br>
+              <a href="/static/img/logos/zenodo-black-200.png">200px</a><br>
             </td>
             <td>
-              [w/ border](/static/img/logos/zenodo-black-border.svg)<br>
-              [wo/ border](/static/img/logos/zenodo-black.svg)<br>
+              <a href="/static/img/logos/zenodo-black-border.svg">w/ border</a><br>
+              <a href="/static/img/logos/zenodo-black.svg">wo/ border</a><br>
             </td>
           </tr>
           <tr>
             <td>White</td>
             <td><img class="img-rounded" style="background-color: #555555;" src="/static/img/logos/zenodo-white-200.png"></td>
             <td>
-              [2500px](/static/img/logos/zenodo-white-2500.png)<br>
-              [1000px](/static/img/logos/zenodo-white-1000.png)<br>
-              [200px](/static/img/logos/zenodo-white-200.png)<br>
+              <a href="/static/img/logos/zenodo-white-2500.png">2500px</a><br>
+              <a href="/static/img/logos/zenodo-white-1000.png">1000px</a><br>
+              <a href="/static/img/logos/zenodo-white-200.png">200px</a><br>
             </td>
             <td>
-              [w/ border](/static/img/logos/zenodo-white-border.svg)<br>
-              [wo/ border](/static/img/logos/zenodo-white.svg)<br>
+              <a href="/static/img/logos/zenodo-white-border.svg">w/ border</a><br>
+              <a href="/static/img/logos/zenodo-white.svg">wo/ border</a><br>
             </td>
           </tr>
         </tbody>
@@ -122,16 +122,16 @@ body:
       material is licensed CC-BY.</p>
 
       <ul>
-        <li>[Poster](https://doi.org/10.5281/zenodo.8428)</li>
-        <li>[Presentation](https://doi.org/10.5281/zenodo.787445)</li>
+        <li><a href="https://doi.org/10.5281/zenodo.8428">Poster</a></li>
+        <li><a href="https://doi.org/10.5281/zenodo.787445">Presentation</a></li>
       </ul>
       <h4>In the press</h4>
       <p>
-      Check out our [Zotero group](http://zotero.org/groups/1570683/zenodo_in_the_press) for articles mentioning or talking about Zenodo.
+      Check out our <a href="http://zotero.org/groups/1570683/zenodo_in_the_press">Zotero group</a> for articles mentioning or talking about Zenodo.
       </p>
       <p>
-      Know of an article not on the list? [Contact us](https://zenodo.org/support), so we can add it.
-      </p>
+      Know of an article not on the list? <a href="https://zenodo.org/support">Contact us</a>, so we can add it.
+      </p
     </div>
   </div> <!-- .col-md-6 col-lg-7 -->
 </div> <!-- .row -->
