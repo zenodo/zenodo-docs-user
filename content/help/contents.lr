@@ -342,7 +342,7 @@ answer:
 First check on above list if your funder is supported by Zenodo. If the funder is supported it can be that your grant is to new to appear in the database:
 
 * Zenodo relies on OpenAIRE’s grant database which we harvest once a week, so if the grant exists in the OpenAIRE database we will import it on the next update.
-* OpenAIRE might not have your grant available in their database yet, because most often funders only provide their grant data on monthly or yearly basis, and often only in formats that require significant manual efforts to important.
+* OpenAIRE might not have your grant available in their database yet, because most often funders only provide their grant data on monthly or yearly basis, and often only in formats that require significant manual efforts to import.
 ----
 category: openaire-col2
 ---
