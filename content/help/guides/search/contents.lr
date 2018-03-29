@@ -1,0 +1,319 @@
+_model: base-help
+---
+title: Search guide
+---
+body:
+
+# Search guide
+
+This guide explains how to perform advanced search queries on Zenodo using easy to understand examples.
+
+### Simple search (one or multiple terms)
+
+**Example:** [``open science``](https://zenodo.org/search?page=1&size=20&q=open%20science)
+
+Results will match records with the *terms* ``open`` *or* ``science`` in *any field*. Note that stemming is applied so e.g. ``science`` will also match ``sciences``. Search results are ranked according to an algorithm that takes your query terms into account.
+
+You can require *presence* of both terms using either the ``+`` or ``AND`` operator:
+
+**Examples:** [``+open +science``](https://zenodo.org/search?page=1&size=20&q=%2Bopen%20%2Bscience) or [``open AND science``](https://zenodo.org/search?page=1&size=20&q=open%20AND%20science)
+
+You can require *absence* of one or more terms using either the ``-`` or ``NOT`` operator:
+
+**Examples:** [``-open +science``](https://zenodo.org/search?page=1&size=20&q=-open%20%2Bscience) or [``NOT open AND science``](https://zenodo.org/search?page=1&size=20&q=NOT%20open%20AND%20science)
+
+
+### Phrase search
+
+**Example:** [``"open science"``](https://zenodo.org/search?page=1&size=20&q="open%20science")
+
+Results will match records with the *phrase* ``open science`` in *any field*.
+
+### Field search
+
+**Example:** [``title:open``](https://zenodo.org/search?page=1&size=20&q=title:open)
+
+Results will match records with the *term* ``open`` in the *field* ``title``. If you want to search for multiple terms in the title you must **group the terms** using parenthesis:
+
+**Example:** [``title:(open science)``](https://zenodo.org/search?page=1&size=20&q=title:(open%20science%29)
+
+See the field reference below for the full list of fields you can search.
+
+### Combined simple, phrase or field search
+
+**Example:** [``+title:"open science" -title:policy``](https://zenodo.org/search?page=1&size=20&q=%2Btitle:%22open%20science%22%20-title:policy) or e.g. [``title:(-open +science)``](https://zenodo.org/search?page=1&size=20&q=title:(-open%20%2Bscience%29)
+
+You can combine simple, phrase and field search to construct advanced search queries.
+
+### Range search
+
+**Example:** [``publicationdate:[2017 TO 2018]``](https://zenodo.org/search?page=1&size=20&q=publicationdate:%5B2017%20TO%202018%5D) (note, you must capitalize ``TO``).
+
+Results will match any record with a publication date between 2017-01-01 and 2018-01-01 (both dates inclusive).
+
+Note that, partial dates are expanded to full dates, e.g.:
+
+- 2017 is expanded to 2017-01-01
+- 2017-06 is expanded to 2017-06-01
+
+Use square brackets (``[]``) for *inclusive* ranges and  use curly brackets (``{}``) for *exclusive* ranges, e.g.:
+
+- ``[2017 TO 2018}`` is equivalent to ``[2017-01-01 TO 2017-12-31]`` because of date expansion and exclusive upper bound.
+
+Examples of other ranges:
+
+- ``publication_date:{* TO 2017-01-01}``: All days until 2017.
+- ``publication_date:[2017-01-01 TO *]``: All days from 2017.
+- ``size:[1000000 TO *]``: File size bigger than 1MB.
+- ``size:>1000000``: File size bigger than 1MB.
+- ``size:>=1000000``: File size bigger than or equal to 1MB.
+
+### Ranking/Sorting
+
+By default all searches are sorted according to an internal ranking algorithm that scores each match against your query. In both the user interface and REST API, it's possible to sort the results by:
+
+- Most recent
+- Publication date
+- Title
+- Conference session
+- Journal
+- Version
+
+### Regular expressions
+
+Regular expressions are a powerful pattern matching language that allow to search for specific patterns in a field. For instance if we wanted to find all records with a DOI-prefix 10.5281 we could use a regular expression search:
+
+**Example:** [``doi:/10.5281\/.+/``](https://zenodo.org/search?page=1&size=20&q=doi:%2F10.5281%5C%2F.%2B%2F)
+
+Careful, the regular expression must match the *entire* field value. See the [regular expression syntax](https://www.elastic.co/guide/en/elasticsearch/reference/current/query-dsl-regexp-query.html#regexp-syntax) for further details.
+
+### Missing values
+
+It is possible to search for records that either are missing a value or have a value in a specific field using the ``_exists_`` and ``_missing_`` field names.
+
+**Example:** [``_missing_:notes``](https://zenodo.org/search?page=1&size=20&q=_missing_:notes) (all records without notes)
+
+**Example:** [``_exists_:notes``](https://zenodo.org/search?page=1&size=20&q=_exists_:notes) (all records with notes)
+
+### Advanced concepts
+
+#### Boosting
+
+You can use the boost operator ``^`` when one term is more relevant than another. For instance, you can search for all records with the phrase *open science* in either *title* or *description* field, but rank records with the phrase in the *title* field higher:
+
+**Example:** [``title:"open science"^5 description:"open science"``](https://zenodo.org/search?page=1&size=20&q=title:%22open%20science%22%5E5%20description:%22open%20science%22)
+
+#### Fuzziness
+
+You can search for terms similar to but not exactly like your search term using the fuzzy operator ``~``.
+
+**Example:** [``oepn~``](https://zenodo.org/search?page=1&size=20&q=oepn~)
+
+Results will match records with terms similar to ``oepn`` which would e.g. also match ``open``.
+
+#### Proximity searches
+
+A phrase search like ``"open science"`` by default expect all terms in exactly the same order, and thus for instance would not match a record containing the phrase *"open access and science"*. A proximity search allows that the terms are not in the exact order and may include other terms inbetween. The degree of flexiblity is specified by an integer afterwards:
+
+**Example:** [``"open science"~5``](https://zenodo.org/search?page=1&size=20&q=%22open%20science%22~5)
+
+#### Wildcards
+
+You can use wildcards in search terms to replace a single character (using ``?`` operator) or zero or more characters (using ``*`` operator).
+
+**Example:** [``ope? scien*``](https://zenodo.org/search?page=1&size=20&q=ope%3F%20scien*)
+
+Wildcard searches can be slow and should normally be avoided if possible.
+
+----
+
+## Fields reference
+
+The table below list the data type of each field. Below is a quick description
+of what each data type means and what is possible.
+
+- **string**: Field does not require exact match (example field: ``title``).
+- **string (exact)**: Field requires exact match (example field: ``doi``).
+- **CV**: Controlled vocabularies are similar to "string (exact)" but takes only a specific list of values.
+- **integer**: A number (range queries possible).
+- **datetime**: An ISO8601 date or datetime, e.g. ``2017-12-31`` (range queries possible).
+- **boolean**: ``true`` or ``false``.
+
+
+| Field name | Type  | Notes  |
+|---|---|---|---|
+| ``access_conditions``  | string  |  |   |
+| ``accessrights``  | CV  |  See "Access rights (CV)" below. |   |
+| ``alternate_identifiers.identifier`` |  string (exact) |   |   |
+| ``alternate_identifiers.scheme`` |  CV | See "Identifier schemes (CV)" below.  |   |
+| ``communities`` | string (exact) |  Identifier of community. |   |
+| ``conceptdoi`` | string (exact)  | Related to DOI versioning.  |   |
+| ``contributors.\*`` |  string  |  Contributors name, affiliation, type and ORCID |   |
+| ``contributors.affiliation`` | string  |  |   |
+| ``contributors.name`` |  string |   |   |
+| ``contributors.orcid`` | string (exact) |   |   |
+| ``contributors.type`` | CV  |  See "Contributor types (CV)" below.  |   |
+| ``created``  | datetime  |  Creation timestamp of record in Zenodo. |   |
+| ``creators.\*``  | string  |   |   |
+| ``creators.affiliation``  | string  |   |   |
+| ``creators.name``  | string  |   |   |
+| ``creators.orcid``  | string (exact)  |   |   |
+| ``description``  | string  |   |   |
+| ``doi`` | string (exact)  |   |   |
+| ``embargodate``  | datetime  |   |   |
+| ``filecount`` | integer  | Number of files in record.  |   |
+| ``filename`` | string (exact)  |   |   |
+| ``filetype`` | string (exact) | File extension (e.g. ``pdf``).  |   |
+| ``grants.\*`` | string  |   |   |
+| ``grants.acronym`` | string |   |   |
+| ``grants.code`` | string (exact) |   |   |
+| ``grants.funder.\*`` | string  |   |   |
+| ``grants.funder.acronyms`` | string  |   |   |
+| ``grants.funder.doi`` | string (exact)  | Open Funder Registry DOI |   |
+| ``grants.funder.name`` | string  |   |   |
+| ``grants.program`` | string  |   |   |
+| ``grants.title`` |  string |   |   |
+| ``imprint.\*`` | string  |   |   |
+| ``imprint.place`` | string  |   |   |
+| ``imprint.publisher`` | string |   |   |
+| ``isbn``  | string (exact)  |   |   |
+| ``journal.\*`` | string  |   |   |
+| ``journal.issue`` | string |   |   |
+| ``journal.pages`` | string |   |   |
+| ``journal.title`` | string |   |   |
+| ``journal.volume`` | string  |   |   |
+| ``journal.year`` | string |   |   |
+| ``keywords`` | string  |   |   |
+| ``language`` | CV  |  ISO639 two or three letter language code. |   |
+| ``license.\*`` | string |   |   |
+| ``license.identifier`` | CV  |   |   |
+| ``license.license`` | string (exact) |   |   |
+| ``license.url`` | string (exact) |   |   |
+| ``meeting.\*`` |  string |   |   |
+| ``meeting.acronym`` |  string (exact)  |   |   |
+| ``meeting.dates`` | string  |   |   |
+| ``meeting.place`` | string  |   |   |
+| ``meeting.session_part`` |  string (exact)  |   |   |
+| ``meeting.session`` | string (exact)  |   |   |
+| ``meeting.title`` | string |   |   |
+| ``meeting.url`` | string (exact) |   |   |
+| ``notes``  | string  |   |   |
+| ``owners`` | integer |   |   |
+| ``part_of.\*`` | string |   |   |
+| ``part_of.pages`` | string  |   |   |
+| ``part_of.title`` | string  |   |   |
+| ``publicationdate``  | datetime  | Date of publication (see also ``created`` and ``updated`` fields).  |   |
+| ``recid`` | integer  |  Zenodo specific record identifier. |   |
+| ``references.\*`` | string |   |   |
+| ``related_identifiers.identifier`` | string (exact)  |   |   |
+| ``related_identifiers.relation`` | CV  | See "Relations (CV)" below.  |   |
+| ``related_identifiers.scheme`` | CV  | See "Identifier schemes (CV)" below.  |   |
+| ``relations.version.count``  | integer  |  Number of versions of record. |   |
+| ``resource_type.subtype`` | CV  | See "Resource types (CV)" below.  |   |
+| ``resource_type.type`` | CV  | See "Resource types (CV)" below.  |   |
+| ``size`` | integer | File size in bytes.  |   |
+| ``thesis.supervisors.affiliation`` | string  |   |   |
+| ``thesis.supervisors.name`` | string  |   |   |
+| ``thesis.supervisors.orcid`` | string (exact)  |   |   |
+| ``thesis.university`` | string  |   |   |
+| ``title``  | string  |   |   |
+| ``type``  | CV  | See also ``resource_type`` field, as well as "Resource types (CV)" below.  |   |
+| ``updated``  | datetime  | Timestamp of last update to record  |   |
+| ``version``  | string  |  Version information text (e.g. ``v1.0.2``) |   |
+
+#### Resource types (CV)
+
+- ``publication``
+- ``poster``
+- ``presentation``
+- ``dataset``
+- ``image``
+- ``video``
+- ``software``
+- ``lesson``
+- ``other``
+
+#### Access rights (CV)
+
+- ``open`` - Open access (see field also ``license``).
+- ``closed`` - Closed access (access to files only by owner).
+- ``embargoed`` - Embargoed access (see also field ``embargodate`` and ``license``).
+- ``restricted`` - Restricted access (see also  field ``access_conditions``).
+
+#### Identifier schemes (CV)
+
+- ``ads``
+- ``ark``
+- ``arxiv``
+- ``bibcode``
+- ``doi``
+- ``ean13``
+- ``ean8``
+- ``eissn``
+- ``gnd``
+- ``handle``
+- ``isbn``
+- ``issn``
+- ``istc``
+- ``lissn``
+- ``lsid``
+- ``orcid``
+- ``pmcid``
+- ``pmid``
+- ``purl``
+- ``upc``
+- ``url``
+- ``urn``
+
+#### Relations (CV)
+
+- ``cites``
+- ``compiles``
+- ``continues``
+- ``documents``
+- ``hasMetadata``
+- ``hasPart``
+- ``isCitedBy``
+- ``isCompiledBy``
+- ``isContinuedBy``
+- ``isDerivedFrom``
+- ``isDocumentedBy``
+- ``isIdenticalTo``
+- ``isMetadataFor``
+- ``isNewVersionOf``
+- ``isOrignialFormOf``
+- ``isPartOf``
+- ``isPreviousVersionOf``
+- ``isReferencedBy``
+- ``isReviewedBy``
+- ``isSourceOf``
+- ``isSupplementedBy``
+- ``isSupplementTo``
+- ``isVariantFormOf``
+- ``references``
+- ``reviews``
+
+#### Contributor types (CV)
+
+- ``ContactPerson``
+- ``DataCollector``
+- ``DataCurator``
+- ``DataManager``
+- ``Distributor``
+- ``Editor``
+- ``Funder``
+- ``HostingInstitution``
+- ``Other``
+- ``Producer``
+- ``ProjectLeader``
+- ``ProjectManager``
+- ``ProjectMember``
+- ``RegistrationAgency``
+- ``RegistrationAuthority``
+- ``RelatedPerson``
+- ``ResearchGroup``
+- ``RightsHolder``
+- ``Researcher``
+- ``Sponsor``
+- ``Supervisor``
+- ``WorkPackageLeader``
