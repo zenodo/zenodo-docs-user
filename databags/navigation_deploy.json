@@ -5,6 +5,7 @@
   "blog-pagination-all": "/all",
   "help": [
     ["/", "FAQ"],
+    ["/guides/search/", "Search Guide"],
     ["/features/", "Features"],
     ["/whatsnew/", "What's New"]
   ],
