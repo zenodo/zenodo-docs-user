@@ -9,21 +9,17 @@ body:
 Visit the new search guide on
 [http://help.zenodo.org/guides/search/](http://help.zenodo.org/guides/search/).
 
-Users mostly search on Zenodo using just keywords, similar to how they
-would search on Google or another other big search engine. Keywords are however
-not always enough if you're looking for something very specific. Therefore, we
-have today launched a
-[new help guide](http://help.zenodo.org/guides/search/), explaining how you can
-make advanced search queries on Zenodo.
+Users mostly search on Zenodo using only keywords, similarly to how they
+would search for something on Google or any other other search engine.
+Keywords are, however, not always enough if you're looking for something specific.
+Therefore today, we have launched a [search help guide](http://help.zenodo.org/guides/search/), explaining in detail how you can make use of Zenodo's advanced search features.
 
-The guide explains basic concepts of
-simple field searches (e.g. search only the title field) as well as advanced
-concepts such as range searches (e.g. search for publication dates between 2010
-and 2011). The guide also includes a full reference of all the available fields
-you can search on, so you can construct exactly the search you need.
+The guide explains basic concepts of simple field searches, e.g., searching only within the title field,
+as well as advanced concepts such as range searches, e.g., searching for publications dated between 2010
+and 2011. The guide also includes a full reference of all available fields you can search on, so you can construct the exact search query you need.
 
-![Search guide for Zenodo](search-guide.png)
+![Search guide for Zenodo](advanced-search.gif)
 
-Our search engine is underneath the hood powered by
-[Elasticsearch](https://en.wikipedia.org/wiki/Elasticsearch), the
+Under the hood our search engine is powered by
+[Elasticsearch](https://en.wikipedia.org/wiki/Elasticsearch) - the
 most powerful open source search engine available on the market today.
