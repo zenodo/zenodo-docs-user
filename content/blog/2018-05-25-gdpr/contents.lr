@@ -1,0 +1,27 @@
+title: Zenodo and General Data Protection Regulation (GDPR)
+---
+author: lnielsen
+---
+body:
+
+The General Data Protection Regulation (GDPR) takes effect in Europe on May 25, 2018. The GDPR provides a legal framework for the collection and processing personal information for people in the European Union (EU). The goal is to provide individuals with more control over their personal data.
+
+Zenodo is hosted at CERN, which is an Inter-Governmental Organization (IGO), with its seat in Switzerland. Despite the fact that this means CERN has a special status, we are striving for the same high standards of data protection afforded by GDPR. In fact the GPDR has provisions covering data transfer to/from IGOs and the concept of "adequate protection", i.e. qualified as equivalent. This is what we will offer in Zenodo.
+
+CERN takes seriously the privacy and protection of personal information, and have appointed a Data Protection Officer and, as mentioned above, are working on policies to ensure CERN is compatible with GDPR.
+
+Specifically on Zenodo, we are taking the following actions:
+
+- Review and update our Privacy Policy to provide specific information about what data we collect, how we use it and when we delete it.
+- Assess our collecting of personal information.
+- Evaluate and ensure that any third-party tools and services are GDPR compatible.
+
+If you wish to review the personally identifiable information about you maintained by Zenodo, or would like your information removed from our records, you may [contact us](https://zenodo.org/support) anytime.
+
+More information:
+
+- [Zenodo's privacy policy](http://about.zenodo.org/privacy-policy/)
+- [CERN Office for Data Protection](https://odpp.web.cern.ch)
+- [CERN Data Privacy Protection Statement](https://home.cern/data-privacy-protection-statement)
+---
+date: 2018-05-25
