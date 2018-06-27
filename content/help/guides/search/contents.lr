@@ -129,7 +129,7 @@ Wildcard searches can be slow and should normally be avoided if possible.
 
 ## Fields reference
 
-The table below list the data type of each field. Below is a quick description
+The table below lists the data type of each field. Below is a quick description
 of what each data type means and what is possible.
 
 - **string**: Field does not require exact match (example field: ``title``).
