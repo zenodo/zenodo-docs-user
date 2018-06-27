@@ -83,7 +83,7 @@ By default all searches are sorted according to an internal ranking algorithm th
 
 Regular expressions are a powerful pattern matching language that allow to search for specific patterns in a field. For instance if we wanted to find all records with a DOI-prefix 10.5281 we could use a regular expression search:
 
-**Example:** [``doi:/10.5281\/.+/``](https://zenodo.org/search?page=1&size=20&q=doi:%2F10.5281%5C%2F.%2B%2F)
+**Example:** [``doi:/10\.5281\/.+/``](https://zenodo.org/search?page=1&size=20&q=doi:%2F10%5C.5281%5C%2F.%2B%2F)
 
 Careful, the regular expression must match the *entire* field value. See the [regular expression syntax](https://www.elastic.co/guide/en/elasticsearch/reference/current/query-dsl-regexp-query.html#regexp-syntax) for further details.
 
