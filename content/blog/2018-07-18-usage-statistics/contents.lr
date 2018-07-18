@@ -1,35 +1,34 @@
 title: Usage statistics launched!
 ---
-author: lnielsen
+author: aioannidis
 ---
 body:
 
-We are happy to announce the launch of usage statistics on Zenodo. Today, you
-will find the number of visits and downloads on record pages, and you can sort
-search results by “most viewed”. Below is an example of how this looks for our
-most viewed record on Zenodo:
-
-< image of most viewed record > < image of sort by most viewed >
-
+We are happy to announce the launch of usage statistics on Zenodo. From today,
+you will find the number of views and downloads on record pages, and you can
+sort search results by
+[most viewed](https://zenodo.org/search?sort=mostviewed).
 By default we roll-up usage statistics for all versions of a record. However,
 it is also possible to see detailed usage statistics for the specific version
 of a record.
 
-< image of expanded statistics >
-
+### Privacy and standards compliant
 We strongly believe in user’s right to privacy, thus we have spend a lot of
 time to design our system to ensure all tracking is completely anonymized. Our
 usage statistics is further tracked according to industry standards such as
 the [COUNTER Code of Practice](https://www.projectcounter.org/code-of-practice-sections/general-information/)
 as well as the [Code of Practice for Research Data Usage Metrics](https://peerj.com/preprints/26505/)
-and thus allows you to compare metrics from Zenodo with other repositories. You
-can read much more about this, and exactly how and what we track in our [FAQ](http://help.zenodo.org/#statistics).
+and thus allows you to compare metrics from Zenodo with other compliant
+repositories. You can read much more about this, and exactly how and what we
+track in our [FAQ](http://help.zenodo.org/#statistics).
 
 The launch today, also only marks the beginning. We will later also be adding
 usage statistics e.g for your communities, so stay tuned!
 
 If you have any questions or feedback (positive and negative) don’t hesitate
 to [get in touch](https://zenodo.org/support) with us.
+
+![Zenodo Usage Statistics](usage-stats.png)
 
 ---
 date: 2018-07-18
