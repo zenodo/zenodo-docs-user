@@ -415,7 +415,7 @@ category: statistics-col1
 #### qaitem ####
 question: How can I see the most viewed records?
 ----
-answer: Any search on Zenodo allows you to sort the search results by "[most viewed](https://zenodo.org/search?sort=mostviews)".
+answer: Any search on Zenodo allows you to sort the search results by "[most viewed](https://zenodo.org/search?sort=mostviewed)".
 ----
 category: statistics-col1
 #### qaitem ####
