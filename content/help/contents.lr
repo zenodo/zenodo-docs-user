@@ -345,6 +345,147 @@ First check on above list if your funder is supported by Zenodo. If the funder i
 * OpenAIRE might not have your grant available in their database yet, because most often funders only provide their grant data on monthly or yearly basis, and often only in formats that require significant manual efforts to import.
 ----
 category: openaire-col2
+#### qaitem ####
+question: What do you track?
+----
+answer:
+
+We track two types of events:
+
+1. Visits of a record page
+2. Downloads of a file
+
+For both types of events, we track:
+
+1. If the request was made by a human, machine or a robot
+2. The country of origin of the request (based on the IP address)
+3. The referrer domain
+4. An anonymized visitor ID
+----
+category: statistics-col1
+#### qaitem ####
+question: What is a *view*?
+----
+answer: A user (human or machine) visiting a record, excluding double-clicks and robots.
+----
+category: statistics-col1
+#### qaitem ####
+question: What is a *unique view*?
+----
+answer: A *unique view* is defined as one or more visits by a user within a 1-hour time-window. This means that if the same record was accessed multiple times by the same user within the same time-window, we consider it as one unique view.
+----
+category: statistics-col1
+#### qaitem ####
+question: What is a *download*?
+----
+answer: A user (human or machine) downloading a file from a record, excluding double-clicks and robots. If a record has multiple files and you download all files, each file counts as one download.
+----
+category: statistics-col1
+#### qaitem ####
+question: What is a *unique download*?
+----
+answer: A *unique download* is defined as one or more file downloads from files of a single record by a user within a 1-hour time-window. This means that if one or more files of the same record were downloaded multiple times by the same user within the same time-window, we consider it as one unique download.
+----
+category: statistics-col1
+#### qaitem ####
+question: What is a *downloaded data volume*?
+----
+answer: The total data volume that has been downloaded for all files in a record by a user (human or machine), excluding double-clicks and robots. In case though, a user cancels a file download, we still count the total file size as downloaded data volume.
+----
+category: statistics-col1
+#### qaitem ####
+question: How do you deal with versions?
+----
+answer: By default, for a record, we display the aggregated counts of views, downloads and data volume for all versions of a record. You can further expand the usage statistics box on a record page to see the counts for the specific version.
+----
+category: statistics-col1
+#### qaitem ####
+question: How do you deal with robots?
+----
+answer: Requests made by robots (aka crawlers, spiders, bots) are filtered out from the usage statistics. We detect robots based on a standardized list of robots provided by the [COUNTER](https://www.projectcounter.org/) and [Making Data Count](http://mdc.lagotto.io/) projects.
+----
+category: statistics-col1
+#### qaitem ####
+question: How often do you update usage statistics?
+----
+answer: Hourly.
+----
+category: statistics-col1
+#### qaitem ####
+question: How can I see the most viewed records?
+----
+answer: Any search on Zenodo allows you to sort the search results by “most viewed.”
+----
+category: statistics-col1
+#### qaitem ####
+question: How do you track?
+----
+answer: We comply with the [COUNTER Code of Practice](https://www.projectcounter.org/code-of-practice-sections/general-information/) as well as the [Code of Practice for Research Data Usage Metrics](https://peerj.com/preprints/26505/) in our tracking. This means that our usage statistics can be compared with other COUNTER-compliant repositories.
+----
+category: statistics-col2
+#### qaitem ####
+question: What is the difference between a machine and a robot?
+----
+answer: A machine request is an automated request initiated by a human user, e.g. a script downloading data from Zenodo and running an analysis on the data. A robot request is an automated request made by e.g. a search engine crawler.
+----
+category: statistics-col2
+#### qaitem ####
+question: How do you anonymize users?
+----
+answer:
+
+* For each view/download event, we track an anonymized visitor ID. This anonymized visitor ID changes for a user every 24 hours, hence a user viewing the same record on two different days will have two different anonymized visitor IDs. The reason we track an anonymized visitor ID is in order to count unique views and downloads.
+* For security purposes, we keep a web server access log which includes your IP address and your browser’s user agent string. This web server access log is automatically deleted after maximum 1-year and is also strictly separated from the usage statistics collection.
+* The anonymized visitor ID is generated from a personal identifier such as:
+  1. a user ID
+  2. a session ID
+  3. or an IP address and your browser’s user-agent string
+
+  We combine the personal identifier with a random text value (a salt) and apply a one-way strong cryptographic hash function to scramble the data. The salt (random text value) is thrown away and regenerated every 24 hours.
+----
+category: statistics-col2
+#### qaitem ####
+question: Can I opt-out of the usage statistics tracking?
+----
+answer: No, it is not possible to opt-out. The usage statistics tracking is fully anonymized and is done on the server-side.
+----
+category: statistics-col2
+#### qaitem ####
+question: Who do you share usage statistics with?
+----
+answer: We share aggregated usage statistics with [OpenAIRE Usage Statistics](https://www.openaire.eu/openaire-guide-for-usage-statistics) as well as the [DataCite Sashimi](https://github.com/datacite/sashimi) service. Note, that these are aggregated usage statistics that do not even include the anonymized visitor IDs.
+----
+category: statistics-col2
+#### qaitem ####
+question: What do you share with third parties?
+----
+answer: We share only aggregated usage statistics with third-parties. We never share the raw usage statistics events, even though these usage statistics events are fully anonymized.
+----
+category: statistics-col2
+#### qaitem ####
+question: How did you get usage statistics from 2013 until 2018?
+----
+answer: From 2013, we have been using a self-hosted Piwik instance to track usage statistics for zenodo.org. We were able to extract record views and downloads from this Piwik instance. Studies have however shown that Piwik fails at counting as much as 40-50% of the actual visits to a site.
+----
+category: statistics-col2
+#### qaitem ####
+question: Do you support usage statistics for a community?
+----
+answer: Not yet, but we will be adding aggregated usage statistics for your communities.
+----
+category: statistics-col2
+#### qaitem ####
+question: Do you track my search queries?
+----
+answer: No.
+----
+category: statistics-col2
+#### qaitem ####
+question: Do you do manual or automatic profiling of users?
+----
+answer: No.
+----
+category: statistics-col2
 ---
 bottomtext: ## Couldn't find the answer to your question? [Contact us](https://zenodo.org/support).
 ---
