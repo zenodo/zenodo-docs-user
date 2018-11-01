@@ -17,7 +17,7 @@ answer:
 
 Once the record has been published, you can no longer change the files in the record, nonetheless, there are several options:
 1. If the record has a Zenodo DOI (prefix: ``10.5281``):
- * The recommended way is to create a new version of a record (more details availabe [here](/#versioning)).
+ * The recommended way is to create a new version of a record (more details available [here](/#versioning)).
    Most of the cases fall under this category, which include modifications of the dataset/software, addition or removal of files, new versions of datasets, software or revisions of the papers, including major revisions as well typos and formatting/styling.
  * Exceptionally, we allow small modifications to the record's files, if and only if the record was published recently (less than one week). If you have spotted mistakes such as typos, accidental omission of important files/inclusion of hidden files or confidential files and would like to update them, please contact us.
 1. If the record has a non-Zenodo DOI:
@@ -236,13 +236,13 @@ answer:
 
 Including semantic information such as the version number in a DOI is bad practice, because this information may change over time, while DOIs must remain persistent and should not change.
 
-Moveover, Zenodo DOI versioning is linear, which means that the Zenodo version number may in fact not be the real version number of the resource. Take for instance software, where it is common practice to have dot versions and make new releases in a non-linear order (e.g. first v1.0, then v1.1, then v2.0, then v1.2).
+Moreover, Zenodo DOI versioning is linear, which means that the Zenodo version number may in fact not be the real version number of the resource. Take for instance software, where it is common practice to have dot versions and make new releases in a non-linear order (e.g. first v1.0, then v1.1, then v2.0, then v1.2).
 
-The versioning suffix is also not a functionality of the DOI system, i.e. adding .v2 to DOI will not resolve to version 2 of a resource for any DOI from any provider. Different providers also uses different patterns such as e.g. .v2, .2, /2.
+The versioning suffix is also not a functionality of the DOI system, i.e. adding .v2 to DOI will not resolve to version 2 of a resource for any DOI from any provider. Different providers also use different patterns such as e.g. .v2, .2, /2.
 
 Most importantly, version suffixes are not machine readable. A discovery system that understands DOIs, will not know that .v1 and .v2 of a DOI are in fact two versions of the same resource.
 
-A better solution to this problem is to semantically link two DOIs in the metadata of a DOI. This ensures that discovery systems have a machine readable way to discover that two DOIs are versions of the same resource.
+A better solution to this problem is to semantically link two DOIs in the metadata of a DOI. This ensures that discovery systems have a machine-readable way to discover that two DOIs are versions of the same resource.
 
 See also [Cool DOIs](https://doi.org/10.5438/55E5-T5C0) blog post by Martin Fenner, DataCite Technical Director.
 ----
@@ -339,7 +339,7 @@ question: Why is my grant is not available in Zenodo?
 ----
 answer:
 
-First check on above list if your funder is supported by Zenodo. If the funder is supported it can be that your grant is to new to appear in the database:
+First check on above list if your funder is supported by Zenodo. If the funder is supported it can be that your grant is too new to appear in the database:
 
 * Zenodo relies on OpenAIRE’s grant database which we harvest once a week, so if the grant exists in the OpenAIRE database we will import it on the next update.
 * OpenAIRE might not have your grant available in their database yet, because most often funders only provide their grant data on monthly or yearly basis, and often only in formats that require significant manual efforts to import.
