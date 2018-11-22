@@ -8,7 +8,15 @@
     "img": "/static/img/authors/lnielsen.jpg"
   },
   "aioannidis": {
-    "name": "Alexander Ioannidis",
+    "name": "Alex Ioannidis",
     "img": "/static/img/authors/aioannidis.jpg"
+  },
+  "chiarabi": {
+    "name": "Chiara Bigarella",
+    "img": "/static/img/authors/chiarabi.jpg"
+  },
+  "francois": {
+    "name": "Francois Decourcelle",
+    "img": "/static/img/authors/francois.png"
   }
 }
