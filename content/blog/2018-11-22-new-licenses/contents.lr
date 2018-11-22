@@ -1,0 +1,26 @@
+title: New (and old) licenses are here!
+---
+author: aioannidis
+---
+body:
+
+Today, we're pleased to announce the extension of the available selection of
+licenses that you can apply to your Zenodo uploads. The extra licenses include
+older and newer versions of existing licenses, as well as completely new
+entries.
+
+![New licenses](new-licenses-demo.gif)
+
+Our database now contains more than **400 licenses** that you can search for
+and select when you create your upload. All these new licenses are coming from
+[SPDX.org](https://spdx.org/), which we have added as another one of the
+sources we harvest for licenses metadata.
+
+If you are interested in getting a machine-readable extensive list of all the
+licenses you can do so by accessing our [Licenses REST
+API](https://developers.zenodo.org/#licenses). If you cannot find the license
+you want for your new upload, please drop us a message via our [support
+form](https://zenodo.org/support).
+
+---
+date: 2018-11-22
