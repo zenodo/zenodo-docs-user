@@ -490,6 +490,187 @@ question: Do you do any manual or automatic profiling of users?
 answer: No.
 ----
 category: statistics-col2
+#### qaitem ####
+question: Can I sort search results by most cited?
+----
+answer:
+
+No, however we do plan to make this possible.
+----
+category: citations-col1
+#### qaitem ####
+question: Which citations are shown on my record?
+----
+answer:
+
+We by default roll-up citations to **all versions** of your record in order to show its full impact.
+
+You can however use the filter "Citations to this version" to show only citations to the specific version of a record you are viewing.
+
+----
+category: citations-col1
+#### qaitem ####
+question: Which records show citations?
+----
+answer:
+
+We display citations if available for all records in Zenodo.
+----
+category: citations-col1
+#### qaitem ####
+question: Why does my record not show any citations?
+----
+answer:
+
+Your record might not show any citations because:
+
+1. The record has not yet been cited.
+2. The citations to your record have not yet been discovered by any of our citation data sources.
+3. The domain of your record is not covered by any of our citation data sources.
+4. The citations are not freely available.
+----
+category: citations-col1
+#### qaitem ####
+question: In which domains do you have good citation data coverage?
+----
+answer:
+
+Currently (January 2019) we primarily cover:
+
+- Astronomy and astrophysics
+
+We also receive citation data from cross-domain citation data sources, however often the coverage is not good as it relies on publishers to make the citation data freely available (which some big publishers do not do).
+----
+category: citations-col1
+#### qaitem ####
+question: Who are your citation data sources?
+----
+answer:
+
+We are currently receving citation data from:
+
+- [NASA Astrophysics Data System](https://ui.adsabs.harvard.edu/) (astronomy and astrophysics).
+- [DataCite](https://www.datacite.org/eventdata.html) and [Crossref](https://www.eventdata.crossref.org/guide/index.html) Event Data (cross-domain)
+
+We plan to expand this list with further data sources. Do not hesitate to get in contact with us, if you are interested in becoming a citation data source.
+----
+category: citations-col1
+#### qaitem ####
+question: How many citations are available?
+----
+answer:
+
+At launch (January 2019), around 2500 records have a minimum of one citation with a total of around 3500 total citations (about half from ADS and half from Crossref/DataCite Event Data). Only around 250 out of the 3500 citations are known by both systems.
+----
+category: citations-col1
+#### qaitem ####
+question: Why the beta label?
+----
+answer:
+
+Currently our infrastructure is feature complete, however we are still expanding our citation data sources in order to have better coverage. We will remove the beta label as soon as we reached a better coverage.
+----
+category: citations-col1
+#### qaitem ####
+question: When do you expect to remove the beta label?
+----
+answer:
+
+Working with citation data sources and checking the data quality takes time and thus we expect that we may stay in beta until first-half of 2020.
+----
+category: citations-col1
+#### qaitem ####
+question: How often are citations updated?
+----
+answer:
+
+New citations from our citation data sources are made available minimum once a day.
+----
+category: citations-col1
+#### qaitem ####
+question: Which data source provided a specific citation?
+----
+answer:
+
+Each citation shows a small question mark icon to the right, which if you hover the mouse over will display the tooltip containing the list of all data sources which provided the link.
+----
+category: citations-col2
+#### qaitem ####
+question: Do you deduplicate citations?
+----
+answer:
+
+Yes. We may receive the same citation from multiple data sources. The deduplication is purely based on synonymous persistent identifiers.
+----
+category: citations-col2
+#### qaitem ####
+question: Can I manually add citations?
+----
+answer:
+
+No, this is unfortunately not possible. We may allow this in the future but quality checking and spam detection make this non-trivial.
+
+If you run a discovery system with citation data you can however become a data source. [Contact us](http://zenodo.org/support) for further information.
+----
+category: citations-col2
+#### qaitem ####
+question: I found an wrong citation, what do I do?
+----
+answer:
+
+Please [contact us](http://zenodo.org/support).
+----
+category: citations-col2
+#### qaitem ####
+question: Why does my citation not have a title?
+----
+answer:
+
+We usually receive citation data as a link between two persistent identifiers (e.g. "DOI A cites DOI B") without any metadata. We therefore have to automatically retrieve metadata such as title, authors and publication year from other services. This automatic fetching of metadata however is sometimes not able to find any available metadata, in which case we only display the persistent identifier.
+----
+category: citations-col2
+#### qaitem ####
+question: Do you provide aggregated citation metrics for authors?
+----
+answer:
+
+No.
+----
+category: citations-col2
+#### qaitem ####
+question: Do you provide aggregated citation metrics for communities?
+----
+answer:
+
+No.
+----
+category: citations-col2
+#### qaitem ####
+question: Which system do you use for citation tracking?
+----
+answer:
+
+Zenodo is using a citation brokering software built for the Asclepias project called [Asclepias Broker](https://asclepias-broker.readthedocs.io/). The software is open sourced under the MIT license.
+
+The Asclepias Broker exposes an API by which multiple citation data sources can send citation data in the [Scholix format](http://www.scholix.org/).
+----
+category: citations-col2
+#### qaitem ####
+question: What is The Asclepias Project?
+----
+answer:
+
+Asclepias is an Alfred P. Sloan Foundation funded project to improve software citation across Astronomy.
+
+The goal is to promote scientific software into an identifiable, citable, and preservable object. The focus is on the needs of 1) authors of scholarly manuscripts and 2) developers of scientific software.
+
+The project partners include:
+
+- American Astronomical Society (AAS)
+- NASA Astrophysics Data System (ADS)
+- CERN (Zenodo)
+----
+category: citations-col2
 ---
 bottomtext: ## Couldn't find the answer to your question? [Contact us](https://zenodo.org/support).
 ---
