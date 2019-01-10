@@ -1,0 +1,43 @@
+title: Software citations now available in Zenodo
+---
+author: lnielsen
+---
+body:
+
+We are proud to announce the release of enhancements which significantly facilitate scientific software citation and discovery. These represent the successful outcome of the Asclepias project, funded by the [Alfred P. Sloan Foundation](https://sloan.org), and involving the [American Astronomical Society](https://aas.org), [NASA ADS](https://ui.adsabs.harvard.edu) bibliographic index and the [Zenodo](https://www.zenodo.org) repository.
+
+### NASA Astrophysics Data System
+
+The NASA ADS now extracts and indexes cited software repositories published with the [DataCite](https://www.datacite.org) registry, making them discoverable through its platform and resulting in new metrics for software use and reuse in astronomical research.
+
+![NASA ADS](ads.png)
+
+### Zenodo
+
+Zenodo, using [citation brokering software](https://asclepias-broker.readthedocs.io/) built for the Asclepias project, receives software citations from ADS and other sources, and displays them on the repository's software records.
+
+![Zenodo citations](zenodo.png)
+
+### Discover and cite software
+
+These infrastructure updates provide important new tools for authors of research papers and developers of scientific software.
+
+- **Authors** can now find a wider selection of citable software records in ADS, which can be directly be incorporated into their manuscripts using the ADS tools that astronomers rely upon.
+
+- **Developers** who preserve their software by creating persistent citable entries, e.g. in Zenodo, can discover their software's reuse metrics right on their Zenodo repository's landing page.
+
+- **Astronomers**, who often work across such divisions, can use ADS to track all of their publication and software research outputs.
+
+### Tracking citations
+
+ADS and Zenodo rely upon a combination of full-text content from Publishers as well as metadata from the [DataCite](https://www.datacite.org) and [CrossRef](https://www.crossref.org) registries to provide these services. High fidelity indexing and tracking of software objects in the literature is thus dependent on careful, intentional work by developers, authors, and publishers when archiving and citing these digital objects. With these enhancements, ADS and Zenodo now provide citation minting and tracking capabilities which comply with the recommendations of the [Force11](https://doi.org/10.7717/peerj-cs.86) software citation implementation working group.
+
+**More information:**
+
+- [Zenodo FAQ on citations](http://help.zenodo.org/#citations)
+- [Example in Zenodo](https://doi.org/10.5281/zenodo.11813)
+- [Example in NASA ADS](https://ui.adsabs.harvard.edu/#abs/2014zndo.....11813N/abstract)
+- [Zenodo software records in NASA ADS](https://ui.adsabs.harvard.edu/#search/p_=0&q=doctype%3Asoftware%20bibstem%3Azndo&sort=citation_count%20desc%2C%20bibcode%20desc)
+
+---
+date: 2019-01-10
