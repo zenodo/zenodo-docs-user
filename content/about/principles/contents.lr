@@ -39,7 +39,7 @@ FAIR Principles definition as referenced from:
 - **A1**: (meta)data are retrievable by their identifier using a standardized communications protocol
  - Metadata for individual records as well as record collections are harvestable using the [OAI-PMH](https://zenodo.org/oai2d)
    protocol by the record identifier and the collection name.
- - Metadata is also retrievable through the public [REST API](http://developers.zenodo.org/).
+ - Metadata is also retrievable through the public [REST API](https://developers.zenodo.org/).
 - **A1.1**: the protocol is open, free, and universally implementable
  - See point A1. OAI-PMH and REST are open, free and univesal protocols for information retrieval on the web.
 - **A1.2**: the protocol allows for an authentication and authorization procedure, where necessary
@@ -51,9 +51,9 @@ FAIR Principles definition as referenced from:
 
 ### To be Interoperable:
 - **I1**: (meta)data use a formal, accessible, shared, and broadly applicable language for knowledge representation.
- - Zenodo uses [JSON Schema](http://json-schema.org) as internal representation of metadata and offers export to other popular formats such as [Dublin Core](http://dublincore.org) or [MARCXML](https://www.loc.gov/marc/marcxml.html).
+ - Zenodo uses [JSON Schema](https://json-schema.org) as internal representation of metadata and offers export to other popular formats such as [Dublin Core](http://dublincore.org) or [MARCXML](https://www.loc.gov/marc/marcxml.html).
 - **I2**: (meta)data use vocabularies that follow FAIR principles
- - For certain terms we refer to open, external vocabularies, e.g.: license ([Open Definition](http://opendefinition.org)), funders ([FundRef](https://www.crossref.org/services/funder-registry/)) and grants ([OpenAIRE](http://api.openaire.eu/)).
+ - For certain terms we refer to open, external vocabularies, e.g.: license ([Open Definition](https://opendefinition.org)), funders ([FundRef](https://www.crossref.org/services/funder-registry/)) and grants ([OpenAIRE](https://api.openaire.eu/)).
 - **I3**: (meta)data include qualified references to other (meta)data
  - Each referrenced external piece of metadata is qualified by a resolvable URL.
 
@@ -61,7 +61,7 @@ FAIR Principles definition as referenced from:
 - **R1**: (meta)data are richly described with a plurality of accurate and relevant attributes
  - Each record contains a minimum of DataCite's mandatory terms, with optionally additional DataCite recommended terms and Zenodo's enrichments.
 - **R1.1**: (meta)data are released with a clear and accessible data usage license
- - License is one of the mandatory terms in Zenodo's metadata, and is referring to a [Open Definition](http://opendefinition.org/) license.
+ - License is one of the mandatory terms in Zenodo's metadata, and is referring to an [Open Definition](https://opendefinition.org/) license.
  - Data downloaded by the users is subject to the license specified in the metadata by the uploader.
 - **R1.2**: (meta)data are associated with detailed provenance
  - All data and metadata uploaded is tracable to a registered Zenodo user.

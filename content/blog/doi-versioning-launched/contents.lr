@@ -14,6 +14,6 @@ DOI versioning support was one of our most requested features for Zenodo, and it
 
 This update comes hot on the heels of the recent relaunch which made Zenodo faster, improved GitHub integration, integrated support for Horizon 2020 grant information, and enabled 50 gigabyte uploads!
 
-Read more about the inner workings of new feature in the [DOI Versioning FAQ](http://help.zenodo.org#versioning).
+Read more about the inner workings of new feature in the [DOI Versioning FAQ](https://help.zenodo.org#versioning).
 
 ![DOI versioning for Zenodo](screenshot2.png)

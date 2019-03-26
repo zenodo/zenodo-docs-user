@@ -19,9 +19,9 @@
     ["/contact/", "Contact"]
   ],
   "main": [
-    ["http://about.zenodo.org", "About"],
-    ["http://blog.zenodo.org", "Blog"],
-    ["http://help.zenodo.org", "Help"],
-    ["http://developers.zenodo.org", "Developers"]
+    ["https://about.zenodo.org", "About"],
+    ["https://blog.zenodo.org", "Blog"],
+    ["https://help.zenodo.org", "Help"],
+    ["https://developers.zenodo.org", "Developers"]
   ]
 }

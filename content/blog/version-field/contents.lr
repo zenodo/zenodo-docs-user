@@ -9,7 +9,7 @@ The addition is part of our efforts to make software a citable, first-class citi
 
 ![Deposit form](version-field.png)
 
-At the moment the field accepts any kind of text as input, although we strongly suggest that you use [semantic versioning](http://semver.org/) for machine-readability.
+At the moment the field accepts any kind of text as input, although we strongly suggest that you use [semantic versioning](https://semver.org/) for machine-readability.
 
 The version field is directly integrated within our search results and record pages.
 

@@ -47,7 +47,7 @@ answer:
 
 All research outputs from all fields of science are welcome.
 In the upload form you can choose between types of files: publications (book, book section, conference paper, journal article, patent, preprint, report, thesis, technical note, working paper, etc.), posters, presentations, datasets, images (figures, plots, drawings, diagrams, photos), software, videos/audio and interactive materials such as lessons.
-Please see further information in our [Terms of Use](http://about.zenodo.org/terms) and [Policies](http://about.zenodo.org/policies).
+Please see further information in our [Terms of Use](https://about.zenodo.org/terms) and [Policies](https://about.zenodo.org/policies).
 ----
 category: policies
 #### qaitem ####
@@ -111,7 +111,7 @@ answer:
 
 Since there isn't a unique way of licensing openly and nor a consensus on the practice of adding attribution restrictions, we accept data under a variety of licenses in order to be inclusive.
 We will, however, take an active lead in signaling the extra benefits of the most open licenses, in terms of visibility and credit, and offer additional services and upload quotas on such data to encourage using them.
-This follows naturally from the publications policy of the [OpenAIRE initiative](http://www.openaire.eu), which has been supporting Open Access throughout, but since it aims to gather all European Commission/European Research Area research results, it allows submission of material that is not yet Open Access.
+This follows naturally from the publications policy of the [OpenAIRE initiative](https://www.openaire.eu), which has been supporting Open Access throughout, but since it aims to gather all European Commission/European Research Area research results, it allows submission of material that is not yet Open Access.
 ----
 category: general
 #### qaitem ####
@@ -123,13 +123,13 @@ OpenAIRE Orphan Record Repository got a make-over and was re-branded as Zenodo.
 If you deposited your article in OpenAIRE Orphan Record Repository, it is also available in Zenodo.
 However, your user account was not transferred to Zenodo, so you will have to [register](https://zenodo.org/signup/) again.
 If you register with the same email address in Zenodo as you used in OpenAIRE Orphan Record Repository, you will still have access to your publications.
-Don't hesitate to [contact us](http://about.zenodo.org/contact) for further information.
+Don't hesitate to [contact us](https://about.zenodo.org/contact) for further information.
 ----
 category: general
 #### qaitem ####
 question: Where does the name come from?
 ----
-answer: Zenodo is derived from [Zenodotus](http://en.wikipedia.org/wiki/Zenodotus), the first librarian of the Ancient Library of Alexandria and father of the first recorded use of metadata, a landmark in library history.
+answer: Zenodo is derived from [Zenodotus](https://en.wikipedia.org/wiki/Zenodotus), the first librarian of the Ancient Library of Alexandria and father of the first recorded use of metadata, a landmark in library history.
 ----
 category: general
 #### qaitem ####
@@ -138,7 +138,7 @@ question: How much digital storage-space does CERN have available?
 answer:
 
 Zenodo is currently a drop in the ocean.
-CERN stores more than 100PB (petabytes) of physics data from the [Large Hadron Collider (LHC)](http://home.web.cern.ch/about/accelerators/large-hadron-collider), and produces roughly 25PB per year when the LHC is running.
+CERN stores more than 100PB (petabytes) of physics data from the [Large Hadron Collider (LHC)](https://home.web.cern.ch/about/accelerators/large-hadron-collider), and produces roughly 25PB per year when the LHC is running.
 ----
 category: general
 #### qaitem ####
@@ -403,7 +403,7 @@ category: statistics-col1
 #### qaitem ####
 question: How do you deal with robots?
 ----
-answer: Requests made by robots (aka crawlers, spiders, bots) are filtered out from the usage statistics. We detect robots based on a standardized list of robots provided by the [COUNTER](https://www.projectcounter.org/) and [Making Data Count](http://mdc.lagotto.io/) projects.
+answer: Requests made by robots (aka crawlers, spiders, bots) are filtered out from the usage statistics. We detect robots based on a standardized list of robots provided by the [COUNTER](https://www.projectcounter.org/) and [Making Data Count](https://makedatacount.org/) projects.
 ----
 category: statistics-col1
 #### qaitem ####
@@ -610,7 +610,7 @@ answer:
 
 No, this is unfortunately not possible. We may allow this in the future but quality checking and spam detection make this non-trivial.
 
-If you run a discovery system with citation data you can however become a data source. [Contact us](http://zenodo.org/support) for further information.
+If you run a discovery system with citation data you can however become a data source. [Contact us](https://zenodo.org/support) for further information.
 ----
 category: citations-col2
 #### qaitem ####
@@ -618,7 +618,7 @@ question: I found an wrong citation, what do I do?
 ----
 answer:
 
-Please [contact us](http://zenodo.org/support).
+Please [contact us](https://zenodo.org/support).
 ----
 category: citations-col2
 #### qaitem ####
@@ -679,4 +679,4 @@ toptext:
 # Frequently Asked Questions
 <hr />
 
-See also [OpenAIRE FAQ](http://www.openaire.eu/faqs) for general information on Open Access and European Commission funded research.
+See also [OpenAIRE FAQ](https://www.openaire.eu/faqs) for general information on Open Access and European Commission funded research.

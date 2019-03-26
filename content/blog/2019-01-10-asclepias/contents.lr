@@ -34,7 +34,7 @@ ADS and Zenodo rely upon a combination of full-text content from Publishers as w
 
 **More information:**
 
-- [Zenodo FAQ on citations](http://help.zenodo.org/#citations)
+- [Zenodo FAQ on citations](https://help.zenodo.org/#citations)
 - [Example in Zenodo](https://doi.org/10.5281/zenodo.11813)
 - [Example in NASA ADS](https://ui.adsabs.harvard.edu/#abs/2014zndo.....11813N/abstract)
 - [Zenodo software records in NASA ADS](https://ui.adsabs.harvard.edu/#search/p_=0&q=doctype%3Asoftware%20bibstem%3Azndo&sort=citation_count%20desc%2C%20bibcode%20desc)

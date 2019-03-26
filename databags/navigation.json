@@ -19,9 +19,9 @@
     ["/about/contact/", "Contact"]
   ],
   "main": [
-    ["http://localhost:5000/about", "About"],
-    ["http://localhost:5000/blog", "Blog"],
-    ["http://localhost:5000/help", "Help"],
-    ["http://localhost:5000/developers", "Developers"]
+    ["https://localhost:5000/about", "About"],
+    ["https://localhost:5000/blog", "Blog"],
+    ["https://localhost:5000/help", "Help"],
+    ["https://localhost:5000/developers", "Developers"]
   ]
 }

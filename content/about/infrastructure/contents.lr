@@ -16,20 +16,20 @@ Zenodo is offered by CERN as part of its mission to make available the results o
 #### Legal status
 CERN is an intergovernmental organisation and has legal personality in the metropolitan territories of all CERN Member States ([CERN Convention, Article IX](https://council.web.cern.ch/en/content/convention-establishment-european-organization-nuclear-research#9)) and enjoys the corresponding legal capacity under public international law.
 
-As an intergovernmental organization CERN enjoys certain privileges and immunities, including e.g. immunity from jurisdiction of the national courts to ensure our independence from individual Member States. This does not mean that CERN operate in some kind of legal vacuum as protocols requires that CERN settle its disputes by other means. Read more about CERN's legal status in the [CERN Bulletin](http://cds.cern.ch/record/1035135?ln=en).
+As an intergovernmental organization CERN enjoys certain privileges and immunities, including e.g. immunity from jurisdiction of the national courts to ensure our independence from individual Member States. This does not mean that CERN operate in some kind of legal vacuum as protocols requires that CERN settle its disputes by other means. Read more about CERN's legal status in the [CERN Bulletin](https://cds.cern.ch/record/1035135?ln=en).
 
 Legal documents:
 - [CERN Convention](https://council.web.cern.ch/en/content/convention-establishment-european-organization-nuclear-research)
-- [Protocol on the privileges and immunities of the European Organization for Nuclear Research](http://cds.cern.ch/record/1035110/)
+- [Protocol on the privileges and immunities of the European Organization for Nuclear Research](https://cds.cern.ch/record/1035110/)
 
 #### Funding
 
 Zenodo is funded by:
 
-- European Commission via the [OpenAIRE](http://www.openaire.eu) projects:
+- European Commission via the [OpenAIRE](https://www.openaire.eu) projects:
  - FP7: [OpenAIRE](https://cordis.europa.eu/project/rcn/93855_en.html) (246686), [OpenAIREplus](https://cordis.europa.eu/project/rcn/100079_en.html) (283595)
  - Horizon 2020: [OpenAIRE2020](https://cordis.europa.eu/project/rcn/194062_en.html) (643410), [OpenAIRE-Connect](https://cordis.europa.eu/project/rcn/206017_en.html) (731011) and [OpenAIRE-Advance](https://cordis.europa.eu/project/rcn/212961_en.html) (777541).
-- [CERN](http://home.cern)
+- [CERN](https://home.cern)
 - [Alfred P. Sloan Foundation](https://sloan.org)
 - Donations via [CERN & Society Foundation](https://giving.web.cern.ch/content/cern-society-foundation)
 
@@ -42,7 +42,7 @@ Zenodo is operated currently by:
 - **Service Manager:** Lars Holm Nielsen
 - **Developers:** Krzysztof Nowak, Alexander Ioannidis-Pantopikos, Chiara Bigarella.
 
-Zenodo is however embedded in a much larger team, headed by Jose Benito Gonzalez Lopez,  which runs services such as [CERN Document Server](http://cds.cern.ch), [CERN Open Data](http://opendata.cern.ch), CERN Analysis Preservation and we rely heavily on co-developing features via the [Invenio digital library framework](http://inveniosoftware.org).
+Zenodo is however embedded in a much larger team, headed by Jose Benito Gonzalez Lopez,  which runs services such as [CERN Document Server](https://cds.cern.ch), [CERN Open Data](http://opendata.cern.ch), CERN Analysis Preservation and we rely heavily on co-developing features via the [Invenio digital library framework](https://inveniosoftware.org).
 
 #### Memberships
 
@@ -56,17 +56,17 @@ CERN is an active member of the following organisations and international bodies
 
 We are partners in multiple European Commission funded projects, amongst others:
 
-- [OpenAIRE](http://www.openaire.eu)
-- [EUDAT](http://www.eudat.eu)
+- [OpenAIRE](https://www.openaire.eu)
+- [EUDAT](https://www.eudat.eu)
 
 <hr />
 ## Technical
-Zenodo is powered by [CERN Data Centre](http://information-technology.web.cern.ch/about/computer-centre) and the [Invenio digital library framework](http://inveniosoftware.org) and is fully run on open source products all the way through.
+Zenodo is powered by [CERN Data Centre](https://home.cern/science/computing/data-centre) and the [Invenio digital library framework](https://inveniosoftware.org) and is fully run on open source products all the way through.
 
 Physically, Zenodo's entire technical infrastructure is located on CERN's premises which is subject to CERN's legal status (see above).
 
 #### Server management
-Zenodo servers are managed via [OpenStack](http://openstack.org/) and [Puppet](https://puppet.com) configuration management system which ensures that our servers always have the latest security patches applied. Servers are monitored via CERN’s monitoring infrastructure based on Flume, Elasticsearch, Kibana and Hadoop. Application errors are logged and aggregated in a local [Sentry](https://sentry.io/) instance. Traffic to Zenodo frontend servers is load balanced via a combination of DNS load balancing and HAProxy load balancers.
+Zenodo servers are managed via [OpenStack](https://openstack.org/) and [Puppet](https://puppet.com) configuration management system which ensures that our servers always have the latest security patches applied. Servers are monitored via CERN’s monitoring infrastructure based on Flume, Elasticsearch, Kibana and Hadoop. Application errors are logged and aggregated in a local [Sentry](https://sentry.io/) instance. Traffic to Zenodo frontend servers is load balanced via a combination of DNS load balancing and HAProxy load balancers.
 
 We are furthermore running two independent systems: one **production** system and one **quality assurance** system. This ensures that all changes, whether at infrastructure level or source code level, can be tested and validated on our quality assurance system prior to being applied to our production system.
 
@@ -74,7 +74,7 @@ We are furthermore running two independent systems: one **production** system an
 Zenodo frontend servers are responsible for running the Invenio repository platform application which is based on Python and the Flask web development framework. The frontend servers are running nginx HTTP server and uwsgi application server in front of the application and nginx is in addition in charge of serving static content.
 
 #### Data storage
-All files uploaded to Zenodo are stored in CERN’s [EOS service](http://eos.web.cern.ch/content/about-eos) in an 18 petabytes disk cluster. Each file copy has two replicas located on different disk servers.
+All files uploaded to Zenodo are stored in CERN’s [EOS service](https://eos.web.cern.ch/content/about-eos) in an 18 petabytes disk cluster. Each file copy has two replicas located on different disk servers.
 
 For each file we store two independent MD5 checksums. One checksum is stored by Invenio, and used to detect changes to files made from outside of Invenio. The other checksum is stored by EOS, and used for automatic detection and recovery of file corruption on disks.
 

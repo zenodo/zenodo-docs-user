@@ -50,7 +50,7 @@ body:
     <div class="well">
       <h4>Open in every sense</h4>
       <p>
-        Zenodo code is itself open source, and is built on the foundation of the <a href="http://inveniosoftware.org">Invenio</a> digital library which is also open source.
+        Zenodo code is itself open source, and is built on the foundation of the <a href="https://inveniosoftware.org">Invenio</a> digital library which is also open source.
         The work-in-progress, open issues, and roadmap are shared openly in <a href="https://github.com/zenodo/zenodo">GitHub</a>, and contributions to any aspect are welcomed from anyone.
       </p>
       <p>All meta data is openly available under CC0 licence, and all open content is openly accessible through open APIs.</p>
@@ -127,7 +127,7 @@ body:
       </ul>
       <h4>In the press</h4>
       <p>
-      Check out our <a href="http://zotero.org/groups/1570683/zenodo_in_the_press">Zotero group</a> for articles mentioning or talking about Zenodo.
+      Check out our <a href="https://zotero.org/groups/1570683/zenodo_in_the_press">Zotero group</a> for articles mentioning or talking about Zenodo.
       </p>
       <p>
       Know of an article not on the list? <a href="https://zenodo.org/support">Contact us</a>, so we can add it.
