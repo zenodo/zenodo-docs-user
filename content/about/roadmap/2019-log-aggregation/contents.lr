@@ -1,0 +1,9 @@
+column: current
+---
+body: Centralise logging of web server access logs into Elasticsearch cluster.
+---
+category: DevOps
+---
+sort: 0
+---
+title: Logging infrastructure

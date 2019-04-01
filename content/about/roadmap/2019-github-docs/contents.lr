@@ -1,0 +1,9 @@
+column: near-term
+---
+title: Minor improvements to GitHub integration
+---
+category: Development
+---
+sort: 3
+---
+body: Minor optimizations in the release processing workflow as well as better REST API documentation.

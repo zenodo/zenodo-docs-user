@@ -1,0 +1,9 @@
+column: current
+---
+body: Support for the DCAT export format via the DataCite XML to DCAT XSLT.
+---
+title: DCAT export format
+---
+sort: 3
+---
+category: Development

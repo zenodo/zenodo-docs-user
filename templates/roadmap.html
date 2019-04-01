@@ -1,0 +1,43 @@
+{% extends "base-about.html" %}
+
+{% from "macros/roadmap-card.html" import render_roadmap_card %}
+{% block title %}Roadmap{% endblock %}
+{% block body %}
+<section class="roadmap-section">
+    <div class="container">
+        <div clas="row">
+            <h1>Roadmap</h1>
+            <hr />
+        </div>
+        <div class="row">
+            <div class="col-sm-4 column">
+                <span class="section-title">Current</span>
+                <p>What we work on now</p>
+                {%- for card in this.children if card.column == 'current' %}
+                    {{ render_roadmap_card(card) }}
+                {%- endfor %}
+            </div>
+            <div class="col-sm-4 column">
+                <span class="section-title">Near-term</span>
+                <p>What we plan working on next</p>
+                {%- for card in this.children if card.column == 'near-term' %}
+                    {{ render_roadmap_card(card) }}
+                {%- endfor %}
+            </div>
+            <div class="col-sm-4 column">
+                <span class="section-title">Future</span>
+                <p>What we investigate</p>
+                {%- for card in this.children if card.column == 'future' %}
+                    {{ render_roadmap_card(card) }}
+                {%- endfor %}
+            </div>
+        </div>
+        <div clas="row">
+            <div class="col-md-8 col-md-offset-2 text-center">
+                Our roadmap helps us share what we are working on next and the direction that we’re taking Zenodo. <br>The roadmap is updated quarterly in January, April, July and October. Questions, comments and feedback? <a href="https://zenodo.org/support">Contact us</a>
+                </p>
+            </div>
+        </div>
+    </div>
+</section>
+{% endblock %}
