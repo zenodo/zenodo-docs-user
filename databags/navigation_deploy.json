@@ -16,6 +16,7 @@
     ["/policies/", "General Policies"],
     ["/infrastructure/", "Infrastructure"],
     ["/principles/", "Principles"],
+    ["/roadmap/", "Roadmap"],
     ["/contact/", "Contact"]
   ],
   "main": [

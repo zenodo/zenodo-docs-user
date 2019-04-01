@@ -1,0 +1,9 @@
+column: current
+---
+body: Beta support for geospatial, temporal and method metadata in the REST API (display and searching to come later).
+---
+category: Development
+---
+title: New metadata fields
+---
+sort: 1

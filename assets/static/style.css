@@ -50,3 +50,78 @@
 h5 {
   font-weight: 700!important;
 }
+
+.section-title {
+  -webkit-font-smoothing: antialiased;
+  font-size: 1.8em;
+  width: 100%;
+  text-align: center;
+  display: block;
+  margin-bottom: 45px;
+  font-weight: 500;
+}
+
+.roadmap-section .panel-heading {
+  text-align: left;
+  font-size: 14px;
+  font-weight: 450;
+  margin-top: -1px;
+  min-height: 28px;
+  border-radius: 4px 4px 0 0;
+  padding: 4px 8px;
+  justify-content: space-between;
+  vertical-align: baseline;
+}
+
+.roadmap-section .column .section-title {
+  margin-bottom: 5px;
+}
+
+.roadmap-section .section-title {
+  margin-bottom: 5px;
+}
+
+.roadmap-section .column>p {
+  text-align: center;
+  padding-bottom: 40px;
+}
+
+.roadmap-section .intro {
+  padding-bottom: 3%;
+  text-align: center;
+}
+
+.roadmap-section .feedback h3 {
+  margin-top: 3em;
+}
+
+.roadmap-section .panel-heading.development {
+  background-color: #0090e4 !important;
+  color: #fff;
+}
+
+.roadmap-section .panel-heading.projects {
+  background-color: #f4416d !important;
+  color: #fff;
+}
+
+.roadmap-section .panel-heading.devops {
+  background-color: rgb(0, 216, 169) !important;
+  color: #fff;
+}
+
+.roadmap-section .panel-title {
+  text-align: left;
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: 700;
+  margin-bottom: 8px;
+  color: #333;
+}
+
+.roadmap-section .card-description {
+  font-size: 15px;
+  text-align: left;
+  width: 100%;
+  margin-bottom: 8px;
+}

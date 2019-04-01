@@ -1,0 +1,13 @@
+{% macro render_roadmap_card(card) %}
+<div class="panel panel-default">
+  <div class="panel-heading {{card.category|lower}}">
+    {{card.category}}
+  </div>
+  <div class="panel-body">
+    <h5 class="panel-title">{{card.title}}</h5>
+    <div class="card-description">
+    {{card.body}}
+    </div>
+  </div>
+</div>
+{% endmacro %}
