@@ -144,6 +144,8 @@ of what each data type means and what is possible.
 |---|---|---|---|
 | ``access_conditions``  | string  |  |   |
 | ``accessrights``  | CV  |  See "Access rights (CV)" below. |   |
+| ``alternate.identifier``  | string (exact)  |   |   |
+| ``alternate.scheme``  | CV | See "Identifier schemes (CV)" below. |   |
 | ``communities`` | string (exact) |  Identifier of community. |   |
 | ``conceptdoi`` | string (exact)  | Related to DOI versioning.  |   |
 | ``contributors.\*`` |  string  |  Contributors name, affiliation, type and ORCID |   |
@@ -203,10 +205,14 @@ of what each data type means and what is possible.
 | ``publicationdate``  | datetime  | Date of publication (see also ``created`` and ``updated`` fields).  |   |
 | ``recid`` | integer  |  Zenodo specific record identifier. |   |
 | ``references.\*`` | string |   |   |
+| ``related.identifier``  | string (exact)  |   |   |
+| ``related.scheme``  | CV | See "Identifier schemes (CV)" below. |   |
 | ``relations.version.count``  | integer  |  Number of versions of record. |   |
 | ``resource_type.subtype`` | CV  | See "Resource types (CV)" below.  |   |
 | ``resource_type.type`` | CV  | See "Resource types (CV)" below.  |   |
 | ``size`` | integer | File size in bytes.  |   |
+| ``subject.term`` | string |   |   |
+| ``subject.identifier`` | string (exact) |   |   |
 | ``title``  | string  |   |   |
 | ``type``  | CV  | See also ``resource_type`` field, as well as "Resource types (CV)" below.  |   |
 | ``updated``  | datetime  | Timestamp of last update to record  |   |
