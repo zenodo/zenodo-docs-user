@@ -4,15 +4,15 @@ author: aioannidis
 ---
 body:
 
-# What happened?
+#### What happened?
 
 On Thursday May 16 at 08:30 UTC two database instances were accessing the same physical database files (hosted on an NFS filer) for the primary Zenodo database for a short amount of time. This caused a corruption to both the database files as well as the transaction logs. The corruptions caused intermittent errors for users throughout the day, until we at 15:30 UTC took Zenodo offline.
 
 Zenodo was back online 18:30 UTC May 17th.
 
-# How did it happen?
+#### How did it happen?
 
-On Thursday May 16 at 05:50 UTC the Zenodo database was migrated from an old host to a new host, because of a scheduled urgent intervention on the virtual machine hypervisor hosting the old host. 
+On Thursday May 16 at 05:50 UTC the Zenodo database was migrated from an old host to a new host, because of a scheduled urgent intervention on the virtual machine hypervisor hosting the old host.
 
 The script in charge of the migration succeeded but left behind certain configuration files on the old host due to a bug in the script.
 
@@ -20,25 +20,25 @@ At 08:30 UTC the hypervisor and consequently the old host was rebooted. During t
 
 The access by two database instances to the same underlying database files corrupted parts of the files, and most importantly it also corrupted the transactions logs.
 
-# Is it fixed?
+#### Is it fixed?
 
 Through hours of manual validation of the integrity of our 40 million rows large database, as well as validation against our webserver access logs, we have recovered the entire database. We have detected discrepancies in a handful of records, that we have temporarily disabled. We are able to fully recover these records from other sources, and hope to have the work finished during next week.
 
-# Is my record affected?
+#### Is my record affected?
 
 Only a handful of records (98 out of 9200) submitted during the day of May 16th are affected. We have temporarily disabled these records, until we can recover them fully during next week.
 
 If you notice any issues, don't hesitate to contact us via [our support page](https://zenodo.org/support).
 
-# Why so long downtime?
+#### Why so long downtime?
 
-Our prime concern is to avoid data loss, so we chose the harder, longer path to recover in order to minimise data loss rather than maximise uptime. Using one of our 12-hourly backups would have meant +6 hours of data loss. The transaction logs were corrupted by the two database instances, which otherwise would have allowed us to recover in about an one hour. All corruptions thus had to be fixed manually by our team of four senior engineers from the CERN database team and Zenodo operations team. 
+Our prime concern is to avoid data loss, so we chose the harder, longer path to recover in order to minimise data loss rather than maximise uptime. Using one of our 12-hourly backups would have meant +6 hours of data loss. The transaction logs were corrupted by the two database instances, which otherwise would have allowed us to recover in about an one hour. All corruptions thus had to be fixed manually by our team of four senior engineers from the CERN database team and Zenodo operations team.
 
-# Were my files at risk?
+#### Were my files at risk?
 
-No, the files (the payload of every record) are stored outside the database which only stores the metadata of the records. These files are stored in multiple copies on multiples servers before a new record is completed in the database. However accessing and serving the files requires the database record that points to them. 
+No, the files (the payload of every record) are stored outside the database which only stores the metadata of the records. These files are stored in multiple copies on multiples servers before a new record is completed in the database. However accessing and serving the files requires the database record that points to them.
 
-# Next steps
+#### Next steps
 
 We are taking this incident very seriously and thoroughly investigating what happened and what can be improved to avoid even more failure modes and to make recovery quicker. A post-mortem is planned for next week with the involved teams, after which more will be communicated.
 ---
