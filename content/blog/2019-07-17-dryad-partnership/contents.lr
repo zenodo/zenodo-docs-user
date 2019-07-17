@@ -1,0 +1,26 @@
+title: Funded Partnership Brings Dryad and Zenodo Closer
+---
+author: lnielsen
+---
+body:
+
+*Cross posted at Dryad*
+
+With increasing mandates and initiatives around open data and software, researchers commonly have to make a choice about where to deposit their non-article outputs. Unfortunately, systems that are built to accommodate these objects work separately and can make the process more difficult. As a result, data, code, figures, and other outputs go to a variety of disconnected places, or improper homes (i.e. code with the wrong license or data not curated). To tackle this issue, and make open research best practices more seamless for researchers, we are thrilled to announce a partnership between Dryad and Zenodo.
+
+![Dryad](dryad-logo.png)
+
+[Dryad](https://datadryad.org) is a leader in data curation and data publishing. For the last ten years, Dryad has focused primarily on research data, supporting a CC0 license and manually curating each incoming dataset. [Zenodo](https://www.zenodo.org), a general use repository hosted at [CERN](http://home.cern), has been paving the way in [software citation and publishing](https://blog.zenodo.org/2019/01/10/2019-01-10-asclepias/). As long time players in the open science movement, we believe that we can advance open science and open-source projects further by working together.  Instead of working individually to broaden each our scopes, building competitive features, and inefficiently using our limited resources, Dryad and Zenodo will be working together to support more seamless workflows that make the process easier for researchers.
+
+To jumpstart this collaboration, we are proud to have been awarded an Alfred P. Sloan Foundation grant that will enable us to co-develop new solutions focused on supporting researcher and publisher workflows as well as best practices in data and software curation. By focusing on integrations between our systems, leveraging data and software expertise, we can both extend the reach of our services and open up more opportunities for broader research communities.  We are looking forward to re-imagining the submission process for researchers and how we can better support our journal publishing and institutional communities along the way.
+
+Our leadership teams are dedicated to the future of our co-development projects:
+
+*"Dryad has long admired the work Zenodo does in our shared space and we are thrilled to finally find a way to collaborate on a project that benefits researchers around the globe. The Dryad-Zenodo integration is an excellent example of how two like-minded organizations can join together in a shared vision"*, says Melissanne Scheld, Executive Director at Dryad.
+
+*"Dryad and Zenodo have always shared the same Open Science values, this is why we are very excited to partner up with such a talented team and bring the future of scientific publication one step closer to reality. We look forward to this inspiring collaboration with Dryad as well as helping the research community to move science forward,* says Jose Benito Gonzalez, Head of Digital Repositories at CERN/Zenodo.
+
+As we embark on this open-source project and partnership together, we invite community feedback and input.
+
+---
+date: 2019-07-17
