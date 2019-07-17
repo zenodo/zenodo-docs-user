@@ -1,0 +1,16 @@
+title: Roadmap update
+---
+author: lnielsen
+---
+body:
+
+Today, we have updated our [public roadmap](http://about.zenodo.org/roadmap/). Over the summer we have reduced development capacity as staff is on holidays, and thus we're focusing on minor improvements:
+
+- **Citations**: We're improving the regular updates of citation data from our data sources such as NASA ADS, OpenAIRE, CrossRef and EuropePMC.
+- **GitHub improvements**: We're making some minor optimizations in the release processing workflows.
+- **Infrastructure**: We're growing rapidly, and thus we're in need of upgrading our Elasticsearch cluster.
+
+Our biggest target right now is the preparations for importing a dataset of 300.000 biodiversity treatments records into Zenodo in collaboration with Plazi and Pensoft. We hope to be able to present this work around end-October. These improvements will bring support for geospatioal, temporal and method metadata to Zenodo.
+
+---
+date: 2019-07-16

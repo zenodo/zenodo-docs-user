@@ -5,3 +5,5 @@ body: Allow login with institutional accounts via the OpenAIRE Authentication an
 title: Login via OpenAIRE
 ---
 category: Development
+---
+_hidden: yes

@@ -1,11 +1,9 @@
-column: near-term
+column: current
 ---
-body:
-
-Improve the integration into the CERN tape archive. 
+body: Migrate our Elasticsearch cluster to v7 on CERN's Elasticsearch On Demand service.
 ---
 sort: 1
 ---
-title: Preservation workflows
+title: Infrastructure improvements
 ---
 category: DevOps
