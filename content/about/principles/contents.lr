@@ -68,3 +68,183 @@ FAIR Principles definition as referenced from:
  - Metadata can optionally describe the original authors of the published work.
 - **R1.3**: (meta)data meet domain-relevant community standards
  - Zenodo is not a domain-specific repository, yet through compliance with DataCite's Metadata Schema, metadata meets one of the broadest cross-domain standards available.
+
+<hr id="plan-s" />
+
+## Plan S - compliance self-assessment
+
+The following is a self-assessment of Zenodo against the Plan S requirements for Open Access Repositories (as published October 2019).
+
+See the [Plan S Principles and Implementation](https://www.coalition-s.org/principles-and-implementation/) (under Part III: Technical Guidance and Requirements / 2. Requirements for Open Access Repositories).
+
+### Mandatory criteria for repositories
+
+<table class="table table-striped">
+<tr>
+    <td width="39%">1. The repository must be registered in the Directory of Open Access Repositories (OpenDOAR) or in the process of being registered.</td>
+    <td width="2%">✅</td>
+    <td width="59%"><ul>
+            <li>See <a href="https://v2.sherpa.ac.uk/id/repository/2659">https://v2.sherpa.ac.uk/id/repository/2659</a></li>
+        <ul>
+    </td>
+</tr>
+<tr>
+    <td>2. Use of PIDs for the deposited versions of the publications (with versioning, for example in case of revisions), such as DOI (preferable), URN, or Handle.</td>
+    <td>✅</td>
+    <td>
+    <ul>
+    <li>Zenodo registers DOIs (via DataCite) for all deposited records. See <a href="https://search.datacite.org/data-centers/cern.zenodo">DataCite</a>.</li>
+    <li>Zenodo pioneered <a href="https://blog.zenodo.org/2017/05/30/doi-versioning-launched/">DOI versioning</a></li>
+    <li>Objects with pre-existing DOIs may be uploaded and the external DOI displayed.</li>
+    </ul>
+</td>
+</tr>
+<tr>
+    <td>3. High quality article level metadata in standard interoperable non-proprietary format, under a CC0 public domain dedication. This must include information on the DOI (or other PIDs) both of the original publication and the deposited version, on the version deposited (AAM/VoR), and on the Open Access status and the license of the deposited version. Metadata must include complete and reliable information on funding provided by cOAlition S funders (including as a minimum the name of the funder and the grant number/identifier).</td>
+    <td>✅</td>
+    <td>
+        <ul>
+            <li><i>"High quality article level metadata"</i></li>
+            <ul>
+                <li>Zenodo supports the DataCite Metadata Schema v4.</li>
+                <li>The following additional article level fields are supported: journal title/volume/issue/pages, conference title/acronym/dates/place/website, book publisher/place/ISBN/title/pages, alternate persistent identifiers (see <a href="https://developers.zenodo.org/#representation">all fields</a>).</li>
+            </ul>
+            <li><i>"in standard interoperable non-proprietary format"</i></li>
+            <ul>
+                <li>The following metadata formats are provided by Zenodo: MARCXML, Dublin Core (according to OpenAIRE Guidelines), DataCite, DCAT, JSON-LD (Schema.org).</li>
+            </ul>
+            <li><i>"under a CC0 public domain dedication"</i></li>
+            <ul>
+                <li>All metadata in Zenodo may be freely used under the CC0 waiver. (see <a href="https://about.zenodo.org/terms/">terms of use</a>, bullet 7).</li>
+            </ul>
+            <li><i>"[...] include information on the DOI (or other PIDs) both of the original publication and the deposited version"</i></li>
+            <ul>
+                <li>Zenodo registers DOIs for all uploads.</li>
+                <li>Zenodo allows including information on alternate persistent identifiers, as well as linking to related persistent identifiers.</li>
+            </ul>
+            <li><i>"include [..] the Open Access status and the license of the deposited version"</i></li>
+            <ul>
+                <li>All Zenodo records include the Open Access status according to the <a href="https://www.coar-repositories.org/activities/repository-interoperability/coar-vocabularies/access-rights-vocabulary/">COAR access right vocabulary</a> (open, embargoed, restricted, closed).</li>
+                <li>All open access and embargoed records specify a license of the deposited material. Any license from the <a href="https://opendefinition.org">OpenDefinition</a> and <a href="https://spdx.org/license-list">SPDX</a> vocabularies are supported (including all Creative Commons licenses).</li>
+            </ul>
+            <li><i>"including as a minimum the name of the funder and the grant number/identifier"</i></li>
+            <ul>
+                <li>All records can be uniquely linked to grants in the <a href="https://api.openaire.eu/bulk-projects.html">OpenAIRE grant database</a>. The database currently covers 11 funders and 2 million grants.</li>
+            </ul>
+        <ul>
+    </td>
+</tr>
+<tr>
+    <td>4. Machine readable information on the Open Access status and the license embedded in the article, in standard non-proprietary format.</td>
+    <td>✅</td>
+    <td>
+        <ul>
+            <li>The open access status and a license are embedded in all metadata formats (i.e. machine-readable). See our APIs below in the strongly recommended criteria response.</li>
+            <li>It is the responsibility of the uploader to ensure the open access status and a license is embedded in any digital file uploaded. Zenodo does not modify files uploaded by users in any way.</li>
+        <ul>
+    </td>
+</tr>
+<tr>
+    <td>5. Continuous availability (uptime at least 99.7%, not taking into account scheduled downtime for maintenance or upgrades).</td>
+    <td>✅</td>
+    <td>
+        <ul>
+            <li>Zenodo publicly displays uptime on <a href="https://status.zenodo.org">https://status.zenodo.org</a></li>
+            <li>Historically Zenodo's uptime is 99.98% (Oct 2019)</li>
+        <ul>
+    </td>
+</tr>
+<tr>
+    <td>6. Helpdesk: as a minimum, an email address (functional mailbox) has to be provided; a response time of no more than one business day must be ensured.</td>
+    <td>✅</td>
+    <td>
+        <ul>
+            <li>Zenodo provides support via <a href="https://zenodo.org/support">https://zenodo.org/support</a></li>
+            <li>The helpdesk is manned during CERN business hours (Mon-Fri 8:30-17:30 CET).</li>
+            <li>Zenodo's average response time is 22 hours (based on 1534 requests received in the period May-Oct 2019, and not accounting for out of business hours).</li>
+        <ul>
+    </td>
+</tr>
+</table>
+
+
+### Strongly recommended additional criteria for repositories:
+
+
+<table class="table table-striped">
+<tr>
+    <td width="39%">7. Manuscript submission system that supports both individual author uploads and bulk uploads of manuscripts (AAM or VoR) by publishers.</td>
+    <td width="2%">✅</td>
+    <td width="59%">
+        <ul>
+            <li>Zenodo support users/machines uploading both AAM and VoR versions of manuscripts.</li>
+            <li>Zenodo supports both author uploads via a normal deposit user interface as well bulk uploads via our APIs.</li>
+        <ul>
+    </td>
+</tr>
+<tr>
+    <td>8. Full text stored in a machine-readable community standard format such as JATS XML.</td>
+    <td>✅</td>
+    <td>
+        <ul>
+            <li>Zenodo supports all file formats, consistent with the goal of accommodating all research objects. XML files are stored alongside other representations like PDF as just another format.</li>
+        <ul>
+    </td>
+</tr>
+<tr>
+    <td>9. Support for PIDs for authors (e.g., ORCID), funders, funding programmes and grants, institutions, and other relevant entities.</td>
+    <td>✅</td>
+    <td>
+        <ul>
+            <li>ORCID supported for authors and contributors.</li>
+            <li>Open Funder Registry supported for funders.</li>
+            <li>OpenAIRE grant database supported for grants.</li>
+            <li>Zenodo plans to support ROR for institutions.</li>
+        <ul>
+    </td>
+</tr>
+<tr>
+    <td>10. Openly accessible data on citations according to the standards by the Initiative for Open Citations (I4OC).</td>
+    <td>✅</td>
+    <td>
+        <ul>
+            <li>Zenodo supports linking records with related persistent identifiers (both incoming and outgoing links - i.e. citations and references). The links are exported in the DataCite metadata registered with the DOI, and thus makes the links available in the CrossRef/DataCite Event Data.</li>
+            <li>Discovering citations to a record requires global knowledge of the entire world-wide corpus of journal articles which is out of scope for Zenodo. Zenodo, however, harvests openly available citation databases (Crossref/DataCite Event Data, NASA/SAO Astrophysics Data System and Europe PMC) for citations to Zenodo objects. All citation data is exported in Scholix-format. See <a href="https://help.zenodo.org/#citations">https://help.zenodo.org/#citations</a> for details.</li>
+        <ul>
+    </td>
+</tr>
+<tr>
+    <td>11. Open API to allow others (including machines) to access the content. A compliant API must be free to access without any barrier. A light authentication mechanism such as a token for ‘power users’ – e.g., high-traffic collaborators – is acceptable as long as there is a totally open/anonymous route too.</td>
+    <td>✅</td>
+    <td>
+        <ul>
+            <li>Available APIs:</li>
+            <ul>
+                <li>OAI-PMH: <a href="https://zenodo.org/oai2d">https://zenodo.org/oai2d</a></li>
+                <li>REST API: <a href="https://zenodo.org/api/records/">https://zenodo.org/api/records/</a></li>
+                <li>Documentation: <a href="https://developers.zenodo.org">https://developers.zenodo.org</a></li>
+            </ul>
+            <li>Zenodo allows anonymous and authenticated access (via OAuth 2.0 access token) to the API.</li>
+            <li>All requests to Zenodo (both UI and API) are rate-limited to prevent abusive use and DoS attacks (default limit: 5000 request/hour). Zenodo's average request rate is 14 requests/second.</li>
+        <ul>
+    </td>
+</tr>
+<tr>
+    <td>12. OpenAIRE compliance of the metadata.</td>
+    <td>✅</td>
+    <td>
+        <ul>
+            <li>Zenodo is compliant with the OpenAIRE Guidelines v3.0.</li>
+        <ul>
+    </td>
+</tr>
+<tr>
+    <td>13. Quality assurance processes to link full-text deposits with authoritative bibliographic metadata from third-party systems, e.g., PubMed, Crossref, or SCOPUS where feasible.</td>
+    <td>✅</td>
+    <td>
+        <ul>
+            <li>Per community harvesting allows curation and indexing e.g., NASA ADS harvests specific communities which are curated by astronomy librarians; similarly by ZHB Luzern, BLR, etc.</li>
+        <ul>
+    </td>
+</tr>
+</table>
