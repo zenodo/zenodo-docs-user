@@ -1,4 +1,4 @@
-column: current
+column: future
 ---
 body: Allow login with institutional accounts via the OpenAIRE Authentication and Authorization Infrastructure (AAI) and [eduGAIN](https://edugain.org).
 ---
