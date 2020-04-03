@@ -12,7 +12,7 @@ We are today contributing to the call for action with what we do best &mdash; pr
 
 We have taken some immediate actions:
 
-  1. **Coronavirus Disease Research Community:** We have created a new [COVID-19 Research Community](https://zenodo.org/communities/covid-19/) on Zenodo endorsed by the European Commission. The community content is automatically fed into the OpenAIRE Open Research Gateway which is currently under development by OpenAIRE and will result in a single point of entry for all research results and other useful resources for the Coronavirus Disease (COVID-19) and SARS-CoV-2. 
+  1. **Coronavirus Disease Research Community:** We have created a new [COVID-19 Research Community](https://zenodo.org/communities/covid-19/) on Zenodo endorsed by the European Commission. The community content is automatically fed into the [OpenAIRE Open Research Gateway](https://www.openaire.eu/openaire-activities-for-covid-19) which is currently under development by OpenAIRE and will result in a single point of entry for all research results and other useful resources for the Coronavirus Disease (COVID-19) and SARS-CoV-2. 
   1. **Curation**: A team of experts nominated by OpenAIRE (see list below) has been created to curate the COVID-19 community. Further, Zenodo is adding a data curator ([@StephvandeSandt](https://twitter.com/StephvandeSandt)) to scout for further COVID-19 uploads outside the community and coordinate the COVID-19 curation efforts on Zenodo with other teams worldwide. 
   1. ** Support:** We do not want anyone to have any issues sharing relevant information on Zenodo. Please [contact us](https://zenodo.org/support) for any questions you may have (COVID-19 related support requests are prioritized). We can further offer:
 
@@ -20,7 +20,7 @@ We have taken some immediate actions:
     - 1-on-1 dedicated support via chat with Zenodo supporters.
     - Help with automated uploads to Zenodo of large datasets.
 
-  1. **Homepage:** we have revamped our homepage to make sure that COVID-19 research objects and communities get the necessary visibility.
+  1. **Homepage:** we have revamped our homepage to make sure that COVID-19 research objects and communities get the necessary visibility. ![Homepage](frontpage.png)
 
 We count on you to find a solution to the outbreak. We will do our best to support you all the way, from sharing your great research to enhancing your collaborative work!
 
@@ -41,6 +41,5 @@ Curator List:
 - Iryna Kuchma, EIFL, Ukraine
 - Paolo Manghi, CNR, Italy
 - Stephanie van de Sandt, CERN, Switzerland.
-
 ---
 date: 2020-04-02
