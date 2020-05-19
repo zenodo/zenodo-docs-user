@@ -6,8 +6,7 @@
   "help": [
     ["/help", "FAQ"],
     ["/help/guides/search/", "Search Guide"],
-    ["/help/features/", "Features"],
-    ["/help/whatsnew/", "What's New"]
+    ["/help/features/", "Features"]
   ],
   "about": [
     ["/about", "About"],
