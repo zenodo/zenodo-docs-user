@@ -1,0 +1,22 @@
+title: Slow or inaccessible zenodo.org
+---
+author: aioannidis
+---
+body:
+
+During the past week, our users may have experienced that Zenodo was slow or inaccessible at certain times. This was caused by several independent incidents during the past week.
+
+#### May 30th, stale database connections (resolved)
+
+On May 30th, a large fraction of requests to zenodo.org would result in an error. The root cause was stale connections between the database server and the network file storage hosting the database files due to a faulty client software version. The incident happened during European night time outside normal business hours and required the intervention of the CERN database infrastructure experts to fully resolve the issue, which unfortunately meant it took a total of 10 hours to fully investigate and resolve the issue.
+
+#### Abnormal traffic patterns (ongoing)
+
+During the past week, Zenodo has been hit by abnormal traffic patterns from automated clients for which our multiple existing measures (e.g. rate-limiting) have not been able to keep the traffic flow properly balanced between clients accessing zenodo.org. 
+
+All Zenodo staff are assigned to resolving the issue, and we have implemented several measures during the past week that unfortunately have not been enough to get the traffic flow under control. We continue to implement further measures, however, some of these operations are comparable to changing tires on a truck driving at full speed and thus takes time and requires utmost care. 
+
+We hope to soon have traffic flow under control, and apologise for the inconveniences it may have caused. 
+
+---
+date: 2020-06-09
