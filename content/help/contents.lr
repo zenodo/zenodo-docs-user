@@ -51,6 +51,15 @@ Please see further information in our [Terms of Use](https://about.zenodo.org/te
 ----
 category: policies
 #### qaitem ####
+question: How does Zenodo handle sensitive datasets?
+----
+answer:
+
+Where data that was originally [sensitive personal data](https://www.openaire.eu/sensitive-data-guide) is being uploaded for open dissemination through Zenodo, the uploader shall ensure that such data is either anonymised to an appropriate degree or fully consent cleared.
+There are several tools that can help uploaders to anonymise their data, being one of them OpenAIRE [Amnesia](https://amnesia.openaire.eu).
+----
+category: policies
+#### qaitem ####
 question: My organizational repository does not show up on the GitHub list.
 ----
 answer:
