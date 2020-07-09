@@ -1,0 +1,23 @@
+title: Why we are removing the Altmetric.com badges
+---
+author: aioannidis,jbenito,lnielsen,tsmith
+---
+body:
+
+
+<img style="float: right; padding: 20px" alt="Example Altmetric badge" src="/blog/2020/07/09/2020-07-09-altmetric-badges/altmetric-badge.png">
+
+Since it's launch in 2013 Zenodo has been displaying the free Altmetric.com badge on our records. The badge displays a score and a colorful wheel which provides access to explore further the discussion happening online about your work (e.g. on Twitter or blogs). The main reasons for us to display the badge has always been to allow our users to discover the online discussion happening around their uploads.
+
+
+We have recently been contacted by Altmetric.com, who has informed us that their free tier which we have been using on Zenodo has been discontinued and that we must pay a commecial rate in order to continue using the service. This has triggered us to re-evaluate why and if we should display the Altmetric.com badge.
+
+We strongly believe that metadata about records including citation data and other data used for computing metrics should be freely available without barriers, so that companies can compete on providing services rather than monopolise through control of data. For instance, the [citation data](https://blog.zenodo.org/2019/01/10/2019-01-10-asclepias/) we display on Zenodo is all harvested from freely available data sources, and our own metadata is made freely available to everyone under a CC0 waiver. Moreover, we are in the process of openly sharing usage statistics data with services such as DataCite and OpenAIRE, in order for our users to get a more complete picture of their impact.
+
+Altmetric.com works by crawling the internet to create a large dataset of links and provides limited access to this dataset via e.g. the Altmetric.com badge. When such datasets are not freely available without barriers for others to build services on, the controlling company can exclusively, at any moment, change the access rights or their fees.
+
+So, when triggered to reflect on it, we now see that the use of the Altmetric.com badge is not aligned with one of our core values of Open Data. We have therefore decided that we will remove the badge from Zenodo. We would like to thank Altmetric.com for the service they have provided through the years. Instead, we will look for a solution based on Open Data that enables our users to discover the online conversation about their work, and make this solution available for other repositories to use via the InvenioRDM platform. In the short-term, this decision may well be more expensive than paying Altmetric.com for their service, but has been taken to stay true to our core values, and with a long-term view of a collaborative better future.
+
+We ask our users to be patient while we work on an alternative solution.
+---
+date: 2020-07-09
