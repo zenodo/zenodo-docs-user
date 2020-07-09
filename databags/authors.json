@@ -18,5 +18,17 @@
   "francois": {
     "name": "Francois Decourcelle",
     "img": "/static/img/authors/francois.png"
+  },
+  "jbenito": {
+    "name": "Jose Benito Gonzalez Lopez",
+    "img": "/static/img/authors/jbenito.png"
+  },
+  "tsmith": {
+    "name": "Tim Smith",
+    "img": "/static/img/authors/tsmith.png"
+  },
+  "glignos": {
+    "name": "George Lignos",
+    "img": "/static/img/authors/glignos.jpg"
   }
 }

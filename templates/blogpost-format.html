@@ -25,9 +25,12 @@
 <h1>{{ this.title }}</h1>
 {% endif %}
 <p class="meta">
+  {%- set authors = this.author.split(',') %}
   by
-  <img class="img-rounded" width=18 height=18 src="{{ bag('authors.' + this.author + ".img") |url}}" />
-  {{ bag('authors.' + this.author + ".name") }}
+  {% for author_id in authors %}
+    <img class="img-rounded" width=18 height=18 src="{{ bag('authors.' + author_id + ".img") |url}}" />
+    {{ bag('authors.' + author_id + ".name") }},
+  {% endfor %}
   on {{ this.date | dateformat('long') }}
 </p>
 <hr />
