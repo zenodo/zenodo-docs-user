@@ -75,7 +75,7 @@ We are furthermore running two independent systems: one **production** system an
 Zenodo frontend servers are responsible for running the Invenio repository platform application which is based on Python and the Flask web development framework. The frontend servers are running nginx HTTP server and uwsgi application server in front of the application and nginx is in addition in charge of serving static content.
 
 #### Data storage
-All files uploaded to Zenodo are stored in CERN’s [EOS service](https://eos.web.cern.ch/content/about-eos) in an 18 petabytes disk cluster. Each file copy has two replicas located on different disk servers.
+All files uploaded to Zenodo are stored in CERN’s [EOS service](https://eos-web.web.cern.ch/eos-web/) in an 18 petabytes disk cluster. Each file copy has two replicas located on different disk servers.
 
 For each file we store two independent MD5 checksums. One checksum is stored by Invenio, and used to detect changes to files made from outside of Invenio. The other checksum is stored by EOS, and used for automatic detection and recovery of file corruption on disks.
 
