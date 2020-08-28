@@ -4,6 +4,8 @@ author: tracy,daniella,tsmith,jbenito,lnielsen,aioannidis
 ---
 body:
 
+[Crossposted at Dryad](https://blog.datadryad.org/2020/08/26/sustainable-infrastructure-exists/)
+
 Recently, the 4TU.ResearchData team published a [blog post](https://openworking.wordpress.com/2020/08/18/why-figshare-choosing-a-new-technical-infrastructure-for-4tu-researchdata/) on their decision to take a commercial route through their repository tender process. As allies in the community, we are glad to know they have found a path forward that fits their needs. Discussions and analyses about scholarly communications infrastructure are important to ensure we’re exploring all options of technical, community and governance structures. There are tradeoffs, challenges, and opportunities in each situation, and each organization needs to make its own decisions based on their own set of constraints. Specifically, organizations need to consider resourcing in thinking about a hosted solution or maintaining infrastructure themselves.
 
 In furthering this conversation, we want to respond to their post, with concerns about several statements that inaccurately represent the ecosystem and organizations who have long supported open source infrastructure for research data.  The blog’s central question is: “We need sustainable long-term open source alternatives, who will that be?” Our answer is that these infrastructure do exist and we aim to correct this messaging, shining light on those that have long served as these sustainable, open, alternatives.
