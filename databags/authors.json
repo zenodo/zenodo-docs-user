@@ -30,5 +30,13 @@
   "glignos": {
     "name": "George Lignos",
     "img": "/static/img/authors/glignos.jpg"
+  },
+  "tracy": {
+    "name": "Tracy Teal",
+    "img": ""
+  },
+  "daniella": {
+    "name": "Daniella Lowenberg",
+    "img": ""
   }
 }

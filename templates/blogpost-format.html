@@ -28,7 +28,10 @@
   {%- set authors = this.author.split(',') %}
   by
   {% for author_id in authors %}
-    <img class="img-rounded" width=18 height=18 src="{{ bag('authors.' + author_id + ".img") |url}}" />
+    {% set image_path = bag('authors.' + author_id + ".img") %}
+    {% if image_path %}
+    <img class="img-rounded" width=18 height=18 src="{{ image_path |url}}" />
+    {% endif %}
     {{ bag('authors.' + author_id + ".name") }},
   {% endfor %}
   on {{ this.date | dateformat('long') }}
