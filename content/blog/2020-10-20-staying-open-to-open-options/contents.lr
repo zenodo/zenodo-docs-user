@@ -1,0 +1,69 @@
+title: Staying open to open options
+---
+author: sjones,tsmith,tracy,mteperek,lwilliamson
+---
+body:
+
+Public institutions who wish to provide top quality data services, but who do not have the capacity to develop or to maintain the necessary infrastructures in-house, often end up procuring solutions from providers of proprietary, commercial services. This happens despite the fact that frequently, the very same public institutions, have strong policies and invest substantial efforts to promote Open Science.
+
+Why does this happen and are there alternative scenarios? What are the challenges from the institutional perspective? Why is it difficult for open source software providers to participate and successfully compete in tenders? And how can we ensure we always keep a range of service options open?
+
+Our intention is to highlight some of the inherent issues of using  tender processes to identify open solutions, to discuss alternative routes, and to suggest possible next steps for the community.
+
+## Open competition - unintentionally closed?
+
+Procurement is often the preferred route for selecting new service providers at big public institutions. For example, the European Commission’s public procurement strategy determines thresholds above which it is obligatory to use open procedures for identifying new service providers. This is justified by the principles of transparency, equal treatment, open competition, sound procedural management and the need to put public funds to good use[^1]. Hence, the legal teams at public institutions often perceive public procurement as the default option. Public procurement, however, often unintentionally blocks pathways to open solutions, favouring corporate providers of proprietary software.
+
+First, to ensure an equal and fair process, everything needs to be measured. For example, what does usability mean and what level is good enough? What is sufficient service availability? How is it going to be measured? With the emphasis on numbers and legal frameworks, there is little place for open science values and the importance of aligning with missions and visions.
+
+In addition, to facilitate competition, legal teams at public institutions sometimes question requirements or preferences, which seem to them too specific, or which might limit the number of parties able to respond to a tender. This might sometimes put smaller initiatives, with innovative or niche solutions at disadvantage.
+
+Teams going through the tender preparation are often faced with confidentiality clauses. They are intended to make the process fair and equal to everyone. This, however, can make communication for clarifications and scoping with prospective providers (or sometimes even with colleagues within the same department!) challenging. It also means that it might not be possible to communicate with the unsuccessful applicants why their bids were not successful and what areas of their application could have been improved. And it might prevent the sharing of lessons across the sector which is hugely valuable to prevent other institutions falling into the same pitfalls.
+
+Last, small institutional teams at libraries or IT departments who are tasked with finding new services for research data often lack the necessary experience and expertise in procuring solutions. Yet, suddenly they are faced with discussions with legal experts, legal jargon and lengthy documents they are often unfamiliar with and unsure how to tackle, or how to effectively explain what is needed.
+
+## Balancing values, costs and requirements
+
+Providers of open source software, or providers of open services built on open software, are usually fully focused and resourced to simply do specifically that! They are rarely embedded in a larger unit that can market, tender or legally draft/validate responses. They either rely on upfront agreements for expanded functionality or scope where the resources are provided to effect the change, or third parties to offer the service selling and instantiation for specific needs. Hence when they see the needs of a new institute expressed in a tender document, they can often spot an easy match to their current or slightly extended functionality, but can't afford to speculate resources on trying to compete in an administrative process.
+
+The odds are low since they often will not have necessary documentation and proofs required in a typical tender process, particularly in an international context. They are unlikely to have the minimum income/turnover, or reference sites, or certifications typically demanded.  They may be excluded from tenders merely on the basis of not having a VAT number in a given country, or turnover in a given currency, or for not having been in existence for sufficient years, or not charging enough for the service. They are focused on what they do well, and often much above the level tendered for, but without the means to guarantee it. Hence, providers of open source software, or providers of open services built on open software perceive tenders as stacked against them.
+
+### Theatre of risk
+
+Much of the challenge simply comes from open source projects being smaller organisations without dedicated personnel to perform compliance and legal work. Additionally, they aren't able to take and absorb as much risk. Tender processes often involve several types of statements to ensure against certain types of risks. While bigger organisations can absorb such risk, or litigate if needed, smaller organisations don’t have that capacity.
+
+However, this does not at all mean that they are riskier. The paperwork required does not in fact ensure the organisation proposing the tender against risk, it only has some paperwork to show that it tried. Big organisations can default on their obligations as often as smaller ones. In fact, large organisations may even make the choice to do this without significant negative impact, or decide to change focus. Smaller organisations on the other hand, are committed to that primary purpose as the core of their operations and are able to be more responsive and connected with the client.
+
+There is always risk involved in any relationship or process, but the requirements of the tender process does not in fact alleviate that risk, creating more risk mitigation theatre than actual risk reduction.
+
+## Alternative models
+
+There are many different service delivery models that can be explored. Some of these may not fit a tender exercise, so it’s best to consider all routes first and chat to potential service providers before deciding which avenue to progress.
+
+- Many companies run open source software on a commercial basis. Atmire, Cosector, Haplo and others can install and maintain services like DSpace and ePrints. They may not be able to respond to procurement exercises as they don’t own the solution so take care in how you frame the specification if you go down this route.
+- Some open infrastructure is run on memberships or subscription models. DMPonline, for example, has an annual or three-year subscription for institutions and funders who wish to customise the tool. Dryad’s model is based on membership fees and individual data publishing charges.
+- Providers like Jisc and GÉANT may broker sector-wide deals that help institutions procure services more easily. Recently Jisc launched a dynamic procurement framework for research data repositories which pre-approves common terms and conditions so institutions can do a lightweight mini-competition based on required functionality. This approach prevents tender exercises from being too heavyweight for smaller service providers, and helps institutions access a wider range of options.
+
+One challenge may be in convincing institutional boards that the university’s typical model for engaging external contractors may not be suitable and could limit the options of who can respond. Exploring some of these alternative models and the relative costs and benefits (e.g. supporting open scholarly infrastructures) is worthwhile.
+
+## How to change the status quo?
+
+There are clearly a number of challenges facing research institutions and service providers alike. Everybody wants an open competition where everybody is fairly evaluated on their relative strengths, however the prevalent methods for assessing service options and choosing a provider do not always facilitate this. How can we change the status quo and ensure we keep all options open?
+
+- Can we provide a forum for research organisations to share lessons learned from running procurement exercises so others have a place to seek advice?
+- Are we able to adjust the de-facto institutional procedures, or consult with providers before defining tenders to ensure the framing doesn’t exclude certain groups or service delivery models? For example, consider the weighting of the functional and non-functional requirements. Should the final deciding criteria be cost or alignment with values?
+- Can we share tactics on helping institutional boards to consider alternative options and challenge preconceptions that it will be cheaper, easier, more sustainable?
+- Can sector-wide deals be brokered to facilitate a broader range of providers to engage, or how can smaller service providers be enabled to compete with larger operations better placed to respond to tenders?
+- Can collective bargaining help the sector to secure better terms for education which embody our core values of openness, or can these factors be more heavily weighted in the evaluation criteria?
+- How can the scholarly community work collectively to invest in and sustain open infrastructure?
+- How do we ensure one institution’s investment in a platform (e.g. to develop a new feature) benefits the sector at large?
+- What is the role of user groups to help direct development roadmaps?
+
+Much discussion between institutions and service providers is needed to align needs and visions, especially as tender processes will involve a far wider range of stakeholders who may not have an awareness of the service being procured and what matters in terms of delivery. We hope to provide a forum to explore some of these points in the “[Delivering RDM services](https://events.geant.org/event/205/)” workshop which will run adjacent to the RDA plenary in November.
+
+If we want to keep our options open, we need to share experiences and collectively define a more flexible procedure for commissioning our scholarly infrastructure.
+
+[^1]: Public procurement within the European Union: https://ec.europa.eu/growth/single-market/public-procurement_en#:~:text=To%20create%20a%20level%20playing,purchase%20goods%2C%20works%20and%20services
+
+---
+date: 2020-10-20
