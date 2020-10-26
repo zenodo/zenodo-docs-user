@@ -131,7 +131,20 @@ body:
       </p>
       <p>
       Know of an article not on the list? <a href="https://zenodo.org/support">Contact us</a>, so we can add it.
-      </p
+      </p>
+      <h4>Citing Zenodo</h4>
+      <p>To cite Zenodo, you can use the following BibTeX:</p>
+
+      <pre>@misc{https://doi.org/10.25495/7gxk-rd71,
+  doi = {10.25495/7GXK-RD71},
+  url = {https://www.zenodo.org/},
+  author = {{European Organization For Nuclear Research} and {OpenAIRE}},
+  keywords = {FOS: Physical sciences, Publication, Dataset},
+  language = {en},
+  title = {Zenodo},
+  publisher = {CERN},
+  year = {2013}
+}</pre>
     </div>
   </div> <!-- .col-md-6 col-lg-7 -->
 </div> <!-- .row -->
