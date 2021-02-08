@@ -1,0 +1,68 @@
+title: Doing it Right: A Better Approach for Software & Data
+---
+author: daniella
+---
+body:
+
+*Cross posted at [Dryad](https://blog.datadryad.org/2021/02/08/doing-it-right-a-better-approach-for-software-amp-data/)*
+
+The Dryad and Zenodo teams are proud to announce the launch of our first formal integration. As we’ve [noted](https://blog.datadryad.org/2020/03/10/dryad-zenodo-our-path-ahead/) over the last years, we believe that the best way to support the broad scientific community in publishing their outputs is to leverage each other's strengths and build together. Our plan has always been to find ways to seamlessly connect software publishing and data curation in ways that are both easy enough that the features will be used but also beneficial to the researchers re-using and building on scientific discoveries.This month, we’ve released our first set of features to support exactly that.
+
+#### Uploading to Zenodo Through Dryad
+
+Researchers submitting data for curation and publication at Dryad will now have the option to upload code, scripts, and software packages on a new tab “Upload Software”. Anything uploaded here will be sent directly to Zenodo. Researchers will also have the opportunity to select the proper license for their software, as opposed to Dryad’s CC0 license.
+
+<br>
+<figure>
+  <img src="/2021/02/08/2021-02-08-doing-it-right/screen1.png" style="width:100%">
+  <figcaption align="center"><small><em>The Dryad upload form now includes an option to upload code files that will be triaged and sent to Zenodo</em></small></figcaption>
+</figure>
+<br>
+
+Those familiar with Dryad may know that Dryad has a feature to keep datasets private during the peer review period, with a double blind download URL that allows for journal offices and collaborators to access the data prior to manuscript acceptance. Zenodo hosted software will be included in this private URL and will be held from the public until the dataset is ready to be published.
+
+<br>
+<figure align="center">
+  <img style="width: 20%" src="/2021/02/08/2021-02-08-doing-it-right/screen2.png">
+  <figcaption align="center"><small><em>Before submitting researchers are able to preview all uploaded files</em></small></figcaption>
+</figure>
+<br>
+
+<br>
+<figure align="center">
+  <img style="width: 70%" src="/2021/02/08/2021-02-08-doing-it-right/screen3.png">
+  <figcaption align="center"><small><em>Private for Peer Review link allows for auto download of the Dryad data as well as the software files in Zenodo</em></small></figcaption>
+</figure>
+<br>
+
+After curation and publication of the dataset, the Dryad and Zenodo outputs are linked publicly on each landing page and indexed with DataCite metadata. Versioning and updating of either package can happen at any time through the Dryad interface.
+
+<br>
+<figure align="center">
+  <img style="width: 80%" src="/2021/02/08/2021-02-08-doing-it-right/screen4.png">
+  <figcaption align="center"><small><em>Published dataset at Dryad prominently allows researchers to navigate to and download code files from Zenodo</em></small></figcaption>
+</figure>
+<br>
+
+
+<br>
+<figure align="center">
+  <img style="width: 60%" src="/2021/02/08/2021-02-08-doing-it-right/screen5.png">
+  <figcaption align="center"><small><em>Software package is downloadable, with proper license, and linked to dataset at Zenodo</em></small></figcaption>
+</figure>
+<br>
+
+#### Elevating Software
+
+Throughout our building together, we worked with researchers across scientific disciplines to both test the look and feel of the features but also to understand how data and software are used together. Through conversations with folks at Software Sustainability Institute (SSI), rOpenSci, Research Software Alliance (ReSA), US Research Software Sustainability Institute (URSSI) and leaders in the software citation space, we understood that while researchers may not always think of their R or Python scripts as a piece of software, integrations like this are essential to elevate software as a valued, published, and citable output. 
+
+<blockquote><p><em>This work between the organizations represents a massive win for open science and reproducibility. Besides the lack of incentives to share, a significant source of friction for researchers is the burden of preparing research artifacts for different repositories. By simplifying this process and linking research objects, Dryad and Zenodo are not only making it easier to share code and software, but also dramatically enhancing discoverability and improving data and software citation.</em></p>
+<small>Karthik Ram, Director of rOpenSci &amp; URSSI lead</small>
+</blockquote>
+
+#### Looking Forward
+
+This release is the first set of features in our path ahead working together to best support our global researcher base. While we are building feature sets around Supporting Information (non-software and non-data files) for journal publishers, we know that this space is evolving quickly and our partnership will respond to both the needs of researchers as well as the development of best practices from software and data initiatives. We will keep the community apprised of our future developments and we are always looking to expand our reach and iterate on what we’ve built. If you believe there are ways that Dryad and Zenodo better support research data and software publishing, please get in touch.
+
+---
+date: 2021-02-08
