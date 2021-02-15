@@ -1,4 +1,6 @@
-# Copyright (C) 2017 CERN.
+#!/usr/bin/env bash
+#
+# Copyright (C) 2017-2021 CERN.
 #
 # Zenodo is free software; you can redistribute it and/or
 # modify it under the terms of the GNU General Public License as

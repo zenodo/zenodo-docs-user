@@ -1,0 +1,31 @@
+name: "Deploy pages"
+
+on:
+  push:
+    branches:
+    - 'master'
+
+jobs:
+  Build-n-Deploy:
+    name: Build and deploy Lektor websites
+    runs-on: ubuntu-20.04
+    steps:
+      - name: Checkout branch
+        uses: actions/checkout@v2
+      - name: "Setup SSH deploy keys"
+        uses: webfactory/ssh-agent@v0.4.1
+        with:
+          ssh-private-key: |
+            ${{ secrets.ABOUT_SSH_PRIVATE_KEY }}
+            ${{ secrets.BLOG_SSH_PRIVATE_KEY }}
+            ${{ secrets.HELP_SSH_PRIVATE_KEY }}
+      - name: Setup Python
+        uses: actions/setup-python@v2
+        with:
+          python-version: '3.7'
+      - name: Install dependencies
+        run: |
+          pip install -U pip
+          pip install "Lektor==3.0.1"
+      - name: Deploy
+        run: ./rundeploy.sh

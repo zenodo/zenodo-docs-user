@@ -1,0 +1,25 @@
+name: "Test Lektor build"
+
+on:
+  pull_request:
+    branches: master
+  push:
+    branches: master
+
+jobs:
+  Tests:
+    name: Test Lektor wbsites build
+    runs-on: ubuntu-20.04
+    steps:
+      - name: Checkout branch
+        uses: actions/checkout@v2
+      - name: Setup Python
+        uses: actions/setup-python@v2
+        with:
+          python-version: '3.7'
+      - name: Install dependencies
+        run: |
+          pip install -U pip
+          pip install "Lektor==3.0.1"
+      - name: Run tests
+        run: ./runtests.sh
