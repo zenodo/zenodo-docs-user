@@ -12,13 +12,6 @@ jobs:
     steps:
       - name: Checkout branch
         uses: actions/checkout@v2
-      - name: "Setup SSH deploy keys"
-        uses: webfactory/ssh-agent@v0.4.1
-        with:
-          ssh-private-key: |
-            ${{ secrets.ABOUT_SSH_PRIVATE_KEY }}
-            ${{ secrets.BLOG_SSH_PRIVATE_KEY }}
-            ${{ secrets.HELP_SSH_PRIVATE_KEY }}
       - name: Setup Python
         uses: actions/setup-python@v2
         with:
@@ -28,4 +21,8 @@ jobs:
           pip install -U pip
           pip install "Lektor==3.0.1"
       - name: Deploy
+        env:
+          ABOUT_SSH_PRIVATE_KEY: ${{ secrets.ABOUT_SSH_PRIVATE_KEY }}
+          BLOG_SSH_PRIVATE_KEY: ${{ secrets.BLOG_SSH_PRIVATE_KEY }}
+          HELP_SSH_PRIVATE_KEY: ${{ secrets.HELP_SSH_PRIVATE_KEY }}
         run: ./rundeploy.sh
