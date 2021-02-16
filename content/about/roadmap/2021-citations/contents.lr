@@ -1,0 +1,9 @@
+column: current
+---
+sort: 2
+---
+body: Review our citations import pipeline, and more specifically citations harvested from Crossref/DataCite EventData and [INSPIREHEP](https://inspirehep.net/).
+---
+category: Development
+---
+title: Citations

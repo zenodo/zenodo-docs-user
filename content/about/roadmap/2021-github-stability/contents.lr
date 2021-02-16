@@ -1,0 +1,9 @@
+column: current
+---
+title: Stability improvements to GitHub integration
+---
+category: Development
+---
+sort: 1
+---
+body: Automatic retries for failed GitHub releases processing, better documentation on `.zenodo.json`, and overall easier troubleshooting.
