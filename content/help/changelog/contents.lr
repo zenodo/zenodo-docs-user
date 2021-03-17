@@ -1,0 +1,22 @@
+_model: changelog
+---
+title: Changelog
+---
+body:
+<div class="static-page content">
+  <div class="features-page">
+  <div class="container">
+    <div class="row">
+      <div class="jumbotron introducing" align="left">
+        <h2>What's new in Zenodo?</h1>
+      </div>
+    </div>
+  </div>
+  </div>
+  </div>
+
+---
+toptext:
+
+# Changelog
+<hr />

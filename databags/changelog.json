@@ -1,0 +1,8 @@
+{
+    "changes": [
+        ["2012/05/15","We have now added a community filter in the search."],
+        ["2012/05/15","Enriched Github errors providing more information."],
+        ["2012/05/15","We can now publish GitHub releases manually even if the metadata file is incorrect."]
+    ]
+}
+
