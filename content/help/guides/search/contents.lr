@@ -47,18 +47,13 @@ You can combine simple, phrase and field search to construct advanced search que
 
 ### Range search
 
-**Example:** [``publicationdate:[2017 TO 2018]``](https://zenodo.org/search?page=1&size=20&q=publicationdate:%5B2017%20TO%202018%5D) (note, you must capitalize ``TO``).
+**Example:** [``publication_date:[2017-01-01 TO 2018-01-01]``](https://zenodo.org/search?page=1&size=20&q=publication_date:%5B2017-01-01%20TO%202018-01-01%5D) (note, you must capitalize ``TO``).
 
 Results will match any record with a publication date between 2017-01-01 and 2018-01-01 (both dates inclusive).
 
-Note that, partial dates are expanded to full dates, e.g.:
-
-- 2017 is expanded to 2017-01-01
-- 2017-06 is expanded to 2017-06-01
-
 Use square brackets (``[]``) for *inclusive* ranges and  use curly brackets (``{}``) for *exclusive* ranges, e.g.:
 
-- ``[2017 TO 2018}`` is equivalent to ``[2017-01-01 TO 2017-12-31]`` because of date expansion and exclusive upper bound.
+- ``[2017-01-01 TO 2018-01-01}`` is equivalent to ``[2017-01-01 TO 2017-12-31]``.
 
 Examples of other ranges:
 
