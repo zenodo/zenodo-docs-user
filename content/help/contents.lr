@@ -104,6 +104,24 @@ In the highly unlikely event that Zenodo will have to close operations, we guara
 ----
 category: policies
 #### qaitem ####
+question: Is Zenodo OAIS compliant?
+----
+answer: Zenodo and the underlying Invenio Framework for digital repositories were designed according to the OAIS reference model. Full OAIS compliance can only be proven through ISO 16363 certification which is a recent standard with very few repositories worldwide certified to date. See our infrastructure page for further details on Zenodo’s organizational and technical infrastructure.
+----
+category: policies
+#### qaitem ####
+question: Does Zenodo have the CoreTrustSeal or other certification?
+----
+answer: Not yet since CoreTrustSeal at the moment only certifies repositories that serve a specifically designated community and therefore not generalist repositories like Zenodo. CoreTrustSeal is considering including generalist repositories in CoreTrustSeal 2022, at which point we would apply for certification. We have provided our input to CoreTrustSeal’s request for community feedback on this issue.
+----
+category: policies
+#### qaitem ####
+question: Is Zenodo certified?
+----
+answer: Zenodo is recommended by [FAIRsharing.org](FAIRsharing.org). We also have self-assessments for the FAIR principles and Plan S in our [Principles page](https://about.zenodo.org/principles/).
+----
+category: policies
+#### qaitem ####
 question: Why is my closed access upload not on the front-page?
 ----
 answer:
@@ -370,7 +388,6 @@ For both types of events, we track:
 2. **Visitor type:** If the request was made by a) human, b) machine or c) robot.
 3. **Country:** The country of origin of the request (based on the IP address).
 4. **Referrer:** The referrer domain.
-
 ----
 category: statistics-col1
 #### qaitem ####
@@ -465,8 +482,7 @@ category: statistics-col2
 #### qaitem ####
 question: Who do you share usage statistics with?
 ----
-answer: We share *aggregated* usage statistics with [OpenAIRE Usage Statistics](https://www.openaire.eu/openaire-guide-for-usage-statistics) as well as the [DataCite Sashimi](https://github.com/datacite/sashimi) service. Note, that only aggregated usage statistics is being shared, which
-do not include any anonymized visitor IDs.
+answer: We share *aggregated* usage statistics with [OpenAIRE Usage Statistics](https://www.openaire.eu/openaire-guide-for-usage-statistics) as well as the [DataCite Sashimi](https://github.com/datacite/sashimi) service. Note, that only aggregated usage statistics is being shared, whichdo not include any anonymized visitor IDs.
 ----
 category: statistics-col2
 #### qaitem ####
@@ -500,11 +516,27 @@ answer: No.
 ----
 category: statistics-col2
 #### qaitem ####
+question: Does Zenodo perform virus checks on uploaded files?
+----
+answer: No, we do not perform virus checks on user-uploaded files. We however serve user-uploaded files in the most secure manner possible to protect users from various types of malicious attacks.
+----
+category: security-col1
+#### qaitem ####
+question: Is Zenodo GDPR-compliant?
+----
+answer: Zenodo is hosted at CERN, which is an Intergovernmental Organization (IGO), with its seat in Switzerland and therefore not subject to the EU's General Data Protection Regulation (GDPR). Data protection at CERN, which Zenodo complies with, is governed by CERN’s Operational Circular 11 (OC11) that offers data protection at the same high standards and comparable to GDPR. You can read more about this in our relevant [blog post](https://blog.zenodo.org/2018/05/25/2018-05-25-gdpr/).
+----
+category: security-col1
+#### qaitem ####
+question: How do I share personal data?
+----
+answer: Zenodo is an open dissemination research data repository, and the uploader of content responsible to ensure that the content is suitable for open dissemination and that it complies with applicable laws, including, but not limited to, privacy, data protection, and intellectual property rights. Thus, an uploader shall ensure that sensitive personal data is either anonymized to an appropriate degree or fully consent cleared. Uploaders considering Zenodo for the storage of non anonymized or encrypted/unencrypted sensitive personal data are therefore advised to use bespoke platforms rather than open dissemination services like Zenodo for sharing their data.
+----
+category: security-col1
+#### qaitem ####
 question: Can I sort search results by most cited?
 ----
-answer:
-
-No, however we do plan to make this possible.
+answer: No, however we do plan to make this possible.
 ----
 category: citations-col1
 #### qaitem ####
@@ -515,15 +547,12 @@ answer:
 We by default roll-up citations to **all versions** of your record in order to show its full impact.
 
 You can however use the filter "Citations to this version" to show only citations to the specific version of a record you are viewing.
-
 ----
 category: citations-col1
 #### qaitem ####
 question: Which records show citations?
 ----
-answer:
-
-We display citations if available for all records in Zenodo.
+answer: We display citations if available for all records in Zenodo.
 ----
 category: citations-col1
 #### qaitem ####
@@ -567,49 +596,37 @@ category: citations-col1
 #### qaitem ####
 question: How many citations are available?
 ----
-answer:
-
-At launch (January 2019), around 2500 records have a minimum of one citation with a total of around 3500 total citations (about half from ADS and half from Crossref/DataCite Event Data). Only around 250 out of the 3500 citations are known by both systems.
+answer: At launch (January 2019), around 2500 records have a minimum of one citation with a total of around 3500 total citations (about half from ADS and half from Crossref/DataCite Event Data). Only around 250 out of the 3500 citations are known by both systems.
 ----
 category: citations-col1
 #### qaitem ####
 question: Why the beta label?
 ----
-answer:
-
-Currently our infrastructure is feature complete, however we are still expanding our citation data sources in order to have better coverage. We will remove the beta label as soon as we reached a better coverage.
+answer: Currently our infrastructure is feature complete, however we are still expanding our citation data sources in order to have better coverage. We will remove the beta label as soon as we reached a better coverage.
 ----
 category: citations-col1
 #### qaitem ####
 question: When do you expect to remove the beta label?
 ----
-answer:
-
-Working with citation data sources and checking the data quality takes time and thus we expect that we may stay in beta until first-half of 2020.
+answer: Working with citation data sources and checking the data quality takes time and thus we expect that we may stay in beta until first-half of 2020.
 ----
 category: citations-col1
 #### qaitem ####
 question: How often are citations updated?
 ----
-answer:
-
-New citations from our citation data sources are made available minimum once a day.
+answer: New citations from our citation data sources are made available minimum once a day.
 ----
 category: citations-col1
 #### qaitem ####
 question: Which data source provided a specific citation?
 ----
-answer:
-
-Each citation shows a small question mark icon to the right, which if you hover the mouse over will display the tooltip containing the list of all data sources which provided the link.
+answer: Each citation shows a small question mark icon to the right, which if you hover the mouse over will display the tooltip containing the list of all data sources which provided the link.
 ----
 category: citations-col2
 #### qaitem ####
 question: Do you deduplicate citations?
 ----
-answer:
-
-Yes. We may receive the same citation from multiple data sources. The deduplication is purely based on synonymous persistent identifiers.
+answer: Yes. We may receive the same citation from multiple data sources. The deduplication is purely based on synonymous persistent identifiers.
 ----
 category: citations-col2
 #### qaitem ####
@@ -625,33 +642,25 @@ category: citations-col2
 #### qaitem ####
 question: I found an wrong citation, what do I do?
 ----
-answer:
-
-Please [contact us](https://zenodo.org/support).
+answer: Please [contact us](https://zenodo.org/support).
 ----
 category: citations-col2
 #### qaitem ####
 question: Why does my citation not have a title?
 ----
-answer:
-
-We usually receive citation data as a link between two persistent identifiers (e.g. "DOI A cites DOI B") without any metadata. We therefore have to automatically retrieve metadata such as title, authors and publication year from other services. This automatic fetching of metadata however is sometimes not able to find any available metadata, in which case we only display the persistent identifier.
+answer: We usually receive citation data as a link between two persistent identifiers (e.g. "DOI A cites DOI B") without any metadata. We therefore have to automatically retrieve metadata such as title, authors and publication year from other services. This automatic fetching of metadata however is sometimes not able to find any available metadata, in which case we only display the persistent identifier.
 ----
 category: citations-col2
 #### qaitem ####
 question: Do you provide aggregated citation metrics for authors?
 ----
-answer:
-
-No.
+answer: No.
 ----
 category: citations-col2
 #### qaitem ####
 question: Do you provide aggregated citation metrics for communities?
 ----
-answer:
-
-No.
+answer: No.
 ----
 category: citations-col2
 #### qaitem ####
