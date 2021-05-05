@@ -31,17 +31,23 @@
           {{ blk }}
         {% endif %}
       {% endfor %}
+    <h3 id="technical">Technical</h3>
+      {% for blk in this.faqlist.blocks %}
+        {% if blk.category == 'technical' %}
+          {{ blk }}
+        {% endif %}
+      {% endfor %}
+    <h3 id="technical">Security</h3>
+      {% for blk in this.faqlist.blocks %}
+        {% if blk.category == 'security-col1' %}
+          {{ blk }}
+        {% endif %}
+      {% endfor %}
   </div>
   <div class="col-lg-6">
     <h3 id="policies">Policies</h3>
       {% for blk in this.faqlist.blocks %}
         {% if blk.category == 'policies' %}
-          {{ blk }}
-        {% endif %}
-      {% endfor %}
-    <h3 id="technical">Technical</h3>
-      {% for blk in this.faqlist.blocks %}
-        {% if blk.category == 'technical' %}
           {{ blk }}
         {% endif %}
       {% endfor %}
@@ -115,7 +121,6 @@
       {% endfor %}
   </div>
 </div>
-<hr />
 <div class="row">
   <div class="col-lg-12">
     <h2 id="citations">Citations</h2>
