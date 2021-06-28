@@ -689,6 +689,18 @@ The project partners include:
 - CERN (Zenodo)
 ----
 category: citations-col2
+#### qaitem ####
+question: How to change the default metadata for my Github releases?
+----
+answer: You can include metadata in a `.zenodo.json` file at the root of your GitHub repository. This file's contents should be in line with the Zenodo deposit metadata schema and will be used to update the metadata from future GitHub releases. For more information on how to create a `.zenodo.json` file, you can have a look at our [GitHub integration documenation](https://developers.zenodo.org/#github).
+----
+category: github
+#### qaitem ####
+question: Do you support other software metadata files, like `CITATION.cff` or `codemeta.json`?
+----
+answer: Part of our plans and ongoing work is to integrate also other software metadata schemas such as the [Citation File Format (CFF)](https://citation-file-format.github.io/) and [CodeMeta](https://codemeta.github.io/). We are working closely with our users and scholarly software and citation communities to figure out exactly when, in what form, and how all these different metadata schemas and their files will be integrated into Zenodo.
+----
+category: github
 ---
 bottomtext: ## Couldn't find the answer to your question? [Contact us](https://zenodo.org/support).
 ---
