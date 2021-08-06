@@ -45,7 +45,7 @@ FAIR Principles definition as referenced from:
 - **A1.2**: the protocol allows for an authentication and authorization procedure, where necessary
  - Metadata are publicly accessible and licensed under public domain. No authorization is ever necessary to retrieve it.
 - **A2**: metadata are accessible, even when the data are no longer available
- - Data and metadta will be retained for the lifetime of the repository.
+ - Data and metadata will be retained for the lifetime of the repository.
    This is currently the lifetime of the host laboratory CERN, which currently has an experimental programme defined for the next 20 years at least.
  - Metadata are stored in high-availability database servers at CERN, which are separate to the data itself.
 
