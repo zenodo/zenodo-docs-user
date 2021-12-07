@@ -1,0 +1,30 @@
+title: Hardening our service
+---
+author: aioannidis
+---
+body:
+
+We’ve [talked in the past](https://blog.zenodo.org/2020/06/09/2020-06-09-slow-zenodo/) about the challenges of running a service at the scale of Zenodo in the inhospitable environment of the modern internet. Over the past couple of years, we have experienced an exponential increase in our users, content, and traffic… and we couldn’t be happier that Zenodo is proving useful in so many different ways! For Open Science to flourish,  researchers should feel empowered to share their data, software, and every part of their journey of publishing their work. We are proud to have done our part in lowering the barrier to share and preserve.
+
+This year we crossed the threshold of **2 million records**, we are closing in on storing our **first PetaByte of data**, and we’ve reached **15 million annual visits**. To keep up with these challenging requirements, our team put their heads together with our colleagues here at the CERN Data Center. Their long-running expertise in handling PBs of data generated from the CERN experiments is one of the reasons why we can offer a reliable service to the world in the first place. Over the past year, we have tweaked and optimized our infrastructure to help solve a variety of scaling and performance issues that we’ve faced.
+
+<img src="/2021/12/07/2021-12-07-hardening-our-service/resumable-downloads.gif" align="right" style="width: 50%">
+
+### Improved file serving
+
+One of the main culprits for our performance bottlenecks was the way we served files. Our web application was doing all the heavy-lifting, while the number of concurrent connections we needed to serve was increasing. The solution was simple: leave the heavy-lifting to the pros 💪. With the help of our CERN storage team, we now have a dedicated setup for offloading file downloads directly to our [EOS storage cluster](https://eos-web.web.cern.ch/eos-web/).
+
+This change also came with a bonus side-effect: Zenodo file downloads now support HTTP Range requests! This means resumable file downloads, as well as the unlocking the possibility for a wide range of applications which depend on accessing small parts of large files (e.g. [Cloud Optimized GeoTIFF](https://www.cogeo.org/), [Zarr](https://github.com/zarr-developers)).
+
+### Dedicated space for crawlers and bots
+
+Given our high content intake of almost 10k records on a weekly basis, it was natural that web crawlers and indexers had a tough time going through everything without stealing resources from normal users. There are conventions that instruct crawlers to slow down, but unfortunately, not all crawlers respect them. To minimize the impact crawlers have on the rest of the users, we’ve put up a dedicated space that serves them in a machine-friendly fashion. That means that regular users get a performant and snappy experience while browsing our pages, while crawlers still get to index Zenodo at their own pace.
+
+### Towards a stable future
+
+This is of course not the end of the story. We expect Zenodo to continue growing at the same rate and we have many plans to further stabilize and scale our infrastructure. We have closely monitored our database and search cluster performance, and identified points of improvement based on industry best practices. We’re also eager to explore ways to provide cached versions of our pages. 
+ 
+Last, but not least, our efforts in building and rebasing Zenodo on top of [InvenioRDM](https://inveniosoftware.org/products/rdm/), a turn-key solution for digital repositories, come in the form of a bottom-to-top revamp of our software stack, based on the same pillars that made Zenodo what it is today: a resilient,  top-of-the-class user experience, and scalable platform at the service of Open Science.
+
+---
+date: 2021-12-07
