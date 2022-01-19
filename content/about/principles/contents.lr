@@ -124,7 +124,7 @@ See the [Plan S Principles and Implementation](https://www.coalition-s.org/princ
             </ul>
             <li><i>"include [..] the Open Access status and the license of the deposited version"</i></li>
             <ul>
-                <li>All Zenodo records include the Open Access status according to the <a href="https://www.coar-repositories.org/activities/repository-interoperability/coar-vocabularies/access-rights-vocabulary/">COAR access right vocabulary</a> (open, embargoed, restricted, closed).</li>
+                <li>All Zenodo records include the Open Access status according to the <a href="https://vocabularies.coar-repositories.org/access_rights/">COAR access right vocabulary</a> (open, embargoed, restricted, closed).</li>
                 <li>All open access and embargoed records specify a license of the deposited material. Any license from the <a href="https://opendefinition.org">OpenDefinition</a> and <a href="https://spdx.org/license-list">SPDX</a> vocabularies are supported (including all Creative Commons licenses).</li>
             </ul>
             <li><i>"including as a minimum the name of the funder and the grant number/identifier"</i></li>
