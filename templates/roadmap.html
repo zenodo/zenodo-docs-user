@@ -34,9 +34,34 @@
         </div>
         <div clas="row">
             <div class="col-md-8 col-md-offset-2 text-center">
-                Our roadmap helps us share what we are working on next and the direction that we’re taking Zenodo. <br>The roadmap is updated quarterly in January, April, July and October. Questions, comments and feedback? <a href="https://zenodo.org/support">Contact us</a>
+                Our roadmap helps us share what we are working on next and the direction that we're taking Zenodo. <br>The roadmap is updated quarterly in January, April, July and October. Questions, comments and feedback? <a href="https://zenodo.org/support">Contact us</a>
                 </p>
-                <p><small>Last update: February 16, 2021</small></p>
+                <p><small>Last update: March 17, 2022</small></p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <h2>Completed</h2>
+                <hr />
+                <div class="row">
+                    <div class="col-md-12">
+                    {%- for year, cards in this.children|selectattr('column', 'eq', 'completed')|groupby("year")|reverse %}
+                        <details {{ 'open' if year == (today().year - 1) }}>
+                            <summary>
+                                <h3>{{ year }}</h3>
+                                <hr />
+                            </summary>
+                            <div class="row">
+                                {%- for card in cards %}
+                                <div class="col-md-4">
+                                    {{ render_roadmap_card(card) }}
+                                </div>
+                                {%- endfor %}
+                            </div>
+                        </details>
+                    {%- endfor %}
+                    </div>
+                </div>
             </div>
         </div>
     </div>
