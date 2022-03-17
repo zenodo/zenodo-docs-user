@@ -19,7 +19,8 @@ jobs:
       - name: Install dependencies
         run: |
           pip install -U pip
-          pip install "Lektor==3.2.0"
+          pip install "Lektor==3.3.2"
+          pip freeze
       - name: Deploy
         env:
           ABOUT_SSH_PRIVATE_KEY: ${{ secrets.ABOUT_SSH_PRIVATE_KEY }}
