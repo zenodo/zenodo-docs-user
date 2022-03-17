@@ -1,4 +1,4 @@
-column: near-term
+column: completed
 ---
 body: Integration of Zenodo into the Dryad submission process.
 ---
@@ -6,4 +6,4 @@ category: Projects
 ---
 title: Zenodo-Dryad integration
 ---
-_hidden: yes
+year: 2020

@@ -1,0 +1,11 @@
+column: future
+---
+body: Migrate all Zenodo features and data on top of InvenioRDM.
+---
+category: Development
+---
+title: InvenioRDM migration
+---
+year: 2022
+---
+sort: 4

@@ -1,4 +1,4 @@
-column: current
+column: completed
 ---
 body: Improve the regular import of citations from NASA ADS, OpenAIRE ScholExplorer, CrossRef and EuropePMC.
 ---
@@ -6,4 +6,4 @@ category: Development
 ---
 title: Citations
 ---
-_hidden: yes
+year: 2019

@@ -1,4 +1,4 @@
-column: current
+column: completed
 ---
 body: Beta support for geospatial, temporal and method metadata in the REST API (display and searching to come later).
 ---
@@ -8,4 +8,4 @@ title: New metadata fields
 ---
 sort: 1
 ---
-_hidden: yes
+year: 2019
