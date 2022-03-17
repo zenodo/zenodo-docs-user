@@ -1,4 +1,4 @@
-column: current
+column: completed
 ---
 body: Centralise logging of web server access logs into Elasticsearch cluster.
 ---
@@ -8,4 +8,4 @@ sort: 0
 ---
 title: Logging infrastructure
 ---
-_hidden: yes
+year: 2019

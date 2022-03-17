@@ -1,4 +1,4 @@
-column: current
+column: completed
 ---
 body: Migrate our Elasticsearch cluster to v7 on CERN's Elasticsearch On Demand service.
 ---
@@ -8,4 +8,4 @@ title: Infrastructure improvements
 ---
 category: DevOps
 ---
-_hidden: yes
+year: 2019

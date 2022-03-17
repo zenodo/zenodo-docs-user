@@ -1,4 +1,4 @@
-column: current
+column: completed
 ---
 body:
 
@@ -10,4 +10,4 @@ sort: 2
 ---
 category: Development
 ---
-_hidden: yes
+year: 2020

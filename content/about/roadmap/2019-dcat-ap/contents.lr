@@ -1,4 +1,4 @@
-column: current
+column: completed
 ---
 body: Support for the DCAT export format via the DataCite XML to DCAT XSLT.
 ---
@@ -8,4 +8,4 @@ sort: 3
 ---
 category: Development
 ---
-_hidden: yes
+year: 2020

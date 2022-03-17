@@ -1,4 +1,4 @@
-column: near-term
+column: completed
 ---
 body: Produce thumbnails via IIIF APIs with proper caching.
 ---
@@ -6,4 +6,4 @@ category: Development
 ---
 title: Thumbnails
 ---
-_hidden: yes
+year: 2020

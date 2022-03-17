@@ -1,4 +1,4 @@
-column: current
+column: completed
 ---
 title: Minor improvements to GitHub integration
 ---
@@ -8,4 +8,4 @@ sort: 3
 ---
 body: Minor optimizations in the release processing workflow.
 ---
-_hidden: yes
+year: 2019

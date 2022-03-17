@@ -1,0 +1,11 @@
+column: completed
+---
+body: In collaboration with the DBoD team at CERN, upgrade our databases to PostgreSQL v12.
+---
+category: DevOps
+---
+title: Upgrade to PostgreSQL v12
+---
+year: 2021
+---
+sort: 1
