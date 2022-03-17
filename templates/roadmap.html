@@ -46,7 +46,7 @@
                 <div class="row">
                     <div class="col-md-12">
                     {%- for year, cards in this.children|selectattr('column', 'eq', 'completed')|groupby("year")|reverse %}
-                        <details {{ 'open' if year == (today().year - 1) }}>
+                        <details {{ 'open' if year >= (today().year - 1) }}>
                             <summary>
                                 <h3>{{ year }}</h3>
                                 <hr />
