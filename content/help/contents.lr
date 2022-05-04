@@ -19,7 +19,7 @@ Once the record has been published, you can no longer change the files in the re
 1. If the record has a Zenodo DOI (prefix: ``10.5281``):
  * The recommended way is to create a new version of a record (more details available [here](/#versioning)).
    Most of the cases fall under this category, which include modifications of the dataset/software, addition or removal of files, new versions of datasets, software or revisions of the papers, including major revisions as well typos and formatting/styling.
- * Exceptionally, we allow small modifications to the record's files, if and only if the record was published recently (less than one week). If you have spotted mistakes such as typos, accidental omission of important files/inclusion of hidden files or confidential files and would like to update them, please contact us.
+ * Exceptionally, we allow small modifications to the record's files, if and only if the record was published recently (less than one month). If you have spotted mistakes such as typos, accidental omission of important files/inclusion of hidden files or confidential files and would like to update them, please contact us.
 1. If the record has a non-Zenodo DOI:
  * Since it is not possible to create new versions for the non-Zenodo DOIs you should contact us about the file update directly.
 
