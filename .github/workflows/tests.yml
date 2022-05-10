@@ -20,7 +20,7 @@ jobs:
       - name: Install dependencies
         run: |
           pip install -U pip
-          pip install "Lektor==3.3.2"
+          pip install "Lektor>=3.3.4"
           pip freeze
       - name: Run tests
         run: ./runtests.sh
