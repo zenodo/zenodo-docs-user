@@ -138,7 +138,7 @@ of what each data type means and what is possible.
 | Field name | Type  | Notes  |
 |---|---|---|---|
 | ``access_conditions``  | string  |  |   |
-| ``accessrights``  | CV  |  See "Access rights (CV)" below. |   |
+| ``access_right``  | CV  |  See "Access rights (CV)" below. |   |
 | ``alternate.identifier``  | string (exact)  |   |   |
 | ``alternate.scheme``  | CV | See "Identifier schemes (CV)" below. |   |
 | ``communities`` | string (exact) |  Identifier of community. |   |
@@ -202,6 +202,7 @@ of what each data type means and what is possible.
 | ``references.\*`` | string |   |   |
 | ``related.identifier``  | string (exact)  |   |   |
 | ``related.scheme``  | CV | See "Identifier schemes (CV)" below. |   |
+| ``related.relation``  | CV | See "Relations (CV)" below. |   |
 | ``relations.version.count``  | integer  |  Number of versions of record. |   |
 | ``resource_type.subtype`` | CV  | See "Resource types (CV)" below.  |   |
 | ``resource_type.type`` | CV  | See "Resource types (CV)" below.  |   |
@@ -215,6 +216,8 @@ of what each data type means and what is possible.
 
 #### Resource types (CV)
 
+**Example:** [``resource_type.type:software``](https://zenodo.org/search?page=1&size=20&q=resource_type.type:software)
+
 - ``publication``
 - ``poster``
 - ``presentation``
@@ -227,12 +230,16 @@ of what each data type means and what is possible.
 
 #### Access rights (CV)
 
+**Example:** [``access_right:closed``](https://zenodo.org/search?page=1&size=20&q=access_right:closed)
+
 - ``open`` - Open access (see field also ``license``).
 - ``closed`` - Closed access (access to files only by owner).
 - ``embargoed`` - Embargoed access (see also field ``embargodate`` and ``license``).
 - ``restricted`` - Restricted access (see also  field ``access_conditions``).
 
 #### Identifier schemes (CV)
+
+**Example:** [``related.scheme:ads``](https://zenodo.org/search?page=1&size=20&q=related.scheme:ads)
 
 - ``ads``
 - ``ark``
@@ -258,6 +265,8 @@ of what each data type means and what is possible.
 - ``urn``
 
 #### Relations (CV)
+
+**Example:** [``related.relation:cites``](https://zenodo.org/search?page=1&size=20&q=related.relation:cites)
 
 - ``cites``
 - ``compiles``
@@ -286,6 +295,8 @@ of what each data type means and what is possible.
 - ``reviews``
 
 #### Contributor types (CV)
+
+**Example:** [``contributors.type:ContactPerson``](https://zenodo.org/search?page=1&size=20&q=contributors.type:ContactPerson)
 
 - ``ContactPerson``
 - ``DataCollector``
