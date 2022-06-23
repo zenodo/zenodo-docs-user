@@ -50,5 +50,17 @@
   "sjones": {
     "name": "Sarah Jones",
     "img": ""
+  },
+  "dshorthouse": {
+    "name": "David P. Shorthouse",
+    "orcid":"https://orcid.org/0000-0001-7618-5230"
+  },
+  "zgoodwin": {
+    "name": "Dr. Zoë Goodwin",
+    "orcid": "https://orcid.org/0000-0003-2926-1645"
+  },
+  "korellana": {
+    "name": "K. Samanta Orellana",
+    "orcid" : "https://orcid.org/0000-0002-4098-5823"
   }
 }

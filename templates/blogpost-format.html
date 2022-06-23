@@ -32,6 +32,12 @@
     {% if image_path %}
     <img class="img-rounded" width=18 height=18 src="{{ image_path |url}}" />
     {% endif %}
+    {% set orcid = bag('authors.' + author_id + ".orcid") %}
+    {% if orcid %}
+    <a href="{{orcid}}"> 
+      <img class="img-rounded" width=18 height=18 src="/static/img/orcid.png" />
+    </a>
+    {% endif %}
     {{ bag('authors.' + author_id + ".name") }},
   {% endfor %}
   on {{ this.date | dateformat('long') }}
