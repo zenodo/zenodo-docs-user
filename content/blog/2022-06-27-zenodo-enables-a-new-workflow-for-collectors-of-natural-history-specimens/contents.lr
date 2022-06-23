@@ -1,0 +1,115 @@
+title: Zenodo Enables a New Workflow for Collectors of Natural History Specimens
+---
+author: dshorthouse,zgoodwin,korellana
+---
+body:
+
+[Bionomia](https://bionomia.net), launched August 2018 with the aim of linking natural history specimen records to people who collected them and/or identified them to species. The two main goals are to:
+
+(1) give credit to and improve the visibility of people who have contributed to the world’s natural history collections (see Thessen *et al.*, 2019; McDade *et al.*, 2011); and,
+
+(2) encourage natural history collections data managers to incorporate these new digital annotations into their source data warehouses, which completes a round-trip of high-quality, curated annotations.
+
+Zenodo is a key piece of infrastructure to help realize the first goal, especially for graduate students and early career researchers who desire a breadth of ways to illustrate their expertise and impact.
+
+Bionomia uses data that is produced by the world’s natural history collections and subsequently shared with the Global Biodiversity Information Facility ([GBIF](https://gbif.org)). Linking specimen records to people in this data is however challenging because people names are typically expressed as free-text with considerable variability in the ordering of the parts of names, abbreviations, and according to local cultural practices in the used data exchange standard maintained by Biodiversity Information Standards ([TDWG](https://www.tdwg.org/)). Through Bionomia, authenticated users actively disambiguate these text-based “agent strings” as they are commonly called, into Uniform Resource Identifiers (URIs) from Wikidata or ORCID as declarations of unequivocal person identity. Thus, free-text strings for people are enhanced to become uniquely identifiable and are thus better participants in the exchange of data according to the FAIR principles (Wilkinson *et al.*, 2016).
+
+When a user first logs in to Bionomia via OAuth using their ORCID credentials, they are presented with an interface to claim the records of natural history specimens they collected or identified. Over 175M records are downloaded and refreshed from GBIF into Bionomia every few weeks, then processed and pre-indexed for a pleasing experience, which would ordinarily have been a daunting task for any user. The reason for this refresh cycle is to keep pace with the continuous activities that occur upstream in the world’s museums and collections in which researchers deposit their physical specimens. Each user has a “Settings & Integrations” section in their account in Bionomia where they have the option to archive their data to Zenodo. Behind the scenes, Bionomia makes use of Zenodo’s well-documented [REST API](https://developers.zenodo.org/) for users to authenticate using OAuth – most often using their ORCID credentials once again – and then auto-deposits versioned archives of users’ claimed specimen records as both csv and JSON-LD files. The mechanics of this interaction is made seamless for users (Figures 1–4); they complete the process with a few clicks and no typing or form submission is required of them. Within moments, they have a new freely accessible (Creative Commons Zero v1.0 Universal) entry in Zenodo as a resource type “dataset” along with their ORCID ID clearly indicated, a handful of keywords, a formatted description, a title, a referenceable citation (Figures 5 & 6), and a DataCite DOI. Whenever specimen records are newly attributed to or claimed by users who have enabled this integration between Bionomia and Zenodo, their datasets are automatically constructed anew, pushed to Zenodo, and new versions appear (Figure 7). If a user additionally configures their ORCID profile to accept DataCite as a trusted party, their new dataset entry appears in ORCID soon afterward alongside their publications and affiliations (Figure 8).
+
+To date, 84 users of Bionomia have integrated their account with Zenodo and are collectively archiving 552,659 specimen records. While this may seem like a small number of active integrations, this is a valuable service for each of them. Many researchers were newly introduced to this novel workflow – archiving specimen-based data is an uncommon practice in our domain – and are now appreciative of Zenodo’s mission, user-friendly design, flexibility, and openness. Why not join this growing open science movement, by [claiming](https://bionomia.net/get-started) your specimen data?
+
+
+### Testimonial by Dr. Zoë Goodwin
+
+As a tropical botanist, a lot of my effort goes into the fundamental aspects of natural history data: the collection, identification and naming of plant specimens. Without these actions we can have no understanding of the natural world around us. However, until now it has been virtually impossible to keep track of these actions, claim them as work and then see how my particular efforts have contributed to other scientists’ research. By using Bionomia to claim the specimens that I have collected and identified in GBIF, for the first-time others can see what I have done and see how I have contributed to our understanding of the natural world. Then, importantly as an early career researcher I can include all this information as a citation & DOI using Zenodo in my CV or on my personal webpage.
+
+Goodwin, Zoë. 2022. Natural history specimens collected and/or identified and deposited. [Data set]. Zenodo. https://doi.org/10.5281/zenodo.3581428 
+
+
+### Testimonial by K. Samanta Orellana
+
+When I started studying insects in Central America, I had the opportunity to collect, process, and identify thousands of specimens in different entomological collections. However, I didn’t have the means or even know how to digitize and mobilize collection data and many of these activities went unnoticed. It wasn’t until I started my research as a PhD student in the US, that I was able to learn about the digitization workflows and the importance of sharing data in global aggregators such as GBIF. At the same time, I was able to learn about Bionomia and I was instantly engaged. Being able to see the details about my work in collections, and see how the specimens are connected to other collectors or taxonomists, became a strong motivation to continue digitizing and sharing data. Moreover, the ability to compile this information via Zenodo and make it citable has been a great way to make my contributions visible through my ORCID researcher profile, also allowing me to keep records of the progress made during my doctoral program.
+
+Orellana, K. Samanta. 2022. Natural history specimens collected and/or identified and deposited. [Data set]. Zenodo. https://doi.org/10.5281/zenodo.3942155 
+
+
+<br>
+<figure align="center">
+  <img src="/2022/06/27/2022-06-27-zenodo-enables-a-new-workflow-for-collectors-of-natural-history-specimens/make-your-data-citable.png">
+  <figcaption align="center"><small><em>Figure 1. Before a user claims the records for natural history specimens they collected or identified, they are presented with the above notice in their “Settings & Integrations” panel.
+</em></small></figcaption>
+</figure>
+<br>
+
+<br>
+<figure align="center">
+  <img src="/2022/06/27/2022-06-27-zenodo-enables-a-new-workflow-for-collectors-of-natural-history-specimens/make-your-data-citable-integrate-zenodo.png">
+  <figcaption align="center"><small><em>Figure 2. After claiming at least one specimen record in Bionomia, the Zenodo panel in a Bionomia user’s Settings & Integrations changes to inform them that they may begin the auto-archival process. Clicking the “Integrate with Zenodo” button presents a user with Zenodo’s authentication screen where permissions may be granted to Bionomia to auto-create a dataset and link it to their account.
+</em></small></figcaption>
+</figure>
+<br>
+
+<br>
+<figure align="center">
+  <img src="/2022/06/27/2022-06-27-zenodo-enables-a-new-workflow-for-collectors-of-natural-history-specimens/make-your-data-citable-linked-account.png">
+  <figcaption align="center"><small><em>Figure 3. Once a user has enabled the integration between Bionomia and Zenodo, their request is queued for processing and then pushed to Zenodo. The process typically takes a few minutes.
+</em></small></figcaption>
+</figure>
+<br>
+
+<br>
+<figure align="center">
+  <img src="/2022/06/27/2022-06-27-zenodo-enables-a-new-workflow-for-collectors-of-natural-history-specimens/make-your-data-citable-DOI.png">
+  <figcaption align="center"><small><em>Figure 4. Once an archive has been created in Zenodo and a response has been received by its API, the assigned DOI is presented in a Bionomia user’s panel. The user may disconnect the integration with Zenodo whenever they wish.
+</em></small></figcaption>
+</figure>
+<br>
+
+<br>
+<figure align="center">
+  <img src="/2022/06/27/2022-06-27-zenodo-enables-a-new-workflow-for-collectors-of-natural-history-specimens/cite-as.png">
+  <figcaption align="center"><small><em>Figure 5. A well-formatted citation of a natural history specimen data package for users to include in their curriculum vita.
+</em></small></figcaption>
+</figure>
+<br>
+
+<br>
+<figure align="center">
+  <img src="/2022/06/27/2022-06-27-zenodo-enables-a-new-workflow-for-collectors-of-natural-history-specimens/presentation.png">
+  <figcaption align="center"><small><em>Figure 6. The presentation of a natural history specimen data package on Zenodo, auto-produced through integration with Bionomia.</em></small></figcaption>
+</figure>
+<br>
+
+<br>
+<figure align="center">
+  <img src="/2022/06/27/2022-06-27-zenodo-enables-a-new-workflow-for-collectors-of-natural-history-specimens/versions.png">
+  <figcaption align="center"><small><em>Figure 7. The versions of natural history specimen data that auto-accrue in Zenodo for users of Bionomia that have enabled the integration.</em></small></figcaption>
+</figure>
+<br>
+
+<br>
+<figure align="center">
+  <img src="/2022/06/27/2022-06-27-zenodo-enables-a-new-workflow-for-collectors-of-natural-history-specimens/orcid.png">
+</figure>
+<br>
+
+<br>
+<figure align="center">
+  <img src="/2022/06/27/2022-06-27-zenodo-enables-a-new-workflow-for-collectors-of-natural-history-specimens/natural-history.png">
+  <figcaption align="center"><small><em>Figure 8. The presentation of a work entry in ORCID for a user of Bionomia who has integrated their account with Zenodo and who has additionally made DataCite a trusted party.</em></small></figcaption>
+</figure>
+<br>
+
+
+### References
+
+McDade, L.A., D.R. Maddison, R. Guralnick, H.A. Piwowar, M.L. Jameson, K.M. Helgen, P.S. Herendeen, A. Hill, and M.L. Vis. 2011. Biology needs a modern assessment system for professional productivity. BioScience 61(8): 619–625. https://doi.org/10.1525/bio.2011.61.8.8 
+
+Thessen, A.E., M. Woodburn, D. Koureas, D. Paul, M. Conlon, D.P. Shorthouse and S. Ramdeen. 2019. Proper attribution for curation and maintenance of research collections: Metadata recommendations of the RDA/TDWG Working Group. Data Science Journal 18(1): 54. http://doi.org/10.5334/dsj-2019-054
+
+Wilkinson, M., M. Dumontier, I. Aalbersberg et al. 2016. The FAIR Guiding Principles for scientific data management and stewardship. Sci Data 3: 160018. https://doi.org/10.1038/sdata.2016.18 
+
+---
+date: 2022-06-27
+---
+_discoverable: no
