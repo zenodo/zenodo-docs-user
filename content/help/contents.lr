@@ -179,6 +179,39 @@ This DOI can be safely used in the record's own content as well as any other sep
 ----
 category: general
 #### qaitem ####
+question: How does Zenodo deal with spam content?
+----
+answer: 
+
+We have two primary methods in place for dealing with spam submissions (e.g. advertisements, scams):
+
+- An automated classification system that prevents identified uploads entirely from being published. This system is based on a model trained on past spam submissions labelled manually by Zenodo administrators.
+- A human-based review of users that are added into a "safelist". Submissions from users that are added into the safelist, are ranked higher in all search results.
+----
+category: general
+#### qaitem ####
+question: What are the criteria for a user to be added to the safelist?
+----
+answer: Zenodo administrators add users to the safelist if their uploads comply with the service's [terms of use](https://about.zenodo.org/terms/) and [general policies](https://about.zenodo.org/policies/). In particular, the safelist is not in anyway a review of the quality of a research product.
+----
+category: general
+#### qaitem ####
+question: How often do you review new users to be added to the safelist?
+----
+answer: Submissions are reviewed at least once a day during business days.
+----
+category: general
+#### qaitem ####
+question: How do I know if I am in the safelist?
+----
+answer:
+
+Currently there is no visual inidicator on search results or record pages to tell if a user is safelisted or not. If you connected to Zenodo with your ORCiD or GitHub account, or had one of your uploads accepted in a community before the July 1st 2022, you were automatically added to the safelist. 
+
+If you see your own or other users' uploads being listed at the very end of your search results, you can contact us via our [support form](https://zenodo.org/support) so that we can review the affected users and be manually added to the safelist.
+----
+category: general
+#### qaitem ####
 question: What is DOI versioning?
 ----
 answer:
