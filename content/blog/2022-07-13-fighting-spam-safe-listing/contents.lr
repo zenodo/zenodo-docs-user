@@ -1,0 +1,20 @@
+title: Fighting spam - safe listing
+---
+author: lnielsen
+---
+body:
+
+Zenodo's vision is to enable researchers around the world to share and preserve any research output from any discipline via a seamless user experience. The same features that make it easy for any researcher to share and preserve their research, as a side effect also make it easy for spammers to misuse our service.
+
+As Zenodo grew in popularity, our spam problem grew as well. We firmly believe in the need to make sharing and preserving research data as easy as possible, and thus we have always opted against introducing factors blocking researchers' ability to share and preserve their research instantly. So far, we have been fighting spammers with automated classification systems and manual reviews, yet with every counter-measure we've taken, spammers have adapted their methods.
+
+Today, we're introducing yet another counter-measure to fight spammers. Content from new users will, as of today, be ranked below content from safelisted users. This means that spam will be less visible in all search results, allowing our automated classification system more time to catch the spam. In addition, we will be introducing a human review of all new users uploading content to Zenodo that will allow us to safelist new users and catch spammers. The human review is in progress of being introduced as part of our support operations, and we will also go through the backlog of existing users to safelist them. We have seeded the initial safelist with all users who logged in via ORCiD and GitHub, and users with existing uploads accepted in communities.
+
+All in all, if you're an existing Zenodo user and didn't login via ORCiD or GitHub, or had any of your uploads accepted in a community, your records will appear at the bottom of search results. We will be working on safelisting all existing users as fast as possible.
+
+If you're a new Zenodo user, your uploads will also appear at the bottom of search results until our manual review has safelisted you. We plan safelisting new users at least once a day during business days, but until we have worked through the backlog of existing users there might be a longer delay.
+
+The new feature in no way limits you ability to share and preserve research results. You can still upload your data, software and publications to Zenodo, and get a DOI instantly. The new measures only make sure that spam that makes it past our automated classification system is much less visible in search results, until a human review can catch the spammer.
+
+---
+date: 2022-07-13
