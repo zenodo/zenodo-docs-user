@@ -118,7 +118,7 @@ category: policies
 #### qaitem ####
 question: Is Zenodo certified?
 ----
-answer: Zenodo is recommended by [FAIRsharing.org](FAIRsharing.org). We also have self-assessments for the FAIR principles and Plan S in our [Principles page](https://about.zenodo.org/principles/).
+answer: Zenodo is recommended by [FAIRsharing.org](https://fairsharing.org). We also have self-assessments for the FAIR principles and Plan S in our [Principles page](https://about.zenodo.org/principles/).
 ----
 category: policies
 #### qaitem ####
@@ -480,7 +480,7 @@ category: statistics-col1
 #### qaitem ####
 question: How do you track?
 ----
-answer: We comply with the [COUNTER Code of Practice](https://www.projectcounter.org/code-of-practice-sections/general-information/) as well as the [Code of Practice for Research Data Usage Metrics](https://peerj.com/preprints/26505/) in our tracking. This means that our usage statistics can be compared with other COUNTER-compliant repositories.
+answer: We comply with the [COUNTER Code of Practice](https://www.projectcounter.org/) as well as the [Code of Practice for Research Data Usage Metrics](https://peerj.com/preprints/26505/) in our tracking. This means that our usage statistics can be compared with other COUNTER-compliant repositories.
 ----
 category: statistics-col1
 #### qaitem ####
@@ -515,7 +515,7 @@ category: statistics-col2
 #### qaitem ####
 question: Who do you share usage statistics with?
 ----
-answer: We share *aggregated* usage statistics with [OpenAIRE Usage Statistics](https://www.openaire.eu/openaire-guide-for-usage-statistics) as well as the [DataCite Sashimi](https://github.com/datacite/sashimi) service. Note, that only aggregated usage statistics is being shared, whichdo not include any anonymized visitor IDs.
+answer: We share *aggregated* usage statistics with [OpenAIRE Usage Counts](https://usagecounts.openaire.eu/) as well as the [DataCite Sashimi](https://github.com/datacite/sashimi) service. Note, that only aggregated usage statistics is being shared, whichdo not include any anonymized visitor IDs.
 ----
 category: statistics-col2
 #### qaitem ####
