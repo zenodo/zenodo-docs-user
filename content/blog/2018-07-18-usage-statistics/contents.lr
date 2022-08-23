@@ -16,7 +16,7 @@ of a record.
 We strongly believe in user’s right to privacy, thus we have spend a lot of
 time to design our system to ensure all tracking is completely anonymized. Our
 usage statistics is further tracked according to industry standards such as
-the [COUNTER Code of Practice](https://www.projectcounter.org/code-of-practice-sections/general-information/)
+the [COUNTER Code of Practice](https://www.projectcounter.org/)
 as well as the [Code of Practice for Research Data Usage Metrics](https://peerj.com/preprints/26505/)
 and thus allows you to compare metrics from Zenodo with other compliant
 repositories. You can read much more about this, and exactly how and what we
