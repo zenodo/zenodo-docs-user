@@ -1,0 +1,11 @@
+column: future
+---
+body: Add basic support for existing Zenodo legacy APIs in InvenioRDM and perform the first initial data migration tests.
+---
+category: Development
+---
+title: ZenodoRDM: Legacy APIs
+---
+year: 2022
+---
+sort: 4

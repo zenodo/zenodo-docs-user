@@ -1,10 +1,10 @@
-column: future
+column: near-term
 ---
-body: Migrate all Zenodo features and data on top of InvenioRDM.
+body: Setup a Zenodo-themed instance of InvenioRDM and make it publicly available so that users can follow progress on the move to InvenioRDM.
 ---
 category: Development
 ---
-title: InvenioRDM migration
+title: ZenodoRDM Demo Site
 ---
 year: 2022
 ---

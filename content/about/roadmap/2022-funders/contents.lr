@@ -1,4 +1,4 @@
-column: current
+column: completed
 ---
 body: Being able to specify funding information for uploads on the funder level, or fill-in custom funding metadata.
 ---

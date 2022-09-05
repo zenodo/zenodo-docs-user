@@ -1,4 +1,4 @@
-column: current
+column: completed
 ---
 body: Introduce a new Workflow upload type and integrate with REANA.
 ---
