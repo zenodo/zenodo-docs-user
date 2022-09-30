@@ -1,0 +1,34 @@
+title: Northwestern, CERN Join NIH in Enhancing Access to Biomedical Research
+---
+author: nu-cern-nih
+---
+body:
+
+*Cross posted from [Northwestern](https://news.feinberg.northwestern.edu/2022/09/28/northwestern-cern-join-nih-in-enhancing-access-to-biomedical-research/)*
+
+<figure>
+  <img src="/2022/09/30/2022-09-30-northwestern-cern-join-nih-in-enhancing-access-to-biomedical-research/screen1.jpg" style="width:100%">
+</figure>
+
+A new award to Northwestern University Feinberg School of Medicine and the European Organization for Nuclear Research (CERN) will enhance capabilities of data management and sharing for National Institutes of Health-funded researchers through the Generalist Repository Ecosystem Initiative ([GREI](https://datascience.nih.gov/news/nih-office-of-data-science-strategy-announces-new-initiative-to-improve-data-access)), led by the [NIH Office of Data Science Strategy](https://datascience.nih.gov/).
+
+This modernization of the data ecosystem aligns with the NIH Strategic Plan for Data Science and includes search and discovery of NIH-funded data in  generalist repositories. The GREI establishes a common set of cohesive and consistent capabilities, services, metrics, and social infrastructure across repositories, and facilitates the adoption of [FAIR principles](https://www.go-fair.org/fair-principles/) to better share and reuse data.
+
+Zenodo joins the GREI through a partnership between Northwestern University and CERN, led by [Kristi Holmes, PhD](https://www.feinberg.northwestern.edu/faculty-profiles/az/profile.html?xid=29964), director of [Galter Health Sciences Library and Learning Center](https://galter.northwestern.edu/) and professor of Preventive Medicine in the Division of Health and Biomedical Informatics, and [Tim Smith, PhD](https://tjs.web.cern.ch/tjs/), head of IT Communication, Education and Outreach at [CERN](https://home.cern/). The Zenodo GREI team features expertise and leadership from both sites, including Jose Benito Gonzalez Lopez, PhD, head of Institutional Repositories at CERN; Lars Holm Nielsen, InvenioRDM product manager at CERN; Matthew Carson, PhD, senior data scientist and head of Digital Systems at Galter Library; and Sara Gonzales, senior data librarian at Galter Library and community manager for InvenioRDM. Additional team members will be recruited in the coming months.
+
+Since its launch almost 10 years ago, Zenodo has served as an open, dependable home for science, enabling researchers to share and preserve a wide range of interdisciplinary research outputs. Zenodo was established through the European Commission [OpenAIRE](https://www.openaire.eu/) program and is operated by CERN. Zenodo houses over 2 million records and a petabyte of data, serving 15 million user visits from around the world annually.
+
+Over the past several years, CERN and Northwestern have partnered with the Invenio Open Source Community ([IOSC](https://inveniosoftware.org/)) to develop [InvenioRDM](https://inveniosoftware.org/products/rdm/), a turnkey, scalable, and top-of-the-class user experience software for repositories, forming a strong and sustainable foundation for Zenodo. The InvenioRDM software is dedicated to offering a reliable environment for science, empowering preservation, credit, discovery, and sharing while maintaining integrity in its responsiveness to the evolving needs of the research community, including data sharing policy compliance.
+
+“Our strong and efficient partnership with Northwestern through the InvenioRDM project has shown how effective we can be with our complementary skills and common goals,” Smith said. “The GREI allows us to take this partnership to the next level in delivering a useful service to NIH-funded researchers. We are excited that the NIH is supporting us and entrusting us with this task.”
+
+The NIH Office of Data Science Strategy, formed in 2018 within the Division of Program Coordination, Planning, and Strategic Initiatives (DPCPSI), leads implementation of the [NIH Strategic Plan for Data Science](https://datascience.nih.gov/sites/default/files/NIH_Strategic_Plan_for_Data_Science_Final_508.pdf) through scientific, technical, and operational collaboration with the institutes, centers, and offices that comprise NIH.  DPCPSI also plans and coordinates the NIH Common Fund’s support of trans-NIH initiatives and research.
+
+“Modern research requires collaboration and thoughtful, feature-rich technology for success,” Holmes said. “We’re thrilled to build on our longstanding partnership with CERN to advance our shared commitment to FAIR practices and we look forward to working together and with the GREI partners to achieve the goals of the program.”
+
+The Zenodo GREI project is supported by the NIH Office of Data Science Strategy/Office of the NIH Director pursuant to OTA-21-009, “Generalist Repository Ecosystem Initiative (GREI)” through Other Transactions Agreement (OTA)  Number 1 OT2 DB000013-01.
+
+Situated within the Northwestern University Clinical and Translational Sciences ([NUCATS](https://www.nucats.northwestern.edu/)) Institute, Galter Library is the only library embedded within a CTSA hub. NUCATS is supported, in part, by the [National Institutes of Health’s National Center for Advancing Translational Sciences](https://ncats.nih.gov/), Grant Number UL1TR001422.
+
+---
+date: 2022-09-30
