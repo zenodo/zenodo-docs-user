@@ -11,6 +11,23 @@ answer: On the record page and click the orange *Edit* button in the top-right c
 ----
 category: technical
 #### qaitem ####
+question: Why am I getting an error when trying to upload my files?
+----
+answer: 
+
+The error may occur due to some network issues or instability. You can try to upload from another network/machine (wired connections are also more stable).
+
+If you are familiar with the command line and/or scripting, we have some snippets available that are a bit more resilient compared to browser-based uploads:
+* [using curl](https://gist.github.com/slint/2263b2212743a68b2851b2cb7865675e)
+* [using Python](https://gist.github.com/slint/92e4d38eb49dd177f46b02e1fe9761e1)
+
+Finally, another option is to split the file(s) into smaller parts (if possible) which might also ease the process of distributing the dataset after publishing.
+
+We also provide a [testing instance of Zenodo](https://sandbox.zenodo.org/), where you can freely try things out.
+
+----
+category: technical
+#### qaitem ####
 question: Can I change the file in the already published record?
 ----
 answer:
