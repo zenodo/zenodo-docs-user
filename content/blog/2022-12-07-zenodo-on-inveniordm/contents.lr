@@ -1,0 +1,107 @@
+title: Zenodo’s next generation platform - InvenioRDM
+---
+author: lnielsen
+---
+body:
+
+We're excited to share our plans for Zenodo in the coming 6-12 months. 
+
+**TL;DR** - See our [demo site](https://zenodo-rdm.web.cern.ch) for Zenodo's next-generation platform based on InvenioRDM.
+
+## Next-generation platform
+
+We are currently in the process of moving Zenodo on top of our next-generation platform based on [InvenioRDM](https://inveniordm.docs.cern.ch). InvenioRDM is a digital repository platform born out of Zenodo and developed together with [25 other partners](https://inveniosoftware.org/products/rdm/). 
+
+For institutions/domains, InvenioRDM enables them to provide the "Zenodo-experience" in their own repositories. For Zenodo, InvenioRDM enables us to collaborate with partners on the technical platform underpinning Zenodo.
+
+InvenioRDM is already being used in production system today, see for instance:
+
+- https://data.caltech.edu
+- https://repository.tugraz.at
+
+
+## The ZenodoRDM project
+
+The move to InvenioRDM is being managed and coordinated through our ZenodoRDM project. The focus of the project is to migrate Zenodo.org with the existing feature set to InvenioRDM and provide backward compatibility to our users.
+
+The largest challenge in the project is by far the full data migration process. Zenodo today has almost 3 million records, 300k users and many API integrations, and thus we're doing our outmost to minimize disruptions during the data migration process and ensure existing API integrations will continue to work unaffected.
+
+**Milestones**
+
+Our project is designed to start early on with the data migration, and continue it as a main activity throughout the entire project.  Thus, a large fraction of each milestone is dedicated to data migration.
+
+In addition for each milestone, we'll work with specific users to validate that everything works as supposed.
+
+The milestones for the project 
+
+- MS2 Themed demo-site with initial data migration
+- MS3 Legacy API support
+- MS4 Basic feature set completion 
+- MS5 Normal feature set completion 
+- MS6 Advanced feature set completion 
+- MS7 Support operations
+- MS8 Launch
+
+**Timeline**
+
+We are expecting to go-live with the new platform in Autumn 2023. 
+
+## What's new
+
+The move to InvenioRDM will also provide some long awaited new features for Zenodo. See below what's coming, or even better, check out the new features for yourself on our [demo site](https://zenodo-rdm.web.cern.ch).
+
+### State of demo site
+
+We have loaded a partial dump of 1M records and a couple of communities from Zenodo into the demo site. The records are not connected with user accounts and thus cannot be edited. You can create new communities and test the new upload form and get a feeling for some of the changes we've made.
+
+### Community members
+
+InvenioRDM supports having members with different roles - that means multiple users can curate records and/or see closed access content in the communtiy. Zenodo will come with the following community roles:
+
+- **Reader**: A reader is a member of the community and can view restricted files owned by the community.
+- **Curator**: A curator can in addition to a reader also edit/accept/decline records in a community.
+- **Manager**: A manager can in addition to curators also manage members of a community.
+- **Owner**: An owner has full administrative access to a community, and can change all settings as well as delete the community.
+
+[More about communities](https://inveniordm.docs.cern.ch/releases/versions/version-v9.0.0/#communities)
+
+### Reviews
+
+Submission to communities now enable the curator and uploader to have a conversation directly on the platform. Curators of the community will receive the review request, and can have a conversation with the submitter, as well as preview the submitted record. Both the submitter and curator can edit and update the record under review until it's published:
+
+[More about review](https://inveniordm.docs.cern.ch/releases/versions/version-v9.0.0/#reviews)
+
+### Upload form
+
+Our upload form have also gotten a larger overhaul. You'll for instance find the following changes:
+
+- [Creator auto-completion](https://inveniordm.docs.cern.ch/releases/versions/version-v8.0.0/#creatorscontributors-auto-completion) from ORCID
+- [Affiliations auto-completion](https://inveniordm.docs.cern.ch/releases/versions/version-v5.0.0/#affiliations-and-ror-support) from ROR.
+- [Subjects auto-completion](https://inveniordm.docs.cern.ch/releases/versions/version-v6.0.0/#subjects-oecd-fields-of-science) from e.g. OECD Fields of Science and Technology vocbulary.
+- New improved license selection and [funder/award integration](https://inveniordm.docs.cern.ch/releases/versions/version-v9.0.0/#funders-and-awards). 
+
+## FAQ
+
+#### Will your APIs be backward compatibile?
+
+Yes, we do our outmost to ensure backward compatibility of our APIs, and your integration will continue to work on the new platform as well.
+
+#### Will I be required to update my API integration ?
+
+After Zenodo on InvenioRDM has been launched (Autumn 2023), we will deprecate some of our existing APIs. We will provide a migration period of 1-year for the transition. New features, will only be available on the new API.
+
+#### Where do I find documentation of your new REST API?
+
+You can find the documentation for our new REST API in the [InvenioRDM documentation](https://inveniordm.docs.cern.ch/reference/rest_api_index/).
+
+#### Will the community curators be able to edit my existing records?
+
+No. You will have to opt-in to allow community curators to edit the metadata of records already uploaded on Zenodo. Metadata of new recods you upload after the launch will by default be editable by curators (and you'll be asked to confirm).
+
+#### Will feature X still work?
+
+Yes, we will provide backward compatiblity for all existing features.
+
+
+---
+date: 2022-12-07
