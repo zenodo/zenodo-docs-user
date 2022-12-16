@@ -27,9 +27,9 @@ Legal documents:
 Zenodo is funded by:
 
 - European Commission via the [OpenAIRE](https://www.openaire.eu) projects:
- - FP7: [OpenAIRE](https://doi.org/10.3030/246686) (246686), [OpenAIREplus](https://doi.org/10.3030/283595) (283595)
+ - FP7: [OpenAIRE](https://cordis.europa.eu/project/id/246686) (246686), [OpenAIREplus](https://cordis.europa.eu/project/id/283595) (283595)
  - Horizon 2020: [OpenAIRE2020](https://doi.org/10.3030/643410) (643410), [OpenAIRE-Connect](https://doi.org/10.3030/731011) (731011), [OpenAIRE-Advance](https://doi.org/10.3030/777541) (777541), [OpenAIRE-Nexus](https://doi.org/10.3030/101017452) (101017452), [BICIKL](https://doi.org/10.3030/101007492) (101007492), [CS3MESH4EOSC](https://doi.org/10.3030/863353).
- - Horizon Europe: [FAIRCORE4EOSC](https://doi.org/10.3030/101057264)
+ - Horizon Europe: [FAIRCORE4EOSC](https://doi.org/10.3030/101057264) (101057264)
 - [CERN](https://home.cern)
 - US National Institutes of Health (NIH):
   - [Generalist Repository Ecosystem Initiative (GREI)](https://datascience.nih.gov/exploring-generalist-repository-nih-funded-data)
@@ -52,16 +52,13 @@ Zenodo is however embedded in a much larger team, headed by Jose Benito Gonzalez
 
 CERN is an active member of the following organisations and international bodies (non-exhaustive):
 
-- DataCite
-- ORCID
-- FORCE11 (in particular Data Citation Principles and Software Citation Principles)
-- Research Data Alliance
-- SCOAP3
-
-We are partners in multiple European Commission funded projects, amongst others:
-
-- [OpenAIRE](https://www.openaire.eu)
+- [DataCite](https://datacite.org)
+- [EOSC](https://www.eosc.eu)
 - [EUDAT](https://www.eudat.eu)
+- [OpenAIRE](https://www.openaire.eu)
+- [ORCID](https://orcid.org)
+- [Research Data Alliance (RDA)](https://www.rd-alliance.org/)
+- [SCOAP3](https://scoap3.org/)
 
 <hr />
 ## Technical
