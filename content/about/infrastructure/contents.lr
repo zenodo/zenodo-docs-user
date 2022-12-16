@@ -27,11 +27,14 @@ Legal documents:
 Zenodo is funded by:
 
 - European Commission via the [OpenAIRE](https://www.openaire.eu) projects:
- - FP7: [OpenAIRE](https://cordis.europa.eu/project/rcn/93855_en.html) (246686), [OpenAIREplus](https://cordis.europa.eu/project/rcn/100079_en.html) (283595)
- - Horizon 2020: [OpenAIRE2020](https://cordis.europa.eu/project/rcn/194062_en.html) (643410), [OpenAIRE-Connect](https://cordis.europa.eu/project/rcn/206017_en.html) (731011), [OpenAIRE-Advance](https://cordis.europa.eu/project/rcn/212961_en.html) (777541), and [OpenAIRE-Nexus](https://cordis.europa.eu/project/id/101017452) (101017452).
+ - FP7: [OpenAIRE](https://doi.org/10.3030/246686) (246686), [OpenAIREplus](https://doi.org/10.3030/283595) (283595)
+ - Horizon 2020: [OpenAIRE2020](https://doi.org/10.3030/643410) (643410), [OpenAIRE-Connect](https://doi.org/10.3030/731011) (731011), [OpenAIRE-Advance](https://doi.org/10.3030/777541) (777541), [OpenAIRE-Nexus](https://doi.org/10.3030/101017452) (101017452), [BICIKL](https://doi.org/10.3030/101007492) (101007492), [CS3MESH4EOSC](https://doi.org/10.3030/863353).
+ - Horizon Europe: [FAIRCORE4EOSC](https://doi.org/10.3030/831558)
 - [CERN](https://home.cern)
-- [Alfred P. Sloan Foundation](https://sloan.org)
+- US National Institutes of Health (NIH):
+  - [Generalist Repository Ecosystem Initiative (GREI)](https://datascience.nih.gov/exploring-generalist-repository-nih-funded-data)
 - [Arcadia Fund](https://www.arcadiafund.org.uk/)
+- [Alfred P. Sloan Foundation](https://sloan.org)
 - Donations via [CERN & Society Foundation](https://giving.web.cern.ch/content/cern-society-foundation)
 
 Zenodo is developed and supported as a marginal activity, and hosted on top of existing infrastructure and services at CERN, in order to reduce operational costs and rely on existing efforts for High Energy Physics. CERN has some of the world’s top experts in running large scale research data infrastructures and digital repositories that we rely on in order to deliver a trusted digital repository.
@@ -41,7 +44,7 @@ Zenodo is operated currently by:
 
 - **Steering board:** Alexandros Ioannidis-Pantopikos, Jose Benito Gonzalez Lopez, Lars Holm Nielsen, Tim Smith
 - **Service manager:** Alexandros Ioannidis-Pantopikos
-- **Developers:** George Lignos, Rodrigo Almeida
+- **Developers and supporters:** Dimitris Frangiadakis, Jenny Bonsak, Manuel Alejandro De Oliveira da Costa, Pablo Panero, Rodrigo Almeida
 
 Zenodo is however embedded in a much larger team, headed by Jose Benito Gonzalez Lopez, which runs services such as [CERN Document Server](https://cds.cern.ch), [CERN Open Data](http://opendata.cern.ch), CERN Analysis Preservation and we rely heavily on co-developing features via the [Invenio digital library framework](https://inveniosoftware.org).
 
