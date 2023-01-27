@@ -1,9 +1,11 @@
 column: near-term
 ---
 body: Migrate our ElasticSearch infrastructure to OpenSearch.
+
+*Planned March 2023*
 ---
 category: DevOps
 ---
 title: Migration to OpenSearch
 ---
-year: 2022
+year: 2023

@@ -1,4 +1,4 @@
-column: future
+column: completed
 ---
 body: Add basic support for existing Zenodo legacy APIs in InvenioRDM and perform the first initial data migration tests.
 ---

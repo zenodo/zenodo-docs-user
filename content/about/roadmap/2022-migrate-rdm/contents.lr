@@ -1,6 +1,8 @@
-column: near-term
+column: completed
 ---
 body: Setup a Zenodo-themed instance of InvenioRDM and make it publicly available so that users can follow progress on the move to InvenioRDM.
+
+Available on https://zenodo-rdm.web.cern.ch
 ---
 category: Development
 ---
