@@ -149,7 +149,7 @@ See the [Plan S Principles and Implementation](https://www.coalition-s.org/princ
     <td>✅</td>
     <td>
         <ul>
-            <li>Zenodo publicly displays uptime on <a href="https://status.zenodo.org">https://status.zenodo.org</a></li>
+            <li>Zenodo publicly displays uptime on <a href="https://stats.uptimerobot.com/vlYOVuWgM">Uptime Robot</a></li>
             <li>Historically Zenodo's uptime is 99.98% (Oct 2019)</li>
         <ul>
     </td>

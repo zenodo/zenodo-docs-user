@@ -36,7 +36,7 @@ settings.
 
 ## New feature: status page
 On the footer of all Zenodo pages you will now find a "Status" hyperlink
-([status.zenodo.org](https://status.zenodo.org/)), which will show you status
+([Uptime Robot](https://stats.uptimerobot.com/vlYOVuWgM/)), which will show you status
 of Zenodo and uptime statistics for Zenodo pages and services.
 ---
 date: 2017-07-31
