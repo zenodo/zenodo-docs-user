@@ -1,0 +1,60 @@
+title: Celebrating our 10th anniversary!
+---
+author: lnielsen
+---
+body:
+
+
+<div class="alert alert-info" align=left>
+<h4>Send us your birthday greeting 🎉 </h4>
+
+<p>Our users come from all corners of the globe, from developed to developing countries, and from the oldest and most illustrious universities to the newest alike. Today, we would like to extend a <strong>special thank you to all of our users</strong>, to all of you who have used Zenodo through the last decade to publish your research openly!
+</p>
+<br>
+<h4>Tweet your story <a href="https://twitter.com/intent/tweet?text=%23Zenodo10years"><code>#Zenodo10Years</code></a></h4>
+<p>We’d like to invite you to celebrate our 10th anniversary with us by sending us a birthday greeting telling us how Zenodo helped you. Your story is what matters!
+
+<a href="https://twitter.com/intent/tweet?text=%23Zenodo10years">Tweet here</a>
+</p>
+</div>
+
+<img src="/blog/2023/05/08/2023-05-08-10years/banner.png" align="right" style="width: 60%; padding: 50px">
+
+Zenodo was launched 10 years ago on May 8th by [CERN](https://home.cern) and [OpenAIRE](https://www.openaire.eu). The goal since day one has been to enable any researcher from anywhere in the world to participate in practising open science. Today, 10 years later, Zenodo supports more than 300,000 researchers in 7500+ research organisations in 153 countries to do just that. A recent study<a href="#ref1">[1]</a> conservatively estimated the socio-economic impact of Zenodo in society to 95 million EUR per year but more likely close to 1 billion EUR/year. All in support of the mission to provide the platform for all researchers to publicly share their work and join the open science movement.
+
+We always believed that research data should end up where researchers can care best for them, whether that be a subject/institute/national repository, but we also knew that gaps in the offerings still left an enormous quantity of research data with nowhere else to go, that we could usefully offer help to.
+
+Zenodo is now a core enabler of open science practice by providing trusted long-term storage of research, especially to those in most need and without the means. CERN is a leader of Big Data storage, creating technologies at the scale frontier, already keeping almost 1 exabyte of high-energy physics data safe. By housing Zenodo in a corner of the CERN Data Centre, we use this expertise to share *what we find easy with others that find it hard*.
+
+### Thank you
+
+We would also like to send a BIG thank you to all our funders and donors who have sustained our growth and seen the value of our offering.
+
+A special thank you goes to:
+- European Union
+- Alfred P. Sloan Foundation
+- Arcadia Fund
+- US National Institute of Health
+- CERN and OpenAIRE
+
+### Achievements
+
+Below you'll find some few of our achievements throughout the past 10 years:
+
+- 2013: Zenodo launched on May 8th - the first record uploaded on Zenodo was [Chandra News](https://doi.org/10.5281/zenodo.6738) by Chris Erdmann.
+- 2014: GitHub integration launched - today Zenodo hosts +85% of the world's software DOIs.
+- 2016: New technical platform enables +50GB uploads for all.
+- 2017: [DOI versioning](/blog/2017/05/30/doi-versioning-launched/) feature launches, pioneering the Concept DOI.
+- 2018: [Usage statistics](/blog/2018/07/18/2018-07-18-usage-statistics/) launches using the Make Data Count standard.
+- 2019: Pioneering work in [software citations](/blog/2019/01/10/2019-01-10-asclepias/).
+- 2022: Zenodo reaches 300.000 users in 7500+ research organisations in 153 countries.
+
+What's next? See [Zenodo’s next generation platform - InvenioRDM](/blog/2022/12/07/2022-12-07-zenodo-on-inveniordm/). Hint: You can already take the preview for a spin at https://zenodo-rdm.web.cern.ch
+
+<hr />
+<small class="text-muted">
+<a name="ref1"></a>
+[1] The Future Circular Collider Innovation Study (funded by the European Union under grant number <a href="https://doi.org/10.3030/951754">951754</a>) studied the socio-economic impact potentials of open data and software for a Future Circular Collider based on an analysis of the LHC. This included an analysis of Zenodo by PhD student Irene Crespo Garrido supervised by Johannes Gutleber (CERN) and María Loureiro García (University de Santiago de Compostela) to be published later in 2023.
+</small>
+---
+date: 2023-05-08
