@@ -44,12 +44,12 @@ Below you'll find some few of our achievements throughout the past 10 years:
 - 2013: Zenodo launched on May 8th - the first record uploaded on Zenodo was [Chandra News](https://doi.org/10.5281/zenodo.6738) by Chris Erdmann.
 - 2014: GitHub integration launched - today Zenodo hosts +85% of the world's software DOIs.
 - 2016: New technical platform enables +50GB uploads for all.
-- 2017: [DOI versioning](/blog/2017/05/30/doi-versioning-launched/) feature launches, pioneering the Concept DOI.
-- 2018: [Usage statistics](/blog/2018/07/18/2018-07-18-usage-statistics/) launches using the Make Data Count standard.
-- 2019: Pioneering work in [software citations](/blog/2019/01/10/2019-01-10-asclepias/).
+- 2017: [DOI versioning](/2017/05/30/doi-versioning-launched/) feature launches, pioneering the Concept DOI.
+- 2018: [Usage statistics](/2018/07/18/2018-07-18-usage-statistics/) launches using the Make Data Count standard.
+- 2019: Pioneering work in [software citations](/2019/01/10/2019-01-10-asclepias/).
 - 2022: Zenodo reaches 300.000 users in 7500+ research organisations in 153 countries.
 
-What's next? See [Zenodo’s next generation platform - InvenioRDM](/blog/2022/12/07/2022-12-07-zenodo-on-inveniordm/). Hint: You can already take the preview for a spin at https://zenodo-rdm.web.cern.ch
+What's next? See [Zenodo’s next generation platform - InvenioRDM](/2022/12/07/2022-12-07-zenodo-on-inveniordm/). Hint: You can already take the preview for a spin at https://zenodo-rdm.web.cern.ch
 
 <hr />
 <small class="text-muted">
