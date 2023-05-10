@@ -109,6 +109,49 @@ body:
           </tr>
         </tbody>
       </table> <!-- .table table-hover -->
+
+      <br/>
+      <h4>Logo - 10th anniversary</h4>
+      <p>Below logos are licensed under Creative Common Attribution Share-Alike 4.0 International (CC-BY-SA):</p>
+      <table class="table table-hover">
+        <thead>
+          <tr>
+            <th></th>
+            <th></th>
+            <th>PNG</th>
+            <th>SVG</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Color</td>
+            <td><img class="img-rounded" style="width: 200px;" src="/static/img/logos/zenodo-10_blue.svg"></td>
+            <td></td>
+            <td>
+              <a href="/static/img/logos/zenodo-white-border.svg">round</a><br>
+            </td>
+          </tr>
+          <tr>
+            <td>Color (w/text)</td>
+            <td><img class="img-rounded" style="width:200px;" src="/static/img/logos/zenodo-anniversary_blue.png"></td>
+            <td>
+                <a href="/static/img/logos/zenodo-anniversary_blue.png">1920px</a><br>
+            </td>
+            <td>
+            </td>
+          </tr>
+          <tr>
+            <td>Blue</td>
+            <td style="text-align: center;"><img class="img-rounded" style="height:90px;" src="/static/img/logos/zenodo-10.png"></td>
+            <td>
+              <a href="/static/img/logos/zenodo-10.png">1851px</a><br>
+            </td>
+            <td>
+              <a href="/static/img/logos/zenodo-anniversary.svg">transparent bg</a><br>
+            </td>
+          </tr>
+        </tbody>
+      </table> <!-- .table table-hover -->
     </div> <!-- .col-md-6 col-lg-5 -->
     <div class="well">
       <h4>Zenodo Advocacy</h4>
