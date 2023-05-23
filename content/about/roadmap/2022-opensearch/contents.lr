@@ -1,4 +1,4 @@
-column: near-term
+column: completed
 ---
 body: Migrate our ElasticSearch infrastructure to OpenSearch.
 

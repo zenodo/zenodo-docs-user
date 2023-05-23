@@ -1,0 +1,13 @@
+column: future
+---
+body: Support for storing and displaying [WADM](https://www.w3.org/TR/annotation-model/)-based annotations for PDFs and images.
+
+*Planned end 2023*
+---
+category: Development
+---
+title: Annotations
+---
+year: 2023
+---
+sort: 2
