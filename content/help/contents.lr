@@ -51,8 +51,8 @@ question: What are the size limits in Zenodo?
 ----
 answer:
 
-We currently accept up to 50GB per dataset (you can have multiple datasets); there is no size limit on communities.
-However, we don't want to turn away larger use cases.
+We currently accept up to 50GB per dataset (you can have multiple datasets); there is no size limit on the number of records in communities.
+However, we don't want to turn away use cases for larger datasets.
 If you would like to upload larger files, please [contact us](https://zenodo.org/support), and we will do our best to help you.
 Please be aware that we cannot offer infinite space for free, so donations towards sustainability are encouraged.
 ----
