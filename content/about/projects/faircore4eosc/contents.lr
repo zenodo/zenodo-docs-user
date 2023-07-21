@@ -1,0 +1,91 @@
+_model: projectitem
+---
+title: FAIRCORE4EOSC
+---
+logo: logo.png
+---
+description:
+
+The FAIRCORE4EOSC project focuses on the development and realisation of core components for the European Open Science Cloud (EOSC). The project will develop nine new EOSC-Core components aimed to improve the discoverability and interoperability of an increased amount of research outputs.
+
+Zenodo participates in the development of the EOSC Research Software APIs & Connectors, in particular the integration of Zenodo/InvenioRDM with Software Heritage.
+---
+partners: CSC, GWDG, DataCite, Software Heritage, Inria, Surf, Helsingin Yliopisto, OpenAIRE, The National Library of Finland, Dagsthul, University of Warsaw, DANS, grnet, FIZ Karlsruhe, DKRZ, Cyfronet, CNR, CLARIN, COMMpla, Trust-IT Services, CERN, Athena, ARDC
+---
+website: https://faircore4eosc.eu
+---
+funder: European Commission
+---
+years: 2022 - 2025
+---
+body:
+
+The FAIRCORE4EOSC project focuses on the development and realisation of core components for the European Open Science Cloud (EOSC). Supporting a FAIR EOSC and addressing gaps identified in the Strategic Research and Innovation Agenda (SRIA). Leveraging existing technologies and services, the project will develop nine new EOSC-Core components aimed to improve the discoverability and interoperability of an increased amount of research outputs.
+
+<div align="center"><img src="logo.png" width="80%" /></div>
+
+CERN specifically participates with Zenodo/InvenioRDM in the Research Software APIs and Connectors (RSAC) subcomponent.
+
+The Research Software APIs and Connectors (RSAC) ensure the long-term preservation of research software in different disciplines. APIs and connectors will be developed to interconnect research outputs infrastructures with the Software Heritage universal source code archive, using the CodeMeta standard, and the Software Heritage intrinsic identifiers (SWHID). The development of the sub-components is divided by the type of the infrastructure: scholarly repositories, publishers, and aggregators.
+
+In 2021, the [Scholarly Infrastructures of Research Software (SIRS) report](https://doi.org/10.2777/28598), was published including a set of recommendations to allow EOSC to include software, in the scholarly ecosystem, next to publications and data. The SIRS report was built upon a survey and documentation of a representative panel of notable operational infrastructures across Europe, comparing their scopes and approaches. A subset of these Research Software infrastructures joined forces to turn the SIRS recommendations into reality through the FAIRCORE4EOSC project.
+
+One of the WP6 objectives is to develop tools and services for archival, reference, description, and citation of research software artifacts, by implementing the key recommendations of the EOSC SIRS report to interconnect scholarly repositories, publishers, and aggregators with the Software Heritage universal source code archive, using the CodeMeta standard, and the Software Heritage intrinsic identifiers (SWHID).
+
+API and Connectors Between Scholarly Repositories, Publishers, Aggregators, and Software Heritage will be integrated into the following operational infrastructures that are used by research communities:
+
+Scholarly repositories:
+
+- InvenioRDM - SWH (CERN)
+- DataVerse - SWH (KNAW-DANS)
+
+Publishers:
+
+- Dagstuhl - SWH (LZI)
+- Episciences - SWH (INRIA)
+
+Aggregators:
+
+- swMATH - SWH (FIZ)
+- OpenAire - SWH (OPENAIRE)
+
+#### Functionalities:
+
+- Develop API and connectors between Scholarly Repositories and Software Heritage to support archival, reference, description, and citation as follows:
+    - deposit in Software Heritage research software artifacts uploaded into scholarly repositories;
+    - obtaining the corresponding SWHID;
+    - expose SWHID in the artifact record maintained by the scholarly repositories;
+    - enable scholarly repositories to deposit and/or retrieve (curated) metadata of software artifacts from Software Heritage;
+    - export citation information in one or more of the common open citation formats (BibLaTeX, CSL, codemeta.json).
+- Develop API and connectors between Open Access publishers and Software Heritage to support archival, reference, description, and citation as follows:
+    - automate the archival in Software Heritage of the source code of artifacts associated with research articles;
+    - expose the corresponding SWHID on the journal’s publication record;
+    - enable the deposit and retrieval in Software Heritage of curated metadata for software associated with publications;
+    - deposit and retrieve the preferred citation information for software associated with publications;
+    - export citation information in one or more of the common open citation formats (BibLaTeX, CSL, codemeta.json).
+- Develop API and connectors between aggregators and Software Heritage to support archival, reference, description, and citation as follows:
+    - extract references to software from research articles and trigger archival of source code known to aggregators and missing in Software Heritage;
+    - expose the corresponding SWHID in the software artifact record maintained by the aggregator;
+    - deposit and retrieve metadata for the software artifacts in Software Heritage;
+    - deposit and/or retrieve preferred citation information for the software artifacts in Software Heritage;
+    - export citation information in one or more of the common open citation formats (BibLaTeX, CSL, codemeta.json).
+
+####  Impact:
+
+The RSAC (Research Software APIs and Connectors) component will improve interoperability between various infrastructures catering to research software. This component has a significant impact on the four pillars of the SIRS report, namely Archive, Reference, Describe, and Cite.
+
+- **Archive**: Creating interoperability between the infrastructures to preserve research software artifacts and their metadata in the universal source code archive, Software Heritage.
+- **Reference**: Adoption of the SWHID (Software Heritage Identifier) to identify software artifacts accurately and reference specific versions of the software.
+- **Describe**: Exchange metadata about research software using the CodeMeta vocabulary, thereby enabling an interoperable ecosystem.
+- **Cite**: Align the citation export formats for research software following the biblatex-software specialised entry types for software
+
+We believe that the development of the RSAC component is a significant step towards creating appropriate means, tailored for research software, in the scholarly ecosystem.
+
+
+---
+sidebox:
+<div class="well">
+<dl><strong>Project deliverables</strong></dl>
+<dd><a href="https://zenodo.org/communities/faircore4eosc/">FAIRCORE4EOSC</a></dd>
+</div>
+

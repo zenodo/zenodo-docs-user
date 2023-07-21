@@ -1,0 +1,40 @@
+_model: projectitem
+---
+title: GREI
+---
+longtitle: Generalist Repository Ecosystem Initiative (GREI)
+---
+partners: CERN, Northwestern University, Harvard University, Dryad, Figshare, Center for Open Science, Elsevier, Vivli
+---
+website: https://datascience.nih.gov/data-ecosystem/generalist-repository-ecosystem-initiative
+---
+description:
+
+GREI’s mission is twofold.
+
+The primary mission is to establish a common set of cohesive and consistent capabilities, services, metrics, and social infrastructure across various generalist repositories.
+
+Secondarily, GREI will raise general awareness and help researchers to adopt FAIR principles to better share and reuse data.
+---
+funder: US National Institutes of Health (NIH)
+---
+years: 2022 - 2026
+---
+body:
+
+The long-term vision for GREI is to develop collaborative approaches for data management and sharing through inclusion of the generalist repositories in the NIH data ecosystem. GREI also aims to better enable search and discovery of NIH-funded data in the generalist repositories.
+
+#### Mission
+
+GREI’s mission is twofold. The primary mission is to establish a common set of cohesive and consistent capabilities, services, metrics, and social infrastructure across various generalist repositories. Secondarily, GREI will raise general awareness and help researchers to adopt FAIR principles to better share and reuse data.
+
+<img src="grei-infographic.png" width="100%" />
+
+GREI currently includes seven established generalist repositories (Dataverse, Dryad, Figshare, OSF, Mendeley Data, Zenodo, Vivli) that will work together to establish consistent metadata, develop use cases for data sharing, train and educate researchers on FAIR data and the importance of sharing, and more.
+---
+sidebox:
+<div class="well">
+<dl><strong>Project material</strong></dl>
+<dd><a href="https://zenodo.org/communities/grei/">GREI</a></dd>
+</div>
+

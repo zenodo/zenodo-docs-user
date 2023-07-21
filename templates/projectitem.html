@@ -1,0 +1,70 @@
+{#
+# Copyright (C) 2023 CERN.
+#
+# Zenodo is free software; you can redistribute it and/or
+# modify it under the terms of the GNU General Public License as
+# published by the Free Software Foundation; either version 2 of the
+# License, or (at your option) any later version.
+#
+# Zenodo is distributed in the hope that it will be useful, but
+# WITHOUT ANY WARRANTY; without even the implied warranty of
+# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+# General Public License for more details.
+#
+# You should have received a copy of the GNU General Public License
+# along with Zenodo; if not, write to the Free Software Foundation, Inc.,
+# 59 Temple Place, Suite 330, Boston, MA 02111-1307, USA.
+#
+# In applying this license, CERN does not waive the privileges and immunities
+# granted to it by virtue of its status as an Intergovernmental Organization or
+# submit itself to any jurisdiction.
+-#}
+{% extends "base.html" %}
+{% block subpagename %}Projects{% endblock %}
+{% block subnavbaritems %}
+{% set rootpath = bag('navigation.projects.0.0') %}
+{% for path, label in bag('navigation.projects') %}
+  {% set highlight = (path != rootpath and this.is_child_of(path)) or (this.path == path and path == rootpath)%}
+  <li{% if highlight %} class="active"{% endif %}><a href="{{ path|url }}">{{ label }}</a></li>
+{% endfor %}
+{% endblock %}
+{% block title %}{{ this.title }}{% endblock %}
+{% block bodycontainer %}
+<div class="container body-container">
+<div class="row">
+  <div class="col-md-12">
+  <h1>{{this.longtitle or this.title}}</h1>
+  <hr>
+  </div>
+</div>
+<div class="row">
+  <div class="col-md-9">
+  {% block body %}
+  {{ this.body }}
+  {% endblock %}
+  </div>
+  <div class="col-md-3">
+    <div class="well">
+      <dl><strong>Funder</strong></dl>
+      <dd>{{this.funder}}</dd>
+      <dl><strong>Project period</strong></dl>
+      <dd>{{this.years}}</dd>
+      {% if this.website %}
+      <dl><strong>Website</strong></dl>
+      <dd><a href="{{this.website}}">{{this.website}}</a></dd>
+      {%endif%}
+      {% if this.partners %}
+      <dl><strong>Project partners</strong></dl>
+      <dd>{{this.partners}}</dd>
+      {%endif%}
+    </div>
+    {% if this.sidebox %}
+    {{this.sidebox}}
+    {% endif %}
+  </div>
+</div>
+</div>
+{% endblock %}
+
+
+

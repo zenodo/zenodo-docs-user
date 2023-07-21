@@ -1,0 +1,52 @@
+_model: projectitem
+---
+title: Biodiversity Literature Repository
+---
+funder: Arcadia Fund
+---
+website: https://plazi.org/blr/
+---
+partners: Plazi, CERN, Data Futures
+---
+years: 2022 - 2025
+---
+description:
+
+The grant will help build on the momentum created in the first Arcadia supported project (years 2018-2021) by: (1) leading the data extraction effort and building a critical mass of FAIR scientific data and related tools involving the community; and (2) establishing a long lasting, self-sustaining research infrastructure.
+
+---
+body:
+
+The Biodiversity Literature Repository (BLR) is a research infrastructure (RI) comprising the BLR Community on Zenodo at the European Center for Nuclear Research (CERN), and services to search and retrieve the data such as Ocellus, Zenodeo API, and the BLR website. BLR’s focus is on biodiversity data liberated from scholarly publications, and it uses custom metadata linking to external vocabularies covering the needs of the biodiversity community. This includes taxonomic treatments and figures as well as the original article annotated with metadata describing the data contained in the article including the related identifiers for figures and treatments therein. The main data import is via the TreatmentBank or the publishers such as Pensoft. With over 650,000 deposits, BLR is the single largest community in Zenodo. Its data is widely reused, for example by the Global Biodiversity Information Facility (GBIF). All data in BLR is published under the CC0 Public Domain Dedication, remaining free for anyone to use, anywhere, for any purpose.
+
+The grant will help build on the momentum created in the first Arcadia supported project (years 2018-2021) by: (1) leading the data extraction effort and building a critical mass of FAIR scientific data and related tools involving the community; and (2) establishing a long lasting, self-sustaining research infrastructure.
+
+### Objectives
+
+##### Objective 1: Data production
+
+Increase the annual production and the total number of liberated treatments and related data through broadened coverage of journals processed, increased automatic import and processing, and incorporation of annotation tools to leverage crowdsourced input.
+
+##### Objective 2: Business Plan
+
+Develop a not-for-profit business plan for processing long-tail journals in order to sustain for the long-term the services developed in Arcadia-1 and 2.
+
+##### Objective 3: Annotation Tools
+
+Improve TreatmentBank-Zenodo integration by enhancing tools for automated annotation of processed articles and visualizing them on Zenodo. Build tools to automatically annotate and edit processed articles from journals for which templates are not feasible. Develop an advanced user interface for interacting with annotation, access, and provenance control in collaboration with Data Futures.
+
+##### Objective 4: Learning resources
+
+Expand the adoption of the Plazi workflow to liberate data, and the principles of access to data liberated from publications by developing curricula for teachers and users.
+
+##### Objective 5: Meetings and Outreach
+
+Organize workshops to educate attendees about annotations, and teach analysis of liberated data. Conduct bi-annual week-long code and management sprints at Zenodo/CERN. Convene the Disentis Workshop to release the Placidus Manifesto, a follow-up to the 2014 Bouchout Declaration for Open Biodiversity Knowledge Management.
+
+##### Objective 6: Documentation
+
+Document all the digital tools, APIs and infrastructure to make them more accessible, understandable and usable.
+
+##### Objective 7: Data Intelligence
+
+Reuse of the liberated data for follow-up research is a key indicator of the adoption of annotations in scientific research publications. To provide data intelligence, we will develop tools that will allow users (scientists, publishers, institutions and other data creators) to assess and quantify the extent and depth of their contributions.

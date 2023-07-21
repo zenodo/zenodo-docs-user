@@ -18,10 +18,19 @@
     ["/about/roadmap/", "Roadmap"],
     ["/about/contact/", "Contact"]
   ],
+  "projects": [
+    ["/about/projects/", "Projects"],
+    ["/about/projects/bicikl/", "BiCIKL"],
+    ["/about/projects/arcadia2/", "BLR"],
+    ["/about/projects/faircore4eosc/", "FAIRCORE4EOSC"],
+    ["/about/projects/grei/", "GREI"],
+    ["/about/projects/horizon-zen/", "HORIZON-ZEN"]
+  ],
   "main": [
-    ["https://localhost:5000/about", "About"],
-    ["https://localhost:5000/blog", "Blog"],
-    ["https://localhost:5000/help", "Help"],
-    ["https://localhost:5000/developers", "Developers"]
+    ["http://127.0.0.1:5000/about", "About"],
+    ["http://127.0.0.1:5000/blog", "Blog"],
+    ["http://127.0.0.1:5000/help", "Help"],
+    ["http://127.0.0.1:5000/about/projects/", "Projects"],
+    ["https://developers.zenodo.org", "Developers"]
   ]
 }

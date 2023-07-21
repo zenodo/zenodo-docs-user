@@ -1,0 +1,90 @@
+_model: projectitem
+---
+title: HORIZON-ZEN
+---
+longtitle: HORIZON-ZEN
+---
+description:
+
+HORIZON-ZEN will help the EC's research programme beneficiaries comply with the FAIR and open science requirements of Horizon Europe by implementing an easy go-to solution in Zenodo.
+
+The project will specifically:
+- develop an enhanced Zenodo-community with EC-branding
+- develop and implement a data curation framework
+- implement FAIR principles enablers in the Zenodo deposit workflow
+- use a community-driven methodology involving early adopters and Zenodo/InvenioRDM users and partners.
+---
+funder: European Commission
+---
+partners: CERN
+---
+years: 2023 - 2025
+---
+sidebox:
+<div class="well">
+<dl><strong>Project deliverables</strong></dl>
+<dd><a href="https://zenodo.org/communities/horizon-zen">HORIZON-ZEN</a></dd>
+<dd><a href="https://github.com/zenodo/horizon-zen">GitHub</a></dd>
+</div>
+
+---
+body:
+
+A specific aim of EU’s Open Science policy is to require all publicly funded research data to be FAIR (Findable, Accessible, Interoperable, Reusable) and open by default, and it’s even a contractual requirement for Horizon Europe beneficiaries. Despite large efforts, FAIR in practice is difficult for programme beneficiaries.
+
+EU has over the past 10 years funded Zenodo, an open data repository built by CERN and OpenAIRE, to help beneficiaries comply with first open access, and then open data contractual requirements. This grant capitalizes on past investments made in Zenodo and helps EC programme beneficiaries comply with the new FAIR and open science requirements, by implementing an easy go-to solution in Zenodo for beneficiaries to make data FAIR in practice.
+
+HORIZON-ZEN’s overarching aim is to provide the EC’s programme beneficiaries with enhanced depositing services for digital research objects that are FAIR-enabling and compliant with Horizon Europe requirements, and to establish best practices for how scientific repositories can support the implementation of FAIR data principles by leading by example. This will be achieved by enhancing Zenodo with FAIR-enabling capabilities that support programme beneficiaries during the depositing of research outputs and by leveraging Zenodo’s simple and seamless user experience.
+
+<div class="alert alert-info">
+<h4>Want to be an early adopter?</h4>
+
+<p>Are you a EU project coordinator? We are looking for EU-funded projects covering a diverse set of domains which are willing to help test and provide feedback. We're extending our communities with features specifically tailored for EU-funded projects.
+</p>
+<p>
+What's involved?:
+<ul>
+    <li>The early adopters will be involved in the design process and provide feedback on concepts developed.</li>
+    <li>For some early adopters we'll be extending Zenodo to support domain-specificity of the project's domain.</li>
+    <li>Participation is voluntary, but will help shape Zenodo in a direction that supports your projects better.</li>
+</ul>
+</p>
+<p><strong>Interested?</strong></p>
+<p>Contact <a href="mailto:lars.holm.nielsen@cern.ch">lars.holm.nielsen@cern.ch</a></p>
+</div>
+
+### Objectives
+
+<img src="frontpage.png" width=40% style="float: right;">
+
+##### Objective 1: An EC-branded Zenodo-community
+
+The project will develop an enhanced Zenodo-community for the EC's research programme beneficiaries with support for:
+
+- subcommunities for EU projects
+- an identification workflow for programme beneficiaries
+- visual branding of the EC (see mockup)
+
+##### Objective 2: A data curation framework for the EC-branded Zenodo-community
+
+The project will implement:
+
+- a content and curation policy for the EC-community
+- implementation of automated curation checks in the Zenodo deposit workflow
+- integration of existing EU project communities and records into the new EC-community
+
+##### Objective 3: FAIR principles enablers
+
+The project will:
+
+- add support for integrating third-party FAIR assessment tools directly into the deposit form
+- integrate at least two FAIR assessment tools
+- extend Zenodo with support for domain-specific metadata/vocabularies for at least two domains
+
+##### Objective 4: Use a community-driven methodology
+
+The project will adopt an open community-driven methodology which co-designs objectives 1-3 with early adopters, existing Zenodo/InvenioRDM users/partners and the wider Open Science community.
+
+### Implementation
+
+Follow our project on [GitHub](https://github.com/zenodo/horizon-zen)
