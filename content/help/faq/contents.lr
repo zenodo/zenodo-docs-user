@@ -1,0 +1,14 @@
+_model: faq
+---
+title: FAQ
+---
+sort_key: 1
+---
+faqlist:
+---
+toptext:
+
+# Frequently Asked Questions
+<hr />
+
+**Tip**: See also the [OpenAIRE FAQ](https://www.openaire.eu/faqs) for general information on Open Science and European Commission funded research.

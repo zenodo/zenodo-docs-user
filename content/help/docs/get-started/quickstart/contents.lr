@@ -1,0 +1,95 @@
+_model: docspage
+---
+title: Quick start
+---
+sort_key: 0
+---
+menu: /help/docs/get-started
+---
+tocdesc: Make your first upload in 3 simple steps.
+---
+body:
+
+<div class="alert alert-info">
+<strong>Want to test Zenodo?</strong> Use our sandbox environment on <a href="https://sandbox.zenodo.org">https://sandbox.zenodo.org</a> to play.
+</div>
+
+Zenodo enables to share and preserve your digital research objects (publications, data, software, presentations, etc.) in three simple steps:
+
+1. **Upload**: Upload the files you want to share.
+2. **Describe**: Describe the files with minimal metadata such as title and creators.
+3. **Publish**: When ready, hit the publish button to share your research.
+
+Once you publish, we will automatically assign a Digital Object Identifier (DOI) to your record.
+---
+docs:
+
+#### docsheader ####
+text: Step 1: Upload
+----
+ref: upload
+#### docsstep ####
+step: 1
+----
+text: Before you start, make sure you have [created an account](../create-an-account/) and [logged in](../logging-in/).
+#### docsstep ####
+step: 2
+----
+text: Click the plus icon in the header, and select **New upload**.
+----
+image: step1.png
+#### docsstep ####
+step: 3
+----
+text: Upload one or more files by clicking the **Upload files** button to select files from your computer. Note that you will not be able to add, remove or modify files once published.
+----
+image: step2.png
+
+#### docsheader ####
+text: Step 2: Describe
+----
+ref: describe
+#### docsstep ####
+step: 1
+----
+text: Fill in the minimal required fields (marked with red star).
+----
+image: step3.png
+#### docsstep ####
+step: 2
+----
+text: Click **Save draft** to validate the provided information.
+----
+image: step4.png
+
+#### docsheader ####
+text: Step 3: Publish
+----
+ref: publish
+#### docsstep ####
+step: 1
+----
+text: When ready, press **Publish** button.
+----
+image: step4.png
+#### docsstep ####
+step: 2
+----
+text: **ATTENTION:** You will not be able to add, modify or remove files from the record once published.
+
+Click the **Publish** button to confirm.
+----
+image: step5.png
+
+#### docsstep ####
+step: 3
+----
+text: Congratulations, you have now published your first record.
+
+#### docstext ####
+text:
+<br>
+<br>
+<br>
+#### **Eager for more?**
+Explore our [documentation](../../../) to learn about our advanced features such as versioning, collaboration/sharing and communities.

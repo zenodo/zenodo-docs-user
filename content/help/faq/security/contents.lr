@@ -1,0 +1,26 @@
+_model: faq
+---
+title: Security
+---
+sort_key: 4
+---
+faqlist:
+
+#### qaitem ####
+question: Does Zenodo perform virus checks on uploaded files?
+----
+answer: No, we do not perform virus checks on user-uploaded files. We however serve user-uploaded files in the most secure manner possible to protect users from various types of malicious attacks.
+----
+category: security-col1
+#### qaitem ####
+question: Is Zenodo GDPR-compliant?
+----
+answer: Zenodo is hosted at CERN, which is an Intergovernmental Organization (IGO), with its seat in Switzerland and therefore not subject to the EU's General Data Protection Regulation (GDPR). Data protection at CERN, which Zenodo complies with, is governed by CERN’s Operational Circular 11 (OC11) that offers data protection at the same high standards and comparable to GDPR. You can read more about this in our relevant [blog post](https://blog.zenodo.org/2018/05/25/2018-05-25-gdpr/).
+----
+category: security-col1
+#### qaitem ####
+question: How do I share personal data?
+----
+answer: Zenodo is an open dissemination research data repository, and the uploader of content responsible to ensure that the content is suitable for open dissemination and that it complies with applicable laws, including, but not limited to, privacy, data protection, and intellectual property rights. Thus, an uploader shall ensure that sensitive personal data is either anonymized to an appropriate degree or fully consent cleared. Uploaders considering Zenodo for the storage of non anonymized or encrypted/unencrypted sensitive personal data are therefore advised to use bespoke platforms rather than open dissemination services like Zenodo for sharing their data.
+----
+category: security-col1

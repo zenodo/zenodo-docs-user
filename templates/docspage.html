@@ -1,0 +1,53 @@
+{#
+# Copyright (C) 2023 CERN.
+#
+# Zenodo is free software; you can redistribute it and/or
+# modify it under the terms of the GNU General Public License as
+# published by the Free Software Foundation; either version 2 of the
+# License, or (at your option) any later version.
+#
+# Zenodo is distributed in the hope that it will be useful, but
+# WITHOUT ANY WARRANTY; without even the implied warranty of
+# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+# General Public License for more details.
+#
+# You should have received a copy of the GNU General Public License
+# along with Zenodo; if not, write to the Free Software Foundation, Inc.,
+# 59 Temple Place, Suite 330, Boston, MA 02111-1307, USA.
+#
+# In applying this license, CERN does not waive the privileges and immunities
+# granted to it by virtue of its status as an Intergovernmental Organization or
+# submit itself to any jurisdiction.
+-#}
+{% extends "base.html" %}
+{% from "macros/docs.html" import render_menu, render_breadcrumb %}
+{% block subpagename %}Documentation{% endblock %}
+{% block subnavbaritems %}
+{% set rootpath = bag('navigation.help.0.0') %}
+{% for path, label in bag('navigation.help') %}
+  {% set highlight = (path != rootpath and this.is_child_of(path)) or (this.path == path and path == rootpath) %}
+  <li{% if highlight %} class="active"{% endif %}><a href="{{ path|url }}">{{ label }}</a></li>
+{% endfor %}
+{% endblock %}
+{% block title %}{{ this.title }}{% endblock %}
+{% block body %}
+
+<div class="row">
+    <div class="col-md-4">
+        {{ render_menu(site.get(this.menu), this) }}
+    </div>
+    <div class="col-md-8">
+      {{ render_breadcrumb(this, root=site.get("/help/docs")) }}
+      <div class="docs-blocks">
+      <h1>{{this.title}}</h1>
+      {%if this.lead%}
+      <h2><small>{{this.lead}}</small></h2>{% endif%}
+      <hr />
+      {{this.body}}
+      {%- for item in this.docs.blocks %}
+        {{item}}
+      {%- endfor %}
+      </div>
+    </div>
+</div>
+{% endblock %}

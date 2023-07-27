@@ -1,0 +1,12 @@
+_model: docspage
+---
+title: Manage files
+---
+sort_key: 4
+---
+menu: /help/docs/deposit
+---
+docs:
+
+#### docstext ####
+text: Test

@@ -1,0 +1,52 @@
+{#
+# Copyright (C) 2023 CERN.
+#
+# Zenodo is free software; you can redistribute it and/or
+# modify it under the terms of the GNU General Public License as
+# published by the Free Software Foundation; either version 2 of the
+# License, or (at your option) any later version.
+#
+# Zenodo is distributed in the hope that it will be useful, but
+# WITHOUT ANY WARRANTY; without even the implied warranty of
+# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+# General Public License for more details.
+#
+# You should have received a copy of the GNU General Public License
+# along with Zenodo; if not, write to the Free Software Foundation, Inc.,
+# 59 Temple Place, Suite 330, Boston, MA 02111-1307, USA.
+#
+# In applying this license, CERN does not waive the privileges and immunities
+# granted to it by virtue of its status as an Intergovernmental Organization or
+# submit itself to any jurisdiction.
+-#}
+{% macro render_menu(root, current_page) %}
+<div class="panel panel-default">
+  <div class="panel-heading"><strong><a href="{{root.path|url}}">{{ root.title }}</a></strong></div>
+  <div class="list-group">
+      {%- for section in root.children|sort(attribute="sort_key") %}
+          {% set highlight = (section.path == current_page.path or current_page.is_child_of(section)) %}
+          <a href="{{section.path|url}}" class="list-group-item{% if highlight %} active{% endif %}"">{{section.title}}</a>
+          {%- if section.children and highlight  %}
+          {%- for subsection in section.children|sort(attribute="sort_key") %}
+          {% set highlight = (subsection.path == current_page.path) %}
+          <a href="{{subsection.path|url}}" class="sub list-group-item{% if highlight %} highlight{% endif %}">{{subsection.title}}</a>
+          {%- endfor %}
+          {%- endif %}
+      {%- endfor %}
+  </div>
+</div>
+{% endmacro %}
+
+{% macro render_breadcrumb(this, root) %}
+<ol class="breadcrumb">
+    <li><a href="{{root|url}}">Docs</a></li>
+    {%- for page in root.children if this.path.startswith(page.path) recursive %}
+    {% if page.path != this.path %}
+    <li><a href="{{page|url}}">{{page.title}}</a></li>
+    {{loop(page.children)}}
+    {% else %}
+    <li>{{page.title}}</li>
+    {% endif %}
+    {%- endfor %}
+</ol>
+{% endmacro %}

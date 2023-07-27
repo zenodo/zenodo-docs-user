@@ -4,9 +4,9 @@
   ],
   "blog-pagination-all": "/all",
   "help": [
-    ["/", "FAQ"],
-    ["/guides/search/", "Search Guide"],
-    ["/features/", "Features"]
+    ["/", "Help"],
+    ["/faq/", "FAQ"],
+    ["/guides/", "Guides"]
   ],
   "about": [
     ["/", "About"],

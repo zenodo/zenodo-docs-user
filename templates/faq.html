@@ -23,124 +23,30 @@
 {% block title %}{{ this.title }}{% endblock %}
 {% block body %}
 {{ this.toptext }}
-<div class="row">
-  <div class="col-lg-6">
-    <h3 id="general">General</h3>
-      {% for blk in this.faqlist.blocks %}
-        {% if blk.category == 'general' %}
-          {{ blk }}
-        {% endif %}
-      {% endfor %}
-    <h3 id="technical">Technical</h3>
-      {% for blk in this.faqlist.blocks %}
-        {% if blk.category == 'technical' %}
-          {{ blk }}
-        {% endif %}
-      {% endfor %}
-    <h3 id="technical">Security</h3>
-      {% for blk in this.faqlist.blocks %}
-        {% if blk.category == 'security-col1' %}
-          {{ blk }}
-        {% endif %}
-      {% endfor %}
+{% set children = this.children|sort(attribute="sort_key") or [this] %}
+{%- for child in children %}
+<h3 id="{{child._id}}">{{ child.title}}</h3>
+{{child.toptext}}
+<div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+{%- for blk in child.faqlist.blocks %}
+  <div class="panel panel-default">
+    <div class="panel-heading" role="tab" id="h{{child._id}}-{{loop.index}}">
+      <h4 class="panel-title">
+        <a role="button" data-toggle="collapse" data-parent="#accordion" href="#c{{child._id}}-{{loop.index}}" aria-expanded="true" aria-controls="c{{child._id}}-{{loop.index}}">
+          {{blk.question}}
+        </a>
+      </h4>
+    </div>
+    <div id="c{{child._id}}-{{loop.index}}" class="panel-collapse collapse out" role="tabpanel" aria-labelledby="h{{child._id}}-{{loop.index}}">
+      <div class="panel-body">
+        {{blk.answer}}
+      </div>
+    </div>
   </div>
-  <div class="col-lg-6">
-    <h3 id="policies">Policies</h3>
-      {% for blk in this.faqlist.blocks %}
-        {% if blk.category == 'policies' %}
-          {{ blk }}
-        {% endif %}
-      {% endfor %}
-    <h3 id="github">GitHub</h3>
-      {% for blk in this.faqlist.blocks %}
-        {% if blk.category == 'github' %}
-          {{ blk }}
-        {% endif %}
-      {% endfor %}
-  </div>
+{%- endfor %}
 </div>
-<hr />
-<div class="row">
-  <div class="col-lg-12">
-    <h2 id="versioning">DOI versioning</h2>
-  </div>
-  <div class="col-lg-6">
-      {% for blk in this.faqlist.blocks %}
-        {% if blk.category == 'versioning-col1' %}
-          {{ blk }}
-        {% endif %}
-      {% endfor %}
-  </div>
-  <div class="col-lg-6">
-      {% for blk in this.faqlist.blocks %}
-        {% if blk.category == 'versioning-col2' %}
-          {{ blk }}
-        {% endif %}
-      {% endfor %}
-  </div>
-</div>
-<hr />
-<div class="row">
-  <div class="col-lg-12">
-    <h2 id="openaire">OpenAIRE</h2>
-      <p></p>
-  </div>
-  <div class="col-lg-6">
-      {% for blk in this.faqlist.blocks %}
-        {% if blk.category == 'openaire-col1' %}
-          {{ blk }}
-        {% endif %}
-      {% endfor %}
-  </div>
-  <div class="col-lg-6">
-      {% for blk in this.faqlist.blocks %}
-        {% if blk.category == 'openaire-col2' %}
-          {{ blk }}
-        {% endif %}
-      {% endfor %}
-  </div>
-</div>
-<hr />
-<div class="row">
-  <div class="col-lg-12">
-    <h2 id="statistics">Statistics</h2>
-      <p></p>
-  </div>
-  <div class="col-lg-6">
-      {% for blk in this.faqlist.blocks %}
-        {% if blk.category == 'statistics-col1' %}
-          {{ blk }}
-        {% endif %}
-      {% endfor %}
-  </div>
-  <div class="col-lg-6">
-      {% for blk in this.faqlist.blocks %}
-        {% if blk.category == 'statistics-col2' %}
-          {{ blk }}
-        {% endif %}
-      {% endfor %}
-  </div>
-</div>
-<div class="row">
-  <div class="col-lg-12">
-    <h2 id="citations">Citations</h2>
-      <p></p>
-  </div>
-  <div class="col-lg-6">
-      {% for blk in this.faqlist.blocks %}
-        {% if blk.category == 'citations-col1' %}
-          {{ blk }}
-        {% endif %}
-      {% endfor %}
-  </div>
-  <div class="col-lg-6">
-      {% for blk in this.faqlist.blocks %}
-        {% if blk.category == 'citations-col2' %}
-          {{ blk }}
-        {% endif %}
-      {% endfor %}
-  </div>
-</div>
+{{child.bottomtext}}
+{%- endfor %}
 <br />
 <br />
 {{ this.bottomtext }}

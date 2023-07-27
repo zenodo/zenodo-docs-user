@@ -129,3 +129,21 @@ h5 {
 summary {
   cursor: pointer;
 }
+
+.sub.list-group-item {
+  background-color: #ededed;
+  margin-left: 15px;
+}
+
+.sub.list-group-item.highlight {
+  background-color: #ededed;
+  font-weight: bold;
+  margin-left: 15px;
+}
+
+.docs-blocks hr {
+  margin-top: 0;
+}
+.docs-blocks h3 {
+  margin-top: 50px;
+}

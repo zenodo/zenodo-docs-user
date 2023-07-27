@@ -1,0 +1,14 @@
+<ul>
+{%- for section in site.get(this.menu).children|sort(attribute="sort_key") recursive %}
+    <li>
+    <a href="{{section.path|url}}">{{section.title}}</a>{% if section.tocdesc %} &mdash; {{section.tocdesc }}{% endif %}
+    {%- if section.children %}
+    <ul>
+        {%- for subsection in section.children|sort(attribute="sort_key") %}
+        <li><a href="{{subsection.path|url}}">{{subsection.title}}</a>{% if subsection.tocdesc %} &mdash; {{subsection.tocdesc }}{% endif %}
+        {%- endfor %}
+    </ul>
+    {%- endif %}
+    </li>
+{%- endfor %}
+</ul>

@@ -1,0 +1,51 @@
+_model: faq
+---
+title: GitHub
+---
+sort_key: 8
+---
+faqlist:
+
+#### qaitem ####
+question: My organizational repository does not show up on the GitHub list.
+----
+answer:
+
+In order to see and archive your organizational repositories on Zenodo you will need to have "Admin" permissions on said repository, either as an Admin of the organization or an Admin of one of your organization's repositories.
+Additionally, please make sure that the OAuth application on GitHub is granting permissions not only to your personal repositories but also to your organizational ones - to verify that go to your GitHub OAuth settings in [your profile](https://github.com/settings/applications), and click on the Zenodo application to see more details. Make sure that Zenodo is given access (green tick) to your organization under "Organization access".
+
+After that, navigate to your Zenodo [GitHub settings page](https://zenodo.org/account/settings/github/) and click the "Sync now" button at the top.
+----
+category: github
+#### qaitem ####
+question: I made a GitHub release, but it does not show up on Zenodo.
+----
+answer: Make sure the repository was enabled before the release was made, otherwise feel free to contact us.
+----
+category: github
+#### qaitem ####
+question: Is it possible to archive a GitHub repository, before it was enabled on Zenodo?
+----
+answer: Only the repositories which were enabled before a release was made will be archived automatically. If you want to archive some of your old releases, you can always download a release ZIP from GitHub and upload it to Zenodo using our web interface as a regular upload.
+----
+category: github
+#### qaitem ####
+question: How to change the default metadata for my GitHub releases?
+----
+answer: You can include metadata in a `.zenodo.json` file at the root of your GitHub repository. This file's contents should be in line with the Zenodo deposit metadata schema and will be used to update the metadata from future GitHub releases. For more information on how to create a `.zenodo.json` file, you can have a look at our [GitHub integration documenation](https://developers.zenodo.org/#github).
+----
+category: github
+#### qaitem ####
+question: Do you support other software metadata files, like `CITATION.cff` or `codemeta.json`?
+----
+answer: Part of our plans and ongoing work is to take into account or improve our integration of other software metadata schemas such as the [Citation File Format (CFF)](https://citation-file-format.github.io/) and [CodeMeta](https://codemeta.github.io/). We are working closely with our users and scholarly software and citation communities to figure out exactly when, in what form, and how all these different metadata schemas and their files will be integrated into Zenodo.
+----
+category: github
+#### qaitem ####
+question: How does a `CITATION.cff` file affect the metadata of my GitHub release?
+----
+answer: When we find a `CITATION.cff` file in your GitHub repository's root folder, we make a best-effort attempt at parsing Zenodo-compatible metadata from it.
+
+For backwards-compatibility, if you have a `.zenodo.json` file in the repository, **only the `.zenodo.json`'s metadata will be taken into account**. Of course, any existing valid `CITATION.cff` file will still be used to display the citation box on the GitHub repository page, but will not affect in any way the metadata we extract for your published release Zenodo record.
+----
+category: github

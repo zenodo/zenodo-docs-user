@@ -4,9 +4,9 @@
   ],
   "blog-pagination-all": "/blog/all",
   "help": [
-    ["/help", "FAQ"],
-    ["/help/guides/search/", "Search Guide"],
-    ["/help/features/", "Features"]
+    ["/help/", "Help"],
+    ["/help/faq/", "FAQ"],
+    ["/help/guides/", "Guides"]
   ],
   "about": [
     ["/about", "About"],
@@ -29,7 +29,7 @@
   "main": [
     ["http://127.0.0.1:5000/about", "About"],
     ["http://127.0.0.1:5000/blog", "Blog"],
-    ["http://127.0.0.1:5000/help", "Help"],
+    ["http://127.0.0.1:5000/help/", "Help"],
     ["http://127.0.0.1:5000/about/projects/", "Projects"],
     ["https://developers.zenodo.org", "Developers"]
   ]

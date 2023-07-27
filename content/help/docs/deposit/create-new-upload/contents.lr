@@ -1,0 +1,190 @@
+_model: docspage
+---
+title: Create new upload
+---
+sort_key: 2
+---
+menu: /help/docs/deposit
+---
+docs:
+
+#### docstoc ####
+menu: /help/docs/deposit/create-new-upload
+#### docsheader ####
+text: Create a new upload
+----
+ref: new-upload
+#### docsstep ####
+step: 1
+----
+text: Click the plus icon in the header, and select **New upload** from the drop-down menu.
+----
+image:
+#### docsstep ####
+step: 2
+----
+text: You will now see the deposit form where you upload files, add metadata, set restrictions and save/publish your upload.
+----
+image:
+#### docsheader ####
+text: Add/remove files
+----
+ref: files
+#### docsstep ####
+step: 1
+----
+text:
+
+Click the **Upload files** button, or drag and drop one or more files onto the drop zone to start uploading files. You can maximum upload 100 files and 50GB.
+----
+image:
+#### docsstep ####
+step: 2
+----
+text: Click the trash can icon to delete a file.
+----
+image:
+#### docsstep ####
+step: 3
+----
+text: ATTENTION: After the record is published it is not longer possible to add, remove or modify files by yourself.
+----
+image:
+#### docsheader ####
+text: Fill in metadata
+----
+ref: metadata
+#### docsstep ####
+step: 1
+----
+text: Fill in the minimal required metadata.
+----
+image:
+#### docsstep ####
+step: 2
+----
+text: Refer to [describe records](../describe-records/) for a detailed guide to all fields in the form.
+----
+image:
+#### docsheader ####
+text: Save for later
+----
+ref: save
+#### docsstep ####
+step: 1
+----
+text: Click **Save** to save your deposit and validate the entered data.
+----
+image:
+#### docsstep ####
+step: 2
+----
+text: Any error message will be displayed on the top.
+----
+#### docsstep ####
+step: 3
+----
+text: Once saved, you can close the browser window and come back later to complete the upload. See [manage records](../manage-records/) for how to find you upload again.
+----
+image:
+#### docsheader ####
+text: Set visibility
+----
+ref: visibility
+#### docsstep ####
+step: 1
+----
+text: Set the desired visibility of the files in the record once published (note, the metadata is always publicly accessible).
+----
+image:
+#### docsstep ####
+step: 2
+----
+text:
+
+ You can choose between **public** or **restricted** visibility for the files.
+----
+image:
+#### docsheader ####
+text: Apply an embargo
+----
+ref: embargo
+#### docsstep ####
+step: 1
+----
+text: If you set **restricted** visibility you can apply an embargo date.
+#### docsstep ####
+step: 2
+----
+text: The record will automatically made publicly available on the chosen date.
+----
+image:
+#### docsstep ####
+step: 3
+----
+text: Users viewing the landing page will be made aware of the embargo period.
+----
+image:
+#### docsheader ####
+text: Preview before publishing
+----
+ref: preview
+#### docsstep ####
+step: 1
+----
+text: Click the **Preview** button to see how the record will look like once published.
+----
+image:
+#### docsheader ####
+text: Publish
+----
+ref: publish
+#### docsstep ####
+step: 1
+----
+text: Click **Publish** once you are ready to publish.
+----
+image:
+#### docsstep ####
+step: 2
+----
+text: Confirm that you wish to publish.
+----
+image:
+#### docsstep ####
+step: 3
+----
+text: Congratulations, you have finished your upload.
+----
+image:
+#### docsheader ####
+text: Delete
+----
+ref: delete
+#### docsstep ####
+step: 1
+----
+text: At any point before publishing, you can delete the upload by clicking the **Delete** button.publish.
+----
+image:
+#### docsstep ####
+step: 2
+----
+text: Note, you will loose any reserved DOI if you delete the upload.
+----
+image:
+#### docsstep ####
+step: 3
+----
+text: After you publish, you will NOT be able to delete the record by yourself.
+----
+image:
+---
+body:
+
+See the [quick start](../../get-started/quickstart/) guide for a short introduction to publishing an upload in 3 simple steps
+
+This guides goes in further depth.
+---
+todo:
+- Add screenshots

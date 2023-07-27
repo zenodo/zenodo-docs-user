@@ -1,0 +1,37 @@
+_model: docspage
+---
+title: Create new community
+---
+sort_key: 1
+---
+menu: /help/docs/communities
+---
+body:
+
+Learn more about what you can use communities for on the [about communities](../about-communities/) page.
+---
+docs:
+
+#### docsheader ####
+text: Creating a community
+----
+ref: creating-a-community
+
+#### docsstep ####
+step: 1
+----
+text: Click on the plus icon and select "New community"
+----
+image: step1.png
+
+#### docsstep ####
+step: 2
+----
+text: Enter your **community name** and **identifier**.
+----
+image: step2.png
+
+#### docsstep ####
+step: 3
+----
+text: Your new community has been created.

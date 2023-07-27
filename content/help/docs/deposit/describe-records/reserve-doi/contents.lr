@@ -1,0 +1,11 @@
+_model: docspage
+---
+title: Reserve DOI
+---
+docs: 
+---
+menu: /help/docs/deposit
+---
+sort_key: 1
+---
+tocdesc: How to reserve a DOI for inclusion in files before publication.

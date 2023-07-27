@@ -1,0 +1,9 @@
+<div class="row">
+    <div class="col-md-1"><p><span class="badge">{{this.step}}</span></p></div>
+    <div class="col-md-11">
+        {{this.text}}
+        {% if this.image %}
+            <p><img src="{{this.image}}" class="img-thumbnail"></p>
+        {% endif %}
+    </div>
+</div>

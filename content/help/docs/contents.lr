@@ -1,0 +1,21 @@
+_model: docsindex
+---
+_hidden: true
+---
+title: Docs
+---
+sort_key: 1
+---
+body:
+
+# Help with Zenodo
+
+---
+sections:
+
+#### sectionindex ####
+title: Docs
+----
+body:
+----
+menu: /help/docs

@@ -1,0 +1,111 @@
+_model: docspage
+---
+title: Create an account
+---
+sort_key: 1
+---
+menu: /help/docs/get-started
+---
+tocdesc: Learn how to sign up with ORCID, GitHub or a local account.
+---
+body:
+
+<div class="alert alert-info">
+<strong>Want to test Zenodo?</strong> Use our sandbox environment on <a href="https://sandbox.zenodo.org">https://sandbox.zenodo.org</a> to play.
+</div>
+
+You can create an account in several ways. If you already have an ORCID or GitHub account we recommend the following options:
+
+- **[Sign up with ORICD](#orcid):** Use your [ORCID](https://orcid.org) account to quickly create an account.
+- **[Sign up with GitHub](#github):** Use your [GitHub](https://github.com) account to quickly create an account.
+
+If not, you can create an account directly on Zenodo:
+
+- **[Sign up with local account](#local):** Create a local account by choosing a password.
+
+We advise you to sign up with either GitHub or ORCID and make sure you have enabled two-factor authentication on either GitHub or ORCID for added security. Local accounts on Zenodo do not support two factor authentications.
+---
+docs:
+
+#### docsheader ####
+text: Sign up with ORCID
+----
+ref: orcid
+#### docsstep ####
+step: 1
+----
+text: Click the orange "Sign up" button in the header.
+----
+image: step1.png
+#### docsstep ####
+step: 2
+----
+text: Click the "Sign up with ORCID" button.
+----
+image: step2-githuborcid.png
+
+#### docsstep ####
+step: 3
+----
+text: You will be redirected to https://orcid.org and asked to sign in.
+----
+image: step3-orcid.png
+#### docsstep ####
+step: 4
+----
+text: Finalise the sign up by providing your email address. A email with **confirmation instructions** is sent to the provided email address. You MUST confirm your email address in order to be able to make your first upload.
+#### docstext ####
+text: Congratulations you have now signed up with ORCID
+
+
+#### docsheader ####
+text: Sign up with GitHub
+----
+ref: github
+#### docsstep ####
+step: 1
+----
+text: Click the orange "Sign up" button in the header.
+----
+image: step1.png
+#### docsstep ####
+step: 2
+----
+text: Click the "Sign up with GitHub" button.
+----
+image: step2-githuborcid.png
+#### docsstep ####
+step: 3
+----
+text: You will be redirected to https://github.com and asked to sign in and authorize the Zenodo application.
+----
+image: step3-github.png
+#### docsstep ####
+step: 4
+----
+text: Congratulations you have now signed up with GitHub.
+
+
+#### docsheader ####
+text: Sign up with local account
+----
+ref: local
+#### docsstep ####
+step: 1
+----
+text: Click the orange "Sign up" button in the header.
+----
+image: step1.png
+#### docsstep ####
+step: 2
+----
+text: Fill in the username, full name, affiliation, email address and password. The password must be minimum 6 characters long. Finish by clicking "Sign up".
+----
+image: step2.png
+
+#### docsstep ####
+step: 3
+----
+text: If the sign up was successful, you will be redirected to the front page. A email with **confirmation instructions** is sent to the provided email address. You MUST confirm your email address in order to be able to make your first upload.
+
+

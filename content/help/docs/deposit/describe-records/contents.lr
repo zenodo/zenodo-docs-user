@@ -1,0 +1,16 @@
+_model: docspage
+---
+title: Describe records
+---
+sort_key: 3
+---
+menu: /help/docs/deposit
+---
+docs:
+
+#### docstext ####
+text: 
+#### docstoc ####
+menu: /help/docs/deposit/describe-records
+---
+body: The section provides an overview over the different fields in the deposit form.

@@ -1,0 +1,63 @@
+_model: docspage
+---
+title: Logging in and logging out
+---
+sort_key: 2
+---
+menu: /help/docs/get-started
+---
+tocdesc: Learn the basics on how to login and logout.
+---
+body:
+
+<div class="alert alert-info">
+<strong>Want to test Zenodo?</strong> Use our sandbox environment on <a href="https://sandbox.zenodo.org">https://sandbox.zenodo.org</a> to play.
+</div>
+
+---
+docs:
+
+#### docsheader ####
+
+text: Log in
+----
+ref: login
+#### docsstep ####
+step: 1
+----
+text: Click the white **Log in** button in the header.
+----
+image: step1.png
+
+#### docsstep ####
+step: 2
+----
+text: Choose your preferred method to log in depending on you [created your account](../create-an-account/)
+----
+image: step2.png
+
+#### docsheader ####
+text: Log out
+----
+ref: logout
+
+#### docsstep ####
+step: 1
+----
+text: Click the down-arrow button on your username in the header to open the drop-down menu.
+----
+image: step3.png
+
+#### docsstep ####
+step: 2
+----
+text: Click **Log out** to log out of Zenodo.
+
+#### docsstep ####
+step: 3
+----
+text: You will now have been logged out the current device you are using. If you logged in from other devices, these may still be logged in. Learn how to [view logged in devices](../../profile/viewing-devices/).
+
+---
+todo:
+- step 2 pciture must be updated

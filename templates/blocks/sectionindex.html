@@ -1,0 +1,31 @@
+{% set rootitem = site.get(this.menu)%}
+{%- if not rootitem._hidden %}
+<div class="docs-blocks">
+<h3>{{this.title}}</h3>
+<hr/ >
+
+{{this.body}}
+
+{%- for items in rootitem.children|sort(attribute="sort_key")|batch(4) %}
+<div class="row">
+    {%- for section in items %}
+    <div class="col-md-3">
+    {%- if section.faqlist %}
+        <h4><a href="{{rootitem.path|url}}#{{section._id}}">{{section.title}}</a></h4>
+    {%- else %}
+        <h4><a href="{{section.path|url}}">{{section.title}}</a></h4>
+        {%- if section.children %}
+        <ul>
+            {%- for subsection in section.children|sort(attribute="sort_key") %}
+            <li><a href="{{subsection.path|url}}">{{subsection.title}}</a></li>
+            {%- endfor %}
+        </ul>
+        {%- endif %}
+    {%- endif %}
+    </div>
+    {%- endfor %}
+</div>
+{%- endfor %}
+
+</div>
+{%- endif %}

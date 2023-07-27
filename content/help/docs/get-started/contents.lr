@@ -1,0 +1,30 @@
+_model: docspage
+---
+title: Get started
+---
+sort_key: 1
+---
+menu: /help/docs/get-started
+---
+body:
+
+<div class="alert alert-info">
+<strong>Want to test Zenodo?</strong> Use our sandbox environment on <a href="https://sandbox.zenodo.org">https://sandbox.zenodo.org</a> to play.
+</div>
+
+Zenodo enables to share and preserve your digital research objects (publications, data, software, presentations, etc.).
+
+---
+docs:
+
+#### docsheader ####
+text: Overview
+----
+ref: overview
+#### docstext ####
+
+text:
+In this section, learn about the following topics:
+
+#### docstoc ####
+menu: /help/docs/get-started
