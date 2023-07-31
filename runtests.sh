@@ -23,7 +23,9 @@
 set -e
 cd databags
 mv navigation.json navigation_local.json
+mv prefix.ini prefix_local.ini
 ln -s navigation_deploy.json navigation.json
+ln -s prefix_deploy.ini prefix.ini
 cd ..
 
 mv content/ content_root/
@@ -39,6 +41,9 @@ ln -s content_root/blog content
 lektor clean --yes
 lektor build
 rm content
+
 mv content_root/ content/
 rm databags/navigation.json
+rm databags/prefix.ini
 mv databags/navigation_local.json databags/navigation.json
+mv databags/prefix_local.ini databags/prefix.ini

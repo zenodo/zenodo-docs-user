@@ -22,7 +22,9 @@
 
 cd databags
 mv navigation.json navigation_local.json
+mv prefix.ini prefix_local.ini
 ln -s navigation_deploy.json navigation.json
+ln -s prefix_deploy.ini prefix.ini
 cd ..
 
 # Start ssh-agent

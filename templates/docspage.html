@@ -21,6 +21,19 @@
 -#}
 {% extends "base.html" %}
 {% from "macros/docs.html" import render_menu, render_breadcrumb %}
+
+{%- set rootsite = this.menu.split("/")[1]%}
+{%- set rootprefix = bag('prefix', rootsite) %}
+{% if rootprefix != "/" + rootsite %}
+    {%- set menu = "/" + "/".join(this.menu.split("/")[2:]) %}
+    {%- set breadcrumb_root = "/docs" %}
+{%- else %}
+    {%- set menu = this.menu %}
+    {%- set breadcrumb_root = "/help/docs" %}
+{%- endif %}
+{%- set rootitem = site.get(menu)%}
+
+
 {% block subpagename %}Documentation{% endblock %}
 {% block subnavbaritems %}
 {% set rootpath = bag('navigation.help.0.0') %}
@@ -34,10 +47,10 @@
 
 <div class="row">
     <div class="col-md-4">
-        {{ render_menu(site.get(this.menu), this) }}
+        {{ render_menu(rootitem, this) }}
     </div>
     <div class="col-md-8">
-      {{ render_breadcrumb(this, root=site.get("/help/docs")) }}
+      {{ render_breadcrumb(this, root=site.get(breadcrumb_root)) }}
       <div class="docs-blocks">
       <h1>{{this.title}}</h1>
       {%if this.lead%}

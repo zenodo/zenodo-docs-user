@@ -1,5 +1,14 @@
+{%- set rootsite = this.menu.split("/")[1]%}
+{%- set rootprefix = bag('prefix', rootsite) %}
+{% if rootprefix != "/" + rootsite %}
+    {%- set menu = "/" + "/".join(this.menu.split("/")[2:]) %}
+{%- else %}
+    {%- set menu = this.menu %}
+{%- endif %}
+{%- set rootitem = site.get(menu)%}
+
 <ul>
-{%- for section in site.get(this.menu).children|sort(attribute="sort_key") recursive %}
+{%- for section in rootitem.children|sort(attribute="sort_key") recursive %}
     <li>
     <a href="{{section.path|url}}">{{section.title}}</a>{% if section.tocdesc %} &mdash; {{section.tocdesc }}{% endif %}
     {%- if section.children %}
