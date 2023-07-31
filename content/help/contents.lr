@@ -22,20 +22,8 @@ body:
 ----
 menu: /help/faq
 #### sectionindex ####
-title: Docs
-----
-body:
-----
-menu: /help/docs
-#### sectionindex ####
 title: Guides
 ----
 body:
 ----
 menu: /help/guides
-#### sectionindex ####
-title: Developers
-----
-body:
-----
-menu: /help/developers
