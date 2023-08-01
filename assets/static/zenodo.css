@@ -10617,19 +10617,19 @@ html {
 
 @media (min-width: 992px) {
   body {
-    margin-bottom: 235px;
+    margin-bottom: 273px;
   }
 }
 
 @media (max-width: 991px) and (min-width: 768px) {
   body {
-    margin-bottom: 340px;
+    margin-bottom: 397px;
   }
 }
 
 @media (max-width: 767px) {
   body {
-    margin-bottom: 370px;
+    margin-bottom: 427px;
   }
 }
 
@@ -10647,19 +10647,19 @@ body .body-container > .row {
 
 @media (min-width: 992px) {
   .footer {
-    height: 235px;
+    height: 273px;
   }
 }
 
 @media (max-width: 991px) and (min-width: 768px) {
   .footer {
-    height: 340px;
+    height: 397px;
   }
 }
 
 @media (max-width: 767px) {
   .footer {
-    height: 370px;
+    height: 427px;
   }
 }
 
