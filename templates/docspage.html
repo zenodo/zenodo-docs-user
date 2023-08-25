@@ -57,6 +57,15 @@
       <h2><small>{{this.lead}}</small></h2>{% endif%}
       <hr />
       {{this.body}}
+      {% if this.docs_show_toc %}
+      <ul>
+      {%- for item in this.docs.blocks %}
+        {% if item._flowblock == "docsheader" %}
+        <li><a href="#{{item.ref}}">{{ item.text }}</a></li>
+        {% endif %}
+      {%- endfor %}
+      </ul>
+      {% endif %}
       {%- for item in this.docs.blocks %}
         {{item}}
       {%- endfor %}

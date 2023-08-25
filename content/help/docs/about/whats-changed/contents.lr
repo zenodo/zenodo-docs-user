@@ -2,8 +2,19 @@ _model: docspage
 ---
 title: What's changed
 ---
-docs: 
----
 menu: /help/docs/about
 ---
 sort_key: 2
+---
+body:
+
+---
+docs:
+
+#### docstext ####
+
+text:
+In this section, learn about the following topics:
+
+#### docstoc ####
+menu: /help/docs/about/whats-changed
