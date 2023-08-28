@@ -1,0 +1,63 @@
+_model: docspage
+---
+title: Licenses and rights
+---
+menu: /help/docs/deposit
+---
+sort_key: 7
+---
+tocdesc: Learn to choose a license for your record.
+---
+body:
+
+The **license** field is a required field. Providing the license for your record is important for other users to be able to reuse your upload. Zenodo defaults to the [Creative Commons Attribution 4.0 International](http://creativecommons.org/licenses/by/4.0/) (CC-BY) license.
+
+<img src="default-license.png" width="100%" />
+
+We recommend the following resources to help you choose the license:
+
+- [choosealicense.com](https://choosealicense.com) - useful especially for software
+- [OpenARE Guide for Researchers](http://www.openaire.eu/how-do-i-license-my-research-data) - useful especially for research data.
+
+Once you have chosen a license, the following paragraphs help you choose it in Zenodo.
+---
+docs:
+
+#### docsheader ####
+text: Change a standard license
+----
+ref: change
+#### docsstep ####
+step: 1
+----
+text: Click the **Edit** button next to the Creative Commons Attribution 4.0 International license (see image above).
+#### docsstep ####
+step: 2
+----
+text: Choose one of the widely recommended used licenses presented, or search/browse for a standard licenses. Zenodo relies on the widely used [SPDX list of license](https://spdx.org/licenses/). If you cannot find your license you can add a custom license (see next section).
+----
+image: chooser.png
+#### docsheader ####
+text: Add a custom license
+----
+ref: custom
+#### docstext ####
+text: If you cannot find a standard license, you can add a custom license.
+#### docsstep ####
+step: 1
+----
+text: Click the **Add custom** button (see top image).
+#### docsstep ####
+step: 2
+----
+text: Provide the title, and optionally describe and link of the license.
+----
+image: custom-license.png
+#### docsheader ####
+text: Mixed license uploads
+----
+ref: mixed
+#### docstext ####
+text: You may experience that files you upload are under different licenses (e.g. software under the MIT license, but documentation under CC-BY license). In such cases you can declare all the licenses as done in the example below:
+
+<img src="multiple.png"  width="100%"/>

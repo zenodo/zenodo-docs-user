@@ -1,0 +1,50 @@
+_model: docspage
+---
+title: Contributors
+---
+menu: /help/docs/deposit
+---
+sort_key: 10
+---
+tocdesc: Learn to add persons/organisations that do not appear in the citation.
+---
+body:
+
+The **contributors** field is a recommended field. Use contributors to provide information about persons or organisations that have contributed to the record such as supervisors, contact persons, sponsors etc. Contributors are not included in the academic citation.
+
+##### Creators vs contributors
+
+The main difference between creators are contributors are displayed in the table below:
+
+|              | Included in citation | Role required |
+| ------------ | -------------------- | ------------- |
+| Creators     | Yes                  | No            |
+| Contributors | No                   | Yes           |
+
+You should choose where to add a person or organisation based on if they should appear in the academic citation or not.
+
+---
+docs:
+
+#### docsheader ####
+text: Add a contributor
+----
+ref: contributor
+#### docsstep ####
+step: 1
+----
+text: Click the **Add contributor** button to add one or more contributors.
+----
+image: button.png
+#### docsstep ####
+step: 2
+----
+text: Fill in the information for the contributor similar to creators (see [creators](../creators/) documentation)
+----
+image: contributor.png
+#### docsstep ####
+step: 3
+----
+text: Choose the role for your contributor, and finally click **Save** or **Save and add another**. The list of roles is based on [DataCite's contributor vocabulary](https://schema.datacite.org).
+----
+image: role.png

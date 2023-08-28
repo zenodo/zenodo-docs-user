@@ -8,9 +8,8 @@ menu: /help/docs/deposit
 ---
 body:
 
-<div class="alert alert-info">
-<strong>Want to test Zenodo?</strong> Use our sandbox environment on <a href="https://sandbox.zenodo.org">https://sandbox.zenodo.org</a> to play.
-</div>
+!!! info
+    **Want to test Zenodo?** Use our sandbox environment on [https://sandbox.zenodo.org](https://sandbox.zenodo.org) to play.
 
 See the [quick start](../../get-started/quickstart/) guide for a short introduction to publishing an upload in 3 simple steps. This guide goes in further detail about how to create a new record, and subsequent sections covers each part in detail.
 ---

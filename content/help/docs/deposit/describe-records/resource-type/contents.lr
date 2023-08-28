@@ -1,11 +1,46 @@
 _model: docspage
 ---
-title: Select resource type
----
-docs: 
+title: Resource types
 ---
 menu: /help/docs/deposit
 ---
 sort_key: 1
 ---
 tocdesc: Select the right resource type.
+---
+body:
+
+The **resource type** field is a required field in the deposit form. The resource type is used to describe the nature of the files being shared and is important for discoverability of your record.
+---
+docs:
+
+#### docsheader ####
+text: Selecting a resource type
+----
+ref: select
+#### docsstep ####
+step: 1
+----
+text: From the resource type field drop-down select one of the resources types which best describes the files you are sharing.
+----
+image: resource-types.png
+#### docsstep ####
+step: 2
+----
+text: The selected resource type is important for the discoverability of your upload, both for users to find your research output, but also because various discover systems only index e.g. publications or only dataset or only software from Zenodo.
+
+#### docsheader ####
+text: Mixed resource types
+----
+ref: mixed-types
+#### docstext ####
+text: You may experience that you want to share an digital object that consists of e.g. both data and software, or any other mixture of multiple resource types. In these cases there's two possible solutions:
+#### docsstep ####
+step: 1
+----
+text: **Choose one type** - Choose the resource type which you think best describes and/or is most significant for the upload. For instance, the main contribution may be the dataset while the software consists of a couple of processing scripts.
+#### docsstep ####
+step: 2
+----
+text: **Split the upload** - Split the upload into multiple records, one per resource type. Choose this method when both e.g. the dataset and software both are significant contributions in themselves.
+

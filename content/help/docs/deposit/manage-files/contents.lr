@@ -6,7 +6,70 @@ sort_key: 4
 ---
 menu: /help/docs/deposit
 ---
+body:
+
+!!! warning
+    **Heads up**: You CANNOT add/delete/modify files after your record is published.
+
+The following sections documents how to manage files for a draft and record. You can by default upload up to a 100 files and a total volume of 50GB (50.000.000.000 bytes).
+---
+docs_show_toc: True
+---
 docs:
 
+#### docsheader ####
+text: Add files
+----
+ref: add
+#### docsstep ####
+step: 1
+----
+text: Drag and drop files or click **Upload files** to select one or more files to upload.
+----
+image: add.png
+#### docsstep ####
+step: 2
+----
+text: You can cancel the upload of large files while the upload is in progress by pressing the **Cancel**-button.
+----
+image: inprogress.png
+#### docsheader ####
+text: Remove files
+----
+ref: remove
+#### docsstep ####
+step: 1
+----
+text: Click the **<i class="fa fa-trash-o"></i>-icon** to remove an already uploaded file.
+----
+image: finished.png
+
+#### docsheader ####
+text: Set the default preview
+----
+ref: preview
+#### docsstep ####
+step: 1
+----
+text: By default, the first previewable file in alphanumeric order will be the one being displayed on the your record landing page. You can change the default previewed file by checking the checkbox in the **Preview** column.
+----
+image: finished.png
+#### docsheader ####
+text: Modify files after publication
+----
+ref: modify
 #### docstext ####
-text: Test
+text:
+
+We do not allow modification (add, remove, modify) of files after it has been published. Instead, you can use our [versioning](../manage-versions/) to create a new version of the record.
+
+We however offer a one-month grace period after publication in which the files in a specific version can still be changed if mistakes have been found. After the one-month grace period we only allow modification in duly justified cases (such as copyright infringements, or exposure of personal data). All requests for modifications must be submitted to our [support line](https://zenodo.org/support), however please consider using our [versioning](../manage-versions/) feature instead.
+
+#### docsheader ####
+text: Request a quota increase.
+----
+ref: quota
+#### docstext ####
+text:
+
+We exceptionally grant a one-time quota increase up to 200GB for datasets. Please submit a request via our [support line](https://zenodo.org/support).

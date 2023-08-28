@@ -10,9 +10,8 @@ tocdesc: Learn how to sign up with ORCID, GitHub or a local account.
 ---
 body:
 
-<div class="alert alert-info">
-<strong>Want to test Zenodo?</strong> Use our sandbox environment on <a href="https://sandbox.zenodo.org">https://sandbox.zenodo.org</a> to play.
-</div>
+!!! info
+    **Want to test Zenodo?** Use our sandbox environment on [https://sandbox.zenodo.org](https://sandbox.zenodo.org) to play.
 
 You can create an account in several ways. If you already have an ORCID or GitHub account we recommend the following options:
 

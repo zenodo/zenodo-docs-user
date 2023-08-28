@@ -1,0 +1,97 @@
+_model: docspage
+---
+title: Creators
+---
+menu: /help/docs/deposit
+---
+sort_key: 5
+---
+tocdesc: Learn how to add creators/authors for your record.
+---
+body:
+
+The **creators** field is a required field. Creators are the persons or organisations that have created the resource being uploaded (e.g. the authors in case of papers). Creators are listed in the academic citation.
+
+A creator can be either a:
+- Person
+- Organisation
+
+See also [contributors](../contributors/) for how to add persons/organisations that should not appear in the academic citation.
+
+---
+docs:
+
+#### docsheader ####
+text: Add a creator
+----
+ref: add
+#### docsstep ####
+step: 1
+----
+text: Click **Add creator** to add one or more new creators.
+----
+image: add-button.png
+#### docsstep ####
+step: 2
+----
+text: Choose between **Person** or **Organization** as the name type. Person names are split into family/given names fields and can be auto-completed where as organsation names is only a single name field and cannot be auto-completed.
+----
+image: creator-form.png
+#### docsstep ####
+step: 3
+----
+text: Search for an already known persons to make entering many creators faster. The search is powered by the [ORCID](https://orcid.org) datasets.
+----
+image: auto-complete.png
+#### docsstep ####
+step: 4
+----
+text: Enter the **family name** and **given names**. The split is important for the automatic generation of citation strings.
+#### docsstep ####
+step: 5
+----
+text: Enter **name identifiers** for the person/organisation such as ORCIDs, ISNIs, GNDs or RORs. The name identifiers can be entered in many different formats, and will automatically be normalised by form.
+#### docsstep ####
+step: 6
+----
+text: Enter one or more **affiliations** for the creator. The field is auto-completed from the [ROR](https://ror.org) database. By default, you should prefer to choose one of auto-completed options as it uniquely identify the organisation. If you cannot find your organisation, you can choose to add simply the text. In below example "European Organization for Nuclear Research (CERN)" is auto-completed (preferred), and "Add CERN" is a simple text string without unique identification of CERN.
+----
+image: affiliations.png
+#### docsstep ####
+step: 7
+----
+text: Optionally, select a **role** for the creator (e.g. "Editor")
+#### docsstep ####
+step: 8
+----
+text: Finally, click **Save and add another** to add more creators, or click **Save** to return to the main form.
+#### docsheader ####
+text: Edit a creator
+----
+ref: edit
+#### docsstep ####
+step: 1
+----
+text: Click the **Edit** button next to a creator to edit the creator information.
+----
+image: two-creators.png
+#### docsheader ####
+text: Remove a creator
+----
+ref: remove
+#### docsstep ####
+step: 1
+----
+text: Click the **Remove** button next to a creator to remove a creator from the list.
+----
+image: two-creators.png
+#### docsheader ####
+text: Reorder creators
+----
+ref: reorder
+#### docsstep ####
+step: 1
+----
+text: Click and hold the <i class="fa fa-bars"></i>-icon. You can now drag and drop the author into the desired order in the list.
+----
+image: two-creators.png

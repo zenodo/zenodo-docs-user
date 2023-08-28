@@ -1,0 +1,49 @@
+_model: docspage
+---
+title: Descriptions
+---
+menu: /help/docs/deposit
+---
+sort_key: 6
+---
+tocdesc: Learn how to add abstracts and notes.
+---
+body:
+
+Description is a recommended field. You will usually use it to provide an abstract of your record. In addition you can add additional descriptions such as methods, technical information and notes.
+---
+docs:
+
+#### docsheader ####
+text: Add a description
+----
+ref: desc
+#### docsstep ####
+step: 1
+----
+text: Enter an abstract for your record. You may use basic formatting such as paragraphs, headings, bold/italic, links, bullet lists and quotes.
+----
+image: description.png
+
+#### docsheader ####
+text: Add an additional description (note, methods, ...)
+----
+ref: note
+#### docsstep ####
+step: 1
+----
+text: Click **Add description** button to add an additional description.
+----
+image: description.png
+#### docsstep ####
+step: 2
+----
+text: Fill in the additional description. The description can be removed again, but clicking the <i class="fa fa-times"></i>-icon.
+----
+image: additional-desc.png
+#### docsstep ####
+step: 3
+----
+text: Choose a **description type**, and optionally select the language of the description.
+----
+image: types.png

@@ -1,11 +1,66 @@
 _model: docspage
 ---
-title: Reserve DOI
----
-docs: 
+title: Digital Object Identifier (DOI)
 ---
 menu: /help/docs/deposit
 ---
 sort_key: 1
 ---
 tocdesc: How to reserve a DOI for inclusion in files before publication.
+---
+body:
+
+A **Digital Object Identifier (DOI)** is a globally unique persistent identifier for your record. The DOI is important because:
+
+- it provides a permanent link to your upload so readers can always reliably locate your content
+- it is important for discovery system to attribute citations correctly
+- it enables reliably interlinking research outputs with each other
+- it makes your research more discoverable by indexing the DOI metadata in a global registry
+
+By default, Zenodo registers DOIs for all uploads when they are published on Zenodo. In case you want to know the DOI in advance of publication, you can use the method described below to reserve a DOI. The reserved DOI can then be included in files (e.g. a text document) prior to uploading them on Zenodo.
+---
+docs:
+
+#### docsheader ####
+text: Reserve a DOI
+----
+ref: reserve-doi
+#### docsstep ####
+step: 1
+----
+text: In the Digital Object Identifier field, answer "No" to the question "Do you already have a DOI for this upload?"
+----
+image: yes.png
+#### docsstep ####
+step: 2
+----
+text: Click the **Get a DOI now!** button.
+----
+image: no.png
+#### docsstep ####
+step: 3
+----
+text: A DOI will now have been reserved for you. You can include this DOI in files prior to uploading them (e.g. in the text document). Also, you can remove it again, but by clicking the X-button next to the DOI.
+----
+image: reserved.png
+#### docstext ####
+text: If you remove the reserved DOI, you can get back the same reserved DOI again, simply by clicking the **Get DOI button**. If you delete the draft upload, the reserved DOI is lost.
+#### docsheader ####
+text: Use an existing DOI
+----
+ref: existing
+#### docstext ####
+text: If you already shared or uploaded your record to another repository or journal, you may already have a DOI. In this case you must provide the existing DOI, to prevent two DOIs being registered for the same content. Note, that if you e.g. share supplementary data to a journal article, you should NOT use the journal article DOI.
+#### docsstep ####
+step: 1
+----
+text: In the Digital Object Identifier field, answer "Yes" to the question "Do you already have a DOI for this upload?"
+----
+image: yes.png
+#### docsstep ####
+step: 2
+----
+text: Copy/paste (to avoid typo mistakes) the existing DOI into the field. The DOI will be validated for conformity, and a given DOI may only be deposited once in Zenodo (i.e. we detect duplicates).
+---
+todo:
+- Describe differences between internal/external DOIs - can edit files vs responsibility.

@@ -1,0 +1,40 @@
+_model: docspage
+---
+title: Publication date
+---
+menu: /help/docs/deposit
+---
+sort_key: 4
+---
+tocdesc: Learn to use date ranges or imprecise dates.
+---
+body:
+
+The **publication date** field is a required field. By default, it is set to the date the draft was created. If your upload was previously published somewhere else (e.g. a journal article), please use the date of the first publication. Note, that in addition to the publication date, we keep track of the date a record was uploaded to the repository.
+
+<img src="publication-date.png" width="100%" />
+---
+docs:
+
+#### docsheader ####
+text: Imprecise dates (EDTF)
+----
+ref: edtf
+#### docstext ####
+text: For older content you may not always know a precise publication date. In these cases you may use both imprecise dates and date ranges (using the [Extended Date Time Format](https://www.loc.gov/standards/datetime/) Level 1).
+#### docsstep ####
+step: 1
+----
+text: Reduced precision for year and month: ``2023-09`` refers to the month of September 2023.
+#### docsstep ####
+step: 2
+----
+text: Reduced precision for year: ``2023`` refers to the calendar year 2023.
+#### docsstep ####
+step: 3
+----
+text: Time interval: ``2023-01-01/2023-09-23`` refers to the time interval beginning January 1st 2023 and ending on September 23rd 2023.
+#### docsstep ####
+step: 4
+----
+text: Time interval imprecise: ``1939/1945`` refers to the time interval beginning sometime in 1939 and ending sometime in 1945.

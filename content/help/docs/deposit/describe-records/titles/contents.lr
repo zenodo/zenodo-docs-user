@@ -1,0 +1,38 @@
+_model: docspage
+---
+title: Titles
+---
+menu: /help/docs/deposit
+---
+sort_key: 3
+---
+tocdesc: How to add main title and additional titles.
+---
+body:
+
+The **title** field is a required field in the deposit form. The title is important for readers to discover your research, and it is used in e.g. the citation and when records are displayed anywhere on the repository.
+
+You may optionally add additional titles such as subtitles, translated or alternative titles.
+---
+docs:
+
+#### docsheader ####
+text: Add an additional title
+----
+ref: additional-titles
+#### docsstep ####
+step: 1
+----
+text: Click the **Add titles** button.
+----
+image: additional-titles.png
+#### docsstep ####
+step: 2
+----
+text: Provide the additional title and select the title type (alternative title, subtitle, translated title, or other).
+----
+image: formfields.png
+#### docsstep ####
+step: 3
+----
+text: Optionally, set the language of the additional title.

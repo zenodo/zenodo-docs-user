@@ -9,6 +9,8 @@ menu: /help/docs/deposit
 body:
 
 - Records: metadata and files
+    - Metadata can be edited, files cannot
+- DOIs
 - Versions
 - Persistent identifiers
 - Public vs restricted

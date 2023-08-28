@@ -9,8 +9,8 @@ menu: /help/docs/deposit
 docs:
 
 #### docstext ####
-text: 
+text:
 #### docstoc ####
 menu: /help/docs/deposit/describe-records
 ---
-body: The section provides an overview over the different fields in the deposit form.
+body: See the [Create new upload](../create-new-upload/) for an overview of creating a new upload. This section provides a detailed description of each field available in the deposit form:
