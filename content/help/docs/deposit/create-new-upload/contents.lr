@@ -6,6 +6,16 @@ sort_key: 2
 ---
 menu: /help/docs/deposit
 ---
+body:
+
+<div class="alert alert-info">
+<strong>Want to test Zenodo?</strong> Use our sandbox environment on <a href="https://sandbox.zenodo.org">https://sandbox.zenodo.org</a> to play.
+</div>
+
+See the [quick start](../../get-started/quickstart/) guide for a short introduction to publishing an upload in 3 simple steps. This guide goes in further detail about how to create a new record, and subsequent sections covers each part in detail.
+---
+docs_show_toc: true
+---
 docs:
 
 #### docstoc ####
@@ -17,15 +27,15 @@ ref: new-upload
 #### docsstep ####
 step: 1
 ----
-text: Click the plus icon in the header, and select **New upload** from the drop-down menu.
+text: Click the plus icon in the header, and select **New upload** from the drop-down menu. S
 ----
-image:
+image: create-new-upload.png
 #### docsstep ####
 step: 2
 ----
-text: You will now see the deposit form where you upload files, add metadata, set restrictions and save/publish your upload.
+text: You will now see the deposit form where you can upload files, add metadata, set restrictions and save/publish your upload.
 ----
-image:
+image: deposit-form.png
 #### docsheader ####
 text: Add/remove files
 ----
@@ -35,21 +45,17 @@ step: 1
 ----
 text:
 
-Click the **Upload files** button, or drag and drop one or more files onto the drop zone to start uploading files. You can maximum upload 100 files and 50GB.
+Click the **Upload files** button, or drag and drop one or more files onto the drop zone to start uploading files. By default, you can maximum upload up to 100 files and a total of 50GB.
+
+**ATTENTION:** After the record is published it is not longer possible to add, remove or modify files by yourself.
 ----
-image:
+image: files-empty.png
 #### docsstep ####
 step: 2
 ----
-text: Click the trash can icon to delete a file.
+text: You can delete a file by clicking the trashcan-icon.
 ----
-image:
-#### docsstep ####
-step: 3
-----
-text: ATTENTION: After the record is published it is not longer possible to add, remove or modify files by yourself.
-----
-image:
+image: files.png
 #### docsheader ####
 text: Fill in metadata
 ----
@@ -57,15 +63,49 @@ ref: metadata
 #### docsstep ####
 step: 1
 ----
-text: Fill in the minimal required metadata.
+text: Fill in the minimal required metadata fields under "Basic information". The fields are marked with a small red star. Refer to [describe records](../describe-records/) for a detailed guide to all fields in the form.
 ----
-image:
+image: basic-information.png
 #### docsstep ####
 step: 2
 ----
-text: Refer to [describe records](../describe-records/) for a detailed guide to all fields in the form.
+text:
+
+**Digital Object Identifier (DOI)**: If your upload already has a DOI, please answer "yes" to the question and copy/paste the existing DOI. Note, make sure the existing DOI is for the same object. For instance, if you upload a supporting dataset to a journal article, you should NOT use the journal article DOI.
+
+If your upload does not have a DOI, answer "no" to the question. The "Get a DOI now!" button allows you to reserve a DOI, so you can include it into the files you upload if so desired (e.g. to include the DOI into a PDF). ATTENTION: If you delete the draft upload, the reserved DOI will be lost.
+
+The DOI will only be registered once the record is published.
 ----
-image:
+image: doi.png
+#### docsstep ####
+step: 3
+----
+text:
+**Resource type**: Select the type of resource you have uploaded (e.g publication, dataset, software, poster, presentation, ...). For mixed type uploads, choose the type which you think best reflects the nature of the upload.
+----
+image: resource-type.png
+#### docsstep ####
+step: 4
+----
+text:
+**Title**: Provide a clear and informative title for your upload.
+----
+image: titles.png
+#### docsstep ####
+step: 5
+----
+text:
+**Publication date**: Provide the publication date of your upload. The publication date is when your upload was first published (made available to a public audience). By default, the publication date is set to the date you create the draft upload.
+----
+image: publicationdate.png
+#### docsstep ####
+step: 6
+----
+text:
+**Creators**: Click the **Add creator** button to add one or more creators/authors of the record. Creators appear in the citation string of your upload. A creator can be a person or organisation. You can search for creators (based on ORCiD profiles for persons and ROR registry for organisations), or you can manually enter their information. Name identifiers (e.g. ORCIDs, GNDs) are validated. You can add one or more affiliations for a creator, and if desired you can assign a role for each creator. Once one or more authors have been added, you can edit, remove and reorder creators from the deposit form.
+----
+image: creators.png
 #### docsheader ####
 text: Save for later
 ----
@@ -73,14 +113,15 @@ ref: save
 #### docsstep ####
 step: 1
 ----
-text: Click **Save** to save your deposit and validate the entered data.
+text: Click **Save draft** to save your deposit and validate the entered data.
 ----
-image:
+image: save-for-later.png
 #### docsstep ####
 step: 2
 ----
 text: Any error message will be displayed on the top.
 ----
+image: form-errors.png
 #### docsstep ####
 step: 3
 ----
@@ -94,15 +135,15 @@ ref: visibility
 #### docsstep ####
 step: 1
 ----
-text: Set the desired visibility of the files in the record once published (note, the metadata is always publicly accessible).
+text: Set the desired visibility of the **files** in the record once published (note, the metadata is always publicly accessible).
 ----
-image:
+image: visibility.png
 #### docsstep ####
 step: 2
 ----
 text:
 
- You can choose between **public** or **restricted** visibility for the files.
+ You can choose between **public** or **restricted** visibility for the files. If the files are restricted you can later set an embargo date and share the record with specific users.
 ----
 image:
 #### docsheader ####
@@ -112,17 +153,19 @@ ref: embargo
 #### docsstep ####
 step: 1
 ----
-text: If you set **restricted** visibility you can apply an embargo date.
+text: Set the files visibility to **restricted** and check the **Apply an embargo**.
+----
+image: embargo.png
 #### docsstep ####
 step: 2
 ----
-text: The record will automatically made publicly available on the chosen date.
+text: Provide an **Embargo until** date. The files will automatically be made publicly available on the chosen date at midnight UTC. Optionally, provide a reason for the embargo.
 ----
 image:
 #### docsstep ####
 step: 3
 ----
-text: Users viewing the landing page will be made aware of the embargo period.
+text: Users viewing the record landing page will be made aware of the embargo period.
 ----
 image:
 #### docsheader ####
@@ -132,9 +175,9 @@ ref: preview
 #### docsstep ####
 step: 1
 ----
-text: Click the **Preview** button to see how the record will look like once published.
+text: Click the **Preview** button to see how the record will look like once published. Note, you have to provide the minimal required metadata (see above) to be able to preview the record.
 ----
-image:
+image: save-for-later.png
 #### docsheader ####
 text: Publish
 ----
@@ -144,33 +187,27 @@ step: 1
 ----
 text: Click **Publish** once you are ready to publish.
 ----
-image:
+image: save-for-later.png
 #### docsstep ####
 step: 2
 ----
-text: Confirm that you wish to publish.
+text: Confirm that you wish to publish. ATTENTION: Once published, you can no longer change the files. You can always update/edit the metadata of the record.
 ----
-image:
-#### docsstep ####
-step: 3
-----
-text: Congratulations, you have finished your upload.
-----
-image:
+image: publish.png
 #### docsheader ####
-text: Delete
+text: Delete a  draft
 ----
 ref: delete
 #### docsstep ####
 step: 1
 ----
-text: At any point before publishing, you can delete the upload by clicking the **Delete** button.publish.
+text: At any point before publishing, you can delete the draft upload by clicking the **Delete** button.
 ----
-image:
+image: delete.png
 #### docsstep ####
 step: 2
 ----
-text: Note, you will loose any reserved DOI if you delete the upload.
+text: **ATTENTION:** You will loose any reserved DOI if you delete the upload, and any uploaded files will also be removed.
 ----
 image:
 #### docsstep ####
@@ -179,12 +216,6 @@ step: 3
 text: After you publish, you will NOT be able to delete the record by yourself.
 ----
 image:
----
-body:
-
-See the [quick start](../../get-started/quickstart/) guide for a short introduction to publishing an upload in 3 simple steps
-
-This guides goes in further depth.
 ---
 todo:
 - Add screenshots

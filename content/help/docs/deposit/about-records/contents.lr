@@ -6,7 +6,16 @@ sort_key: 1
 ---
 menu: /help/docs/deposit
 ---
-docs:
+body:
 
-#### docstext ####
-text: Test
+- Records: metadata and files
+- Versions
+- Persistent identifiers
+- Public vs restricted
+- Usage statistics
+
+---
+docs:
+---
+todo:
+- Finish writing.
