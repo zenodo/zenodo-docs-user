@@ -1,0 +1,17 @@
+_model: docspage
+---
+title: Element 5: Access, Distribution, and Reuse Considerations
+---
+sort_key: 5
+---
+menu: /help/guides/nih
+---
+body:
+
+---
+docs:
+
+#### docsheader ####
+text: Overview
+----
+ref: overview

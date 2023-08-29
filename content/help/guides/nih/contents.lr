@@ -1,0 +1,26 @@
+_model: docspage
+---
+_hidden: true
+---
+title: NIH Data Management and Sharing Plan Guidance
+---
+sort_key: 1
+---
+menu: /help/guides/nih
+---
+body:
+
+A Data Management and Sharing Plan that is compliant with the [NIH Data Management and Sharing Policy](https://sharing.nih.gov/data-management-and-sharing-policy) must contain information addressing six elements, as outlined in the [Elements of an NIH Data Management and Sharing Plan (DMSP)](https://grants.nih.gov/grants/guide/notice-files/NOT-OD-21-014.html) supplemental guidance. This guide provides both a general outline for completing a DMSP, based on NIH’s [DMS Plan format page](https://grants.nih.gov/sites/default/files/DMS-Plan-blank-format-page.docx), and Zenodo-specific information for completing certain sections of a DMSP.
+
+When completing an NIH DMSP at a US-based institution, review your own institution’s library, data management, and office of research web pages to check whether additional guidance and/or language is necessary for a locally-compliant DMSP.
+
+Thank you for considering Zenodo (a participant in the NIH [Generalist Repository Ecosystem Initiative](https://datascience.nih.gov/data-ecosystem/generalist-repository-ecosystem-initiative)) for your dataset deposit. For introductory information about Zenodo, please see the [Zenodo FAQs](../../faq/).
+---
+docs:
+
+#### docsheader ####
+text: DMSP Elements
+----
+ref: overview
+#### docstoc ####
+menu: /help/guides/nih
