@@ -2,12 +2,52 @@ _model: docspage
 ---
 title: Reset password
 ---
-sort_key: 2
+tocdesc: Forgot your password?
+---
+sort_key: 3
 ---
 menu: /help/docs/profile
 ---
 body:
 
-bla bla
+If you have forgotten your password, or if you logged in with e.g. GitHub or ORCID and never set a password you can use this method to reset and create a new password for your account.
 ---
 docs:
+#### docsheader ####
+text: Reset your password
+----
+ref: resetpw
+#### docsstep ####
+step: 1
+----
+text: First, ensure you have [logged out](../../get-started/logging-in/#logout).
+#### docsstep ####
+step: 2
+----
+text: Click **Login** in the header.
+----
+image: login.png
+#### docsstep ####
+step: 3
+----
+text: Click **Forgot password?** in the bottom of the login page.
+----
+image: forgot.png
+#### docsstep ####
+step: 4
+----
+text: Enter the **email address** with which you registered and click **Reset password**
+----
+image: reset.png
+#### docsstep ####
+step: 5
+----
+text: An email with instructions will be sent to the address you provided.
+----
+image: instructions.png
+#### docsstep ####
+step: 6
+----
+text: Following the instructions in the email will take you to a page on Zenodo where you can change your password. Please choose a strong long password.
+----
+image: changepw.png

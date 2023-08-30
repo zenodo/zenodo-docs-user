@@ -2,6 +2,8 @@ _model: base-help
 ---
 title: Search guide
 ---
+sort_key: 1
+---
 body:
 
 # Search guide

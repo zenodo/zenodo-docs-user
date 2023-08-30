@@ -7,7 +7,28 @@ sort_key: 8
 menu: /help/docs/profile
 ---
 body:
-
-bla bla
 ---
 docs:
+#### docstext ####
+
+text:
+The profile allows you to manage your account and settings.
+
+#### docstoc ####
+menu: /help/docs/profile
+#### docsheader ####
+text: Access your profile
+----
+ref: access
+#### docsstep ####
+step: 1
+----
+text: You access the profile menu from the top-right corner of the header (you must be logged in). Click e.g. the **Profile** menu item.
+----
+image: profilemenu.png
+#### docsstep ####
+step: 2
+----
+text: You will be presented with the form to manage your profile.
+----
+image: my-account.png

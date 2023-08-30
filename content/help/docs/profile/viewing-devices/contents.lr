@@ -2,6 +2,8 @@ _model: docspage
 ---
 title: View logged in devices
 ---
+tocdesc: Manage all devices that are logged into your account.
+---
 sort_key: 8
 ---
 menu: /help/docs/profile

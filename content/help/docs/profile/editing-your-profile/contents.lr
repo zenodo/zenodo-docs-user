@@ -2,12 +2,60 @@ _model: docspage
 ---
 title: Edit profile
 ---
-sort_key: 3
+tocdesc: Modify your username, full name, affiliations and/or email address.
+---
+sort_key: 1
 ---
 menu: /help/docs/profile
 ---
 body:
 
-bla bla
+You can manage your username (used for login), full name and affiliations from the profile page. You can also modify the email address which you've registered.
+---
+docs_show_toc: true
 ---
 docs:
+#### docsheader ####
+text: Edit your profile
+----
+ref: edit
+#### docsstep ####
+step: 1
+----
+text: Click the **Profile** menu item in the header or access the page [directly](https://www.zenodo.org/account/settings/profile/).
+----
+image: profilemenu.png
+#### docsstep ####
+step: 2
+----
+text: Edit your username, full name or affiliations. If you edit the email address, you you will be required to confirm the new email address via a link sent to the address.
+----
+image: my-account.png
+#### docsstep ####
+step: 3
+----
+text: Click **Update profile** once you have finished editing your profile to save the changes.
+#### docsheader ####
+text: Viewing your profile
+----
+ref: view
+#### docsstep ####
+step: 1
+----
+text: You can view your updated profile e.g. on [My dashboard](https://www.zenodo.org/me/uploads):
+----
+image: dashboard.png
+#### docsheader ####
+text: Change avatar
+----
+ref: view
+#### docstext ####
+text: The avatar (the round logo next to your name) is currently automatically generated based on assigning a random color from a palette and determining a start letter. We hope to in future versions to allow you to change your avatar, but current it is not possible.
+
+![](avatar.png)
+#### docsheader ####
+text: Manage who can see my profile
+----
+ref: manage
+#### docstext ####
+text: Please refer to [change profile visibility](../changing-profile-visibility/).

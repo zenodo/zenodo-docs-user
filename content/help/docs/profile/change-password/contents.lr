@@ -2,7 +2,9 @@ _model: docspage
 ---
 title: Change password
 ---
-sort_key: 1
+tocdesc: Explains how to modify your password.
+---
+sort_key: 2
 ---
 menu: /help/docs/profile
 ---
