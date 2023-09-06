@@ -6,27 +6,27 @@ sort_key: 0
 ---
 menu: /help/docs/communities
 ---
-lead: Organizations are shared accounts where businesses and open-source projects can collaborate across many projects at once, with sophisticated security and administrative features.
-
+lead: Communities are shared areas on Zenodo where projects, institutions, domains, and conferences can curate and manage their research outputs.
 ---
 body:
 
 ## About communities
 
-Your team can collaborate on GitHub by using an organization account, which serves as a container for your shared work and gives the work a unique name and brand.
+Your project, institution, department, domain or conference can collaborate on Zenodo using our communities feature, which serves as an shared area curated and managed by your team.
 
-Each person that uses GitHub always signs into a personal account, and multiple personal accounts can collaborate on shared projects by joining the same organization account. A subset of these personal accounts can be given the role of organization owner, which allows those people to granularly manage access to the organization's resources using sophisticated security and administrative features. For more information about account types, see "Types of GitHub accounts."
+Each person always login on Zenodo using their personal account. A person can create a new community. Once the community is created, you can invite an unlimited number of people to your community. Each person is given a role below which grants them different levels of access to the community and its records. A member of the community can hold one of the following roles:
 
-You can invite an unlimited number of people to join your organization, then give these organization members a variety of roles that grant different levels of access to the organization and its data. For more information, see "Roles in an organization."
 
-In addition to managing access to the organization itself, you can separately manage access to your organization's repositories, project boards, and apps. For more information, see "Repository roles for an organization", "Project (classic) permissions for an organization", and "Managing programmatic access to your organization."
+| Roles | Reader | Curator | Manager | Owner |
+| --- | --- | --- | -- | --- |
+| Can view files in restricted records | X | X | X | X |
+| Can accept/decline submissions | -  | X | X | X |
+| Can edit records metadata | -  | X | X | X |
+| Can invite members | -  | - | X | X |
+| Can manage members | -  | - | X | X |
+| Can modify community settings | -  | - | - | X |
+| Can delete community | -  | - | - | X |
 
-To simplify access management and enhance collaboration, you can create nested teams that reflect your group's structure, with cascading access permissions and mentions. For more information, see "About teams."
-
-You can configure the organization to meet the unique needs of your group by managing settings, such as restricting the types of repositories that members can create. For more information, see "Managing organization settings."
-
-To harden your organization's security, you can enforce security requirements and review the organization's audit log. For more information, see "Keeping your organization secure."
-
-To learn how to use organizations most effectively, see "Best practices for organizations."
+Any user on Zenodo can submit records for inclusion in a community. The community curators are responsible for curating the records and finally accept/decline the record into the community.
 ---
 docs:

@@ -1,10 +1,12 @@
 _model: docspage
 ---
+_hidden: true
+---
 title: Collaborate and share
 ---
 sort_key: 3
 ---
-menu: /help/docs/deposit
+menu: /help/docs/share
 ---
 body: bla bla
 ---

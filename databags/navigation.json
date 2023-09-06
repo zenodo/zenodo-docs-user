@@ -6,6 +6,7 @@
   "help": [
     ["/help/", "Help"],
     ["/help/faq/", "FAQ"],
+    ["/help/docs/", "Docs"],
     ["/help/guides/", "Guides"]
   ],
   "about": [

@@ -1,8 +1,10 @@
 _model: docspage
 ---
+_hidden: true
+---
 title: Discover and access
 ---
-docs: 
+docs:
 ---
 menu: /help/docs/discover
 ---

@@ -1,5 +1,7 @@
 _model: docspage
 ---
+_hidden: true
+---
 title: View logged in devices
 ---
 tocdesc: Manage all devices that are logged into your account.

@@ -1,5 +1,7 @@
 _model: docspage
 ---
+_hidden: true
+---
 title: Manage notification preferences
 ---
 tocdesc: Manage which emails you receive from Zenodo.

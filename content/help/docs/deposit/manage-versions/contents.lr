@@ -1,5 +1,7 @@
 _model: docspage
 ---
+_hidden: true
+---
 title: Manage versions
 ---
 sort_key: 6

@@ -1,8 +1,10 @@
 _model: docspage
 ---
+_hidden: true
+---
 title: About
 ---
-docs: 
+docs:
 ---
 menu: /help/docs/about
 ---

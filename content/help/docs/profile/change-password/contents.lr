@@ -1,5 +1,7 @@
 _model: docspage
 ---
+_hidden: true
+---
 title: Change password
 ---
 tocdesc: Explains how to modify your password.
