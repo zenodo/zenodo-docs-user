@@ -9,7 +9,7 @@ body:
 Zenodo.org will be unavailable for 2 hours on September 29th from 06:00-08:00 UTC.
 
 !!! danger
-  **IMPORTANT:** You MUST save any changes in advance of the migration window to avoid loosing the changes. In particular, make sure you click "Save" button on any upload (unpublished as well as published).
+  **IMPORTANT:** You MUST save any changes in advance of the migration window to avoid losing the changes. In particular, make sure you click "Save" button on any upload (unpublished as well as published).
 
 ## Zenodo relaunching on next-generation platform - InvenioRDM
 
@@ -17,37 +17,37 @@ We're excited to finally announce the launch date for migrating Zenodo to our ne
 
 ### Demo site
 
-You can see a demo of the new Zenodo on https://zenodo-rdm-qa.web.cern.ch. The demo site has a snapshot of Zenodo production data from end-August.
+You can see a demo of the new Zenodo at https://zenodo-rdm-qa.web.cern.ch. The demo site has a snapshot of Zenodo production data from end-August.
 
 !!! info
-    **Work in progres:** You'll notice that not everything is finished yet. E.g. record files and community logos are not yet visible as the demo system does not have access the live data. Similar some features still need the final polish which is being done through out September.
+    **Work in progress:** You'll notice that not everything is finished yet. E.g. record files and community logos are not yet visible as the demo system does not have access the live data. Similarly, some features still need the final polish which is being done throughout September.
 
 
 **Logging in**
 
-If you have an account on Zenodo.org, you can login on the demo site by [resetting your password](https://zenodo-rdm-qa.web.cern.ch/lost-password/) using the same email address as your registered with on Zenodo.org.
+If you have an account on Zenodo.org, you can login on the demo site by [resetting your password](https://zenodo-rdm-qa.web.cern.ch/lost-password/) using the same email address as you registered with on Zenodo.org.
 
 ### FAQ
 
 #### Why must I save the changes before the migration?
 
-We are setting up a completely new production system, and thus once the intervention is over you will be required to login again. This means that any page you had open on Zenodo.org prior to the intervention starting, will no longer be able to interact with Zenodo after the intervention is over, and thus the changes you made will be lost. To avoid loosing changes, you must simply ensure that you save any changes prior to the intervention starting on Sep 29 at 06:00 UTC.
+We are setting up an entirely new production system, and thus once the intervention is over you will be required to login again. This means that any page you had open on Zenodo.org prior to the intervention starting, will no longer be able to interact with Zenodo after the intervention is over, and thus the changes you made will be lost. To avoid loosing changes, you must simply ensure that you save any changes prior to the intervention starting on Sep 29 at 06:00 UTC.
 
 
 #### What's new/changed?
 
 We're launching several new features together with the release as well. A full announcement is going out two weeks in advance of the release, thus following is a quick overview of some of the new features:
 
-- **Community members**: Ability for multiple users to curate/manage a community, as well as ability of community members to see files in restricted records.
-- **Reviews**: Community curators will be able to edit submission to their community, and have a conversation with the submitter to fix issues prior to the submission.
+- **Community members**: Ability for multiple users to curate/manage a community, as well as the ability of community members to see files in restricted records.
+- **Reviews**: Community curators will be able to edit submissions to their community, and have a conversation with the submitter to fix issues prior to the submission.
 - **Sharing**: New options for sharing records with specific users and as well as generating secret links that can be shared.
-- **Deposit form**: Auto-completion of creators/contributors, affiliations and subjects from ORCID, ROR and OECD Fields of Science and Technology as well as improved funder and license selectors.
-- **Web accessibility**: We still have to make many more improvements towards being level AA complaint with the W3C Web Content Accessibility Guidelines, however the new platform has overall made large improvements to web accessibility of the platform.
-- **User interface**: Zenodo will look familiar, but we've a lot of smaller usability improvements to the user interface as well as better usage of screen space.
+- **Deposit form**: Auto-completion of creators/contributors, affiliations and subjects from ORCiD, ROR, and OECD Fields of Science and Technology as well as improved funding and license selectors.
+- **Web accessibility**: We still have to make many more improvements towards being level AA complaint with the W3C Web Content Accessibility Guidelines, however the new platform has overall made significant improvements to web accessibility of the platform.
+- **User interface**: Zenodo will look familiar, but we've introduced many smaller usability improvements to the user interface as well as better usage of screen space.
 
 #### Will feature X still work?
 
-Yes, we provide backward compatibility for all existing features. We will be launching a serious of new and improved features which will be announced 2 weeks before the migration.
+Yes, we provide backward compatibility for all existing features. We will be launching a series of new and improved features which will be announced 2 weeks before the migration.
 
 #### Will your APIs be backward compatible?
 
@@ -55,18 +55,22 @@ Yes, we do our outmost to ensure backward compatibility of our APIs, and that yo
 
 #### Will I be required to update my API integration?
 
-After Zenodo on InvenioRDM has been launched, we will deprecate some of our existing APIs. We will provide a migration period of 1-year for the transition. New features, are only available on the new API. The new API is similar to the existing API to ease the transition.
+After Zenodo on InvenioRDM has been launched, we will deprecate some of our existing APIs. We will provide a migration period of 1-year for the transition. New features will only be available on the new API. The new API is similar to the existing API to ease the transition.
 
 #### Will the community curators be able to edit my existing records?
 
 If your record has been accepted into a community which you're not the owner of, you will receive a request to grant community curators access to edit the metadata of your record. If you decline the request, your record will be removed from the community. If you neither accept or decline the request within 6 months, the community curators will be granted access to edit the metadata.
 
-#### Will community curators be able view the files of my closed access or restricted record?
+#### Will community curators be able to view the files of my closed access or restricted record?
 
 If your record has been accepted into a community which you're not the owner of and your record is either closed access or restricted access, you will receive a request to grant community curators access to view the files of your closed/restricted record. If you decline the request, or you do not accept the request within 6 months, your record will be automatically removed from the community.
 
 #### Will old links still work?
 
 Yes. We have ensured that all old links have been redirected to their new location. This include e.g. also a translation layer that ensure search queries still work.
+
+#### You're releasing on Friday?
+
+Yes. The migration process starts already on Monday Sep 25th and will last throughout the week. In addition we have senior staff on duty during the full weekend in case of any problems.
 ---
 date: 2023-09-06
