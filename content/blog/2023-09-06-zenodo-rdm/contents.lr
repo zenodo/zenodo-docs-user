@@ -31,7 +31,7 @@ If you have an account on Zenodo.org, you can login on the demo site by [resetti
 
 #### Why must I save the changes before the migration?
 
-We are setting up an entirely new production system, and thus once the intervention is over you will be required to login again. This means that any page you had open on Zenodo.org prior to the intervention starting, will no longer be able to interact with Zenodo after the intervention is over, and thus the changes you made will be lost. To avoid loosing changes, you must simply ensure that you save any changes prior to the intervention starting on Sep 29 at 06:00 UTC.
+We are setting up an entirely new production system, and thus once the intervention is over you will be required to login again. This means that any page you had open on Zenodo.org prior to the intervention starting, will no longer be able to interact with Zenodo after the intervention is over, and thus the changes you made will be lost. To avoid losing changes, you must simply ensure that you save any changes prior to the intervention starting on Sep 29 at 06:00 UTC.
 
 
 #### What's new/changed?
