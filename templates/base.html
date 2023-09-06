@@ -20,6 +20,8 @@
 # submit itself to any jurisdiction.
 -#}
 <!doctype html>
+<html>
+  <head>
 <meta charset="utf-8">
 {% block og_image %}
 <meta property="og:image" content="https://blog.zenodo.org/static/img/logos/zenodo-gradient-1000.png" />
@@ -51,6 +53,7 @@
 <title>{% if title %}{% block title %}{% endblock %} | {% endif %}Zenodo</title>
 <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+</head>
 <body>
   <header>
     <nav class="navbar navbar-default navbar-static-top">
@@ -172,4 +175,7 @@
       </div>
     </div>
   </footer>
+  {% block trackingcode %}
+  {% endblock %}
 </body>
+</html>
