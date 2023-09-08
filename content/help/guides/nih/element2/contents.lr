@@ -8,10 +8,17 @@ menu: /help/guides/nih
 ---
 body:
 
+#### Background
+
+Software and code deposits are encouraged in Zenodo. Zenodo also supports GitHub integration and archiving of GitHub repositories that have been used to generate software and analysis code for research studies. Please see the [Zenodo documentation](../../../docs/) for more information as well as [GitHub documentation](https://docs.gi.thub.com/en/repositories/archiving-a-github-repository/referencing-and-citing-content).
+
+
+#### NIH-specific guidance on Element 2: Related Tools, Software and/or Code
+
+**2.A:** State whether specialized tools, software, and/or code are needed to access or manipulate shared scientific data, and if so, provide the name(s) of the needed tool(s) and software and specify how they can be accessed.
+
+!!! info
+    **Zenodo note:** The software that has been used to collect, analyze, and otherwise manipulate the data can be described in the Description field of the dataset’s deposit record. In addition, you may create a Zenodo record specifically for the software, and it can be linked to your data record using the Related Identifiers fields on the deposit form.See [describing records](../../../docs/deposit/describe-records/) for further information.
+
 ---
 docs:
-
-#### docsheader ####
-text: Overview
-----
-ref: overview

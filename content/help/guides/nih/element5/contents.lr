@@ -8,10 +8,28 @@ menu: /help/guides/nih
 ---
 body:
 
+#### Background
+
+Zenodo encourages Open Access deposits, but is cognizant of the fact that not all data deposits can be fully Open Access. Open Access data deposits and metadata records are fully visible and available to the public, and appear as uploads on the website’s front page. Restricted/Closed Access uploads are not visible on the front page, but are still discoverable through any communities in which they are included, via the DOI, and through search queries. Data depositors control whether their deposits and records are Open Access, Restricted/Closed Access, or Embargoed.
+
+Licenses in Zenodo empower depositors to outline the ways in which downloads of their materials may be used. Users are responsible for monitoring subsequent uses of their materials. All metadata (e.g., the descriptive metadata comprising the non-file portions of a Zenodo record) is licensed CC0 (public domain), and can be exported and harvested via the OAI-PMH protocol. See the [Terms of Use](https://about.zenodo.org/terms/) and [Policies](https://about.zenodo.org/policies/) for more details on users’ rights and responsibilities with regard to access and re-use of their data.
+
+#### NIH-specific guidance on Element
+
+**5.A:** Describe any factors affecting subsequent access, distribution, and reuse of scientific data. These factors can include characteristics of the study’s informed consents, privacy and confidentiality issues, issues arising from data use agreements or patent concerns, etc. See [NIH’s Justifiable reasons for limiting sharing of data](https://sharing.nih.gov/faqs#/data-management-and-sharing-policy.htm?anchor=56549).
+
+!!! info
+    **Suggestions for section 5.A:** Describe how your study’s informed consent process ensures that participants fully understand that their data may be used for projects beyond the current one. Outline the license under which the deposited data will be available.
+
+**5.B:** State whether access to the scientific data will be controlled.
+
+!!! info
+    **Zenodo note:** Zenodo does not offer differing levels of access to its records and deposits based on authentication. Records are either fully Open Access, Restricted/Closed, or Embargoed (which become fully Open Access after a period determined by the user). Only deposit to Zenodo datasets, or subsets of your datasets, that you intend to make available through full Open Access.
+
+**5.C:** Describe how privacy, rights, and confidentiality of human research participants will be protected (if applicable).
+
+!!! info
+    **Zenodo note:** A primary method of protection of the privacy of research subjects is anonymization (de-identification). Zenodo offers no anonymization service. Each user is responsible for anonymization of their own data, and should carefully consider whether an [NIH-sponsored repository](https://sharing.nih.gov/data-management-and-sharing-policy/sharing-scientific-data/repositories-for-sharing-scientific-data) or other repository with multiple levels of data access controls might be more appropriate for data that originated from or contains/ed sensitive personal data. Likewise, Zenodo offers no user agreements or certificates and brokers no data use agreements between primary and secondary users of data. Zenodo’s default model is full Open Access to all data deposits.
+
 ---
 docs:
-
-#### docsheader ####
-text: Overview
-----
-ref: overview

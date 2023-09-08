@@ -14,16 +14,14 @@ All research outputs of any file format are accepted in Zenodo. In the upload fo
 
 #### NIH-specific guidance on Element 1: Data Types
 
-1.A: Summarize the types, format, and estimated amount of scientific data expected to be generated in the project
+**1.A:** Summarize the types, format, and estimated amount of scientific data expected to be generated in the project
 
-1.B: Describe which scientific data from the project will be preserved and shared and provide the rationale for this decision. Describe the aggregation and processing levels of the data to be shared.
+**1.B:** Describe which scientific data from the project will be preserved and shared and provide the rationale for this decision. Describe the aggregation and processing levels of the data to be shared.
 
-1.C: Briefly list the metadata, other relevant data, and any associated documentation (e.g., study protocols and data collection instruments) that will be made accessible to facilitate interpretation of the scientific data.
-
-#### Sample text
+**1.C:** Briefly list the metadata, other relevant data, and any associated documentation (e.g., study protocols and data collection instruments) that will be made accessible to facilitate interpretation of the scientific data.
 
 !!! info
-  **Section 1.C**  …. In addition to the deposited data files, a data dictionary describing variables will be deposited as a supporting documentation file in the same Zenodo record. These materials will be described with elements of the robust and FAIR DataCite metadata schema, on which Zenodo’s deposit page fields are based.
+  **Sample text (adjust to your situation)**  …. In addition to the deposited data files, a data dictionary describing variables will be deposited as a supporting documentation file in the same Zenodo record. These materials will be described with elements of the robust and FAIR [DataCite metadata schema](https://support.datacite.org/docs/datacite-metadata-schema-44), on which Zenodo’s deposit page fields are based.
 
 ---
 docs:

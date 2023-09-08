@@ -8,10 +8,26 @@ menu: /help/guides/nih
 ---
 body:
 
+#### Background
+
+For all datasets that you and your collaborators have agreed to deposit to a public, generalist repository, and which are either non-sensitive in nature or fully anonymized, Zenodo will serve your data preservation needs. It is the depositor’s responsibility to anonymize datasets / remove sensitive personal data (see FAQs, [How does Zenodo handle sensitive datasets?](../../../faq/)). Zenodo supports long-term preservation of your data deposits, as the repository is projected to be maintained for the lifetime of the host laboratory CERN, defined as at least the next twenty years (see Zenodo’s [Policies](https://about.zenodo.org/policies/)).
+
+Embargoes may be employed for datasets that you wish to make available after a certain date, such as when the associated publication is made public. [Creative Commons Attribution](https://creativecommons.org/licenses/by/4.0/legalcode) licenses may be assigned to deposited datasets.
+
+#### NIH-specific guidance on Element 4: Data Preservation, Access, and Associated Timelines
+
+**4.A**: List Zenodo.org as the repository where your scientific data and metadata arising from the project will be archived. Note: Zenodo may be employed in combination with deposits to other repositories (e.g., in a case where subsets of data needing access controls might be deposited to an NIH-sponsored repository, while other subsets that are safe to make publicly available may be deposited in Zenodo).
+
+**4.B**: Describe how the scientific data will be findable and identifiable, i.e., via a persistent unique identifier or other standard indexing tools.
+
+!!! info
+    **Sample text for section 4.B:** ... In accordance with the FAIR principles, Zenodo follows the standard of issuing a DOI (digital object identifier) for all deposited datasets, as well as any related materials. This unique persistent identifier makes the data permanently Findable, Identifiable, and retrievable on the web.
+
+**4.C**: Describe when the scientific data will be made available to other users (i.e., no later than time of an associated publication or end of the performance period, whichever comes first) and for how long data will be available.
+
+!!! info
+    **Zenodo note:** Zenodo’s features meet the primary [Desirable Characteristics for All Data Repositories](https://sharing.nih.gov/data-management-and-sharing-policy/sharing-scientific-data/selecting-a-data-repository#desirable-characteristics-for-all-data-repositories) outlined by the NIH, which denote repositories appropriate for sharing scientific data. These include issuing a unique persistent identifier (DOI), provenance, and long-term sustainability. In section 4.C, you may mention that data will be made available in a timely and compliant manner through the use of an Embargo (e.g., a deposited dataset can be embargoed in Zenodo until it is made Open Access to coincide with the availability of the first associated publication).
+
+
 ---
 docs:
-
-#### docsheader ####
-text: Overview
-----
-ref: overview

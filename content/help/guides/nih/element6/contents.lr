@@ -8,10 +8,24 @@ menu: /help/guides/nih
 ---
 body:
 
+#### Background
+
+Oversight of the daily work of data management and sharing is the responsibility of the institution that originates and/or analyses, manipulates, and processes the data. In most studies and organizations, the responsible party is the principal investigator. In certain institutions, the office of research or other organizational bodies may also assist in this process. Check your organization’s data management or compliance webpages to be sure. Zenodo assumes no responsibility for oversight of data management and sharing.
+
+#### NIH-specific guidance on Element 6: Oversight of Data Management and Sharing
+
+**6.A:** Describe how compliance with this Plan will be monitored and managed, frequency of oversight, and by whom at your institution (e.g., titles, roles).
+
+!!! info
+    **Zenodo note:** Zenodo should not be listed as responsible for data management and sharing oversight on NIH DMSPs. Curation services may be needed as part of daily data management and sharing work, and is highly recommended for datasets you are considering depositing to this or any other repository.
+
+Curation costs may be included as part of your grant. See the [NIH Supplement: Allowable Costs for Data Management and Sharing](https://grants-nih-gov.ezproxy.galter.northwestern.edu/grants/guide/notice-files/NOT-OD-21-015.html), as well as the following data management budgeting and cost estimators:
+
+- National Academies of Science, Engineering, and Medicine's (NASEM) guide: [Forecasting Costs of Biomedical Data Preservation: A User Guide for Biomedical Researchers](https://nap.nationalacademies.org/resource/25639/Researcher_User_Guide_Biomedical_Data.pdf), as well as the NASEM's Ad Hoc Committee for [Forecasting Costs for Preserving, Archiving, and Promoting Access to Biomedical Data](https://www.nationalacademies.org/our-work/forecasting-costs-for-preserving-archiving-and-promoting-access-to-biomedical-data), whose products include:
+    - Report: [Life-Cycle Decisions for Biomedical Data: The Challenge of Forecasting Costs](https://nap.nationalacademies.org/catalog/25639/life-cycle-decisions-for-biomedical-data-the-challenge-of-forecasting)
+     - [Cost Drivers Workbook](https://urldefense.com/v3/__https://nam12.safelinks.protection.outlook.com/?url=https*3A*2F*2Fwww.nap.edu*2Fresource*2F25639*2FCost_Driver_Template_Word_0715.doc&data=05*7C01*7Cddc*40list.pitt.edu*7C02beed79f7ce489d8ca808da47d91bf5*7C9ef9f489e0a04eeb87cc3a526112fd0d*7C1*7C0*7C637901295058036645*7CUnknown*7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0*3D*7C3000*7C*7C*7C&sdata=GvjJav4DHwCjlvcFT5vA5DaNVUlRdeh6UM6vnuzvhCk*3D&reserved=0__;JSUlJSUlJSUlJSUlJSUlJSUlJSUlJQ!!Dq0X2DkFhyF93HkjWTBQKhk!UtyYOPnzVPd1Aje9uQd8GL7_wudsTel9-0sn59Rp9by4O4QCYxzMQa8LoeER78197OtrbZlXBGAGZAkbDARaeCw$) (and related [quick video](https://vimeo.com/444647256))
+     - [User Guide for Biomedical Researchers](https://nap.nationalacademies.org/resource/25639/Researcher_User_Guide_Biomedical_Data.pdf)
+- NIMH Data Archive's [Data Submission Cost Estimation Tool](https://s3.amazonaws.com/stage.nimhda.org/Documents/NDA_Data_Submission_Cost_Estimation_Tool.xlsx) (a spreadsheet that can be adapted for any project's data management costs)
+
 ---
 docs:
-
-#### docsheader ####
-text: Overview
-----
-ref: overview
