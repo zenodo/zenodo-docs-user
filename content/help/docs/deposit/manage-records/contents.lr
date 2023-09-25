@@ -1,14 +1,69 @@
 _model: docspage
 ---
-_hidden: true
----
 title: Manage records
 ---
 sort_key: 5
 ---
 menu: /help/docs/deposit
 ---
+body:
+
+This following sections describe how you can browse your records, edit the metadata of records and how you can delete records.
+---
+docs_show_toc: True
+---
 docs:
 
+#### docsheader ####
+text: Browse your records
+----
+ref: browse
+#### docsstep ####
+step: 1
+----
+text: To browse you uploads, click the **My dashboard** header menu. This will by default take you to the list of records you have uploaded.
+----
+image: browse.png
+#### docsstep ####
+step: 2
+----
+text: From **My Uploads** tab you are able to see all your published as well as unpublished records.
+----
+image: browse2.png
+#### docsstep ####
+step: 3
+----
+text: You can **view** or **edit** each of the record. See below.
+#### docsheader ####
+text: Edit published records
+----
+ref: edit
 #### docstext ####
-text: Test
+text: You can edit the metadata (title, creators, etc) of a published record at any time. Files in the record however cannot be edited (add/delete/modify) after publication. See [manage files](../manage-files/) and [manage versions](../manage-versions/) for further details.
+
+#### docsstep ####
+step: 1
+----
+text: You can edit a record either by clicking the **Edit**-button on the record under **My uploads** (see above.)
+#### docsstep ####
+step: 2
+----
+text: Alternatively, from the record landing page you can also click the **Edit**-button.
+----
+image: edit.png
+#### docsheader ####
+text: Delete records
+----
+ref: delete
+#### docstext ####
+text: You can only delete an **unpublished** record. **Published** records cannot be deleted except under special circumstances. Please submit a request via our [support line](https://zenodo.org/support) to delete a published record.
+#### docsstep ####
+step: 1
+----
+text: To delete an **unpublished**, first edit the record (see above).
+#### docsstep ####
+step: 2
+----
+text: From the deposit form, click the red **Delete-button**.
+----
+image: delete.png

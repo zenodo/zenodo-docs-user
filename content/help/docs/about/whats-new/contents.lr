@@ -2,8 +2,278 @@ _model: docspage
 ---
 title: What's new?
 ---
-docs: 
----
 menu: /help/docs/about
 ---
 sort_key: 1
+---
+docs_show_toc: true
+---
+body:
+
+This section provides a comprehensive overview over **new features** launched on October 13th, 2023 with links to user documentation on how to use these new features.
+
+!!! warning
+    See [what's changed](../whats-changed/) for important details on **changes to existing features**.
+---
+docs:
+
+#### docsheader ####
+text: Communities: Members
+----
+ref: communities-members
+#### docstext ####
+text:
+
+Our communities feature now has support for multiple members. Members can have one of four different roles:
+
+- **Reader** - can view the files of restricted records in the community.
+- **Curator** - can edit records and review submissions to the community (in addition to the reader role).
+- **Manager** - can invite new and manage existing members of the community (in addition to the curator role).
+- **Owner** - can manage settings and delete the community (in addition to the manager role).
+
+Members can be invited from Zenodo's users. Currently, only users who have changed their [profile visibility](#profile) will be able to be invited. By end of the year, we'll also support that members can be invited by email.
+
+Members can publicly show or hide their membership of the community as they see fit.
+
+<img src="members.png" width="100%"/>
+
+#### docsheader ####
+text: Communities: Reviews
+----
+ref: communities-reviews
+#### docstext ####
+text:
+
+New submissions to a community now by default goes through our new community review feature.
+
+- **Published on accept**: Records submitted to a community is not published until the community curator accepts the request.
+- **Curators can edit**: Community curators are now able to edit the record submitted by the uploader.
+- **Communication**: Uploaders and curators can communicate to e.g. ask for clarification.
+- **Submit to one**: Drafts can only be submitted to one community. Once published, a record can still be included in other communities.
+
+The review feature is optional and you can still publish your record immediately by not submitting it to a community (e.g. if it's declined by the community curator). After the record is published you can also still request to have it included in multiple communities.
+
+<img src="review.png" width="100%"/>
+
+#### docsheader ####
+text: Communities: Curation
+----
+ref: communities-curation
+#### docstext ####
+text:
+
+As briefly described in the [Members](#communities-members)-section, curators are now able to edit the metadata of published records. Similarly, curators can during reviews edit both the metadata and files of the records submitted by the uploader to the community.
+
+Modification of files in published records still has to go through the Zenodo support line (we have a 1-month grace period in which we allow addition/removal/modificaiton of files after which modifications are only exceptionally granted).
+
+#### docsheader ####
+text: Communities: Branding
+----
+ref: communities-branding
+#### docstext ####
+text:
+
+Records part of a community will now show community branding in the header. Records that are part of multiple communities can choose which community should be the branded community.
+
+<img src="branding.png" width="100%"/>
+
+#### docsheader ####
+text: Communities: Profile
+----
+ref: communities-profile
+#### docstext ####
+text:
+
+Communities can now have a profile which allows you to link your community to related grants and organisations. You can further change curation policy settings to determine if community members are subject to reviews or not.
+
+<img src="comprofile.png"/>
+
+#### docsheader ####
+text: Deposit: Preview
+----
+ref: deposit
+#### docstext ####
+text:
+
+You're now able to preview an record before publishing it:
+
+<img src="preview.png" width="100%" />
+
+#### docsheader ####
+text: Deposit: Visibility
+----
+ref: deposit
+#### docstext ####
+text:
+
+We have significantly improved the sharing capabilities in the new Zenodo (see [communities](#communities) and [sharing](#sharing) sections). This means that we have changed the previous open, embargoed, restricted and closed access right mode into a single **visibility** setting that can be either:
+
+- **Public**: The record metadata and files are publicly accessible.
+- **Restricted**: The record metadata is publicly accessible, and the files are restricted.
+
+<img src="visibility.png" />
+
+#### docsheader ####
+text: Deposit: Creators/affiliations auto-completion from ORCID and ROR
+----
+ref: deposit
+#### docstext ####
+text:
+
+We've significantly improved our creators/contributors fields. Creators can now be auto-completed from [ORCID](https://orcid.org), and affiliations can be auto-completed from [ROR](https://ror.org). We've also split the full name into a family name and given names fields to improve the reliability of our automatic citation generation. Organisational names is still supported as creators.
+
+<img src="orcid.png" width="100%" />
+
+#### docsheader ####
+text: Deposit: License selector
+----
+ref: deposit
+#### docstext ####
+text:
+
+We've improved our license selector to provide better defaults as well as improved search capabilities. In addition we've also added support for adding multiple licenses, as well as custom rights statements.
+
+<img src="license.png" width="100%" />
+
+#### docsheader ####
+text: Deposit: Funding selector
+----
+ref: deposit
+#### docstext ####
+text:
+
+Our funding selector has also been improved in a similar way to the license selector. We've also extended the support so you can link to grants not yet available in our award database.
+
+<img src="award.png" width="100%" />
+
+#### docsheader ####
+text: Deposit: Default file preview
+----
+ref: deposit
+#### docstext ####
+text:
+
+You can now select which file by default should be previewed on the record landing page.
+
+<img src="files.png" width="100%" />
+
+#### docsheader ####
+text: Deposit: Imprecise dates
+----
+ref: deposit
+#### docstext ####
+text:
+
+We've further added support for imprecise dates via the [Extended Date Time Format](https://www.loc.gov/standards/datetime/) syntax (level 0). This is important e.g. for older content where may not know a precise date, but only the month or year or range of year.
+
+Examples of imprecise dates:
+
+- ``2023-09`` - The month of September 2023.
+- ``2023`` - The year of 2023.
+- ``2013/2023`` - The time range between 2013 and 2023.
+
+#### docsheader ####
+text: Deposit: Subjects
+----
+ref: deposit
+#### docstext ####
+text:
+
+Our new subjects feature has been improved. We'll in the coming months be importing domain-specific vocabularies so records can be tagged e.g. Medical Subject Headings (MeSH).
+
+#### docsheader ####
+text: Sharing: Get a link
+----
+ref: sharing-link
+#### docstext ####
+text:
+
+Our new community features support sharing of many records among members of a community. We've also improved the sharing of just a single record. You're now able to create a secret link to your record that you can send to a collaborator. The link can give permissions to either:
+
+- **View**: Gives the link holder view access to the record (useful if the files are restricted - e.g. if an embargo has been applied or to give access to a peer reviewer).
+- **Preview**:  Gives the link holder access to preview a draft of a record (useful if you e.g. need a colleague to check a draft).
+- **Edit**: Gives the link holder access to edit the record.
+
+You access the new feature via the **Share**-button on the record landing page:
+
+<img src="share.png" />
+
+This will allow you to create and manage the secret links:
+
+<img src="share-link.png" width="100%"/>
+
+#### Access requests
+
+We also improved our previous access request feature, to enable both users and guests to request access.
+
+<img src="share-request.png" width="100%"/>
+
+#### docsheader ####
+text: User profiles
+----
+ref: profile
+#### docstext ####
+text:
+
+You'll notice e.g. on **My dashboard** that users now has a new profile which includes:
+
+- Full name
+- Affiliations
+- Avatar
+
+For instance:
+
+<img src="profile.png" />
+
+#### Profile visibility
+
+Under the profile preferences you can set your profile and email visibility, which determines whether or not people can invite you to communities and what they'll be able to see. It is currently not yet possible to change the avatar which is automatically generated.
+
+Note: For privacy reasons, all users by default have a hidden profile and email visibility.
+
+<img src="profile-settings.png"  width="100%"/>
+
+#### docsheader ####
+text: Minor features
+----
+ref: minor
+#### docstext ####
+text:
+
+#### Quick actions
+
+The new quick actions menu makes it easy to start new uploads or create communities:
+
+<img src="quick-actions.png" />
+
+#### My dashboard
+
+We added a new **My dashboard** which provides easy access to all your content on Zenodo:
+
+- **My uploads** - all the records that you've uploaded.
+- **My communities** - provides an overview all communities that you own or is an member of.
+- **My requests** - provides you with an overview of all your open (and closed) requests - e.g. submissions to communities or invitations to join a community as member.
+
+#### Download all
+
+The record landing page now has a button to download all files in one go.
+
+<img src="download-all.png" />
+
+#### Web accessibility (A11y)
+
+We have overall made many improvements to the Web Accessibility (A11y) of Zenodo. We are still working on reaching full level AA compliance with the [W3C Web Content Accessibility Guidelines](https://www.w3.org/TR/WCAG21/) (WCAG) and will announce it as soon as we make it.
+
+#### Login with institutional account
+
+You're now able to login to Zenodo with your institutional account if your institution is part of eduGAIN. The new service is provided via the [OpenAIRE AAI](http://www.openaire.eu/our-authentication-and-authorisation-infrastructure) which also provide access to EOSC Core services (European Open Science Cloud).
+
+<img src="openaire.png" />
+
+#### Export formats
+
+We now have support for DataCite JSON v4.3 and upgraded the DataCite XML to v4.3. This is in addition to our already supported export formats: JSNON, JSON-LD, CSL, Dublin Core, MARCXML, BibTeX, DCAT and GeoJSON.
+
+#### REST API
+
+Under the hood, Zenodo is now driven by a powerful and heavily expanded REST API. You can find the documentation to the new REST API on the [InvenioRDM reference pages](https://inveniordm.docs.cern.ch/reference/rest_api_index/).

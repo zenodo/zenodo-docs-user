@@ -53,7 +53,7 @@ step: 1
 ----
 text: By default, the first previewable file in alphanumeric order will be the one being displayed on the your record landing page. You can change the default previewed file by checking the checkbox in the **Preview** column.
 ----
-image: finished.png
+image: set-preview.png
 #### docsheader ####
 text: Modify files after publication
 ----

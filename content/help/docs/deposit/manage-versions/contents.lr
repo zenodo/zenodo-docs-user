@@ -1,12 +1,19 @@
 _model: docspage
 ---
-_hidden: true
----
 title: Manage versions
 ---
 sort_key: 6
 ---
 menu: /help/docs/deposit
+---
+body:
+
+Zenodo supports versioning of records.
+
+After a record is published you can no longer edit the files in the record (you can edit the metadata, see [manage records](../manage-records/) for details).
+
+To modify the files of a record you must a new record version.
+
 ---
 docs:
 

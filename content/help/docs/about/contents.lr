@@ -1,11 +1,13 @@
 _model: docspage
 ---
-_hidden: true
----
 title: About
----
-docs:
 ---
 menu: /help/docs/about
 ---
 sort_key: 20
+---
+body:
+
+
+---
+docs:
