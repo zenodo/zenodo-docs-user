@@ -1,0 +1,23 @@
+title: UPDATE: Zenodo migration postponed to Oct 13 from 06:00-08:00 UTC
+---
+author: lnielsen
+---
+date: 2023-09-25
+---
+body:
+
+See the [original announcement](../2025-09-06-zenodo-rdm/).
+
+We unfortunately have to postpone the planned migration on September 29th 6-8 UTC. The new migration date is October 13 from 06:00-08:00 UTC. We apologise for any inconvenience it may cause.
+
+During a final trial migration run last week we have discovered some issues that we've been trying to address in time to be ready to start the final migration process today. Unfortunately, we've not be able to fully address the issues and as a precautionary measure we're postponing the migration.
+
+Zenodo has over the past 10 years grown in both scale and size, and thus migrating the full system to a new technical platform is a large undertaking. In order to minimize service disruption for our users, we're taking an incremental approach. This approach works by migrating a snapshot of the existing system, and afterwards incrementally apply changes in the existing system to the new system. This method enables us to keep the downtime of Zenodo to about 1-2 hours instead of the ~3 days which full migration takes due to Zenodo's scale and size. The incremental approach however is also more technically challenging, and it is through our extensive quality assurance checks that we discovered issues that we need further time to investigate.
+
+If you're eager to learn more abou the new platform, then you can find a comprehensive overview over what's new and what's changed on the following links:
+
+- [What's new?](https://help.zenodo.org/docs/about/whats-new/)
+- [What's changed?](https://help.zenodo.org/docs/about/whats-changed/)
+
+
+
