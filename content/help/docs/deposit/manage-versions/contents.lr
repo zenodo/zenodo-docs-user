@@ -2,20 +2,86 @@ _model: docspage
 ---
 title: Manage versions
 ---
+tocdesc: Learn how modify files by creating a new version.
+---
 sort_key: 6
 ---
 menu: /help/docs/deposit
 ---
 body:
 
-Zenodo supports versioning of records.
+The following sections describe how you can create a new version of record, import files from previous version, browse versions, and edit previous versions.
 
-After a record is published you can no longer edit the files in the record (you can edit the metadata, see [manage records](../manage-records/) for details).
+**When to use versioning?**
 
-To modify the files of a record you must a new record version.
+Versioning is used if you need to *add/remove/modify files* in your published record. If you just need to edit metadata (title, creators, description etc) then see [Edit published records](../manage-records/#edit).
 
+Read more about versioning in [about records](../about-records/).
+
+The section covers:
+---
+docs_show_toc: true
 ---
 docs:
 
-#### docstext ####
-text: Test
+#### docsheader ####
+text: Create a new version
+----
+ref: create-version
+#### docsstep ####
+step: 1
+----
+text: Go to the record landing page of the record you want to create a new version of.
+#### docsstep ####
+step: 2
+----
+text: Click the green **New version**-button to create a new version draft. The button is only displayed if you have permissions to edit the record.
+----
+image: new-version.png
+#### docsstep ####
+step: 4
+----
+text: The deposit form will now show that you're editing a **New version draft**. Fill in the metadata, upload files as for any other record.
+----
+image: publish-button.png
+#### docsheader ####
+text: Import files from previous version
+----
+ref: import-files
+#### docsstep ####
+step: 1
+----
+text: In files section of the deposit form, click the **Import files**-button to import files from a previous. Using this feature saves storage space as we don't duplicate the previous files.
+----
+image: import-files.png
+#### docsstep ####
+step: 2
+----
+text: You can now add/remove/modify the imported files as described in [manage files](../manage-files/).
+
+#### docsheader ####
+text: Browse versions
+----
+ref: browse-versions
+#### docsstep ####
+step: 1
+----
+text: Go to **My uploads**.
+#### docsstep ####
+step: 2
+----
+text: Toggle the **View all versions** switch to on. You're now able to browse and search all previous versions of a record.
+----
+image: browse-versions.png
+#### docsheader ####
+text: Edit metadata of previous version
+----
+ref: create-version
+#### docsstep ####
+step: 1
+----
+text: Find the previous version you want to edit using e.g. [browse versions](#browse-versions).
+#### docsstep ####
+step: 2
+----
+text: Click the **Edit**-button to edit the previous version (see [edit published records](../manage-records/#edit)).

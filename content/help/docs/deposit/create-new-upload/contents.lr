@@ -13,6 +13,8 @@ body:
 
 See the [quick start](../../get-started/quickstart/) guide for a short introduction to publishing an upload in 3 simple steps. This guide goes in further detail about how to create a new record, and subsequent sections covers each part in detail.
 ---
+tocdesc: Overview of how to create a new upload, add/remove files, fill metadata, save for later, set visibility, preview a record, apply an embargo and publish.
+---
 docs_show_toc: true
 ---
 docs:

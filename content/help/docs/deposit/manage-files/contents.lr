@@ -2,6 +2,8 @@ _model: docspage
 ---
 title: Manage files
 ---
+tocdesc: Learn how to add/remove files to a draft and set which file to preview by default.
+---
 sort_key: 4
 ---
 menu: /help/docs/deposit
@@ -9,7 +11,7 @@ menu: /help/docs/deposit
 body:
 
 !!! warning
-    **Heads up**: You CANNOT add/delete/modify files after your record is published.
+    **Heads up**: You CANNOT modify files *after* your record is published, instead use [versioning](../manage-versions/).
 
 The following sections documents how to manage files for a draft and record. You can by default upload up to a 100 files and a total volume of 50GB (50.000.000.000 bytes).
 ---

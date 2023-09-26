@@ -1,25 +1,68 @@
 _model: docspage
 ---
-_hidden: true
----
 title: About records
 ---
 sort_key: 1
 ---
 menu: /help/docs/deposit
 ---
+tocdesc: General information about records.
+---
+lead: Records are the basic entities used to share and preserve a digital research object (datasets, publications, software, poster, presentations etc) on Zenodo. Any user on Zenodo can create a new record.
+---
 body:
 
-- Records: metadata and files
-    - Metadata can be edited, files cannot
-- DOIs
-- Versions
-- Persistent identifiers
-- Public vs restricted
-- Usage statistics
+When you share and preserve research on Zenodo, you do so by creating a new record. Any user on Zenodo can create a new record.
+
+A **record** consists of:
+
+- **Metadata:** Information about title, publication date, creators, description, etc.
+- **Files:** The actual data for the digital research object.
+- **Persistent identifier**: A globally unique persistent identifier (in our case a [Digital Object Identifier](https://www.doi.org)) used for identification of the record.
+
+#### Metadata
+
+The metadata is critical for describing your dataset and making your record findable. We require only minimal metadata (what's needed for a citation), but we strongly encourage entering as much of the fields as possible.
+
+Zenodo is able to export the metadata according to many different standards.
+
+#### Files
+
+Zenodo supports uploading files in any size and format. You should however consider uploading files in a preservation-friendly format as we only guarantee bit-level preservation - e.g. proprietary file format may not be readable in 10 or 50 years.
+
+For further guidance on preservation-friendly formats please see the following resources:
+
+- [Digital Preservation Handbook - File formats and standards](https://www.dpconline.org/handbook/technical-solutions-and-tools/file-formats-and-standards)
+- [Library of Congress recommended format specifications](http://www.loc.gov/preservation/resources/rfs/index.html)
+
+#### Persistent Identifier
+
+Zenodo will automatically register a Digital Object Identifier (DOI) for a record once you publish it. The DOI is a globally unique persistent identifier which ensures that the record can be uniquely cited which is important for reproducibility and attribution of credit. Zenodo register DOIs with [DataCite](https://www.datacite.org).
+
+You can also share research objects that already has a DOI on Zenodo (e.g. a journal publication). In this case you must provide the DOI during the upload to Zenodo, so that we don't create a new DOI for your content.
+
+### Life cycle
+
+A record starts as a **draft**, where you can fill in the metadata and upload files. Once the draft is complete, you publish the draft and it becomes a record. Once the record is published:
+
+ - Metadata CAN be modified
+ - Files and the persistent identifier CANNOT be modified
+
+This is because Zenodo is a digital repository and operate according to best practices for archiving. A researcher citing a specific dataset on Zenodo must be able to rely on that the dataset they used is not modified because it could potentially invalidate their findings or make them impossible to reproduce.
+
+#### Versions
+
+Our versioning feature help with the case when you need to publish an update to a dataset (i.e. modify the files). In this case you can create a new version of your dataset.
+
+Technically, this is a completely new record with separate metadata, files and persistent identifier. This ensures that if a researcher cite the specific version, they can be sure the files did not change.
+
+### Access
+
+Metadata for all records in Zenodo are always publicly accessible. You have the possibility to restrict access to the files, and once you restrict access you have the possibility to share with specific people.
+
+We support the restricted access for e.g. embargoed content, content under peer-review, or e.g. content that cannot be made generally available (e.g. anonymized clinical trial data).
+
+See [Sharing](../../sharing/) and [Communities](../../communities/) for further options on sharing restricted content.
 
 ---
 docs:
----
-todo:
-- Finish writing.
