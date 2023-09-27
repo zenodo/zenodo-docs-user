@@ -1,0 +1,40 @@
+_model: docspage
+---
+title: Set review policy
+---
+sort_key: 1
+---
+menu: /help/docs/communities
+---
+tocdesc: Modify how submissions from community owners, managers and curators are handled.
+---
+body:
+
+The review policy enables communities to set how submissions from community owners/managers/curators are handled. There following two options exists:
+
+- **Review all submissions:** All submissions goes through a review by community curators.
+- **Allow curators to publish without review**: Submissions by community owners, managers and curators automatically published in the community without a review.
+
+---
+docs:
+
+#### docsheader ####
+text: Set review policy
+----
+ref: review
+
+#### docsstep ####
+step: 1
+----
+text: Go to your [community settings](../#manage) and click **Review policy** in the left menu.
+
+#### docsstep ####
+step: 2
+----
+text: On the **Review policy** you can modify the submission review policy for the community.
+----
+image: review-policy.png
+#### docsstep ####
+step: 3
+----
+text: Click **Save**-button to persist the changes.

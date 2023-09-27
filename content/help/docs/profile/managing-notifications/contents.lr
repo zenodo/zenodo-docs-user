@@ -1,7 +1,5 @@
 _model: docspage
 ---
-_hidden: true
----
 title: Manage notification preferences
 ---
 tocdesc: Manage which emails you receive from Zenodo.
@@ -12,6 +10,25 @@ menu: /help/docs/profile
 ---
 body:
 
-bla bla
+Zenodo will send notification emails e.g. when a record is submitted to your community, or if you're invited to a community. You can switch on/off this notification emails if you do not wish to receive them using below method.
+
+The emails are sent to the email address with which you are registered at Zenodo. See [edit your profile](../editing-your-profile/#edit) for how to change your email address.
 ---
 docs:
+
+#### docsheader ####
+text: Change notification preferences
+----
+ref: connect
+#### docsstep ####
+step: 1
+----
+text: Click the profile menu in the header and select **Notifications**.
+----
+image: profile-menu.png
+#### docsstep ####
+step: 2
+----
+text: Under **Notify me** toggle the switch to either on or off to be notified or not. See [edit your profile](../editing-your-profile/#edit) for how to change the email address.
+----
+image:notifications.png

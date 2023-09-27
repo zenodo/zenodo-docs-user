@@ -1,15 +1,36 @@
 _model: docspage
 ---
-_hidden: true
----
 title: Manage community settings
 ---
-sort_key: 2
+sort_key: 3
 ---
 menu: /help/docs/communities
 ---
 body:
 
+You manage community settings from the **Settings**-tab on the community (see [below](#manage)). The settings allow you to edit the profile, provide a logo, set the review policy, provide about/curation policy pages and delete the community.
 
 ---
 docs:
+#### docsheader ####
+text:  Overview
+----
+ref: Overview
+#### docstoc ####
+menu: /help/docs/communities/manage-community-settings
+
+#### docsheader ####
+text:  Access community settings
+----
+ref: manage
+
+#### docsstep ####
+step: 1
+----
+text: First, go to your community.
+#### docsstep ####
+step: 2
+----
+text: Click the **Settings** in the tab menu.
+----
+image: settings.png

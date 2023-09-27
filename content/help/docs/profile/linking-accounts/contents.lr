@@ -1,8 +1,6 @@
 _model: docspage
 ---
-_hidden: true
----
-title: Linking GitHub/ORCID account
+title: Linking your GitHub/ORCID/OpenAIRE account
 ---
 tocdesc: Manage which external accounts you can login with on Zenodo.
 ---
@@ -12,6 +10,60 @@ menu: /help/docs/profile
 ---
 body:
 
-bla bla
+!!! info
+    If you don't already have an account, see the section [create an account](../../get-started/create-an-account/) on how to sign up with GitHub, ORCID or OpenAIRE. The signup process will automatically link the external account.
+
+Zenodo enables you to login with your an external account. The following authentication providers are supported:
+
+- **GitHub**: Linking your GitHub account enables you to automatically archive your repositories on GitHub via our GitHub integration.
+- **ORCID**: Enables you to login with your ORCID account and associates your ORCID with your Zenodo account.
+- **OpenAIRE**: Enables you to login via your institutional account (if the institution is connected to eduGAIN) and other EOSC Core services.
+
+Learn here how to:
+
+---
+docs_show_toc: true
 ---
 docs:
+
+#### docsheader ####
+text: Connect an external account
+----
+ref: connect
+#### docsstep ####
+step: 1
+----
+text: Click the profile menu in the header and select **Linked accounts**.
+----
+image: profile-menu.png
+#### docsstep ####
+step: 2
+----
+text: Click the **Connect**-button next to the service provider you would like to connect.
+----
+image: accounts.png
+#### docsstep ####
+step: 3
+----
+text: You will be redirected to the chosen service provider (i.e. GitHub, ORCID or OpenAIRE) to authenticate on their platform. Once you have successfully authenticated you will be redirected back to Zenodo.
+#### docsstep ####
+step: 4
+----
+text: If the linking of the account was successful,  you'll see a green tickmark next to the service provider (e.g. like GitHub in the screenshot in step 2). You will now be able to login on Zenodo using the external account.
+
+#### docsheader ####
+text: Disconnect an external account
+----
+ref: disconnect
+#### docsstep ####
+step: 1
+----
+text: Click the profile menu in the header and select **Linked accounts**.
+----
+image: profile-menu.png
+#### docsstep ####
+step: 2
+----
+text: Click the **Disconnect**-button next to the service provider you would like to disconnect.
+----
+image: accounts.png

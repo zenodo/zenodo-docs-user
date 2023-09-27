@@ -1,0 +1,29 @@
+_model: docspage
+---
+title: View my communities
+---
+sort_key: 2
+---
+menu: /help/docs/communities
+---
+body:
+
+The following section describes how to browse all the communities of which you are an owner or a member.
+---
+docs:
+
+#### docsheader ####
+text: View my communities
+----
+ref: view
+#### docsstep ####
+step: 1
+----
+text: Click **My dashboard** menu item in the header.
+#### docsstep ####
+step: 2
+----
+text: Click **My communities** in the tab. All communities of which you are an owner or a member will be shown the list.
+----
+image: mycommunities.png
+

@@ -1,0 +1,89 @@
+_model: docspage
+---
+title: Add about/curation policy pages
+---
+sort_key: 3
+---
+menu: /help/docs/communities
+---
+tocdesc: Learn about to provide an about and curation policy text page for your community.
+---
+body:
+
+A community can provide two text pages which will be linked in the community tab menu:
+
+- Curation policy
+- About
+
+<img src="menu.png" width="100%" />
+
+In this section you can learn about:
+
+
+---
+docs_show_toc: true
+---
+docs:
+
+#### docsheader ####
+text: Add an about page
+----
+ref: about
+#### docstext ####
+text: You can use the about page to provide more extensive information about your community.
+
+#### docsstep ####
+step: 1
+----
+text: Go to your [community settings](../#manage) and click **Pages** in the left menu.
+#### docsstep ####
+step: 2
+----
+text: Under **About page** section fill in the text field with your content. Basic formatting is supported.
+----
+image: pages.png
+#### docsstep ####
+step: 2
+----
+text: Click **Save**-button to persist the changes.
+
+#### docsheader ####
+text: Add a curation policy page
+----
+ref: curation-policy
+#### docstext ####
+text: You can use the curation policy page to announce to other users what are your criteria for accepting submissions to the community.
+#### docsstep ####
+step: 1
+----
+text: Go to your [community settings](../#manage) and click **Pages** in the left menu.
+#### docsstep ####
+step: 2
+----
+text: Under **Curation policy** section fill in the text field with your content. Basic formatting is supported.
+----
+image: pages.png
+#### docsstep ####
+step: 2
+----
+text: Click **Save**-button to persist the changes.
+
+#### docsheader ####
+text: Remove a page
+----
+ref: remove
+
+#### docsstep ####
+step: 1
+----
+text: Go to your [community settings](../#manage) and click **Pages** in the left menu.
+#### docsstep ####
+step: 2
+----
+text: Clear the text field of the of the page you'd like to remove.
+----
+image: pages.png
+#### docsstep ####
+step: 2
+----
+text: Click **Save**-button to persist the changes.

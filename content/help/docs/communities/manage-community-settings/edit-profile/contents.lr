@@ -1,0 +1,83 @@
+_model: docspage
+---
+title: Edit community profile
+---
+sort_key: 1
+---
+menu: /help/docs/communities
+---
+body:
+
+The community profile enables you to clearly describe your community and set logo for your community.
+---
+tocdesc: Learn how to edit the community profile and set a logo.
+---
+docs_show_toc: true
+---
+docs:
+
+#### docsheader ####
+text: Edit basic/funding information
+----
+ref: edit
+#### docsstep ####
+step: 1
+----
+text: Go to your [community settings](../#manage). By default the profile is now shown:
+----
+image: profile.png
+#### docsstep ####
+step: 2
+----
+text: Edit the basic information and funding information according to the following guide:
+
+- **Name**: The title of your community which will be prominently displayed everywhere you community is linked.
+- **Short description**: A short text/slogan (displayed in header).
+- **Type**: Select the type of community among: project, event, topic or organisation (displayed in header).
+- **Website**: Link to your website (displayed in header).
+- **Organisations**: Link one or more organisations from the [ROR database](https://ror.org) to your community (enables user to browse communities by organisation).
+- **Awards**: Link one or more funders or awards to your community (enables user to browse communities by funder/award).
+#### docsstep ####
+step: 3
+----
+text: Click **Save**-button to persist the changes.
+
+#### docsheader ####
+text: Add a logo
+----
+ref: addlogo
+#### docsstep ####
+step: 1
+----
+text: Go to your [community settings](../#manage).
+#### docsstep ####
+step: 2
+----
+text: Click **Upload new picture** and select a picture from your computer. The logo must be smaller than 1MB.
+----
+image: logo.png
+#### docsstep ####
+step: 3
+----
+text: ATTENTION: Once uploaded, it can take some few moments for the logo to become visible on all pages. This is due to browse-caching and occurs on pages you have already visited.
+#### docsheader ####
+text: Remove a logo
+----
+ref: removelogo
+#### docsstep ####
+step: 1
+----
+text: Go to your [community settings](../#manage).
+#### docsstep ####
+step: 2
+----
+text: Click the red **Delete picture**-button to remove a previously uploaded logo.
+----
+image: logo-delete.png
+#### docsstep ####
+step: 3
+----
+text: Confirm that you want to delete the picture.
+----
+image: logo-confirm.png
+

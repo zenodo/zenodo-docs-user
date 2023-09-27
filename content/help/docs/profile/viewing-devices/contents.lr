@@ -1,7 +1,5 @@
 _model: docspage
 ---
-_hidden: true
----
 title: View logged in devices
 ---
 tocdesc: Manage all devices that are logged into your account.
@@ -12,6 +10,48 @@ menu: /help/docs/profile
 ---
 body:
 
-bla bla
+!!! info
+    If you think your account may have been compromised, please [contact us](https://www.zenodo.org/support) immediately.
+
+If you authenticate from multiple devices to your Zenodo account, you'll be able to see all the devices that are logged into your account.
+
+The information you see in the overview such as IP address, login date, browser and operating system is only stored while your authenticated session is active, and if you don't logout it is automatically deleted after 30 days. See our [privacy policy](https://about.zenodo.org/privacy-policy/).
+
+In the following section you can learn:
+
+---
+docs_show_toc: true
 ---
 docs:
+
+#### docsheader ####
+text: Viewing logged in devices
+----
+ref: view
+#### docsstep ####
+step: 1
+----
+text: Click the profile menu in the header and select **Security**.
+----
+image: profile-menu.png
+#### docsstep ####
+step: 2
+----
+text: Under **Sessions** you will see all devices logged into your account including their IP address, date of login, and browser. Your current device is marked with a green dot, and the button says **Logout**.
+----
+image: sessions.png
+
+#### docsheader ####
+text: Logout from another device
+----
+ref: revoke
+#### docstext ####
+text: Use this method if you e.g. forgot to logout from a device and don't have the device readily accessible. If you want to logout from your current device see how to [log out](../../get-started/logging-in/#logout).
+#### docsstep ####
+step: 1
+----
+text: Find the device from the list of devices (see [viewing logged in devices](#view)).
+#### docsstep ####
+step: 2
+----
+text: Click **Revoke**-button to logout the device. If the button says **Logout** is means the it's the authenticated session for your current device.
