@@ -1,7 +1,5 @@
 _model: docspage
 ---
-_hidden: true
----
 title: Change password
 ---
 tocdesc: Explains how to modify your password.
@@ -12,6 +10,28 @@ menu: /help/docs/profile
 ---
 body:
 
-bla bla
+If you don't remember your current password, or e.g. logged in with GitHub/ORCID and thus don't have a password set for the account, please use the [reset password](../reset-password/) method to change your password.
+
+
 ---
 docs:
+#### docsheader ####
+text: Change your password
+----
+ref: changepw
+#### docsstep ####
+step: 1
+----
+text: Click the profile menu in the header and select **Change password**.
+----
+image: profile-menu.png
+#### docsstep ####
+step: 2
+----
+text: Enter your current password, the new password and your new password to confirm.
+----
+image: change-password.png
+#### docsstep ####
+step: 3
+----
+text: Click **Change password**-button.

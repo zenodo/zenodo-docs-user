@@ -1,7 +1,5 @@
 _model: docspage
 ---
-_hidden: true
----
 title: Change profile visibility
 ---
 tocdesc: Ensure other users can find you on Zenodo.
@@ -12,6 +10,33 @@ menu: /help/docs/profile
 ---
 body:
 
-bla bla
+Your profile visibility controls who can find you on Zenodo. You can set the visibility of:
+
+- **Profile**: Public profiles can be found by other users via searches on username, full name and affiliation. Hidden profiles cannot be found by other users.
+- **Email**: Public email visibility enables your profile to be found by your email address.
+
+By default, your profile visibility is set to hidden when you create an account for privacy reasons.
+
 ---
 docs:
+
+#### docsheader ####
+text: Change your profile visibility
+----
+ref: visibility
+#### docsstep ####
+step: 1
+----
+text: Click the profile menu in the header and select **Profile**.
+----
+image: profile-menu.png
+#### docsstep ####
+step: 2
+----
+text: Under **Preferences** change your profile and email visibility to either **public** or **hidden**
+----
+image: preferences.png
+#### docsstep ####
+step: 3
+----
+text: Click **Update preferences** to save the changes.
