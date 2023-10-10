@@ -1,0 +1,38 @@
+_model: docspage
+---
+title: View invitations
+---
+sort_key: 2
+---
+menu: /help/docs/communities
+---
+body:
+
+
+---
+tocdesc:
+---
+docs_show_toc: true
+---
+docs:
+
+#### docsheader ####
+text: View invitations
+----
+ref: view
+#### docsstep ####
+step: 1
+----
+text: Go to [**Members**](../#manage)-tab in your community and, click on **Invitations** in the left menu.
+----
+image: view.png
+#### docsstep ####
+step: 2
+----
+text: You can toggle between **open** and **closed** (i.e. accepted/declined/expired) invitations as well as filter by role, status.
+#### docsstep ####
+step: 3
+----
+text: Click on the name of an invited user to see details of the invitation.
+----
+image: view-invitation.png

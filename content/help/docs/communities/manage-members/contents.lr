@@ -1,7 +1,5 @@
 _model: docspage
 ---
-_hidden: true
----
 title: Manage members
 ---
 sort_key: 4
@@ -10,5 +8,38 @@ menu: /help/docs/communities
 ---
 body:
 
+Community members allow you to grant access to multiple people in your community and given them different permissions via four roles: readers, curators, managers and owners.
+
+See [about communities](../about-communities/) for an overview which permissions are granted to the different roles.
+---
+
+
+
+- Invite member
+- Cancel or edit invitation
+- Remove member
+- Change member permissions
+- Set membership visibility
+- Leave community
+- Transfer ownership
+
 ---
 docs:
+#### docsheader ####
+text: Overview
+----
+ref: toc
+#### docstext ####
+text: The following section provide a comprehensive overview how to manage members of your community:
+#### docstoc ####
+menu: /help/docs/communities/manage-members
+#### docsheader ####
+text: Manage members of your community
+----
+ref: manage
+#### docsstep ####
+step: 1
+----
+text: To manage members of your community, click the **Members** tab of your community. In order to manage members you must be a **community manager** or **community owner** (see [about communities](../about-communities/))
+----
+image: manage.png

@@ -41,7 +41,7 @@ text: Previously, you controlled access to a record's files by setting the **acc
 - Embargoed access - metadata was public, files were restricted until a given date after which they were automatically made public.
 - Closed access - metadata was public, files were restricted
 
-The access right field has now been changed into a **visibility** field with two options:
+The access right field has now been changed into a **visibility** field with two options (metadata is always public):
 
 - Public: Files are public.
 - Restricted: Files are restricted.
@@ -50,7 +50,7 @@ In case of restricted files you can choose to:
 
 - Apply an embargo
 - Share with specific users or by secret link
-- Enable access requests
+- Enable guest and users to request access
 
 This change provides for a more flexible access control to your records, and supports uses that previously weren't possible - e.g. access requests to an embargoed record.
 
@@ -118,12 +118,14 @@ ref: deposit-fields
 #### docstext ####
 text: The deposit form have received several minor changes:
 
-- *DOI*: The DOI widget has been changed to more clearly ask if an uploader already have a DOI or not to prevent accidential creation of DOIs.
+- *DOI*: The DOI widget has been changed to more clearly ask if an uploader already have a DOI to prevent accidental creation of DOIs.
 - *Creators/contributors*: The full name has been split into *family name* and *given names*, and a new name type has been added to also support organisational names. Creators can now also have roles. The difference between creators and contributors is that creators are included in the citation, while contributors are not included.
 - *Notes*: The notes field has been integrated into the *additonal descriptions* field.
 - *Language*: You can now specify multiple languages instead of only one language.
 - *Subjects* field has been integrated into a combined *Keywords and subjects* for freeform text fields and subjects from vocabularies.
 - *Thesis supervisors* field has been integrated into the *Contributors* field by adding the *supervisor* role.
+
+See [describe records](../../deposit/describe-records/) for details.
 
 #### docsheader ####
 text: Deposit: Files in new versions
@@ -132,7 +134,7 @@ ref: deposit-versioning
 #### docstext ####
 text:
 
-When you create a new version of a record we previously copied all files over from the old to the new version. We have modified this behavior so you now are required to explicitly import the files from the previous version via simply click on **Import files**-button.
+When you create a new version of a record we previously copied all files over from the old to the new version. We have modified this behavior so you now are required to explicitly import the files from the previous version via simply clicking on **Import files**-button.
 
 <img src="import-files.png" width="100%">
 
@@ -143,12 +145,12 @@ ref: deposit-communities
 #### docstext ####
 text:
 
-The community selector has been moved to the header, and the communities feature have received several larger changes:
+The community selector has been moved to the header, and the communities feature has received several larger changes:
 
 - **Reviews**: When you submit to a community your record will now go through the community review **before** the record is published - i.e. your record is not public until the community has reviewed the record. You can still publish your record without a community, and later request to have it included in the community if you wish to use the old workflow.
 - **Submit to one**: You can only submit a draft to one community. Once your record is published, you can request to have it included in multiple communities. It is only the submission of the first draft which is limited to one community.
 
-Above, changes the default behavior of how Zenodo used to behave. We have made the changes to ensure we have a simple and streamlined user experience for our new review feature.
+Above, changes the default behavior of how Zenodo used to behave. We have made the changes to ensure we have a simple and streamlined user experience for our new review feature. Note our legacy REST API which will be deprecated still allows submitting to multiple communities.
 #### docsstep ####
 step: 1
 ----
@@ -227,9 +229,9 @@ Community curators are now able to edit the metadata of records in their communi
 
 - All new submissions and records published are automatically subject to this change.
 - All published records NOT part of a community are automatically subject to this change.
-- All published records part of a community prior to Sep 29th, 2023 is NOT yet subject to the change (i.e. community curators cannot edit the record, unless they curator and uploader is the same user).
+- All published records part of a community prior to Oct 13th, 2023 is NOT yet subject to the change (i.e. community curators cannot edit the record, unless they curator and uploader is the same user).
 
-The last category of records is subject to the following approval workflow. The uploader of the record will be sent a request to accept that the community curators can edit the metadata.
+The last category of records is subject to the following approval workflow. The uploader of the record will be sent a request in the week following the migration to accept that the community curators can edit the metadata.
 
 - If the uploader **declines** the request, the record will be **removed from the community**.
 - If the uploader **accepts** the request, the record will be **editable by the community curators**.
@@ -241,9 +243,11 @@ ref: curatorsview
 #### docstext ####
 text:
 
+TL;DR - Nobody will gain access to restricted files they didn't already have access to until the uploader accepts it.
+
 Record metadata is always public, but access to files can be restricted. Previously only the uploader could view the restricted files. Now, if a record is part of a community, the community members will also be able to view the restricted files.
 
-All records published prior to Sep 29th, 2023 with restricted files (previously using the restricted access or closed access) AND which was part of a community in which the uploader was not also community owner **is NOT subject to the change**.
+All records published prior to Oct 13th, 2023 with restricted files (previously using the restricted access or closed access) AND which was part of a community in which the uploader was not also community owner **is NOT subject to the change**.
 
 Uploaders of above records will receive a request to accept/decline the ability of curators to view the restricted files:
 

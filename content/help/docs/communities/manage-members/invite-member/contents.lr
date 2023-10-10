@@ -1,0 +1,76 @@
+_model: docspage
+---
+title: Invite member
+---
+sort_key: 1
+---
+menu: /help/docs/communities
+---
+body:
+
+You can invite existing Zenodo users to become a member of your community. Invitations must be accepted by the invited user, and an invitation automatically expire after 30 days.
+
+---
+tocdesc:
+---
+docs_show_toc: true
+---
+docs:
+
+#### docsheader ####
+text: Invite a member (existing user)
+----
+ref: invite
+#### docsstep ####
+step: 1
+----
+text: Go to [**Members**](../#manage)-tab in your community and, click on the green **Invite**-button.
+----
+image: button.png
+#### docsstep ####
+step: 2
+----
+text: Search for a user by entering their name, affiliation or email address.
+
+*Note:* Only users with public [profile visibility](../../../profile/changing-profile-visibility/) are searchable and only user with public email visibility are searchable by their email address.
+----
+image: invite-dialog.png
+#### docsstep ####
+step: 3
+----
+text: Select a user from the list by using the arrow up/down keys and pressing enter to select. Note, you can select multiple people from the list. Once, select they will appear in the area above the search field.
+----
+image: select.png
+#### docsstep ####
+step: 4
+----
+text: Choose a **role** for all selected users. The chosen role is applied to all users. You can provide an **optional message** to the invited users.
+----
+image: role.png
+#### docsstep ####
+step: 5
+----
+text: Click the blue **Invite**-button. Each invited user will receive an email notification, and be able to see the invitation under [My requests](../../../get-started/navigating-zenodo/#dashboard).
+----
+image: invite.png
+
+#### docsheader ####
+text: View invitations
+----
+ref: view
+#### docsstep ####
+step: 1
+----
+text: Go to [**Members**](../#manage)-tab in your community and, click on **Invitations** in the left menu.
+----
+image: view.png
+#### docsstep ####
+step: 2
+----
+text: You can toggle between **open** and **closed** (i.e. accepted/declined/expired) invitations as well as filter by role, status.
+#### docsstep ####
+step: 3
+----
+text: Click on the name of an invited user to see details of the invitation.
+----
+image: view-invitation.png

@@ -31,9 +31,7 @@ Our communities feature now has support for multiple members. Members can have o
 - **Manager** - can invite new and manage existing members of the community (in addition to the curator role).
 - **Owner** - can manage settings and delete the community (in addition to the manager role).
 
-Members can be invited from Zenodo's users. Currently, only users who have changed their [profile visibility](#profile) will be able to be invited. By end of the year, we'll also support that members can be invited by email.
-
-Members can publicly show or hide their membership of the community as they see fit.
+Members can be invited from Zenodo's users. By end of the year, we'll also support that members can be invited by email. Members can publicly show or hide their membership of the community as they see fit.
 
 <img src="members.png" width="100%"/>
 
@@ -47,9 +45,9 @@ text:
 New submissions to a community now by default goes through our new community review feature.
 
 - **Published on accept**: Records submitted to a community is not published until the community curator accepts the request.
-- **Curators can edit**: Community curators are now able to edit the record submitted by the uploader.
+- **Curators can edit**: Community curators are now able to edit the record submitted by the uploader prior to being published.
 - **Communication**: Uploaders and curators can communicate to e.g. ask for clarification.
-- **Submit to one**: Drafts can only be submitted to one community. Once published, a record can still be included in other communities.
+- **Submit to one**: Drafts can only be submitted to one community. Once published, a record can still be submitted to multiple communities.
 
 The review feature is optional and you can still publish your record immediately by not submitting it to a community (e.g. if it's declined by the community curator). After the record is published you can also still request to have it included in multiple communities.
 
@@ -65,6 +63,8 @@ text:
 As briefly described in the [Members](#communities-members)-section, curators are now able to edit the metadata of published records. Similarly, curators can during reviews edit both the metadata and files of the records submitted by the uploader to the community.
 
 Modification of files in published records still has to go through the Zenodo support line (we have a 1-month grace period in which we allow addition/removal/modificaiton of files after which modifications are only exceptionally granted).
+
+Note, that there's a transition period of 6 months for records submitted prior to Oct 13, 2023 in which these records will not be editable by curators. See details in [what's changed](../whats-changed/#curatorsedit)
 
 #### docsheader ####
 text: Communities: Branding
@@ -102,7 +102,7 @@ You're now able to preview an record before publishing it:
 #### docsheader ####
 text: Deposit: Visibility
 ----
-ref: deposit
+ref: deposit-visibility
 #### docstext ####
 text:
 
@@ -116,18 +116,18 @@ We have significantly improved the sharing capabilities in the new Zenodo (see [
 #### docsheader ####
 text: Deposit: Creators/affiliations auto-completion from ORCID and ROR
 ----
-ref: deposit
+ref: deposit-creators
 #### docstext ####
 text:
 
-We've significantly improved our creators/contributors fields. Creators can now be auto-completed from [ORCID](https://orcid.org), and affiliations can be auto-completed from [ROR](https://ror.org). We've also split the full name into a family name and given names fields to improve the reliability of our automatic citation generation. Organisational names is still supported as creators.
+We've significantly improved our creators/contributors fields. Creators can now be auto-completed from [ORCID](https://orcid.org), and affiliations can be auto-completed from [ROR](https://ror.org). We've also split the full name into a family name and given names fields to improve the reliability of our automatic citation generation. Organisational names are also supported as creators.
 
 <img src="orcid.png" width="100%" />
 
 #### docsheader ####
 text: Deposit: License selector
 ----
-ref: deposit
+ref: deposit-license
 #### docstext ####
 text:
 
@@ -138,7 +138,7 @@ We've improved our license selector to provide better defaults as well as improv
 #### docsheader ####
 text: Deposit: Funding selector
 ----
-ref: deposit
+ref: deposit-funding
 #### docstext ####
 text:
 
@@ -149,7 +149,7 @@ Our funding selector has also been improved in a similar way to the license sele
 #### docsheader ####
 text: Deposit: Default file preview
 ----
-ref: deposit
+ref: deposit-filepreview
 #### docstext ####
 text:
 
@@ -160,11 +160,11 @@ You can now select which file by default should be previewed on the record landi
 #### docsheader ####
 text: Deposit: Imprecise dates
 ----
-ref: deposit
+ref: deposit-dates
 #### docstext ####
 text:
 
-We've further added support for imprecise dates via the [Extended Date Time Format](https://www.loc.gov/standards/datetime/) syntax (level 0). This is important e.g. for older content where may not know a precise date, but only the month or year or range of year.
+We've further added support for imprecise dates via the [Extended Date Time Format](https://www.loc.gov/standards/datetime/) syntax (level 0). This is important e.g. for older content where you may not know a precise date, but only the month, year or range of years.
 
 Examples of imprecise dates:
 
@@ -175,11 +175,11 @@ Examples of imprecise dates:
 #### docsheader ####
 text: Deposit: Subjects
 ----
-ref: deposit
+ref: deposit-subjects
 #### docstext ####
 text:
 
-Our new subjects feature has been improved. We'll in the coming months be importing domain-specific vocabularies so records can be tagged e.g. Medical Subject Headings (MeSH).
+Our new subjects feature has been improved. We'll in the coming months be importing domain-specific vocabularies so records can be tagged with terms from e.g. Medical Subject Headings (MeSH).
 
 #### docsheader ####
 text: Sharing: Get a link
@@ -229,7 +229,7 @@ For instance:
 
 Under the profile preferences you can set your profile and email visibility, which determines whether or not people can invite you to communities and what they'll be able to see. It is currently not yet possible to change the avatar which is automatically generated.
 
-Note: For privacy reasons, all users by default have a hidden profile and email visibility.
+The setting defaults to public profile visibility but with hidden email visibility.
 
 <img src="profile-settings.png"  width="100%"/>
 
@@ -272,7 +272,7 @@ You're now able to login to Zenodo with your institutional account if your insti
 
 #### Export formats
 
-We now have support for DataCite JSON v4.3 and upgraded the DataCite XML to v4.3. This is in addition to our already supported export formats: JSNON, JSON-LD, CSL, Dublin Core, MARCXML, BibTeX, DCAT and GeoJSON.
+We now have support for DataCite JSON v4.3 and upgraded the DataCite XML to v4.3. This is in addition to our already supported export formats: JSON, JSON-LD (Schema.org), Citation Style Language JSON (CSL), Dublin Core, MARCXML, BibTeX, DCAT and GeoJSON.
 
 #### REST API
 
