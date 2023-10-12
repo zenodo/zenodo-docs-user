@@ -1,0 +1,37 @@
+_model: docspage
+---
+title: Allow access requests
+---
+body:
+---
+menu: /help/docs/share
+---
+sort_key: 1
+---
+docs:
+
+#### docsstep ####
+step: 1
+----
+text: Go to the record you would like to share, and click the blue **Share**-button.
+----
+image: button.png
+#### docsstep ####
+step: 2
+----
+text: In the Share access dialog, click the **Access requests**-tab.
+----
+image: access.png
+#### docsstep ####
+step: 3
+----
+text: Tick the checkboxes to:
+
+- Allow authenticated users access
+- Allow guests to request access
+
+Optionally, provide conditions on which you approve/decline access.
+#### docsstep ####
+step: 4
+----
+text: Click **Save**.

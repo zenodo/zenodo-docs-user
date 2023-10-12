@@ -2,10 +2,70 @@ _model: docspage
 ---
 title: Link sharing
 ---
-_hidden: true
+body:
+
+Link sharing enables you to create a secret link which provides access to your record. The link can have an expiry date as well as
+
+##### Permissions
+
+You can give the secret link one of the following three permissions:
+
+- **Can view**: Link provide access to see restricted files in the record.
+- **Can preview**: Link provide access to see a preview of a draft (unpublished record).
+- **Can edit**: Link provide access to edit and create new versions of a record.
+
 ---
 menu: /help/docs/share
 ---
 sort_key: 1
+
+
+
 ---
 docs:
+
+#### docsheader ####
+text: Get a link
+----
+ref: get
+#### docsstep ####
+step: 1
+----
+text: Go to the record you would like to share, and click the blue **Share**-button.
+----
+image: button.png
+#### docsstep ####
+step: 2
+----
+text: In the Share access dialog, click the **Links**-tab.
+----
+image: links.png
+#### docsstep ####
+step: 3
+----
+text: Optionally provide a title, set an expiration date and choose a permission for your link (see above for explanation of permissions).
+#### docsstep ####
+step: 4
+----
+text: Click the green **Create a new link**-button.
+#### docsstep ####
+step: 5
+----
+text: Click the green **Copy link**-button to copy the generated link to your clipboard.
+----
+image: secret.png
+
+#### docsheader ####
+text: Delete a link
+----
+ref: delete
+#### docsstep ####
+step: 1
+----
+text: Find the link you want to delete in the **Links**-tab in the **Share access**-dialog (see above).
+----
+image: secret.png
+#### docsstep ####
+step: 2
+----
+text: Click the **Delete**-button next to the link.

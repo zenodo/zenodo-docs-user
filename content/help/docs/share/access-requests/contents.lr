@@ -1,11 +1,16 @@
 _model: docspage
 ---
-_hidden: true
----
 title: Access requests
 ---
-docs:
+body:
+
+Access requests enables users and guests to request access to **restricted files** in your record (e.g. anonymised clinical trial data that can only be shared with medical professionals).
 ---
 menu: /help/docs/share
 ---
 sort_key: 2
+---
+docs:
+
+#### docstoc ####
+menu: /help/docs/share/access-requests
