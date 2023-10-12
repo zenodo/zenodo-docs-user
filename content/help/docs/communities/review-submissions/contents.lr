@@ -2,15 +2,114 @@ _model: docspage
 ---
 title: Review submissions
 ---
-_hidden: true
----
-docs:
+body:
 
-Two types of submissions:
+Any Zenodo user can submit records to your community via two different methods:
 
-- Draft review
-- Inclusion request
+- [Submit for review](../../share/submit-for-review/) for unpublished records.
+- [Submit to community](../../share/submit-for-review/) for published records.
+
+The following sections explain how you as a community curator review these submissions.
+
+##### Review policy
+
+Community owners can set the [review policy](../manage-community-settings/review-policy/) to allow curators, managers and owners to submit without review.
+
+##### Permissions
+
+As a community curator you can:
+
+- edit **unpublished** records **before** you accept them into your community
+- edit **published** records **after** you accept them into into your community
+
+##### Publish on accept
+
+An unpublished record is published when you accept the record into the community.
+
+Learn how to review a submission:
 ---
 menu: /help/docs/communities
 ---
 sort_key: 5
+---
+docs_show_toc: true
+---
+docs:
+
+#### docsheader ####
+text: View submissions to community
+----
+ref: view
+#### docsstep ####
+step: 1
+----
+text: Go to your community and click the **Request**-tab. The interface allows you to filter and search for requests.
+----
+image: requests.png
+#### docsstep ####
+step: 2
+----
+text: View the details of request by clicking on the title.
+----
+image: detail1.png
+
+#### docsheader ####
+text: Review a submission
+----
+ref: review
+#### docsstep ####
+step: 1
+----
+text: View your community requests (see above), and click on the request you want to review.
+#### docsstep ####
+step: 2
+----
+text: From the request detail page, click the **Record**-tab to see a preview of the record.
+----
+image: detail.png
+#### docsstep ####
+step: 3
+----
+text: Click the orange **Edit**-button to make changes to the record. NOTE: The edit button is only show for **unpublished records**. To edit a **published record**, you first have to accept the record.
+
+#### docsheader ####
+text: Comment on a submission
+----
+ref: comment
+#### docstext ####
+text: See [reply/edit/delete comments](../../share/manage-submissions/reply-comments/) for details on how to communicate with the submitter.
+
+
+#### docsheader ####
+text: Accept a submission
+----
+ref: accept
+#### docsstep ####
+step: 1
+----
+text: To accept a submission click **Accept and publish** (for unpublished records) or **Accept** (for published records) from the requests or requests detail page (see above).
+----
+image: buttons.png
+#### docsstep ####
+step: 2
+----
+text: Provide an optional message to the submitter, and click **Accept and publish**/**Accept** to confirm.
+----
+image: confirm.png
+
+#### docsheader ####
+text: Decline a submission
+----
+ref: decline
+#### docsstep ####
+step: 1
+----
+text: To decline a submission click **Decline** from the requests or requests detail page (see above).
+----
+image: buttons.png
+#### docsstep ####
+step: 2
+----
+text: Provide an optional message to the submitter, and click **Decline** to confirm.
+----
+image: confirm-decline.png

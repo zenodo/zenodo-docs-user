@@ -1,24 +1,87 @@
 _model: docspage
 ---
-_hidden: true
----
 title: Curate records
 ---
 body:
 
-Community owners, managers and curators have the capability to curate records in their community.
+Community owners, managers and curators have the capability to curate records in their community. See [about communities](../about-communities/) for details.
+
+##### Branding
+
+A record is branded in the header with the community it belongs to. If a record is part of multiple communities, only one community can be branded. It is also possible to remove the branding. All community curators from all communities as well as the uploader have permission to set the branded community.
 
 As a curator you can:
 
-- [Review submissions](../review-submissions/)
-- [Edit metadata](edit-records/)
-- [Remove records](remove-records/)
-
-You cannot e.g. delete records or modify files.
 
 ---
 menu: /help/docs/communities
 ---
 sort_key: 6
 ---
+docs_show_toc: true
+---
 docs:
+
+#### docsheader ####
+text: Edit metadata
+----
+ref: edit
+#### docsstep ####
+step: 1
+----
+text: Go to the record you would like to edit.
+----
+image: record.png
+#### docsstep ####
+step: 2
+----
+text: Click the orange **Edit**-button. See [deposit](../../deposit/) for further details on editing a record.
+#### docsheader ####
+text: Remove a record
+----
+ref: remove
+#### docsstep ####
+step: 1
+----
+text: Go to the record you would like to remove.
+#### docsstep ####
+step: 2
+----
+text: Click the cog wheel icon in the Communities-box on the record landing page.
+----
+image: box.png
+#### docsstep ####
+step: 3
+----
+text: Click **Manage communities**
+----
+image: menu.png
+#### docsstep ####
+step: 4
+----
+text: Click the red **Remove**-button.
+----
+image: dialog.png
+#### docsstep ####
+step: 5
+----
+text: Confirm you would like to remove the record from the community.
+----
+image: confirm.png
+
+#### docsheader ####
+text: Set/remove branded community
+----
+ref: branding
+#### docsstep ####
+step: 1
+----
+text: Go to the record you would like to remove, and click the cog wheel icon in the Communities-box. In the dropdown menu click **Manage communities**.
+----
+image: menu.png
+#### docsstep ####
+step: 2
+----
+text: Click **Remove branding** or **Set branding** next to the community you would like to brand.
+----
+image: dialog.png
