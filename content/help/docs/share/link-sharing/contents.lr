@@ -2,6 +2,8 @@ _model: docspage
 ---
 title: Link sharing
 ---
+_hidden: true
+---
 menu: /help/docs/share
 ---
 sort_key: 1

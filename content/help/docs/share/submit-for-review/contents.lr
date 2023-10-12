@@ -2,8 +2,105 @@ _model: docspage
 ---
 title: Submit for review
 ---
-docs: 
+body:
+
+!!! info
+    **Want to test Zenodo?** Use our sandbox environment on [https://sandbox.zenodo.org](https://sandbox.zenodo.org) to play.
+
+The following section explains how you submit an **unpublished record** to a community for review.
+
+##### Only drafts
+
+You can only submit drafts (i.e. unpublished records) to a community (see [submit to community](../submit-to-community/) for submitting published records).
+
+##### Both uploader and curators can edit
+
+Both you as the uploader and the curators of the community can edit the metadata and files of the draft when you submit it for review.
+
+##### Published when accepted
+
+The record is automatically published when the curator(s) of the community accepts your record into the community. If the review is declined, you can choose to submit the record to a new community, or you can publish it without a community.
+
+Submit your record for review in 3 simple steps:
+
 ---
 menu: /help/docs/share
 ---
+docs_show_toc: true
+---
 sort_key: 3
+---
+docs:
+
+#### docsheader ####
+text: Step 1: Find a community
+----
+ref:find
+#### docstext  ####
+text: First, find the community you would like to submit your record to for review.
+#### docsstep ####
+step: 1
+----
+text: Click **Communities** menu item in the header.
+#### docsstep ####
+step: 2
+----
+text: Search a community and go to the community front page.
+#### docsstep ####
+step: 3
+----
+text: Click the **New upload**-button on the community page.
+----
+image: new-upload.png
+#### docsstep ####
+step: 4
+----
+text: Verify that your selected community is not displayed in the header of the deposit form.
+----
+image: deposit-form.png
+#### docsstep ####
+step: 4
+----
+text: You can at any point change the community by pressing the **Change** or **Remove**-button.
+----
+image: change-remove.png
+
+#### docsheader ####
+text: Step 2: Submit for review
+----
+ref:submit
+#### docsstep ####
+step: 1
+----
+text: Upload files and describe the record as explained in the [deposit](../../deposit/) section.
+#### docsstep ####
+step: 2
+----
+text: When ready, click the blue **Submit for review**-button.
+----
+image: submit.png
+#### docsstep ####
+step: 3
+----
+text: Confirm that you want to submit for review by:
+
+- Tick the checkbox that curators of the community can view and edit the record.
+- Tick the checkbox that the record is published immediately when the curator accepts the record.
+- Optionally provide a message to the curator.
+
+Finally, click the **Submit record for review**-button.
+----
+image: confirm.png
+#### docsstep ####
+step: 5
+----
+text: Once, submitted you will be redirected to the review request page.
+----
+image: request-page.png
+
+#### docsheader ####
+text: Step 3: Manage submission
+----
+ref:manage
+#### docstext ####
+text: See [manage your submissions](../manage-submissions/) for details on how to manage your submission.

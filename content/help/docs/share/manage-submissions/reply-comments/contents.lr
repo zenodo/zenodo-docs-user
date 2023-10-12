@@ -1,0 +1,82 @@
+_model: docspage
+---
+title: Reply/edit/delete comments
+---
+body:
+
+A review request allows you to have a conversation between the uploader and community curators. You'll be notified of new comments by email if you have [enabled notifications](../../../profile/managing-notifications/).
+
+Learn in the following sections to:
+
+---
+menu: /help/docs/share
+---
+sort_key: 3
+---
+tocdesc: Learn how to reply to comments, as well as how to edit/delete comments.
+---
+docs_show_toc: true
+---
+docs:
+
+#### docsheader ####
+text: Reply a comment
+----
+ref: reply
+#### docsstep ####
+step: 1
+----
+text: Go to the review request (see [view submissions](../view-submissions/#requests))
+#### docsstep ####
+step: 2
+----
+text: Write a comment in the comment field. You may use basic formatting. Submit the comment by clicking the green **Comment**-button.
+----
+image: conversation.png
+
+#### docsheader ####
+text: Edit a comment
+----
+ref: edit
+#### docsstep ####
+step: 1
+----
+text: Find the comment you want to edit and click the three dots (...) in the top right corner of the comment. Click **Edit** in the dropdown menu.
+----
+image: edit.png
+#### docsstep ####
+step: 2
+----
+text: Edit your comment. Once ready, click the green **Save**-button.
+----
+image: edit-form.png
+#### docsstep ####
+step: 3
+----
+text: The comment will show that it was edited.
+----
+image: edited.png
+
+
+#### docsheader ####
+text: Delete a comment
+----
+ref: delete
+#### docsstep ####
+step: 1
+----
+text: Find the comment you want to delete and click the three dots (...) in the top right corner of the comment. Click **Delete** in the dropdown menu.
+----
+image: edit.png
+#### docsstep ####
+step: 2
+----
+text: Confirm that you want to delete the comment by clicking the red **Delete**-button.
+----
+image: delete-confirm.png
+#### docsstep ####
+step: 3
+----
+text: The timeline will show that a comment was deleted.
+----
+image: deleted.png

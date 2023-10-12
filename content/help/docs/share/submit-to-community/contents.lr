@@ -2,8 +2,87 @@ _model: docspage
 ---
 title: Submit to community
 ---
-docs: 
+body:
+
+!!! info
+    **Want to test Zenodo?** Use our sandbox environment on [https://sandbox.zenodo.org](https://sandbox.zenodo.org) to play.
+
+The following section explains how you submit a **published record** to a community for inclusion.
+
+##### Only published records
+
+You can only submit published records for inclusion in a community (see [submit for review](../submit-for-review/) for submitting an unpublished record to a community).
+
+##### Both uploader and curators can edit
+
+Both you as the uploader and the curators of the community can edit the metadata when you submit it to a community.
+
+Learn below how to:
 ---
 menu: /help/docs/share
 ---
+docs_show_toc: true
+---
 sort_key: 4
+---
+docs:
+
+#### docstext ####
+text: Note, we do not support submitting a record to multiple communities in one go. Instead, simply repeat the recipe below.
+
+#### docsheader ####
+text: Submit to community
+----
+ref:submit
+#### docsstep ####
+step: 1
+----
+text: Go to the record you want to submit to a community and click the cog-wheel icon to open the communities menu.
+----
+image: record.png
+#### docsstep ####
+step: 2
+----
+text: Click **Submit to community** in the dropdown menu.
+----
+image: menu.png
+#### docsstep ####
+step: 3
+----
+text: Find the community you want to submit to and click the **Select**-button.
+----
+image: dialog.png
+#### docsstep ####
+step: 4
+----
+text: Confirm you want to submit the record to the community by:
+
+- Ticking the checkbox that curators gain view and edit access to your record.
+- Optionally, write a message to the curators.
+
+Finally, click the blue **Submit to community**-button.
+----
+image: confirm.png
+
+#### docsheader ####
+text: View pending submission
+----
+ref:pending
+#### docsstep ####
+step: 1
+----
+text: Click **Pending submissions** in the community dropdown menu from the record landing page.
+----
+image: menu.png
+#### docsstep ####
+step: 2
+----
+text: Click the community title to view the access request.
+----
+image: pending.png
+#### docsstep ####
+step: 3
+----
+text: The access request allows you to have a conversation with the community curators. See also [manage submission](../manage-submissions/) for further details.
+----
+image: request.png

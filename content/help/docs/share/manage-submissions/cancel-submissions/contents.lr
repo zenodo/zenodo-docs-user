@@ -1,0 +1,43 @@
+_model: docspage
+---
+title: Cancel/withdraw submission
+---
+body:
+
+You can cancel a review request at any point in the review process.
+
+---
+menu: /help/docs/share
+---
+sort_key: 2
+---
+tocdesc: Learn how to withdraw a record which was submitted for review to a community.
+---
+docs:
+
+#### docsheader ####
+text: Cancel a submission (withdraw)
+----
+ref: cancel
+#### docsstep ####
+step: 1
+----
+text: Go to the review request (see [view submissions](../view-submissions/#requests))
+#### docsstep ####
+step: 2
+----
+text: Click the **Cancel**-button in the top right corner.
+----
+image: request.png
+#### docsstep ####
+step: 3
+----
+text: Leave an optional message to the curators, and confirm you want to cancel the request by pressing the **Cancel request**-button.
+----
+image: confirm.png
+#### docsstep ####
+step: 4
+----
+text: The request timeline will display that the request was cancelled. The community curators will no longer be able to view your record.
+----
+image: timeline.png

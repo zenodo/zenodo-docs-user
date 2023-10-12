@@ -2,8 +2,22 @@ _model: docspage
 ---
 title: Manage your submissions
 ---
-docs: 
+body:
+
+
+The following sections explains how you can manage your submissions, in particular:
 ---
 menu: /help/docs/share
 ---
+docs_show_toc: true
+---
 sort_key: 5
+---
+docs:
+
+
+#### docstoc ####
+menu: /help/docs/share/manage-submissions
+
+#### docstext ####
+text: See [submit for review](../submit-for-review/) and [submit to community](../submit-to-community/) for how to make a new submission.

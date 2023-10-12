@@ -1,10 +1,15 @@
 _model: docspage
 ---
-_hidden: true
----
 title: Review submissions
 ---
+_hidden: true
+---
 docs:
+
+Two types of submissions:
+
+- Draft review
+- Inclusion request
 ---
 menu: /help/docs/communities
 ---

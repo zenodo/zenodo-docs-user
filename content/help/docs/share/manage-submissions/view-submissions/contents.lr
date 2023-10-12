@@ -1,0 +1,61 @@
+_model: docspage
+---
+title: View submissions
+---
+body:
+
+A review request enables you to have a conversation with curators of the community as well as follow the status of the review. You can edit records in review at any time during the review process.
+
+Following section explains how to view your records in review and find their associated review request:
+
+
+---
+menu: /help/docs/share
+---
+sort_key: 1
+---
+tocdesc: Learn how to view records in review and find their associated review request.
+---
+docs_show_toc: true
+---
+docs:
+
+#### docsheader ####
+text: View records in review
+----
+ref: uploads
+#### docsstep ####
+step: 1
+----
+text: Click **My dashboard** in the header, which will open **My uploads**. Records in review are marked with a orange "In review" tag (see image).
+----
+image: myuploads.png
+#### docsstep ####
+step: 2
+----
+text: Open the record in review. You'll notice that the community management buttons and submit buttons have been disabled. Click in **View request** to access the review request.
+----
+image: inreview-buttons.png
+
+#### docsheader ####
+text: View review requests
+----
+ref: requests
+#### docsstep ####
+step: 1
+----
+text: Click **My dashboard** in the header, and afterwards click **My requests**. By default all open review requests is displayed. Click the Closed-button to show closed requests.
+----
+image: myrequests.png
+#### docsstep ####
+step: 2
+----
+text: Open the review request to view the conversation history
+----
+image: request-detail.png
+#### docsstep ####
+step: 2
+----
+text: Click the **Record**-tab to see a preview of the record.
+----
+image: record-preview.png

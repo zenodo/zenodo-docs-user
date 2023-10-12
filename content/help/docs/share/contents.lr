@@ -1,6 +1,6 @@
 _model: docspage
 ---
-_hidden: true
+_hidden: false
 ---
 title: Collaborate and share
 ---
@@ -8,6 +8,9 @@ sort_key: 3
 ---
 menu: /help/docs/share
 ---
-body: bla bla
+body:
 ---
 docs:
+
+#### docstoc ####
+menu: /help/docs/share

@@ -4,8 +4,21 @@ _hidden: true
 ---
 title: Curate records
 ---
-docs:
+body:
+
+Community owners, managers and curators have the capability to curate records in their community.
+
+As a curator you can:
+
+- [Review submissions](../review-submissions/)
+- [Edit metadata](edit-records/)
+- [Remove records](remove-records/)
+
+You cannot e.g. delete records or modify files.
+
 ---
 menu: /help/docs/communities
 ---
 sort_key: 6
+---
+docs:

@@ -2,8 +2,35 @@ _model: docspage
 ---
 title: Membership invitations
 ---
-docs:
+body:
+
+Community managers can invite you to join a community as a member. It is not yet possible for you to request to join a community.
 ---
 menu: /help/docs/share
 ---
 sort_key: 6
+---
+docs:
+
+#### docsheader ####
+text: Accept/decline an invitation
+----
+ref: accept
+#### docsstep ####
+step: 1
+----
+text: Go to **My requests** where you will find the invitation (click **My dashboard** in the header, and afterwards **My requests** in the tab-menu).
+----
+image: myrequests.png
+#### docsstep ####
+step: 2
+----
+text: Click **Accept** or **Decline** directly on the invitation, and confirm in the dialog you want to accept/decline and optionally provide a message to the community managers.
+----
+image: confirm.png
+#### docsstep ####
+step: 3
+----
+text: Click the invitation request to see details about the request and have a conversation with the community managers.
+----
+image: invitation.png
