@@ -1,0 +1,194 @@
+title: Zenodo launched on next generation platform - InvenioRDM 🚀
+---
+author: lnielsen
+---
+_hidden: true
+---
+body:
+
+CERN, OpenAIRE, and the InvenioRDM open source community are excited to announce that Zenodo has moved onto our next generation underlying technical platform, InvenioRDM!
+
+Over the past year, we've been working intensely on preparing to move Zenodo on top of a refreshed underlying technical platform, [InvenioRDM](https://inveniordm.docs.cern.ch). Zenodo's simple user experience and high scalability stay the same, but the underlying engine has been substantially upgraded. In addition InvenioRDM comes with a suite of new features and improvements that have been high on many of our users' wishlist.
+
+### What's new?
+
+We've significantly expanded Zenodo's collaborative features in many different areas:
+
+- **Communities**: Our community feature has been upgraded with support for multiple curators, members, reviews, curation, and branding, so e.g. multiple curators can now edit records in their community.
+- **Sharing**: You can now share records for confidential peer review, enable access requests, or simply create a preview link for your colleagues.
+- **Deposit**: Our upload form has received many usability improvements, e.g. being able to select the file which should be previewed by default. In addition we've strengthened it through connections to the open science PID infrsatructure, e.g. you can now auto-complete creators from ORCiD and affiliations from ROR, and link to custom funders/awards.
+- **Extras**: We've also made significant improvements to web accessibility, enabled institutional login via the OpenAIRE AAI, improved usability, and added a download all button for files among other things.
+
+You can find a comprehensive overview of new and changed behaviors in our documentation:
+
+- [What's new?](https://help.zenodo.org/docs/about/whats-new/)
+- [What's changed?](https://help.zenodo.org/docs/about/whats-changed/)
+
+Checkout the user guide for a full overview on how to use the many new features:
+
+- [User guide](https://help.zenodo.org/docs/)
+
+#### Feedback
+
+Don't hesitate to reach out to us on [support](http://zenodo.org/support) in case you find any issues on the refreshed Zenodo.
+
+## InvenioRDM - an open source community
+
+The engine behind the new Zenodo, InvenioRDM, is available for institutions worldwide and can be customized to your institutional or domain-specific needs, staying close to Zenodo's simple and seamless user experience.
+
+We're proud to have built InvenioRDM together with 27 other partner organisations across the globe as an open source community around the simple vision of providing a great user experience to researchers with the ability to handle large amounts of data. Next, we're working towards making InvenioRDM a fully collaborative platform that empowers its users to share and preserve research.
+
+## Credit
+
+The new Zenodo platform was made possible through a strong open collaboration.
+
+We're grateful to our project funders who have enabled us to build and operate Zenodo for the long tail of science over the past 10 years:
+- European Union
+    - OpenAIRE, OpenAIREplus, OpenAIRE2020, OpenAIRE-Connect, OpenAIRE-Advance, OpenAIRE-Nexus, BICIKL, CS3MESH4EOSC, FAIRCORE4EOSC, HORIZON-ZEN
+- US National Institutes of Health
+    - GREI - Generalist Repository Ecosystem Initiative
+- Arcadia Fund
+    - Biodiversity Literature Repository 1 and 2
+- Alfred P. Sloan Foundation
+    - Asclepias, Hub for accessible data publishing.
+- CERN Knowledge Transfer Fund
+    - InvenioRDM - an open-source research data management platform
+- Donors to CERN & Society Foundation
+
+We're grateful to all the InvenioRDM partners who shared our vision and helped build an amazing next-generation platform. Thanks to:
+
+- Brookhaven National Laboratory
+- Caltech
+- CERN
+- CNUDST
+- Cottage Labs
+- Data Futures
+- EkoConnect
+- EU Joint Research Centre (JRC)
+- FZ Juelich
+- Group on Earth Observations (GEO)
+- Front Matter
+- HZDR
+- Japan National Institutes of Informatics
+- KTH
+- New York University
+- Northwestern University
+- OpenAIRE
+- TIND
+- TU Graz
+- TU Wien
+- TUBITAK
+- Universität Bamberg
+- Universität Hamburg
+- Universität Freiburg
+- Universität Tübingen
+- WACREN
+- WWU Münster
+- ZHB Luzern
+
+We'd like to extend a big thank you to our users and project partners for testing, feedback, and patience, in particular:
+
+- California Digital Library
+- Christopher Erdmann
+- Dryad
+- Northwestern University
+- OpenAIRE
+- Plazi
+- ZHB Luzern
+
+The CERN team who worked on the implementation and migration:
+
+- Alexandros Ioannidis
+- Anika Churilova
+- Antonio Vivace
+- Dimitris Frangiadakis
+- Fatimah Zulfiqar
+- Francois Decourcelle
+- George Lignos
+- German Cancio Melia
+- Javier Romero Castro
+- Jean-Yves Le Meur
+- Jenny Bonsak
+- Jose Benito Gonzalez Lopez
+- Karolina Prezerwa
+- Lars Holm Nielsen
+- Manuel Alejandro De Oliveira Da Costa
+- Martin Lettry
+- Nicola Tarocco
+- Pablo Garcia Marcos
+- Pablo Panero
+- Pablo Saiz
+- Panna Georgina Liptak
+- Rodrigo Oliveira Almeida
+- Tim Smith
+- Yash Lamda
+- Zacharias Zacharodimos
+
+Including many other highly experienced CERN colleagues from the IT Department who helped with all things infrastructure (admin, compute, databases, network, openshift, outreach, search, storage).
+
+The InvenioRDM open source community who contributed with design, development, testing, requirements, outreach, documentation, and expertise:
+
+- Alessia Bardi, OpenAIRE/National Research Council of Italy
+- Alexander Bardel, TU Graz
+- Anders Friis-Christensen, European Commission JRC
+- Audun Bjørkøy, TIND
+- Austin Sharp, Northwestern University
+- Bessem AAmira, CNUDST
+- Camelia Ignat, European Commission JRC
+- Chokri Ben Romdhane, CNUDST
+- Christian Erlinger, ZHB
+- Christina Zeller, University of Bamberg
+- Christoph Ladurner, TU Graz
+- Claudio Atzori, OpenAIRE/National Research Council of Italy
+- Dan Granville, Data Futures GmbH
+- David Eckhard, TU Graz
+- David Pape, HZDR
+- Eric Newman, Northwestern University
+- Esteban Gabancho, Universität Hamburg
+- Gretchen Neidhardt, Northwestern University
+- Guido Juckeland, HZDR
+- Guillaume Viger, Northwestern University
+- Hagar Lowenthal, European Commission JRC
+- Hakan Bayındır, TÜBİTAK ULAKBİM
+- Hermann Schranzhofer, TU Graz
+- Ilire Hasani-Mavriqi, TU Graz
+- Jan-Olof Wiefel, Universität Münster
+- Jesse Asamoa, WACREN
+- Jonathan Bauer, University of Freiburg
+- Jonathan LeBonzec, TIND
+- Joshua Elder, Northwestern University
+- Kai Wörner, Universität Hamburg
+- Karen Gutzman, Northwestern University
+- Karl Krägelin, Universität Münster
+- Katerina Iatropoulou, OpenAIRE/Athena Research and Innovation Centre
+- Kathrin Heim, ZHB
+- Kristi Holmes, Northwestern University
+- Lars Holm Nielsen, CERN
+- Mahonry Estrada, Northwestern University
+- Maik Fiedler, HZDR
+- Martin Fenner, Frontmatter
+- Matt Carson, Northwestern University
+- Maximilian Johannes Moser, TU Wien
+- Michael Dütting, Universität Münster
+- Michael Groh, University of Bamberg
+- Mike Hucka, Caltech
+- Mojib Wali, TU Graz
+- Nikolaos Alexandrakis, European Commission JRC
+- Oliver Knodel, HZDR
+- Paolo Manghi, OpenAIRE/National Research Council of Italy
+- Peter Cornwell, Data Futures GmbH
+- Philipp Gualdi, TU Graz
+- Robert Doiel, Caltech
+- Rosa Lönneborg, KTH
+- Salaheddine Ben Ali, CNUDST
+- Sam Arbid, KTH
+- Sara Gonzales, Northwestern University
+- Sarah Wiechers, Universität Münster
+- Sefakor Ankora, WACREN
+- Sotirios Tsepelakis, TU Wien
+- Thomas Gruber, HZDR
+- Tom Morrell, Caltech
+- Werner Greßhoff, Universität Münster
+- Wibke Fellermann, Universität Münster
+---
+date: 2023-10-13
