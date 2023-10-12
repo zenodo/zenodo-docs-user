@@ -1,0 +1,37 @@
+_model: docspage
+---
+title: Transfer ownership
+---
+sort_key: 9
+---
+menu: /help/docs/communities
+---
+body:
+
+A community can have many owners, and must always at least one owner. Thus, if you're the only community owner you will not be able to leave the community. Below steps explains how you can transfer ownership to another person.
+
+Only community owners can transfer ownership of a community.
+
+---
+tocdesc: Learn transfer ownership of your community.
+---
+docs_show_toc: false
+---
+docs:
+
+#### docsheader ####
+text: Transfer ownership of community
+----
+ref: transfer
+#### docsstep ####
+step: 1
+----
+text: If the person *is not* already a member, then [invite](../invite-member/) the person you want to transfer ownership to. Already when you invite the person you can choose the **owner** role for the person.
+#### docsstep ####
+step: 2
+----
+text: If the person *is* already a member, then the [change member role](../change-role/) to **owner**.
+#### docsstep ####
+step: 3
+----
+text: Last step is to either [leave community](../leave-community/) or ask the new owner to [change your role](../change-role/) to reader, curator or manager in case you wish to still be a member of the community.

@@ -1,0 +1,48 @@
+_model: docspage
+---
+title: Cancel/edit invitations
+---
+sort_key: 4
+---
+menu: /help/docs/communities
+---
+body:
+
+---
+tocdesc: Learn how to cancel or change an invitation after it was sent.
+---
+docs_show_toc: true
+---
+docs:
+
+#### docsheader ####
+text: Cancel an invitation
+----
+ref: cancel
+#### docsstep ####
+step: 1
+----
+text: [View the invitation](../view-invitations/) you would like to cancel.
+#### docsstep ####
+step: 2
+----
+text: Click the **Cancel**-button in the top right corner.
+----
+image: cancel-button.png
+#### docsheader ####
+text: Edit an invitation
+----
+ref: edit
+#### docsstep ####
+step: 1
+----
+text: [View the invitation](../view-invitations/) you would like to cancel.
+----
+image: list-view.png
+#### docsstep ####
+step: 3
+----
+text: Click the dropdown menu in the **Role**-column on the invitation you would like to edit, and select a new role.
+----
+image: role-menu.png
+

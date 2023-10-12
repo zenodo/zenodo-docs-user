@@ -1,0 +1,34 @@
+_model: docspage
+---
+title: Remove member
+---
+sort_key: 5
+---
+menu: /help/docs/communities
+---
+body:
+
+As a community owner and manager you can remove members from your community. To remove a community owner, you must yourself be a community owner (i.e. a manager cannot remove an owner).
+---
+tocdesc: Learn how to remove a member from a community.
+---
+docs_show_toc: false
+---
+docs:
+
+#### docsheader ####
+text: Remove a member
+----
+ref: transfer
+#### docsstep ####
+step: 1
+----
+text: Go to [**Members**](../#manage)-tab in your community.
+----
+image: members.png
+#### docsstep ####
+step: 2
+----
+text: Find the member you'd like to remove and click the **Remove**-button.
+
+

@@ -1,0 +1,41 @@
+_model: docspage
+---
+title: Change member role
+---
+sort_key: 7
+---
+menu: /help/docs/communities
+---
+body:
+
+A member in a community always has a role as either reader, curator, manager or owner. See [about communities](../../about-communities/) for details on roles and their permissions.
+
+Only community managers and owners can change roles of other members, and only owners can change roles to an owner.
+
+---
+tocdesc: Learn how to change the role of an existing member.
+---
+docs_show_toc: false
+---
+docs:
+
+#### docsheader ####
+text: Change a member's role
+----
+ref: transfer
+#### docsstep ####
+step: 1
+----
+text: Go to the [Members](../#manage)-tab of your community.
+#### docsstep ####
+step: 2
+----
+text: Find the member you wish to change the role.
+----
+image: members.png
+#### docsstep ####
+step: 3
+----
+text: Change the role of the member using the drop-down menu in the **Role**-column. Note that only community owners/managers can change roles, and that you cannot change your own role, nor as a manager change a member's role to an owner.
+----
+image: menu.png

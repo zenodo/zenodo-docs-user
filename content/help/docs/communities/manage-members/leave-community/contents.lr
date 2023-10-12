@@ -1,0 +1,43 @@
+_model: docspage
+---
+title: Leave community
+---
+sort_key: 6
+---
+menu: /help/docs/communities
+---
+body:
+
+As a member of a community, you can leave the community if you no longer wants to be a member.
+
+##### At least one owner
+
+A community must have at least one owner. If you are the last owner, you will not be able to leave the community. See how to [transfer ownership](../transfer-ownership/)
+
+---
+tocdesc: Learn how to leave a community if you no longer wish to be a member.
+---
+docs_show_toc: false
+---
+docs:
+
+#### docsheader ####
+text: Leave a community
+----
+ref: leave
+#### docsstep ####
+step: 1
+----
+text: Go to [**Members**](../#manage)-tab in your community.
+----
+image: members.png
+#### docsstep ####
+step: 2
+----
+text: Find your own membership (marked with a **You**-tag) and click the red **Leave**-button.
+#### docsstep ####
+step: 3
+----
+text: Confirm you want to leave by clicking the **Leave**-button in the dialog. IMPORTANT: Rejoining the community requires that an owner/manager sent you an new invitation to join.
+----
+image: leave-confirm.png

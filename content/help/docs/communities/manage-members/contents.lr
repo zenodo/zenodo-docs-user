@@ -10,19 +10,11 @@ body:
 
 Community members allow you to grant access to multiple people in your community and given them different permissions via four roles: readers, curators, managers and owners.
 
+##### Roles and permissions
 See [about communities](../about-communities/) for an overview which permissions are granted to the different roles.
+
 ---
-
-
-
-- Invite member
-- Cancel or edit invitation
-- Remove member
-- Change member permissions
-- Set membership visibility
-- Leave community
-- Transfer ownership
-
+tocdesc: Learn how to invite members, manage roles and transfer ownership.
 ---
 docs:
 #### docsheader ####

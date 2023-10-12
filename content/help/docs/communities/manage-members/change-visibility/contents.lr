@@ -1,0 +1,47 @@
+_model: docspage
+---
+title: Set membership visibility
+---
+sort_key: 8
+---
+menu: /help/docs/communities
+---
+body:
+
+Each community has a public page that displays the members of the community. A member is displayed on the page if their membership visibility is to **public**.
+
+<img src="visitor.png" width="100%" />
+
+##### Only members themselves can set public visibility
+A member's visibility is by default set to **hidden**, and only the member themselves can set their visibility to **public** to be displayed on the page.
+
+##### Members, owners, managers can all set hidden visibility
+A community manager/owner however can set the membership visibility to **hidden** of any member in the community.
+
+---
+tocdesc: Learn how to set your community membership visibility as a member or community manager.
+---
+docs_show_toc: false
+---
+docs:
+
+#### docsheader ####
+text: Set membership visibility
+----
+ref: visibility
+#### docsstep ####
+step: 1
+----
+text: Go to the [Members](../#manage)-tab of your community.
+----
+image: members.png
+#### docsstep ####
+step: 2
+----
+text: Find the member (or your own membership) in the list of members.
+#### docsstep ####
+step: 3
+----
+text: Change the visibility to either **hidden** or **public** using the drop-down menu in the **Visibility**-column. Note that, community owners/managers can only set the visibility to **hidden** for other members.
+----
+image:menu.png
