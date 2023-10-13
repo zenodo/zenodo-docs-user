@@ -25,10 +25,6 @@ menu: /help/faq
 title: Docs
 ----
 body:
-
-!!! info
-    **Heads up**: These docs describe the Zenodo which is being launched October 13th. See [announcement](https://blog.zenodo.org/2023/09/06/2023-09-06-zenodo-rdm/).
-
 ----
 menu: /help/docs
 #### sectionindex ####
