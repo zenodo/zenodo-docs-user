@@ -3,37 +3,86 @@ _model: docspage
 title: Request access
 ---
 body:
----
-_hidden: true
+
+The following sections explain how to request access to restricted files in a record. The owner of the record can choose who is able to request access (one or both of):
+
+- **Guests** - will be granted access via a secret link that expires after a duration defined by the owner.
+- **Users** - will be granted permanent access via their user account (until revoked by the owner).
+
+Learn how to request access:
+
 ---
 menu: /help/docs/share
 ---
 sort_key: 1
 ---
+docs_show_toc: true
+---
 docs:
+
+#### docsheader ####
+text: Request access as guest
+----
+ref: guest
 
 #### docsstep ####
 step: 1
 ----
-text: Go to the record you would like to share, and click the blue **Share**-button.
+text: Go to the record you would like to request access to. If you're able to request access as a guest, you will see the request access form.
 ----
-image: button.png
+image: guest.png
 #### docsstep ####
 step: 2
 ----
-text: In the Share access dialog, click the **Access requests**-tab.
-----
-image: access.png
+text: Fill in:
+
+- Your **email address**
+- Your **full name**
+- Optionally, write a **message** to the owner (in particular if the owner has specified conditions under which they give access)
+- Tick the checkbox that you agree to that your full name and email address is shared with the record owners
+
+Finally click **Request access**-button to submit your request.
 #### docsstep ####
 step: 3
 ----
-text: Tick the checkboxes to:
-
-- Allow authenticated users access
-- Allow guests to request access
-
-Optionally, provide conditions on which you approve/decline access.
-#### docsstep ####
-step: 4
+text: To complete your request, you need to verify your email address by clicking the link in an email which we have sent to your address.
 ----
-text: Click **Save**.
+image: confirm.png
+
+#### docsheader ####
+text: Request access as authenticated user
+----
+ref: user
+
+#### docsstep ####
+step: 1
+----
+text: Go to the record you would like to request access to. If you're able to request access as a user, you will see the request access form.
+----
+image: user.png
+#### docsstep ####
+step: 2
+----
+text: Fill in:
+
+- Optionally, a **message** to the owner (in particular if the owner has specified conditions under which they give access)
+- Tick the checkbox that you agree to that your full name and email address is shared with the record owners
+
+Finally click **Request access**-button to submit your request.
+#### docsstep ####
+step: 3
+----
+text: You will be redirected to the request access page. The
+----
+image: request.png
+
+#### docsheader ####
+text: View my access requests
+----
+ref: view
+#### docstext ####
+text: You can view all
+#### docsstep ####
+step: 1
+----
+text: Go to **My requests** by click **My dashboard** in the header, and afterwards click **My requests** in the tab menu.

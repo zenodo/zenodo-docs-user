@@ -20,6 +20,23 @@ docs_show_toc: True
 docs:
 
 #### docsheader ####
+text: Prepare files
+----
+ref: prepare
+#### docstext ####
+text:
+We support file uploads up 50GB (= 50.000 MB) and max 100 files. See how to [request a quota increase](quota-increase/).
+
+Please take the following into consideration when you prepare your files for upload:
+- **20+ files**: We recommend that you package them in a ZIP archive
+- **Hidden files**: We often see hidden files in ZIP archives like "__MACOSX", ".DS_Store", or "Thumbs.db" (see these guides on  [Stack Overflow](https://stackoverflow.com/questions/10924236/mac-zip-compress-without-macosx-folder) and [Microsoft](https://support.microsoft.com/en-us/windows/show-hidden-files-0320fe58-0117-fd59-6851-9b7f9840fdb2) for how to remove them).
+- **No changes**: You CANNOT modify files after your record is published.
+- **Use open non-proprietary formats**:  For further guidance on preservation-friendly formats please see the following resources:
+    - [Digital Preservation Handbook - File formats and standards](https://www.dpconline.org/handbook/technical-solutions-and-tools/file-formats-and-standards)
+    - [Library of Congress recommended format specifications](http://www.loc.gov/preservation/resources/rfs/index.html)
+
+
+#### docsheader ####
 text: Add files
 ----
 ref: add
@@ -66,12 +83,3 @@ text:
 We do not allow modification (add, remove, modify) of files after it has been published. Instead, you can use our [versioning](../manage-versions/) to create a new version of the record.
 
 We however offer a one-month grace period after publication in which the files in a specific version can still be changed if mistakes have been found. After the one-month grace period we only allow modification in duly justified cases (such as copyright infringements, or exposure of personal data). All requests for modifications must be submitted to our [support line](https://zenodo.org/support), however please consider using our [versioning](../manage-versions/) feature instead.
-
-#### docsheader ####
-text: Request a quota increase.
-----
-ref: quota
-#### docstext ####
-text:
-
-We exceptionally grant a one-time quota increase up to 200GB for datasets. Please submit a request via our [support line](https://zenodo.org/support).
