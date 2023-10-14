@@ -1,0 +1,54 @@
+_model: docspage
+---
+_hidden: false
+---
+title: Accounts
+---
+sort_key: 1
+---
+menu: /help/docs/howtos
+---
+body:
+---
+tocdesc: How-tos related to management of your account.
+---
+docs:
+
+#### docsheader ####
+text: Merge external accounts for two Zenodo users
+----
+ref: merge-accounts
+#### docstext ####
+text:
+
+##### Problem
+
+You have two Zenodo user accounts linked to two different external accounts. This happens if you have e.g. signed up with ORCID and created one account, and later signed up with GitHub and created another account.
+
+The below recipe will move the external accounts (e.g. ORCID/GitHub) to one of your accounts, and delete you do not wish to keep.
+
+##### How-to
+#### docsstep ####
+step: 1
+----
+text: Choose which Zenodo account you would like to keep (choose the one in which you have uploaded records).
+#### docsstep ####
+step: 2
+----
+text: Log into the Zenodo account you DO NOT wish to keep.
+#### docsstep ####
+step: 3
+----
+text: Disconnect all external accounts - see [guide](../../profile/linking-accounts/#disconnect).
+#### docsstep ####
+step: 4
+----
+text: Log into the Zenodo account you DO wish to keep.
+#### docsstep ####
+step: 5
+----
+text: Connect all external accounts - see [guide](../../profile/linking-accounts/#connect).
+#### docsstep ####
+step: 6
+----
+text: Contact us on [support](https://zenodo.org/support) and request to delete the account you DO NOT wish to keep.

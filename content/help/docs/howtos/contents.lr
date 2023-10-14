@@ -1,0 +1,16 @@
+_model: docspage
+---
+_hidden: false
+---
+title: How-tos
+---
+sort_key: 25
+---
+menu: /help/docs/howtos
+---
+body:
+---
+docs:
+
+#### docstoc ####
+menu: /help/docs/howtos
