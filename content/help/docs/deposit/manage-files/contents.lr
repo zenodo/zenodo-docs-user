@@ -73,6 +73,14 @@ step: 1
 text: By default, the first previewable file in alphanumeric order will be the one being displayed on the your record landing page. You can change the default previewed file by checking the checkbox in the **Preview** column.
 ----
 image: set-preview.png
+
+#### docsheader ####
+text: Pending state
+----
+ref: pending
+#### docstext ####
+text: You may experience a file displaying the state **Pending** in the **Progress**-column. The pending state means that a file is in progress of being uploaded from another browser window or another user, since a record can be edited by multiple people. The pending state may also show if a file upload is broken off and you reload the browser page. In the latter case, you can follow the [remove file](#remove) to fix the issue.
+
 #### docsheader ####
 text: Modify files after publication
 ----
