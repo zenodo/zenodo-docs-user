@@ -79,7 +79,14 @@ text: Pending state
 ----
 ref: pending
 #### docstext ####
-text: You may experience a file displaying the state **Pending** in the **Progress**-column. The pending state means that a file is in progress of being uploaded from another browser window or another user, since a record can be edited by multiple people. The pending state may also show if a file upload is broken off and you reload the browser page. In the latter case, you can follow the [remove file](#remove) to fix the issue.
+text: You may experience a file displaying the state **Pending** in the **Progress**-column. The pending state means that a file is in progress of being uploaded. It happens e.g.
+
+- If a file is uploaded from a different browser window or by a different user (multiple people can edit a draft)
+- If a file upload is broken off and you reload the browser page.
+
+In the latter case, you can follow the [remove file](#remove) to fix the issue.
+
+<img src="pending.png" />
 
 #### docsheader ####
 text: Modify files after publication
