@@ -1,0 +1,35 @@
+title: Zenodo upgrade issues
+---
+author: lnielsen
+---
+body:
+
+As many of you noticed, the Zenodo upgrade last Friday didn’t go as smoothly as hoped. Afterwards Zenodo was sluggish and file uploads were painfully slow, some features didn’t quite work as expected. We’ve been working flat-out behind the scenes to steer Zenodo out of these stormy waters. We’d like to keep you updated on the issues we had, what we solved so far, and what we are still working on.
+
+The upgrade involved orchestration of three components; Zenodo’s refactored software platform, the data, and the technical infrastructure:
+1. We’d developed the refactored software platform in collaboration with partners around the world, 6 of which already had production instances running on the new code (*), giving confidence, but we none the less tested extensively on the full feature set used on Zenodo. We’d been smoothing off rough edges, and were prepared to rapidly address more that you might discover after release.
+2. As custodians of your data, for months we meticulously exercised the process of migration to the new system to ensure every bit made it reliably, and also have multiple backups as safety and for verification.
+3. We’d revamped the technical infrastructure to better serve the continued scaling demanded by Zenodo’s ceaseless growth, by using components heavily used in our other front-line services, which none the less we also stress/performance tested in the preparations.
+
+The main issue after the upgrade was immediately evident that file upload/download was painfully slow (1GB file taking 1 hour instead of 20 seconds). We worked the weekend to finally discover that circumventing the front-facing load balancer alleviated the problem, and on removing it we restored Zenodo’s expected data performance (the root cause is still being investigated by the infrastructure experts).
+
+We also had indexing issues with records which meant they didn't show up despite the data having been migrated, and despite having had successful test migration runs. We have almost finished to resolve this issue and expect the main issues to have been solved by Monday.
+
+We want to thank you for all the incredible support and understanding that we have been receiving even under such difficulties. We’ve not ignored the functionality hiccups you’ve been reporting, we already solved some in parallel to the performance debugging. Please rest assured that we continue to work relentlessly to address all your support requests and feedback, and to address all outstanding issues in a timely manner to help you publish/access your content.
+
+We apologise for all the inconvenience it has caused. We hope once we're over the hiccups the new Zenodo will serve you and your communities well!
+
+Final lesson learnt: Friday 13th[**] might not have been a good day for a major release after all.
+
+(*)
+- Northwestern Uni: https://prism.northwestern.edu/
+- NYU: https://ultraviolet.library.nyu.edu/
+- GEO Knowledge Hub: https://gkhub.earthobservations.org/
+- Caltech Library: https://data.caltech.edu/
+- TUGraz: https://repository.tugraz.at/
+- TUWien: https://researchdata.tuwien.ac.at/
+
+(**) We chose a Friday as Zenodo has considerable less traffic during weekends and thus as risk mitigation measure we would impact less users if there were problems (as there unfortunately turned out to be).
+
+---
+date: 2023-10-19
