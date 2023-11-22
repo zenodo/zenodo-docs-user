@@ -48,9 +48,9 @@ The access right field has now been changed into a **visibility** field with two
 
 In case of restricted files you can choose to:
 
-- Apply an embargo
-- Share with specific users or by secret link
-- Enable guest and users to request access
+- [Apply an embargo](../../deposit/create-new-upload/#embargo)
+- Share with specific users or [by secret link](../../share/link-sharing/)
+- [Enable guest and users to request access](../..//share/access-requests/allow-requests/)
 
 This change provides for a more flexible access control to your records, and supports uses that previously weren't possible - e.g. access requests to an embargoed record.
 
