@@ -1,13 +1,13 @@
-column: future
+column: near-term
 ---
-body: Support for storing and displaying [WADM](https://www.w3.org/TR/annotation-model/)-based annotations for PDFs and images.
+body: Support for storing and displaying [WADM](https://www.w3.org/TR/annotation-model/)-based annotations for PDFs and images for the Biodiversity Literature Repository.
 
-*Planned end 2023*
+*Planned early 2024*
 ---
 category: Development
 ---
 title: Annotations
 ---
-year: 2023
+year: 2024
 ---
 sort: 2

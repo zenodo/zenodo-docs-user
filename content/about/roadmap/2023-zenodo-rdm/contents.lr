@@ -1,10 +1,10 @@
-column: current
+column: completed
 ---
 body: We are migrating Zenodo's underlying technical platform to InvenioRDM.
 Follow the progress on https://zenodo-rdm.web.cern.ch as well as the [InvenioRDM
 Roadmap](https://inveniosoftware.org/products/rdm/roadmap/)
 
-*Planned September 2023*
+*Completed October 13, 2023*
 ---
 category: Development
 ---
