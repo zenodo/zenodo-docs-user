@@ -7,14 +7,16 @@ sort_key: 3
 faqlist:
 
 #### qaitem ####
-question: What are the size limits in Zenodo?
+question: What are the size limits of Zenodo?
 ----
 answer:
 
-We currently accept up to 50GB per dataset (you can have multiple datasets); there is no size limit on the number of records in communities.
+We currently accept up to 50GB per dataset (you can have multiple datasets). 
 However, we don't want to turn away use cases for larger datasets.
 If you would like to upload larger files, please [contact us](https://zenodo.org/support), and we will do our best to help you.
 Please be aware that we cannot offer infinite space for free, so donations towards sustainability are encouraged.
+
+There are no size limit on the number of records in communities.
 ----
 category: policies
 #### qaitem ####
@@ -33,7 +35,7 @@ question: How does Zenodo handle sensitive datasets?
 answer:
 
 Where data that was originally [sensitive personal data](https://www.openaire.eu/sensitive-data-guide) is being uploaded for open dissemination through Zenodo, the uploader shall ensure that such data is either anonymised to an appropriate degree or fully consent cleared.
-There are several tools that can help uploaders to anonymise their data, being one of them OpenAIRE [Amnesia](https://amnesia.openaire.eu).
+There are several tools that can help uploaders to anonymise their data such as OpenAIRE [Amnesia](https://amnesia.openaire.eu).
 ----
 category: policies
 #### qaitem ####
@@ -47,14 +49,14 @@ Given that Zenodo was launched within an EU funded project, the knowledge bases 
 ----
 category: policies
 #### qaitem ####
-question: Is my data safe with you / What will happen to my uploads in the unlikely event that Zenodo has to close?
+question: Is my data safe with you? What will happen to my uploads in the unlikely event that Zenodo has to close?
 ----
 answer:
 
-Yes, your data is stored in CERN Data Center.
+Yes, your data is safe as it is stored in the CERN Data Center.
 Both data files and metadata are kept in multiple online and independent replicas.
 CERN has considerable knowledge and experience in building and operating large scale digital repositories and a commitment to maintain this data centre to collect and store 100s of PBs of LHC data as it grows over the next 20 years.
-In the highly unlikely event that Zenodo will have to close operations, we guarantee that we will migrate all content to other suitable repositories, and since all uploads have DOIs, all citations and links to Zenodo resources (such as your data) will not be affected.
+In the highly unlikely event that Zenodo will have to close operations, we guarantee that we will migrate all content to other suitable repositories. Since all uploads have DOIs, all citations and links to Zenodo resources (such as your data) will not be affected.
 ----
 category: policies
 #### qaitem ####
@@ -66,7 +68,7 @@ category: policies
 #### qaitem ####
 question: Does Zenodo have the CoreTrustSeal or other certification?
 ----
-answer: Not yet since CoreTrustSeal at the moment only certifies repositories that serve a specifically designated community and therefore not generalist repositories like Zenodo. CoreTrustSeal is considering including generalist repositories in CoreTrustSeal 2022, at which point we would apply for certification. We have provided our input to CoreTrustSeal’s request for community feedback on this issue.
+answer: Not yet, since CoreTrustSeal at the moment only certifies repositories that serve a specifically designated community and therefore not generalist repositories like Zenodo. CoreTrustSeal is considering including generalist repositories in CoreTrustSeal 2022, at which point we would apply for certification. We have provided our input to CoreTrustSeal’s request for community feedback on this issue.
 ----
 category: policies
 #### qaitem ####
