@@ -12,7 +12,7 @@ question: My organizational repository does not show up on the GitHub list.
 answer:
 
 In order to see and archive your organizational repositories on Zenodo you will need to have "Admin" permissions on said repository, either as an Admin of the organization or an Admin of one of your organization's repositories.
-Additionally, please make sure that the OAuth application on GitHub is granting permissions not only to your personal repositories but also to your organizational ones - to verify that go to your GitHub OAuth settings in [your profile](https://github.com/settings/applications), and click on the Zenodo application to see more details. Make sure that Zenodo is given access (green tick) to your organization under "Organization access".
+Additionally, please make sure that the OAuth application on GitHub grants permissions not only to your personal repositories but also to your organizational ones: To verify go to your GitHub OAuth settings in [your profile](https://github.com/settings/applications), and click on the Zenodo application to see more details. Also ensure that Zenodo is given access (green tick) to your organization under "Organization access".
 
 After that, navigate to your Zenodo [GitHub settings page](https://zenodo.org/account/settings/github/) and click the "Sync now" button at the top.
 ----
@@ -30,7 +30,7 @@ answer: Only the repositories which were enabled before a release was made will 
 ----
 category: github
 #### qaitem ####
-question: How to change the default metadata for my GitHub releases?
+question: How to change the default metadata for my GitHub release?
 ----
 answer: You can include metadata in a `.zenodo.json` file at the root of your GitHub repository. This file's contents should be in line with the Zenodo deposit metadata schema and will be used to update the metadata from future GitHub releases. For more information on how to create a `.zenodo.json` file, you can have a look at our [GitHub integration documenation](https://developers.zenodo.org/#github).
 ----
