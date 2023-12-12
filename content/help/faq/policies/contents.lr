@@ -62,7 +62,7 @@ category: policies
 #### qaitem ####
 question: Is Zenodo OAIS compliant?
 ----
-answer: Zenodo and the underlying Invenio Framework for digital repositories were designed according to the OAIS reference model. Full OAIS compliance can only be proven through ISO 16363 certification which is a recent standard with very few repositories worldwide certified to date. See our infrastructure page for further details on Zenodo’s organizational and technical infrastructure.
+answer: Zenodo and the underlying Invenio Framework for digital repositories were designed according to the OAIS reference model. Full OAIS compliance can only be proven through ISO 16363 certification which is a recent standard with very few repositories worldwide certified to date. See our [infrastructure page](https://about.zenodo.org/infrastructure/) for further details on Zenodo’s organizational and technical infrastructure.
 ----
 category: policies
 #### qaitem ####
