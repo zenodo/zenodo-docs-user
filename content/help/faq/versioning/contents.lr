@@ -65,9 +65,7 @@ answer:
 Yes. However, for uploads published before the 30th of May 2017, you have to first upgrade your record to support versioning. This is done by clicking the “Upgrade to versioned record” button on the record page.
 
 IMPORTANT
-If you have previously uploaded multiple versions of an upload as individual records on Zenodo, then DO NOT click the button to upgrade your record with versioning support. Please [contact us](https://zenodo.org/support) so we can link the records under one versioning scheme.
-
-Clicking the “Upgrade to versioned record” button on any of the records you would like to link, will irreversibly register them as individually-versioned records.
+If you have previously uploaded multiple versions of an upload as individual records on Zenodo, then DO NOT click the button to upgrade your record with versioning support. Please [contact us](https://zenodo.org/support) so we can link the records under one versioning scheme. Clicking the “Upgrade to versioned record” button on any of the records you would like to link, will irreversibly register them as individually-versioned records.
 
 If you used the GitHub integration to archive your software on Zenodo, then we have already migrated and linked your records to support versioning.
 ----
@@ -81,7 +79,7 @@ category: versioning
 #### qaitem ####
 question: I only want to change the title of my upload, do I still get a new DOI?
 ----
-answer: No, as before you can continue to edit the metadata of your upload without creating a new version of a record. You should only create a new version if you want to update the files of your record.
+answer: No, you can continue to edit the metadata of your upload without creating a new version of a record. You should only create a new version if you want to update the files of your record.
 ----
 category: versioning-col2
 #### qaitem ####
@@ -105,12 +103,12 @@ category: versioning-col2
 #### qaitem ####
 question: Why do you include “zenodo” in the DOI?
 ----
-answer: Currently DOIs registered by Zenodo follows the pattern “10.5281/zenodo.<integer>” where 10.5281 is the Zenodo DOI prefix and <integer> is a sequentially assigned integer. The word “zenodo” is semantic information, and as mentioned in the previous question it is a bad idea to include semantic information in DOIs as it may change over time. The current practice was introduced when Zenodo was launched in May 2013, and while it is not ideal we did not want to change the existing practice.
+answer: Currently DOIs registered by Zenodo follows the pattern “10.5281/zenodo.<integer>” where 10.5281 is the Zenodo DOI prefix and <integer> is a sequentially assigned integer. The word “zenodo” is semantic information and, as mentioned in the previous answer, it is a bad idea to include semantic information in DOIs as it may change over time. The current practice was introduced when Zenodo was launched in May 2013, and while it is not ideal we did not want to change the existing practice.
 ----
 category: versioning-col2
 #### qaitem ####
 question: Do you duplicate all the files for every new version of a record?
 ----
-answer: No, if you change a 10kb README file in 50GB dataset we do not duplicate the entire 50GB dataset. Invenio v3, the underlying digital repository platform that powers Zenodo, efficiently handles the file storage so we only store the new extra 10kb.
+answer: No, if you change a 10kb README file in 50GB dataset we do not duplicate the entire 50GB dataset. Invenio v3, the underlying digital repository platform that powers Zenodo, efficiently handles the file storage so we only store the new 10kb.
 ----
 category: versioning-col2
