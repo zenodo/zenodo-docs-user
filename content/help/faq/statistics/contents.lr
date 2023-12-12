@@ -97,14 +97,14 @@ answer:
 
 For each view/download event, we track an anonymized visitor ID. This anonymized visitor ID changes for a user every 24 hours, hence a user viewing the same record on two different days will have two different anonymized visitor IDs. The reason we track an anonymized visitor ID is in order to count unique views and downloads.
 
-For security purposes, we also keep a web server access log which includes your [IP address](https://en.wikipedia.org/wiki/IP_address) and your browser’s [user agent](https://en.wikipedia.org/wiki/User_agent) string. This web server access log is automatically deleted after maximum 1 year and is also strictly separated from the usage statistics collection.
+For security purposes, we also keep a web server access log which includes your [IP address](https://en.wikipedia.org/wiki/IP_address) and your browser’s [user agent](https://en.wikipedia.org/wiki/User_agent) string. This web server access log is automatically deleted after 1 year max. and is also strictly separated from the usage statistics collection.
 
 The anonymized visitor ID is generated from a personal identifier such as:
   1. a user ID (e.g. if you are logged in on zenodo.org),
   2. a session ID,
   3. or an IP address and your browser’s user-agent string.
 
-We combine the personal identifier with a random text value (a salt) and apply a one-way [cryptographic hash function](https://en.wikipedia.org/wiki/Cryptographic_hash_function) to scramble the data. The salt (random text value) is thrown away and regenerated every 24 hours. Using and afterwards throwing away the random salt, ensures that the anonymized visitor ID is fully random.
+We combine the personal identifier with a random text value (a salt) and apply a one-way [cryptographic hash function](https://en.wikipedia.org/wiki/Cryptographic_hash_function) to scramble the data. The salt (random text value) is thrown away and regenerated every 24 hours. Using and discarding the random salt afterwards ensures that the anonymized visitor ID is fully random.
 ----
 category: statistics-col2
 #### qaitem ####
@@ -116,7 +116,7 @@ category: statistics-col2
 #### qaitem ####
 question: Who do you share usage statistics with?
 ----
-answer: We share *aggregated* usage statistics with [OpenAIRE Usage Counts](https://usagecounts.openaire.eu/) as well as the [DataCite Sashimi](https://github.com/datacite/sashimi) service. Note, that only aggregated usage statistics is being shared, whichdo not include any anonymized visitor IDs.
+answer: We share *aggregated* usage statistics with [OpenAIRE Usage Counts](https://usagecounts.openaire.eu/) as well as the [DataCite Sashimi](https://github.com/datacite/sashimi) service. Note, that only aggregated usage statistics are shared, which do not include any anonymized visitor IDs.
 ----
 category: statistics-col2
 #### qaitem ####
