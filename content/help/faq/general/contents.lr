@@ -7,21 +7,20 @@ sort_key: 1
 faqlist:
 
 #### qaitem ####
-question: Can I change the file in the already published record?
+question: Can I change files in an already published record?
 ----
 answer:
 
-Once the record has been published, you can no longer change the files in the record, nonetheless, there are several options:
+Once the record has been published you can no longer change its files. Nonetheless, there are several options:
 1. If the record has a Zenodo DOI (prefix: ``10.5281``):
- * The recommended way is to create a new version of a record (more details available [here](/#versioning)).
-   Most of the cases fall under this category, which include modifications of the dataset/software, addition or removal of files, new versions of datasets, software or revisions of the papers, including major revisions as well typos and formatting/styling.
- * Exceptionally, we allow small modifications to the record's files, if and only if the record was published recently (less than 1 month). If you have spotted mistakes such as typos, accidental omission of important files/inclusion of hidden files or confidential files and would like to update them, please contact us.
+ * In most cases it is recommended to create a new version of a record (more details available [here](/#versioning)). For example: modifications of the dataset/software, addition or removal of files, new versions of datasets, software or revisions of the papers, including major revisions as well typos and formatting/styling.
+ * Exceptionally, we allow small modifications to the record's files, if and only if the record was published recently (in the past month). If you have spotted mistakes such as typos, accidental omission of important files/inclusion of hidden files or confidential files and would like to update them, please contact us.
 1. If the record has a non-Zenodo DOI:
- * Since it is not possible to create new versions for the non-Zenodo DOIs you should contact us about the file update directly.
+ * Since it is not possible to create new versions for non-Zenodo DOIs you should contact us about updating files directly.
 
-All file update requests need to be submitted through our [contact form](https://zenodo.org/support).
+All file update requests need to be submitted through our [contact form](https://zenodo.org/support). 
 
-Meeting above points ensures that we can resolve your case faster.
+Meeting the above points ensures that we can resolve your case faster.
 Please note that we may reject your request if we deem that it is not a small change.
 ----
 category: general
@@ -30,9 +29,9 @@ question: Why is my closed access upload not on the front-page?
 ----
 answer:
 
-Zenodo is a strong supporter of open data in all its forms (meaning data that anyone is free to use, reuse, and redistribute) and takes an incentives approach to encourage depositing under an open license.
+Zenodo is a strong supporter of open data in all its forms (meaning data that anyone is free to use, reuse, and redistribute) and takes an incentive approach to encourage depositing under an open license.
 We therefore only display Open Access uploads on the front-page.
-Your Closed Access upload is still discoverable through search queries, its DOI, and any communities where it is included.
+Closed access uploads are still discoverable through search queries, its DOI, and any communities where it is included.
 ----
 category: general
 #### qaitem ####
@@ -40,9 +39,9 @@ question: Why do you allow closed access uploads?
 ----
 answer:
 
-Since there isn't a unique way of licensing openly and nor a consensus on the practice of adding attribution restrictions, we accept data under a variety of licenses in order to be inclusive.
+Since there isn't a unique way of licensing openly, nor a consensus on the practice of adding attribution restrictions, we accept data under a variety of licenses in order to be inclusive.
 We will, however, take an active lead in signaling the extra benefits of the most open licenses, in terms of visibility and credit, and offer additional services and upload quotas on such data to encourage using them.
-This follows naturally from the publications policy of the [OpenAIRE initiative](https://www.openaire.eu), which has been supporting Open Access throughout, but since it aims to gather all European Commission/European Research Area research results, it allows submission of material that is not yet Open Access.
+This follows naturally from the publications policy of the [OpenAIRE initiative](https://www.openaire.eu) which is a strong supporter of Open Access and allows submission of material that is not yet Open Access since it aims to gather all European Commission/European Research Area research results.
 ----
 category: general
 #### qaitem ####
