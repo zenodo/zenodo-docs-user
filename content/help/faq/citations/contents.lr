@@ -26,7 +26,7 @@ category: citations-col1
 #### qaitem ####
 question: Which records show citations?
 ----
-answer: We display citations if available for all records in Zenodo.
+answer: We display citations, if available, for all records in Zenodo.
 ----
 category: citations-col1
 #### qaitem ####
@@ -47,9 +47,7 @@ question: In which domains do you have good citation data coverage?
 ----
 answer:
 
-Currently (January 2019) we primarily cover:
-
-- Astronomy and astrophysics
+Currently (January 2019) we primarily cover astronomy and astrophysics.
 
 We also receive citation data from cross-domain citation data sources, however often the coverage is not good as it relies on publishers to make the citation data freely available (which some big publishers do not do).
 ----
@@ -122,7 +120,7 @@ category: citations-col2
 #### qaitem ####
 question: Why does my citation not have a title?
 ----
-answer: We usually receive citation data as a link between two persistent identifiers (e.g. "DOI A cites DOI B") without any metadata. We therefore have to automatically retrieve metadata such as title, authors and publication year from other services. This automatic fetching of metadata however is sometimes not able to find any available metadata, in which case we only display the persistent identifier.
+answer: We usually receive citation data as a link between two persistent identifiers (e.g. "DOI A cites DOI B") without any metadata. We therefore have to automatically retrieve metadata such as title, authors and publication year from other services. Sometimes this automatic fetching is not able to find any available metadata, in which case we only display the persistent identifier.
 ----
 category: citations-col2
 #### qaitem ####
