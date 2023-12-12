@@ -38,7 +38,7 @@ This is best illustrated by an example of a software package. If the software ha
 
 The first two DOIs for versions **v1.0** and **v.1.1** represent the specific versions of the software. The last DOI represents all the versions of the given software package, i.e. the concept of the software package and the ensemble of versions. We therefore also call the them **Version DOIs** and **Concept DOIs** (note, technically both are just normal DOIs).
 
-You may notice that the version DOIs do not include a “.v1”-suffix. Read below to find out why.
+You may notice that the version DOIs do not include a “.v1”-suffix. [Read below](/faq/#cversioning-8) to find out why.
 ----
 category: versioning-col1
 #### qaitem ####
@@ -109,6 +109,6 @@ category: versioning-col2
 #### qaitem ####
 question: Do you duplicate all the files for every new version of a record?
 ----
-answer: No, if you change a 10kb README file in 50GB dataset we do not duplicate the entire 50GB dataset. Invenio v3, the underlying digital repository platform that powers Zenodo, efficiently handles the file storage so we only store the new 10kb.
-----
+answer: No, if you change a 10kb README file in 50GB dataset we do not duplicate the entire 50GB dataset. [Invenio v3](https://inveniosoftware.org/products/framework/), the underlying digital repository platform that powers Zenodo, efficiently handles the file storage so we only store the new 10kb.
+---
 category: versioning-col2

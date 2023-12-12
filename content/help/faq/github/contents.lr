@@ -20,7 +20,7 @@ category: github
 #### qaitem ####
 question: I made a GitHub release, but it does not show up on Zenodo.
 ----
-answer: Make sure the repository was enabled before the release was made, otherwise feel free to contact us.
+answer: Make sure the repository was enabled before the release was made, otherwise feel free to [contact us](https://zenodo.org/support).
 ----
 category: github
 #### qaitem ####
