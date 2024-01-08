@@ -10,7 +10,7 @@ body:
 
 #### Background
 
-Software and code deposits are encouraged in Zenodo. Zenodo also supports GitHub integration and archiving of GitHub repositories that have been used to generate software and analysis code for research studies. Please see the [Zenodo documentation](../../../docs/) for more information as well as [GitHub documentation](https://docs.gi.thub.com/en/repositories/archiving-a-github-repository/referencing-and-citing-content).
+Software and code deposits are encouraged in Zenodo. Zenodo also supports GitHub integration and archiving of GitHub repositories that have been used to generate software and analysis code for research studies. Please see the [Zenodo documentation](../../../docs/) for more information as well as [GitHub documentation](https://docs.github.com/en/repositories/archiving-a-github-repository/referencing-and-citing-content).
 
 
 #### NIH-specific guidance on Element 2: Related Tools, Software and/or Code
