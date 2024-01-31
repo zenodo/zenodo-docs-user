@@ -1,10 +1,10 @@
-column: current
+column: completed
 ---
 body: As part of the [FAIRCORE4EOSC](https://faircore4eosc.eu) project, we will
 be improving the support for software source code types in Zenodo, as well as
 integrate Zenodo with Software Heritage
 
-*Planned early 2024*
+*Improvements are right now being tested on sandbox.zenodo.org*
 ---
 category: Development
 ---
