@@ -20,13 +20,13 @@ A **record** consists of:
 - **Files:** The actual data for the digital research object.
 - **Persistent identifier**: A globally unique persistent identifier (in our case a [Digital Object Identifier](https://www.doi.org)) used for identification of the record.
 
-#### Metadata
+##### Metadata
 
-The metadata is critical for describing your dataset and making your record findable. We require only minimal metadata (what's needed for a citation), but we strongly encourage entering as much of the fields as possible.
+The metadata is critical for describing your dataset and making your record findable. We only require minimal metadata (what's needed for a citation), but we strongly encourage entering as many of the fields as possible.
 
 Zenodo is able to export the metadata according to many different standards.
 
-#### Files
+##### Files
 
 Zenodo supports uploading files in any size and format. You should however consider uploading files in a preservation-friendly format as we only guarantee bit-level preservation - e.g. proprietary file format may not be readable in 10 or 50 years.
 
@@ -35,13 +35,23 @@ For further guidance on preservation-friendly formats please see the following r
 - [Digital Preservation Handbook - File formats and standards](https://www.dpconline.org/handbook/technical-solutions-and-tools/file-formats-and-standards)
 - [Library of Congress recommended format specifications](http://www.loc.gov/preservation/resources/rfs/index.html)
 
-#### Persistent Identifier
+##### Persistent Identifier
 
 Zenodo will automatically register a Digital Object Identifier (DOI) for a record once you publish it. The DOI is a globally unique persistent identifier which ensures that the record can be uniquely cited which is important for reproducibility and attribution of credit. Zenodo register DOIs with [DataCite](https://www.datacite.org).
 
-You can also share research objects that already has a DOI on Zenodo (e.g. a journal publication). In this case you must provide the DOI during the upload to Zenodo, so that we don't create a new DOI for your content.
+You can also share research objects that already has a DOI (e.g. a journal publication) on Zenodo. In this case you must provide the DOI during the upload to Zenodo, so that we don't create a new DOI for your content.
 
-### Life cycle
+---
+docs_show_toc: false
+---
+docs:
+
+#### docsheader ####
+text: Life cycle
+----
+ref: life-cycle
+#### docstext ####
+text:
 
 A record starts as a **draft**, where you can fill in the metadata and upload files. Once the draft is complete, you publish the draft and it becomes a record. Once the record is published:
 
@@ -56,13 +66,16 @@ Our versioning feature help with the case when you need to publish an update to 
 
 Technically, this is a completely new record with separate metadata, files and persistent identifier. This ensures that if a researcher cite the specific version, they can be sure the files did not change.
 
-### Access
+#### docsheader ####
+text: Access
+----
+ref: access
+#### docstext ####
+text:
 
 Metadata for all records in Zenodo are always publicly accessible. You have the possibility to restrict access to the files, and once you restrict access you have the possibility to share with specific people.
 
-We support the restricted access for e.g. embargoed content, content under peer-review, or e.g. content that cannot be made generally available (e.g. anonymized clinical trial data).
+The reason we support restricted access is for cases such as embargoed content, content under peer-review, content that cannot be made generally available (e.g. anonymized clinical trial data), etc.
 
 See [Collaborate and share](../../share/) and [Communities](../../communities/) for further options on sharing restricted content.
 
----
-docs:
