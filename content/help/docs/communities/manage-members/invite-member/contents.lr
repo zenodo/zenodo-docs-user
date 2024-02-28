@@ -24,7 +24,7 @@ ref: invite
 #### docsstep ####
 step: 1
 ----
-text: Go to [**Members**](../#manage)-tab in your community and, click on the green **Invite**-button.
+text: Go to [**Members**](../#manage)-tab in your community and, click on the green **Invite** button.
 ----
 image: button.png
 #### docsstep ####
@@ -50,6 +50,6 @@ image: role.png
 #### docsstep ####
 step: 5
 ----
-text: Click the blue **Invite**-button. Each invited user will receive an email notification, and be able to see the invitation under [My requests](../../../get-started/navigating-zenodo/#dashboard).
+text: Click the blue **Invite** button. Each invited user will receive an email notification, and be able to see the invitation under [My requests](../../../get-started/navigating-zenodo/#dashboard).
 ----
 image: invite.png

@@ -54,4 +54,4 @@ text: Find the device from the list of devices (see [viewing logged in devices](
 #### docsstep ####
 step: 2
 ----
-text: Click **Revoke**-button to logout the device. If the button says **Logout** is means the it's the authenticated session for your current device.
+text: Click **Revoke** button to logout the device. If the button says **Logout** is means the it's the authenticated session for your current device.

@@ -40,7 +40,7 @@ text: Edit the basic information and funding information according to the follow
 #### docsstep ####
 step: 3
 ----
-text: Click **Save**-button to persist the changes.
+text: Click **Save** button to persist the changes.
 
 #### docsheader ####
 text: Add a logo
@@ -71,7 +71,7 @@ text: Go to your [community settings](../#manage).
 #### docsstep ####
 step: 2
 ----
-text: Click the red **Delete picture**-button to remove a previously uploaded logo.
+text: Click the red **Delete picture** button to remove a previously uploaded logo.
 ----
 image: logo-delete.png
 #### docsstep ####

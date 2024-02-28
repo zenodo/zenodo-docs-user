@@ -34,10 +34,10 @@ image: members.png
 #### docsstep ####
 step: 2
 ----
-text: Find your own membership (marked with a **You**-tag) and click the red **Leave**-button.
+text: Find your own membership (marked with a **You**-tag) and click the red **Leave** button.
 #### docsstep ####
 step: 3
 ----
-text: Confirm you want to leave by clicking the **Leave**-button in the dialog. IMPORTANT: Rejoining the community requires that an owner/manager sent you an new invitation to join.
+text: Confirm you want to leave by clicking the **Leave** button in the dialog. IMPORTANT: Rejoining the community requires that an owner/manager sent you an new invitation to join.
 ----
 image: leave-confirm.png

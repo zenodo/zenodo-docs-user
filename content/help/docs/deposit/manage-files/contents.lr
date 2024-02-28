@@ -49,7 +49,7 @@ image: add.png
 #### docsstep ####
 step: 2
 ----
-text: You can cancel the upload of large files while the upload is in progress by pressing the **Cancel**-button.
+text: You can cancel the upload of large files while the upload is in progress by pressing the **Cancel** button.
 ----
 image: inprogress.png
 #### docsheader ####

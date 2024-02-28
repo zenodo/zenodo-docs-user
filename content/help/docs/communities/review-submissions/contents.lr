@@ -70,7 +70,7 @@ image: detail.png
 #### docsstep ####
 step: 3
 ----
-text: Click the orange **Edit**-button to make changes to the record. NOTE: The edit button is only show for **unpublished records**. To edit a **published record**, you first have to accept the record.
+text: Click the orange **Edit** button to make changes to the record. NOTE: The edit button is only show for **unpublished records**. To edit a **published record**, you first have to accept the record.
 
 #### docsheader ####
 text: Comment on a submission

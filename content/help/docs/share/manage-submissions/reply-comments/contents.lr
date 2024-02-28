@@ -30,7 +30,7 @@ text: Go to the review request (see [view submissions](../view-submissions/#requ
 #### docsstep ####
 step: 2
 ----
-text: Write a comment in the comment field. You may use basic formatting. Submit the comment by clicking the green **Comment**-button.
+text: Write a comment in the comment field. You may use basic formatting. Submit the comment by clicking the green **Comment** button.
 ----
 image: conversation.png
 
@@ -47,7 +47,7 @@ image: edit.png
 #### docsstep ####
 step: 2
 ----
-text: Edit your comment. Once ready, click the green **Save**-button.
+text: Edit your comment. Once ready, click the green **Save** button.
 ----
 image: edit-form.png
 #### docsstep ####
@@ -71,7 +71,7 @@ image: edit.png
 #### docsstep ####
 step: 2
 ----
-text: Confirm that you want to delete the comment by clicking the red **Delete**-button.
+text: Confirm that you want to delete the comment by clicking the red **Delete** button.
 ----
 image: delete-confirm.png
 #### docsstep ####

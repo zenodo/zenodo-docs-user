@@ -45,7 +45,7 @@ image: pages.png
 #### docsstep ####
 step: 2
 ----
-text: Click **Save**-button to persist the changes.
+text: Click **Save** button to persist the changes.
 
 #### docsheader ####
 text: Add a curation policy page
@@ -66,7 +66,7 @@ image: pages.png
 #### docsstep ####
 step: 2
 ----
-text: Click **Save**-button to persist the changes.
+text: Click **Save** button to persist the changes.
 
 #### docsheader ####
 text: Remove a page
@@ -86,4 +86,4 @@ image: pages.png
 #### docsstep ####
 step: 2
 ----
-text: Click **Save**-button to persist the changes.
+text: Click **Save** button to persist the changes.

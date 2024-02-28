@@ -31,7 +31,7 @@ ref: get
 #### docsstep ####
 step: 1
 ----
-text: Go to the record you would like to share, and click the blue **Share**-button.
+text: Go to the record you would like to share, and click the blue **Share** button.
 ----
 image: button.png
 #### docsstep ####
@@ -47,11 +47,11 @@ text: Optionally provide a title, set an expiration date and choose a permission
 #### docsstep ####
 step: 4
 ----
-text: Click the green **Create a new link**-button.
+text: Click the green **Create a new link** button.
 #### docsstep ####
 step: 5
 ----
-text: Click the green **Copy link**-button to copy the generated link to your clipboard.
+text: Click the green **Copy link** button to copy the generated link to your clipboard.
 ----
 image: secret.png
 
@@ -68,4 +68,4 @@ image: secret.png
 #### docsstep ####
 step: 2
 ----
-text: Click the **Delete**-button next to the link.
+text: Click the **Delete** button next to the link.
