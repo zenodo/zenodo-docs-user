@@ -35,7 +35,7 @@ image: record.png
 #### docsstep ####
 step: 2
 ----
-text: Click the orange **Edit**-button. See [deposit](../../deposit/) for further details on editing a record.
+text: Click the orange **Edit** button. See [deposit](../../deposit/) for further details on editing a record.
 #### docsheader ####
 text: Remove a record
 ----
@@ -59,7 +59,7 @@ image: menu.png
 #### docsstep ####
 step: 4
 ----
-text: Click the red **Remove**-button.
+text: Click the red **Remove** button.
 ----
 image: dialog.png
 #### docsstep ####

@@ -49,7 +49,7 @@ image: menu.png
 #### docsstep ####
 step: 3
 ----
-text: Find the community you want to submit to and click the **Select**-button.
+text: Find the community you want to submit to and click the **Select** button.
 ----
 image: dialog.png
 #### docsstep ####
@@ -60,7 +60,7 @@ text: Confirm you want to submit the record to the community by:
 - Ticking the checkbox that curators gain view and edit access to your record.
 - Optionally, write a message to the curators.
 
-Finally, click the blue **Submit to community**-button.
+Finally, click the blue **Submit to community** button.
 ----
 image: confirm.png
 

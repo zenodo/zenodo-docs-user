@@ -26,13 +26,13 @@ text: Go to the review request (see [view submissions](../view-submissions/#requ
 #### docsstep ####
 step: 2
 ----
-text: Click the **Cancel**-button in the top right corner.
+text: Click the **Cancel** button in the top right corner.
 ----
 image: request.png
 #### docsstep ####
 step: 3
 ----
-text: Leave an optional message to the curators, and confirm you want to cancel the request by pressing the **Cancel request**-button.
+text: Leave an optional message to the curators, and confirm you want to cancel the request by pressing the **Cancel request** button.
 ----
 image: confirm.png
 #### docsstep ####

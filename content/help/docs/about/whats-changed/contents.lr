@@ -134,7 +134,7 @@ ref: deposit-versioning
 #### docstext ####
 text:
 
-When you create a new version of a record we previously copied all files over from the old to the new version. We have modified this behavior so you now are required to explicitly import the files from the previous version via simply clicking on **Import files**-button.
+When you create a new version of a record we previously copied all files over from the old to the new version. We have modified this behavior so you now are required to explicitly import the files from the previous version via simply clicking on **Import files** button.
 
 <img src="import-files.png" width="100%">
 
@@ -327,7 +327,7 @@ image: shared-links-new.png
 #### docsstep ####
 step: 3
 ----
-text: **New**: You can enable users to request access from record landing page by click the blue **Share**-button. In the pop-up click the **Access request** tab, and check the boxes to enable users and/or guests to request access.
+text: **New**: You can enable users to request access from record landing page by click the blue **Share** button. In the pop-up click the **Access request** tab, and check the boxes to enable users and/or guests to request access.
 ----
 image: shared-links-new3.png
 #### docstext ####

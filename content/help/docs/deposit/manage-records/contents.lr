@@ -46,11 +46,11 @@ text: You can edit the metadata (title, creators, etc) of a published record at 
 #### docsstep ####
 step: 1
 ----
-text: You can edit a record either by clicking the **Edit**-button on the record under **My uploads** (see above.)
+text: You can edit a record either by clicking the **Edit** button on the record under **My uploads** (see above.)
 #### docsstep ####
 step: 2
 ----
-text: Alternatively, from the record landing page you can also click the **Edit**-button.
+text: Alternatively, from the record landing page you can also click the **Edit** button.
 ----
 image: edit.png
 #### docsheader ####

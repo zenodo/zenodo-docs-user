@@ -49,7 +49,7 @@ text: Search a community and go to the community front page.
 #### docsstep ####
 step: 3
 ----
-text: Click the **New upload**-button on the community page.
+text: Click the **New upload** button on the community page.
 ----
 image: new-upload.png
 #### docsstep ####
@@ -61,7 +61,7 @@ image: deposit-form.png
 #### docsstep ####
 step: 4
 ----
-text: You can at any point change the community by pressing the **Change** or **Remove**-button.
+text: You can at any point change the community by pressing the **Change** or **Remove** button.
 ----
 image: change-remove.png
 
@@ -76,7 +76,7 @@ text: Upload files and describe the record as explained in the [deposit](../../d
 #### docsstep ####
 step: 2
 ----
-text: When ready, click the blue **Submit for review**-button.
+text: When ready, click the blue **Submit for review** button.
 ----
 image: submit.png
 #### docsstep ####
@@ -88,7 +88,7 @@ text: Confirm that you want to submit for review by:
 - Tick the checkbox that the record is published immediately when the curator accepts the record.
 - Optionally provide a message to the curator.
 
-Finally, click the **Submit record for review**-button.
+Finally, click the **Submit record for review** button.
 ----
 image: confirm.png
 #### docsstep ####

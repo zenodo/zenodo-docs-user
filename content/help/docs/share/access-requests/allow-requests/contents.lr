@@ -13,7 +13,7 @@ docs:
 #### docsstep ####
 step: 1
 ----
-text: Go to the record you would like to share, and click the blue **Share**-button.
+text: Go to the record you would like to share, and click the blue **Share** button.
 ----
 image: button.png
 #### docsstep ####
