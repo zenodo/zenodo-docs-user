@@ -39,7 +39,7 @@ image: profile-menu.png
 #### docsstep ####
 step: 2
 ----
-text: Click the **Connect**-button next to the service provider you would like to connect.
+text: Click the **Connect** button next to the service provider you would like to connect.
 ----
 image: accounts.png
 #### docsstep ####
@@ -64,6 +64,6 @@ image: profile-menu.png
 #### docsstep ####
 step: 2
 ----
-text: Click the **Disconnect**-button next to the service provider you would like to disconnect.
+text: Click the **Disconnect** button next to the service provider you would like to disconnect.
 ----
 image: accounts.png
