@@ -79,7 +79,7 @@ text: Pending state
 ----
 ref: pending
 #### docstext ####
-text: You may experience a file displaying the state **Pending** in the **Progress**-column. The pending state means that a file is in progress of being uploaded. It happens e.g.
+text: You may experience a file displaying the state **Pending** in the **Progress** column. The pending state means that a file is in progress of being uploaded. It happens e.g.
 
 - If a file is uploaded from a different browser window or by a different user (multiple people can edit a draft)
 - If a file upload is broken off and you reload the browser page.

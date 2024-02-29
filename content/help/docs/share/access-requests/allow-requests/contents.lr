@@ -19,7 +19,7 @@ image: button.png
 #### docsstep ####
 step: 2
 ----
-text: In the Share access dialog, click the **Access requests**-tab.
+text: In the Share access dialog, click the **Access requests** tab.
 ----
 image: access.png
 #### docsstep ####

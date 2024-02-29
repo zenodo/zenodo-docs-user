@@ -42,7 +42,7 @@ image: list-view.png
 #### docsstep ####
 step: 3
 ----
-text: Click the dropdown menu in the **Role**-column on the invitation you would like to edit, and select a new role.
+text: Click the dropdown menu in the **Role** column on the invitation you would like to edit, and select a new role.
 ----
 image: role-menu.png
 

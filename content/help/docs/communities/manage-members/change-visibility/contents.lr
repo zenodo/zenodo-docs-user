@@ -42,6 +42,6 @@ text: Find the member (or your own membership) in the list of members.
 #### docsstep ####
 step: 3
 ----
-text: Change the visibility to either **hidden** or **public** using the drop-down menu in the **Visibility**-column. Note that, community owners/managers can only set the visibility to **hidden** for other members.
+text: Change the visibility to either **hidden** or **public** using the drop-down menu in the **Visibility** column. Note that, community owners/managers can only set the visibility to **hidden** for other members.
 ----
 image:menu.png

@@ -56,6 +56,6 @@ image: request-detail.png
 #### docsstep ####
 step: 2
 ----
-text: Click the **Record**-tab to see a preview of the record.
+text: Click the **Record** tab to see a preview of the record.
 ----
 image: record-preview.png

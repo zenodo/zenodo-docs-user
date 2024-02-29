@@ -43,7 +43,7 @@ ref: view
 #### docsstep ####
 step: 1
 ----
-text: Go to your community and click the **Request**-tab. The interface allows you to filter and search for requests.
+text: Go to your community and click the **Request** tab. The interface allows you to filter and search for requests.
 ----
 image: requests.png
 #### docsstep ####
@@ -64,7 +64,7 @@ text: View your community requests (see above), and click on the request you wan
 #### docsstep ####
 step: 2
 ----
-text: From the request detail page, click the **Record**-tab to see a preview of the record.
+text: From the request detail page, click the **Record** tab to see a preview of the record.
 ----
 image: detail.png
 #### docsstep ####
