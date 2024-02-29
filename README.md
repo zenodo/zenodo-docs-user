@@ -1,10 +1,6 @@
 <p align="center">
   <a href="https://www.zenodo.org">
-    <img src="https://github.com/lnielsen/zenodo-docs-user/raw/master/assets/static/img/logos/zenodo-black-200.png">
-  </a>
-  <br>
-  <a href="https://travis-ci.org/zenodo/zenodo-docs-user">
-    <img src="https://travis-ci.org/zenodo/zenodo-docs-user.svg?branch=master" alt="Build Status">
+    <img src="https://github.com/zenodo/zenodo-docs-user/raw/master/assets/static/img/logos/zenodo-black-200.png">
   </a>
 </p>
 
