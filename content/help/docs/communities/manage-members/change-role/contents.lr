@@ -36,6 +36,6 @@ image: members.png
 #### docsstep ####
 step: 3
 ----
-text: Change the role of the member using the drop-down menu in the **Role**-column. Note that only community owners/managers can change roles, and that you cannot change your own role, nor as a manager change a member's role to an owner.
+text: Change the role of the member using the drop-down menu in the **Role** column. Note that only community owners/managers can change roles, and that you cannot change your own role, nor as a manager change a member's role to an owner.
 ----
 image: menu.png

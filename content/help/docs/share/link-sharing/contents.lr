@@ -37,7 +37,7 @@ image: button.png
 #### docsstep ####
 step: 2
 ----
-text: In the Share access dialog, click the **Links**-tab.
+text: In the Share access dialog, click the **Links** tab.
 ----
 image: links.png
 #### docsstep ####
@@ -62,7 +62,7 @@ ref: delete
 #### docsstep ####
 step: 1
 ----
-text: Find the link you want to delete in the **Links**-tab in the **Share access**-dialog (see above).
+text: Find the link you want to delete in the **Links** tab in the **Share access** dialog (see above).
 ----
 image: secret.png
 #### docsstep ####
