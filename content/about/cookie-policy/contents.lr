@@ -1,0 +1,82 @@
+_model: base-about
+---
+title: Cookie policy
+---
+body:
+
+# Cookie policy
+
+### What are cookies?
+
+Cookies are small text files placed by your browser on your device when you visit a website to store certain information. Using the stored information, a website can recognize that you have previously accessed and visited it using the browser on your end device.
+
+### How do we use cookies?
+
+Zenodo uses **strictly necessary cookies** to make our website operational such as:
+- Login/logout of your user account.
+- Grant access to restricted content when using a secret links.
+- Ensure secure browsing of the website.
+- Load balancing incoming traffic across backend servers.
+
+Zenodo also uses **analytics cookies** for gathering anonymous website analytics which is used  purely for internal research on how we can improve the service we provide for all our users.
+
+Zenodo uses only first-party cookies (i.e cookies set by our site itself), and the cookies we set are only readable by Zenodo.
+
+### Which cookies do we use?
+
+#### Strictly necessary cookies
+
+These cookies are necessary for the functioning of the website.
+
+| Name                             | Duration       | Purpose                                                                                                                                     |
+| -------------------------------- |:-------------- |:------------------------------------------------------------------------------------------------------------------------------------------- |
+| `session`                          | 10 days        | Used for logging into your user account, granting access to restricted content via secret links, and ensure secure browsing of the website. |
+| `csrftoken`                        | 1 week         | Maintain a secure session for you during your visit by preventing Cross-site Request Forgery (CSRF) attacks.                                |
+| `_zammad_session_#`                | End of session    | Used for logging into the support system. |
+| `5569e5a730cade8ff2b54f1e815f3670` | End of session | Used for load balancing to distribute incoming traffic across backend servers.                                                              |
+| `46332df5d7775b3951ab9554d9a34b8e` | End of session | Used for load balancing to distribute incoming traffic across backend servers.                                                              |
+| `be722e80d111280a196a845353f9d65f` | End of session | Used for load balancing to distribute incoming traffic across backend servers.                                                              |
+
+#### Analytics cookies
+
+CERN uses Matomo Analytics to analyse traffic to the website and help improve website performance. Matomo Analytics data is stored at CERN (legal entity of Zenodo).
+
+
+| Name     | Duration   | Purpose                                                                                                                              |
+| -------- | ---------- |:------------------------------------------------------------------------------------------------------------------------------------ |
+| `_pk_id#`  | 13 months  | Recognises website visitors (anonymously – no personal information is collected on the user).                                        |
+| `_pk_ref#`  | 6 months   | Identifies the referrer website initially used to visit the website.                                                                 |
+| `_pk_ses#` | 30 minutes | Identifies the pages viewed by the same user during the same visit (anonymously – no personal information is collected on the user). |
+
+
+
+### How can you manage cookies?
+
+#### Removing cookies from your device
+
+You can delete all cookies that are already on your device by clearing the browsing history of your browser. This will remove all cookies from all websites you have visited.
+
+Be aware though that you may also lose some saved information (e.g. saved login details, site preferences).
+
+See [aboutcookies.org](https://www.aboutcookies.org/how-to-manage-and-delete-cookies) for further details of how to control/delete cookies.
+
+#### Managing our analytics cookies
+
+Analytics cookies on Zenodo can be managed like described above. In addition, Zenodo supports a technology called "Do Not Track". The "Do Not Track" technology enables visitors to opt-out from being tracked by analytics cookies on websites for whatever purpose, including the use of analytics services.
+
+To enable the “do not track” option in your browser follow the respective link below:
+
+- [Firefox](https://support.mozilla.org/en-US/kb/how-do-i-turn-do-not-track-feature)
+- [Internet Explorer](https://support.microsoft.com/en-us/help/17288/windows-internet-explorer-11-use-do-not-track)
+- [Microsoft Edge](https://support.microsoft.com/en-gb/help/4468242/microsoft-edge-browsing-data-and-privacy-microsoft-privacy)
+- [Chrome](https://support.google.com/chrome/answer/114836?hl=en-GB&ref_topic=3421433)
+- [Safari](https://support.apple.com/en-gb/guide/safari/prevent-websites-from-tracking-you-sfri40732/mac#ibrw88300566)
+- [Opera](https://help.opera.com/en/presto/be-safe-and-private/#notrack)
+
+If your preferred browser is not in the above list of browsers, visit the vendor's website for more information.
+
+### Further information
+
+See also our [privacy policy](../privacy-policy/)
+
+*Last revision: 2024-03-05*

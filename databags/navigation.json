@@ -11,9 +11,10 @@
   ],
   "about": [
     ["/about", "About"],
-    ["/about/privacy-policy/", "Privacy Policy"],
-    ["/about/terms-of-use/", "Terms of Use"],
-    ["/about/policies/", "General Policies"],
+    ["/about/privacy-policy/", "Privacy policy"],
+    ["/about/cookie-policy/", "Cookie policy"],
+    ["/about/terms-of-use/", "Terms of use"],
+    ["/about/policies/", "General policies"],
     ["/about/infrastructure/", "Infrastructure"],
     ["/about/principles/", "Principles"],
     ["/about/roadmap/", "Roadmap"],
@@ -25,7 +26,8 @@
     ["/about/projects/arcadia2/", "BLR"],
     ["/about/projects/faircore4eosc/", "FAIRCORE4EOSC"],
     ["/about/projects/grei/", "GREI"],
-    ["/about/projects/horizon-zen/", "HORIZON-ZEN"]
+    ["/about/projects/horizon-zen/", "HORIZON-ZEN"],
+    ["/about/projects/everse/", "EVERSE"]
   ],
   "main": [
     ["http://127.0.0.1:5000/about", "About"],

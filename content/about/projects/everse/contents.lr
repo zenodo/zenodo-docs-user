@@ -1,14 +1,42 @@
 _model: projectitem
 ---
-_hidden: true
----
 title: EVERSE
 ---
-description: bla bla bal
+description:
+
+The EVERSE project aims to create a framework for research software and code excellence, collaboratively designed and championed by the research communities, in pursuit of building a European network of Research Software Quality and setting the foundations of a future Virtual Institute for Research Software Excellence.
+---
+website: https://everse.software
+---
+logo: logo.png
 ---
 funder: European Commission
 ---
-years: 2023 - 2026
+years: 2024 - 2027
+---
+partners:  ATHENA, BSC, CERN, CERTH , CNRS, ELXIR, FAU, HZDR, NAB, Netherlands eScience Center, OpenAIRE, SKAO, The University Of Edinburgh, The University Of Manchester, Universidad Politecnica De Madrid, Universita Degli Studi Di Padova, Universita Del Salento, University of Amsterdam, Univerzita Karlova
 ---
 body:
+
+<div align="center"><img src="logo.png" width="70%" /></div>
+
+### European Virtual Institute for Research Software Excellence
+
+The EVERSE project aims to create a framework for research software and code excellence, collaboratively designed and championed by the research communities, in pursuit of building a European network of Research Software Quality and setting the foundations of a future Virtual Institute for Research Software Excellence.
+
+EVERSE ultimate ambition is to contribute towards a cultural change where research software is recognized as a first-class citizen of the scientific process and the people that contribute to it are credited for their efforts. EVERSE is coordinated by the Centre for Research and Technology hellas (CERTH) and the Barcelona Supercomputing Center (BSC). EVERSE will be interfacing with the EOSC science clusters and their emerging use cases:
+
+- ENVRI-FAIR: Essential Climate Variables
+- EOSC-Life: The Workflow Execution Service backend with RO-Crate
+- ESCAPE: Particle physics and astrophysics in the Dark Matter Science Project
+- PaNOSC: Photon and neutron science through LEAPS/LENS
+- SSHOC: UDPipe language processing suite
+
+Zenodo participates in smaller part of the project that will integrate software quality pipelines with widely used platforms for research software engineering (such as GitHub, GitLab) and code archival (such as Zenodo) to improve the overall quality of research software.
+---
+sidebox:
+<div class="well">
+<dl><strong>Project deliverables</strong></dl>
+<dd><a href="https://zenodo.org/communities/everse/">EVERSE</a></dd>
+</div>
 

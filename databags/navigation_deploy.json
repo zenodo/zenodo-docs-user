@@ -11,9 +11,10 @@
   ],
   "about": [
     ["/", "About"],
-    ["/privacy-policy/", "Privacy Policy"],
-    ["/terms-of-use/", "Terms of Use"],
-    ["/policies/", "General Policies"],
+    ["/privacy-policy/", "Privacy policy"],
+    ["/cookie-policy/", "Cookie policy"],
+    ["/terms-of-use/", "Terms of use"],
+    ["/policies/", "General policies"],
     ["/infrastructure/", "Infrastructure"],
     ["/principles/", "Principles"],
     ["/roadmap/", "Roadmap"],
@@ -25,7 +26,8 @@
     ["/projects/arcadia2/", "BLR"],
     ["/projects/faircore4eosc/", "FAIRCORE4EOSC"],
     ["/projects/grei/", "GREI"],
-    ["/projects/horizon-zen/", "HORIZON-ZEN"]
+    ["/projects/horizon-zen/", "HORIZON-ZEN"],
+    ["/projects/everse/", "EVERSE"]
   ],
   "main": [
     ["https://about.zenodo.org", "About"],
