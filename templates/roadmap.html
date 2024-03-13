@@ -5,7 +5,7 @@
 {% block body %}
 <section class="roadmap-section">
     <div class="container">
-        <div clas="row">
+        <div class="row">
             <h1>Roadmap</h1>
             <hr />
         </div>
@@ -32,7 +32,7 @@
                 {%- endfor %}
             </div>
         </div>
-        <div clas="row">
+        <div class="row">
             <div class="col-md-8 col-md-offset-2 text-center">
                 Our roadmap helps us share what we are working on next and the direction that we're taking Zenodo. <br>The roadmap is updated quarterly in January, April, July and October. Questions, comments and feedback? <a href="https://zenodo.org/support">Contact us</a>
                 </p>
@@ -49,7 +49,6 @@
                         <details {{ 'open' if year >= (today().year - 1) }}>
                             <summary>
                                 <h3>{{ year }}</h3>
-                                <hr />
                             </summary>
                             <div class="row">
                                 {%- for card in cards %}

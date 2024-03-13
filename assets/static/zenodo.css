@@ -26,8 +26,7 @@ hgroup,
 main,
 menu,
 nav,
-section,
-summary {
+section {
   display: block;
 }
 
@@ -220,6 +219,16 @@ table {
 td,
 th {
   padding: 0;
+}
+
+details summary { 
+  border-bottom: 1px #eee solid;
+  padding: 1em 0;
+  margin: 1em 0;
+}
+
+details summary > * {
+  display: inline;
 }
 
 /*! Source: https://github.com/h5bp/html5-boilerplate/blob/master/src/css/main.css */
