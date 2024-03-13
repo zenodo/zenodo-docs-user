@@ -1,0 +1,104 @@
+{#
+    # Copyright (C) 2024 CERN.
+    #
+    # Zenodo is free software; you can redistribute it and/or
+    # modify it under the terms of the GNU General Public License as
+    # published by the Free Software Foundation; either version 2 of the
+    # License, or (at your option) any later version.
+    #
+    # Zenodo is distributed in the hope that it will be useful, but
+    # WITHOUT ANY WARRANTY; without even the implied warranty of
+    # MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+    # General Public License for more details.
+    #
+    # You should have received a copy of the GNU General Public License
+    # along with Zenodo; if not, write to the Free Software Foundation, Inc.,
+    # 59 Temple Place, Suite 330, Boston, MA 02111-1307, USA.
+    #
+    # In applying this license, CERN does not waive the privileges and immunities
+    # granted to it by virtue of its status as an Intergovernmental Organization or
+    # submit itself to any jurisdiction.
+-#}
+{% macro cookie_banner(matomo_id) %}
+<div class="cookie-banner hidden">
+    <i class="close icon"></i>
+    <div>
+        <i aria-hidden="true" class="info icon"></i>
+        <p class="inline">This site uses cookies. Find out more on <a href="https://about.zenodo.org/cookie-policy">how we use cookies</a></p>
+    </div>
+    <div class="buttons">
+        <button class="ui button small primary" id="cookies-all">Accept all cookies</button>
+        <button class="ui button small" id="cookies-essential">Accept only essential cookies</button>
+    </div>
+</div>
+
+<script>
+    console.log("hello")
+var _paq = window._paq = window._paq || [];
+_paq.push(['requireCookieConsent']);
+
+(function() {
+    var u="https://webanalytics.web.cern.ch/";
+    _paq.push(['setTrackerUrl', u+'matomo.php']);
+    _paq.push(['setSiteId', '{{ matomo_id }}']);
+    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+    g.async=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);
+})();
+
+const cookieConsent = document.cookie
+    .split("; ")
+    .find((row) => row.startsWith("cookie_consent="))
+    ?.split("=")[1];
+
+if (cookieConsent) {
+    if (cookieConsent === "all") {
+    matomo();
+    }
+} else {
+    console.log("unhide")
+    document.querySelector(".cookie-banner").classList.remove("hidden")
+    _paq.push(['forgetConsentGiven']);
+}
+
+$('.cookie-banner .close')
+    .on('click', function () {
+    $(this)
+        .closest('.message')
+        .transition('fade');
+    setCookie("cookie_consent","essential");
+    });
+
+$('#cookies-essential')
+    .on('click', function () {
+    $(this)
+        .closest('.message')
+        .transition('fade');
+    setCookie("cookie_consent","essential");
+    });
+
+$('#cookies-all')
+    .on('click', function () {
+    $(this)
+        .closest('.message')
+        .transition('fade');
+    setCookie("cookie_consent","all");
+    _paq.push(['rememberCookieConsentGiven']);
+    matomo();
+    });
+
+function matomo() {
+    /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
+    _paq.push(['trackPageView']);
+    _paq.push(['enableLinkTracking']);
+}
+// TODO: path should equal .zenodo.org so as to set the cookie on the root level
+function setCookie(cname, cvalue) {
+    var d = new Date();
+    d.setTime(d.getTime() + (365 * 24 * 60 * 60 * 1000)); // one year
+    var expires = "expires=" + d.toUTCString();
+    var cookie = cname + "=" + cvalue + ";" + expires + ";"
+    cookie += "path=/;SameSite=None; Secure"; // so that it works across subdomains
+    document.cookie = cookie;
+}
+</script>
+{% endmacro %}

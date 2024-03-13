@@ -11483,6 +11483,32 @@ body.cover-page header .alert {
   color: #a92121;
 }
 
+.cookie-banner {
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 1;
+  padding: 0.5em 1.75em 0.5em 1em;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  box-shadow: inset 0 0 0 1px rgba(34,36,38,.22),0 0 0 0 transparent;
+  background-color: #f8ffff;
+  color: #0e576c;
+  border-radius: .29rem;
+  margin-bottom: 1em;
+  transition: opacity .1s ease,color .1s ease,background .1s ease,box-shadow .1s ease;
+
+  .buttons {
+    display: flex;
+  }
+}
+
+.cookie-banner.hidden {
+  display: none;
+}
 
 /*!
  * angular-loading-bar v0.9.0
