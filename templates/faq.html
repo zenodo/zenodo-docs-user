@@ -27,7 +27,7 @@
 {%- for child in children %}
 <h3 id="{{child._id}}">{{ child.title}}</h3>
 {{child.toptext}}
-<div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+<div class="panel-group" role="tablist" aria-multiselectable="true">
 {%- for blk in child.faqlist.blocks %}
   <div class="panel panel-default">
     <div class="panel-heading" role="tab" id="h{{child._id}}-{{loop.index}}">

@@ -103,7 +103,7 @@ category: versioning-col2
 #### qaitem ####
 question: Why do you include “zenodo” in the DOI?
 ----
-answer: Currently DOIs registered by Zenodo follows the pattern “10.5281/zenodo.<integer>” where 10.5281 is the Zenodo DOI prefix and <integer> is a sequentially assigned integer. The word “zenodo” is semantic information and, as mentioned in the previous answer, it is a bad idea to include semantic information in DOIs as it may change over time. The current practice was introduced when Zenodo was launched in May 2013, and while it is not ideal we did not want to change the existing practice.
+answer: Currently DOIs registered by Zenodo follows the pattern “10.5281/zenodo.&lt;integer&gt;” where 10.5281 is the Zenodo DOI prefix and &lt;integer&gt; is a sequentially assigned integer. The word “zenodo” is semantic information and, as mentioned in the previous answer, it is a bad idea to include semantic information in DOIs as it may change over time. The current practice was introduced when Zenodo was launched in May 2013, and while it is not ideal we did not want to change the existing practice.
 ----
 category: versioning-col2
 #### qaitem ####
