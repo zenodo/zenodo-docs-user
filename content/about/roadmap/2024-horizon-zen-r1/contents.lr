@@ -1,11 +1,11 @@
-column: current
+column: completed
 ---
 body: As part of HORIZON-ZEN, we'll add support for custom visual identity on communities. The feature will only be available for specific communities.
 
-*Planned spring 2024*
+Launched on [EU Open Research Repository](https://zenodo.org/communities/eu/)
 ---
 category: Development
 ---
 title: Branded communities (part 1)
 ---
-year: 2023
+year: 2024

@@ -1,12 +1,10 @@
-column: near-term
+column: current
 ---
-body: Support for storing and displaying [WADM](https://www.w3.org/TR/annotation-model/)-based annotations for PDFs and images for the Biodiversity Literature Repository.
-
-*Planned early 2024*
+body: Support for storing and displaying [WADM](https://www.w3.org/TR/annotation-model/)-based annotations for PDFs and images for the Biodiversity Literature Repository. Part of the work will focus on improving performance of the IIIF APIs so that we can make image Zoom generally available.
 ---
 category: Development
 ---
-title: Annotations
+title: IIIF & Annotations
 ---
 year: 2024
 ---
