@@ -43,14 +43,14 @@ _paq.push(['requireCookieConsent']);
     g.async=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);
 })();
 
-const cookieConsent = document.cookie
+var cookieConsent = document.cookie
     .split("; ")
     .find((row) => row.startsWith("cookie_consent="))
     ?.split("=")[1];
 
 if (cookieConsent) {
     if (cookieConsent === "all") {
-    matomo();
+        matomo();
     }
 } else {
     document.querySelector(".cookie-banner").classList.remove("hidden")

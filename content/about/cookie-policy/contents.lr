@@ -66,7 +66,14 @@ See [aboutcookies.org](https://www.aboutcookies.org/how-to-manage-and-delete-coo
 
 #### Managing our analytics cookies
 
-Analytics cookies on Zenodo can be managed like described above. In addition, Zenodo supports a technology called "Do Not Track". The "Do Not Track" technology enables visitors to opt-out from being tracked by analytics cookies on websites for whatever purpose, including the use of analytics services.
+<div>
+You can change your preferences using the following buttons:
+<button class='hidden' id='all-consent'>Accept all cookies</button>
+<button class='hidden' id='essential-consent'>Accept only essential cookies</button>
+<button class='hidden' id='withdraw-consent'>Withdraw consent</button>
+</div>
+
+In addition, Zenodo supports a technology called "Do Not Track". The "Do Not Track" technology enables visitors to opt-out from being tracked by analytics cookies on websites for whatever purpose, including the use of analytics services.
 
 To enable the “do not track” option in your browser follow the respective link below:
 
@@ -84,3 +91,61 @@ If your preferred browser is not in the above list of browsers, visit the vendor
 See also our [privacy policy](../privacy-policy/)
 
 *Last revision: 2024-03-20*
+
+<script>
+function showButtons() {
+    var cookieConsent = document.cookie
+        .split("; ")
+        .find((row) => row.startsWith("cookie_consent="))
+        ?.split("=")[1];
+
+    if (cookieConsent) {
+        document.getElementById("withdraw-consent").classList.remove("hidden")
+        if (cookieConsent === "all") {
+            document.getElementById("all-consent").classList.add("hidden")
+            document.getElementById("essential-consent").classList.remove("hidden")
+        } else {
+            document.getElementById("essential-consent").classList.add("hidden")
+            document.getElementById("all-consent").classList.remove("hidden")
+        }
+    } else {
+        document.getElementById("withdraw-consent").classList.add("hidden")
+        document.getElementById("all-consent").classList.remove("hidden")
+        document.getElementById("essential-consent").classList.remove("hidden")
+    }
+}
+
+showButtons()
+
+$('#all-consent')
+    .on('click', function () {
+        $('.cookie-banner').fadeOut('fast');
+        setCookie("cookie_consent","all");
+        _paq.push(['rememberCookieConsentGiven']);
+        matomo();
+        showButtons()
+    });
+
+$('#essential-consent')
+    .on('click', function ()  {
+        $('.cookie-banner').fadeOut('fast');
+        setCookie("cookie_consent","essential");
+        showButtons()
+    });
+
+$('#withdraw-consent')
+    .on('click', function () {
+        document.querySelector(".cookie-banner").classList.remove("hidden")
+        $('.cookie-banner').fadeIn('fast');
+        unsetCookie("cookie_consent");
+        _paq.push(['forgetCookieConsentGiven']);
+        showButtons()
+    });
+
+function unsetCookie(cname) {
+    var expires = "expires=Thu, 01 Jan 1970 00:00:00 UTC";
+    var cookie = cname + "=;" + expires + ";"
+    cookie += "path=.zenodo.org;SameSite=None; Secure";
+    document.cookie = cookie;
+}
+</script>
