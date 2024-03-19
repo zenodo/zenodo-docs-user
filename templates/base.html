@@ -50,7 +50,7 @@
 <link rel="stylesheet" href="{{ '/static/style.css'|url }}">
 <link rel="stylesheet" href="{{ '/static/font-awesome/css/font-awesome.min.css'|url}}">
 <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,100,italic" rel="stylesheet">
-<title>{% if title %}{% block title %}{% endblock %} | {% endif %}Zenodo</title>
+<title>{% block title %}{% endblock %}{% if self.title() %} | {% endif %}Zenodo</title>
 <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 </head>
