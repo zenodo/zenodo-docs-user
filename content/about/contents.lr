@@ -51,7 +51,7 @@ body:
       <h4>Open in every sense</h4>
       <p>
         Zenodo code is itself open source, and is built on the foundation of the <a href="https://inveniosoftware.org">Invenio</a> digital library which is also open source.
-        The work-in-progress, open issues, and roadmap are shared openly in <a href="https://github.com/zenodo/zenodo">GitHub</a>, and contributions to any aspect are welcomed from anyone.
+        The work-in-progress, open issues, and roadmap are shared openly in <a href="https://github.com/zenodo/zenodo-rdm">GitHub</a>, and contributions to any aspect are welcomed from anyone.
       </p>
       <p>All meta data is openly available under CC0 licence, and all open content is openly accessible through open APIs.</p>
       <p>Open to all suggestions for new features, via GitHub, and especially open to all contributions of code via pull requests!</p>
