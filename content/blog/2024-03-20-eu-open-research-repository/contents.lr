@@ -1,0 +1,36 @@
+title: EU Open Research Repository
+---
+author: lnielsen
+---
+body:
+
+The European Commission and CERN are today launching a pilot of the new EU Open Research Repository that welcomes research outputs (data, software, posters, presentation, project deliverables) stemming from one of EU’s research and innovation funding programmes such as Horizon Europe and Euratom.
+
+<div align="center" style="padding:20px"><img src="/2024/03/20/2024-03-20-eu-open-research-repository/frontpage.png" width="50%" /></div>
+
+#### Supporting EU Open Science policy
+The EU has increasingly supported the implementation of the Open Science policy in successive Research and Innovation Framework Programmes, starting from the Open Access pilot in FP7, adding Open Data provisions in Horizon 2020, and laying down in Horizon Europe a set of provisions for open science practices such as open access to scientific publications, open access to research data and responsible management of research data, notably through the mainstreaming of data management plans and in line with the FAIR principles. This evolution has been accompanied by several EU-funded actions to support beneficiaries to better manage their research outputs and to facilitate the implementation of the programme provisions. This has notably included support to the creation of Zenodo, a general-purpose open repository operated by CERN, allowing researchers to deposit research papers, data sets, research software, reports, and any other research related digital outputs.
+
+The new EU Open Research Repository, a Zenodo-community, capitalizes on past investments made in Zenodo and helps EU programme beneficiaries comply with the new FAIR and open science requirements, by implementing an easy go-to solution in Zenodo for beneficiaries to make data FAIR in practice. The repository is managed by CERN on behalf of the European Commission.
+
+#### Pilot
+
+Currently in its pilot phase and set to be fully operational during autumn 2024, the EU Open Research Repository is constantly evolving. Efforts are committed to integrating cutting-edge features, including assisted curation and FAIR (Findable, Accessible, Interoperable, and Reusable) assistance, to further support the research community. The goal is to provide researchers with a simple goto solution for making their publicly funded research open and as FAIR as possible.
+
+#### Supporting EU research projects
+
+Today, more than 500 EU-funded research projects already have a Zenodo-community where they share their research outputs. The EU Open Research Repository will index all these and future project communities under a single umbrella and provide them with enhanced features to enable all project partners to easily share the project’s research outputs. Zenodo has since its launch more than 10 years ago supported linking research outputs with the EU grant that funded the work, which means that Zenodo today hosts more than 100,000 research outputs from more than 11,000 different grants.
+
+Several early adopter projects from different domains (BY-COVID, FAIR-IMPACT, FAIRplus, GDI, iMagine, interTwin, RESILIENCE, SERPENTINE) are collaborating to help provide feedback on the features developed for the new repository. Other projects interested in adopting the new features can [sign up for free](https://zenodo.org/communities/eu/pages/join) and will be onboard as soon as possible through out the pilot phase.
+
+<div align="center" style="padding:20px"><img src="/2024/03/20/2024-03-20-eu-open-research-repository/join-page.png" width="50%" /></div>
+
+#### Open Research Europe (ORE)
+The EU Open Research Repository serves as a complementary platform to the Open Research Europe (ORE) publishing platform. Open Research Europe focuses on providing a publishing venue for peer-reviewed articles, ensuring that research meets rigorous academic standards. The EU Open Research Repository provides a space for all the other research outputs including data sets, software, posters, and presentations that are out of scope for ORE. This holistic approach enables researchers to not only publish their findings but also share the underlying data and materials that support their work, fostering transparency and reproducibility in the scientific process.
+
+#### Funding
+The EU Open Research Repository is funded by the European Union under grant agreement no. 101122956 (HORIZON-ZEN).
+
+You can learn more about the HORIZON-ZEN project on https://about.zenodo.org/projects/horizon-zen/
+---
+date: 2024-03-20
