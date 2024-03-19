@@ -32,7 +32,6 @@
 </div>
 
 <script>
-    console.log("hello")
 var _paq = window._paq = window._paq || [];
 _paq.push(['requireCookieConsent']);
 
@@ -54,7 +53,6 @@ if (cookieConsent) {
     matomo();
     }
 } else {
-    console.log("unhide")
     document.querySelector(".cookie-banner").classList.remove("hidden")
     _paq.push(['forgetConsentGiven']);
 }
@@ -62,24 +60,24 @@ if (cookieConsent) {
 $('.cookie-banner .close')
     .on('click', function () {
     $(this)
-        .closest('.message')
-        .transition('fade');
+        .closest('.cookie-banner')
+        .fadeOut('fast');
     setCookie("cookie_consent","essential");
     });
 
 $('#cookies-essential')
     .on('click', function () {
     $(this)
-        .closest('.message')
-        .transition('fade');
+        .closest('.cookie-banner')
+        .fadeOut('fast');
     setCookie("cookie_consent","essential");
     });
 
 $('#cookies-all')
     .on('click', function () {
     $(this)
-        .closest('.message')
-        .transition('fade');
+        .closest('.cookie-banner')
+        .fadeOut('fast');
     setCookie("cookie_consent","all");
     _paq.push(['rememberCookieConsentGiven']);
     matomo();
@@ -90,13 +88,13 @@ function matomo() {
     _paq.push(['trackPageView']);
     _paq.push(['enableLinkTracking']);
 }
-// TODO: path should equal .zenodo.org so as to set the cookie on the root level
+
 function setCookie(cname, cvalue) {
     var d = new Date();
     d.setTime(d.getTime() + (365 * 24 * 60 * 60 * 1000)); // one year
     var expires = "expires=" + d.toUTCString();
     var cookie = cname + "=" + cvalue + ";" + expires + ";"
-    cookie += "path=/;SameSite=None; Secure"; // so that it works across subdomains
+    cookie += "path=.zenodo.org;SameSite=None; Secure"; // so that it works across subdomains
     document.cookie = cookie;
 }
 </script>
