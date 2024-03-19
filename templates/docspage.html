@@ -73,3 +73,8 @@
     </div>
 </div>
 {% endblock %}
+
+{% from "macros/cookie-banner.html" import cookie_banner %}
+{% block trackingcode %}
+  {{ cookie_banner(363) }}
+{% endblock %}
