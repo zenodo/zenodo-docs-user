@@ -20,7 +20,7 @@ See:
 
 
 ##### Domain-specific fields (Biodiversity)
-We've made new domain-specific fields available in the upload form. These fields have long been available in our API as part of our collaboration with the Biodiversity Literature Repository, but only recently have we made them generally available in the upload form for everyone to use. The fields allow you to add and search DarwinCore metadata terms on Zenodo, so you can e.g. search for records related to a specific museum collection via the collection code field. You can see examples of the new fields on e.g. <a href="https://doi.org/10.5281/zenodo.10824976">https://doi.org/10.5281/zenodo.10824976</a>. In addition we have improved display of records in the Biodiversity Literature Repository to show related records  - see an example on <a href="https://zenodo.org/records/10824968">https://zenodo.org/records/10824968</a>. The work is part of the <a href="https://about.zenodo.org/projects/bicikl/">BICIKL</a> and <a href="https://about.zenodo.org/projects/arcadia2/">Arcadia</a> projects.
+We've made new domain-specific fields available in the upload form. These fields have long been available in our API as part of our collaboration with the Biodiversity Literature Repository, but only recently have we made them generally available in the upload form for everyone to use. The fields allow you to add and search DarwinCore metadata terms on Zenodo, so you can e.g. search for records related to a specific museum collection via the collection code field. The work is part of the <a href="https://about.zenodo.org/projects/bicikl/">BICIKL</a> and <a href="https://about.zenodo.org/projects/arcadia2/">Arcadia</a> projects.
 
 
 ##### Integration with Software Heritage (in testing) and new software fields
@@ -29,7 +29,7 @@ We have implemented an integration between Zenodo and <a href="https://www.softw
 
 #### Short updates
 
-- <a href="pdf">Roadmap</a> was updated.
+- <a href="https://about.zenodo.org/roadmap/">Roadmap</a> was updated.
 - <a href="https://about.zenodo.org/projects/everse/">EVERSE</a>, a new EU-funded project we participate in, was kicked-off.
 
 #### Webinars/events
