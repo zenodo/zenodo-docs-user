@@ -10654,24 +10654,6 @@ body .body-container > .row {
   color: #c9e5ff;
 }
 
-@media (min-width: 992px) {
-  .footer {
-    height: 273px;
-  }
-}
-
-@media (max-width: 991px) and (min-width: 768px) {
-  .footer {
-    height: 397px;
-  }
-}
-
-@media (max-width: 767px) {
-  .footer {
-    height: 427px;
-  }
-}
-
 .footer a {
   color: #fff;
 }
