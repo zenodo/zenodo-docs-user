@@ -38,3 +38,8 @@
 <div class="alert alert-info" style="margin-top: 20px;">
 Couldn't find the answer to your question? <a href="https://zenodo.org/support">Contact us</a>.
 {% endblock %}
+
+{% from "macros/cookie-banner.html" import cookie_banner %}
+{% block trackingcode %}
+  {{ cookie_banner(363) }}
+{% endblock %}
