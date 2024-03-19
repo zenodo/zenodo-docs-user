@@ -34,7 +34,7 @@ These cookies are necessary for the functioning of the website.
 | `session`                          | 10 days        | Used for logging into your user account, granting access to restricted content via secret links, and ensure secure browsing of the website. |
 | `csrftoken`                        | 1 week         | Maintain a secure session for you during your visit by preventing Cross-site Request Forgery (CSRF) attacks.                                |
 | `cookie_consent`                | 12 months    | Used to store your cookie consent choice. |
-| `mtm_cookie_consent_removed`                | 13 months    | Used to store your cookie consent choice. |
+| `mtm_consent_removed`                | 13 months    | Used to store your cookie consent choice. |
 | `mtm_cookie_consent`                | 13 months    | Used to store your cookie consent choice. |
 | `_zammad_session_#`                | End of session    | Used for logging into the support system. |
 | `5569e5a730cade8ff2b54f1e815f3670` | End of session | Used for load balancing to distribute incoming traffic across backend servers.                                                              |
@@ -83,4 +83,4 @@ If your preferred browser is not in the above list of browsers, visit the vendor
 
 See also our [privacy policy](../privacy-policy/)
 
-*Last revision: 2024-03-05*
+*Last revision: 2024-03-20*
