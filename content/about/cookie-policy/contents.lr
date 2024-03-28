@@ -145,7 +145,7 @@ $('#withdraw-consent')
 function unsetCookie(cname) {
     var expires = "expires=Thu, 01 Jan 1970 00:00:00 UTC";
     var cookie = cname + "=;" + expires + ";"
-    cookie += "path=.zenodo.org;SameSite=None; Secure";
+    cookie += "Domain=zenodo.org;Path=/;SameSite=None; Secure";
     document.cookie = cookie;
 }
 </script>
