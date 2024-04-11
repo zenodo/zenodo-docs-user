@@ -92,9 +92,9 @@ In addition to the metadata and data storage, Zenodo relies on Redis for caching
 
 <hr />
 ## <a id="security"></a> Security
-We take security very serious and do our best to protect your data.
+We take security very seriously and do our best to protect your data.
 
-- CERN Data Centre: Our data centres is located on CERN premises and all physical access is restricted to a limited number of staff with appropriate training and who have been granted access in line with their professional duties (e.g. Zendo staff do not have physical access to the CERN Data Centre) .
+- CERN Data Centre: Our data centres is located on CERN premises and all physical access is restricted to a limited number of staff with appropriate training and who have been granted access in line with their professional duties (e.g. Zenodo staff do not have physical access to the CERN Data Centre) .
 - Servers: Our servers are managed according to the CERN Security Baseline for Servers, meaning e.g. remote access to our servers are restricted to Zenodo staff with appropriate training, and the operating system and installed applications are kept updated with latest security patches via our automatic configuration management system Puppet.
 - Network: CERN Security Team runs both host and network based intrusion detection systems and monitors the traffic flow, pattern and contents into and out of CERN networks in order to detect attacks. All access to zenodo.org happens over HTTPS, except for static documentation pages which are hosted on GitHub Pages.
 - Data: Zenodo stores user passwords using strong cryptographic password hashing algorithms (currently PBKDF2+SHA512). Users’ access tokens to GitHub and ORCID are stored encrypted and can only be decrypted with the application’s secret key.
