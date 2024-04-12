@@ -41,7 +41,7 @@ FAIR Principles definition as referenced from:
    protocol by the record identifier and the collection name.
  - Metadata is also retrievable through the public [REST API](https://developers.zenodo.org/).
 - **A1.1**: the protocol is open, free, and universally implementable
- - See point A1. OAI-PMH and REST are open, free and univesal protocols for information retrieval on the web.
+ - See point A1. OAI-PMH and REST are open, free and universal protocols for information retrieval on the web.
 - **A1.2**: the protocol allows for an authentication and authorization procedure, where necessary
  - Metadata are publicly accessible and licensed under public domain. No authorization is ever necessary to retrieve it.
 - **A2**: metadata are accessible, even when the data are no longer available
@@ -55,7 +55,7 @@ FAIR Principles definition as referenced from:
 - **I2**: (meta)data use vocabularies that follow FAIR principles
  - For certain terms we refer to open, external vocabularies, e.g.: license ([Open Definition](https://opendefinition.org)), funders ([FundRef](https://www.crossref.org/services/funder-registry/)) and grants ([OpenAIRE](https://api.openaire.eu/)).
 - **I3**: (meta)data include qualified references to other (meta)data
- - Each referrenced external piece of metadata is qualified by a resolvable URL.
+ - Each referenced external piece of metadata is qualified by a resolvable URL.
 
 ### To be Reusable:
 - **R1**: (meta)data are richly described with a plurality of accurate and relevant attributes
@@ -64,7 +64,7 @@ FAIR Principles definition as referenced from:
  - License is one of the mandatory terms in Zenodo's metadata, and is referring to an [Open Definition](https://opendefinition.org/) license.
  - Data downloaded by the users is subject to the license specified in the metadata by the uploader.
 - **R1.2**: (meta)data are associated with detailed provenance
- - All data and metadata uploaded is tracable to a registered Zenodo user.
+ - All data and metadata uploaded is traceable to a registered Zenodo user.
  - Metadata can optionally describe the original authors of the published work.
 - **R1.3**: (meta)data meet domain-relevant community standards
  - Zenodo is not a domain-specific repository, yet through compliance with DataCite's Metadata Schema, metadata meets one of the broadest cross-domain standards available.
