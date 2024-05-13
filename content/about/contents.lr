@@ -152,6 +152,50 @@ body:
           </tr>
         </tbody>
       </table> <!-- .table table-hover -->
+      </br>
+      <h4>Icon</h4>
+      <table class="table table-hover">
+        <thead>
+          <tr>
+            <th></th>
+            <th></th>
+            <th>ICO</th>
+            <th>SVG</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Black</td>
+            <td><img class="img-rounded" style="width: 50px;" src="/static/img/icons/zenodo-icon-black.ico"></td>
+            <td>
+             <a href="/static/img/icons/zenodo-icon-black.ico">.ico</a><br>
+            </td>
+            <td>
+              <a href="/static/img/icons/zenodo-icon-black.svg">wo/ border</a><br>
+            </td>
+          </tr>
+          <tr>
+            <td>White</td>
+            <td><img class="img-rounded" style="width:50px;" src="/static/img/icons/zenodo-icon-white.png"></td>
+            <td>
+                <a href="/static/img/icons/zenodo-icon-white.ico">.ico</a><br>
+            </td>
+            <td>
+              <a href="/static/img/icons/zenodo-icon-white.svg">wo/ border</a><br>
+            </td>
+          </tr>
+          <tr>
+            <td>Blue</td>
+            <td><img class="img-rounded" style="height:50px;" src="/static/img/icons/zenodo-icon-blue.svg"></td>
+            <td>
+              <a href="/static/img/icons/zenodo-icon-blue.ico">.ico</a><br>
+            </td>
+            <td>
+              <a href="/static/img/icons/zenodo-icon-blue.svg">wo/ border</a><br>
+            </td>
+          </tr>
+        </tbody>
+      </table> <!-- .table table-hover -->
     </div> <!-- .col-md-6 col-lg-5 -->
     <div class="well">
       <h4>Zenodo Advocacy</h4>
