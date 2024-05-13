@@ -51,7 +51,7 @@ text: Click the green **Create a new link** button.
 #### docsstep ####
 step: 5
 ----
-text: Click the green **Copy link** button to copy the generated link to your clipboard.
+text: Click the grey **Copy link** button to copy the generated link to your clipboard.
 ----
 image: secret.png
 
