@@ -164,6 +164,16 @@ body:
           </tr>
         </thead>
         <tbody>
+           <tr>
+            <td>Blue</td>
+            <td><img class="img-rounded" style="height:50px;" src="/static/img/icons/zenodo-icon-blue.svg"></td>
+            <td>
+              <a href="/static/img/icons/zenodo-icon-blue.ico">.ico</a><br>
+            </td>
+            <td>
+              <a href="/static/img/icons/zenodo-icon-blue.svg">wo/ border</a><br>
+            </td>
+          </tr>
           <tr>
             <td>Black</td>
             <td><img class="img-rounded" style="width: 50px;" src="/static/img/icons/zenodo-icon-black.ico"></td>
@@ -182,16 +192,6 @@ body:
             </td>
             <td>
               <a href="/static/img/icons/zenodo-icon-white.svg">wo/ border</a><br>
-            </td>
-          </tr>
-          <tr>
-            <td>Blue</td>
-            <td><img class="img-rounded" style="height:50px;" src="/static/img/icons/zenodo-icon-blue.svg"></td>
-            <td>
-              <a href="/static/img/icons/zenodo-icon-blue.ico">.ico</a><br>
-            </td>
-            <td>
-              <a href="/static/img/icons/zenodo-icon-blue.svg">wo/ border</a><br>
             </td>
           </tr>
         </tbody>
