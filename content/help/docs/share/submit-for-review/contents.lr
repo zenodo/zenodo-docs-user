@@ -2,6 +2,8 @@ _model: docspage
 ---
 title: Submit for review
 ---
+tocdesc: Learn how to submit a draft (unpublished record) to a community.
+---
 body:
 
 !!! info
@@ -28,7 +30,7 @@ menu: /help/docs/share
 ---
 docs_show_toc: true
 ---
-sort_key: 3
+sort_key: 4
 ---
 docs:
 

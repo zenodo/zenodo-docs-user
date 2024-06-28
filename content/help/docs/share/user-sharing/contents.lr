@@ -1,0 +1,117 @@
+_model: docspage
+---
+title: User sharing
+---
+tocdesc: Enables you to share records/drafts with other Zenodo users.
+---
+body:
+
+Users sharing enables you to share a draft or record with another Zenodo user. If the person you want to share a record with does not have a Zenodo account, you can instead use [link sharing](../link-sharing/).
+
+##### Permissions
+
+You can grant one more users one of the following four permissions:
+
+- **Can view**: Grants access to view restricted/embargoed files of all current and future versions of a published record.
+- **Can preview draft**: Grants access to view drafts (unpublished records) and restricted/embargoed files of all current and future versions of a record/draft.
+- **Can edit**: Grants access to edit drafts and view restricted/embargoed files of all current and future versions of a record.
+- **Can manage**: Grants access to manage access, edit drafts and view restricted/embargoed files of all current and future versions of a record.
+
+Note, the permissions apply to all current and future versions of a record.
+
+### Overview
+---
+menu: /help/docs/share
+---
+docs_show_toc: true
+---
+sort_key: 1
+---
+docs:
+
+#### docsheader ####
+text: Share a record
+----
+ref: share-record
+#### docsstep ####
+step: 1
+----
+text: Go to the record you would like to share, and click the blue **Share** button.
+----
+image: button.png
+#### docsstep ####
+step: 2
+----
+text: Click the green **Add people** button in the "Share access" dialog under the "People" tab.
+----
+image: share-access.png
+#### docsstep ####
+step: 3
+----
+text: In the "Add people" dialog, use the **User** field to search for one or more users by name, username or email address. Note: only users who have [public profile visibility](../../profile/changing-profile-visibility/) can be found and added.
+----
+image: add-people.png
+#### docsstep ####
+step: 4
+----
+text: Under **Access**, select the permission you would like to grant the selected users.
+#### docsstep ####
+step: 5
+----
+text: Choose if you want to **notify** the users and optionally write a message to the users.
+#### docsstep ####
+step: 6
+----
+text: Click the blue **Add** button to grant the users access.
+#### docsheader ####
+text: Share a draft
+----
+ref: share-draft
+#### docsstep ####
+step: 1
+----
+text: From the [upload form](../../deposit/create-new-upload/#new-upload) click the blue **Share** button. Note, you must save and provide minimal metadata in order for the button to become enabled.
+----
+image: button-deposit.png
+#### docsstep ####
+step: 2
+----
+text: Follow the [Share record](#share-record) instructions from step 2.
+#### docsstep ####
+step: 3
+----
+text: Note, to share a draft (unpublished record) you must grant one of following permissions:
+- can preview drafts
+- can edit
+- can manage permissions.
+#### docsheader ####
+text: Change permission for a user
+----
+ref: change
+#### docsstep ####
+step: 1
+----
+text: Open the "Share access" dialog (see [share record](#share-record) and [share draft](#share-draft))
+----
+image: share-access-change.png
+#### docsstep ####
+step: 2
+----
+text: Click the drop-down menu in the **Access** column and choose a new permission. Once the change has been saved, it will be confirmed with a small green tick mark.
+----
+image: change-saved.png
+
+#### docsheader ####
+text: Remove a user
+----
+ref: remove
+#### docsstep ####
+step: 1
+----
+text: Open the "Share access" dialog (see [share record](#share-record) and [share draft](#share-draft))
+----
+image: share-access-after.png
+#### docsstep ####
+step: 2
+----
+text: Click the red **Delete** button next to the user you want to remove access from.

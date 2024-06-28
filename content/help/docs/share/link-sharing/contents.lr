@@ -2,24 +2,26 @@ _model: docspage
 ---
 title: Link sharing
 ---
+tocdesc: Enables you to create a secret link which provides access to your record.
+---
 body:
 
-Link sharing enables you to create a secret link which provides access to your record. The link can have an expiry date as well as
+Link sharing enables you to create a secret link which provides access to your record. The link can also have an expiry date. If the person you want to share a record with already have a Zenodo account, you can also use [user sharing](../user-sharing/).
 
 ##### Permissions
 
 You can give the secret link one of the following three permissions:
 
-- **Can view**: Link provide access to see restricted files in the record.
-- **Can preview**: Link provide access to see a preview of a draft (unpublished record).
-- **Can edit**: Link provide access to edit and create new versions of a record.
+- **Can view**: Grants access to view restricted/embargoed files of all current and future versions of a published record.
+- **Can preview draft**: Grants access to view drafts (unpublished records) and restricted/embargoed files of all current and future versions of a record/draft.
+- **Can edit**: Grants access to edit drafts and view restricted/embargoed files of all current and future versions of a record.
+
+Note, the permissions apply to all current and future versions of a record/draft.
 
 ---
 menu: /help/docs/share
 ---
-sort_key: 1
-
-
+sort_key: 2
 
 ---
 docs:

@@ -9,8 +9,21 @@ sort_key: 3
 menu: /help/docs/share
 ---
 body:
+
+!!! info
+    **Want to test Zenodo?** Use our sandbox environment on https://sandbox.zenodo.org to play.
+
+Zenodo's collaboration and sharing features allow you to share individual records/drafts with other users and communities.
 ---
 docs:
+#### docsheader ####
+text: Overview
+----
+ref: overview
+#### docstext ####
+
+text:
+In this section, learn about the following topics:
 
 #### docstoc ####
 menu: /help/docs/share

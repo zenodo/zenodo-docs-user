@@ -2,6 +2,8 @@ _model: docspage
 ---
 title: Submit to community
 ---
+tocdesc: Learn how to submit an already published record to a community.
+---
 body:
 
 !!! info
@@ -23,7 +25,7 @@ menu: /help/docs/share
 ---
 docs_show_toc: true
 ---
-sort_key: 4
+sort_key: 5
 ---
 docs:
 

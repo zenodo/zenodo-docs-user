@@ -1,0 +1,51 @@
+_model: docspage
+---
+title: About collaboration and sharing
+---
+sort_key: 0
+---
+menu: /help/docs/share
+---
+tocdesc: Overview of the collaborate and share features
+---
+lead: Zenodo's collaboration and sharing features allow you to share individual records/drafts with other users and communities.
+---
+body:
+
+From a high-level point of view Zenodo's features allow you to:
+
+- Share **individual records and drafts** with specific users, via links as well as allow guests/users to request access.
+- Share **collection of records** via communities.
+
+### Individual records/drafts
+
+Individual records/drafts can be shared in different ways depending with who and how you want to share:
+
+- [User sharing](../user-sharing/) - enables you to share records/drafts with other Zenodo users.
+- [Link sharing](../link-sharing/) - enables you to create a secret link which provides access to your record (e.g. with persons that do not have a Zenodo account).
+- [Access requests](../access-requests) - allows guests/users to request access to a restricted/embargoed record.
+
+**Permissions**
+
+The table below provides an overview over which permissions can be granted for the different types of sharing:
+
+|  | User&nbsp;sharing | Link&nbsp;sharing | Access&nbsp;requests  |
+| --- | --- | --- | -- |
+| Can view<br><small class="text-muted">Grants access to view restricted/embargoed files of all current and future versions of a published record.</small>  | X | X | X |
+| Can preview drafts<br><small class="text-muted">Grants access to view drafts (unpublished records) and restricted/embargoed files of all current and future versions of a record/draft.</small> | X  | X | - |
+| Can edit<br><small class="text-muted">Grants access to edit drafts and view restricted/embargoed files of all current and future versions of a record.</small> | X  | X | - |
+| Can manage<br><small class="text-muted">Grants access to manage access, edit drafts and view restricted/embargoed files of all current and future versions of a record.</small> | X  | - | - |
+
+### Collection of records
+
+The [communities](../../communities/) feature allow you to organise a **collection of records** and share the collection with **members** of the community who can be granted different roles as part of the community (see [about communities](../../communities/about-communities/))
+
+This section focuses on how you submit drafts/records to a community and how you manage your submissions (independent of if you're a member or not):
+
+- [Submit for review](../submit-for-review/) - learn how to submit a draft (unpublished record) to a community.
+- [Submit to community](../submit-to-community/) - learn how to submit an already published record to a community.
+- [Managing submissions](../manage-submissions/) - learn how to manage your submissions.
+- [Membership invitations](../membership-invitations/) - learn how to accept/decline membership invitations.
+
+---
+docs:
