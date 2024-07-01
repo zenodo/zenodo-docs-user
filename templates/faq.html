@@ -23,6 +23,7 @@
 {% block title %}{{ this.title }}{% endblock %}
 {% block body %}
 {{ this.toptext }}
+{#
 {% set children = this.children|sort(attribute="sort_key") or [this] %}
 {%- for child in children %}
 <h3 id="{{child._id}}">{{ child.title}}</h3>
@@ -47,6 +48,7 @@
 </div>
 {{child.bottomtext}}
 {%- endfor %}
+#}
 <br />
 <br />
 {{ this.bottomtext }}

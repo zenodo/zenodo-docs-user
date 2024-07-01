@@ -1,3 +1,4 @@
+{%- if this.menu %}
 {%- set rootsite = this.menu.split("/")[1]%}
 {%- set rootprefix = bag('prefix', rootsite) %}
 {% if rootprefix != "/" + rootsite %}
@@ -35,5 +36,13 @@
 </div>
 {%- endfor %}
 
+</div>
+{%- endif %}
+{%- else %}
+<div class="docs-blocks">
+<h3>{{this.title}}</h3>
+<hr/ >
+
+{{this.body}}
 </div>
 {%- endif %}

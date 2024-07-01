@@ -11,4 +11,61 @@ toptext:
 # Frequently Asked Questions
 <hr />
 
-**Tip**: See also the [OpenAIRE FAQ](https://www.openaire.eu/faqs) for general information on Open Science and European Commission funded research.
+
+<div class="row" style="margin-bottom:20px;">
+    <div class="col-md-3"></div>
+    <div class="col-md-6">
+
+        <h4 class="text-center"><a href="https://support.zenodo.org/help/">Search FAQ</a></h4>
+
+    </div>
+    <div class="col-md-3"></div>
+</div>
+
+<div class="row">
+    <div class="col-md-3">
+        <h4><a href="https://support.zenodo.org/help/en-gb/18-general">General</a></h4>
+    </div>
+    <div class="col-md-3">
+        <h4><a href="https://support.zenodo.org/help/en-gb/22-account">Account</a></h4>
+    </div>
+    <div class="col-md-3">
+        <h4><a href="https://support.zenodo.org/help/en-gb/1-upload-deposit">Upload/Deposit</a></h4>
+    </div>
+    <div class="col-md-3">
+        <h4><a href="https://support.zenodo.org/help/en-gb/6-collaborate-and-share">Collaborate and share</a></h4>
+    </div>
+</div>
+<div class="row">
+    <div class="col-md-3">
+        <h4><a href="https://support.zenodo.org/help/en-gb/11-communities">Communities</a></h4>
+    </div>
+    <div class="col-md-3">
+        <h4><a href="https://support.zenodo.org/help/en-gb/4-usage-statistics">Usage statistics</a></h4>
+    </div>
+    <div class="col-md-3">
+        <h4><a href="https://support.zenodo.org/help/en-gb/25-citations">Citations</a></h4>
+    </div>
+    <div class="col-md-3">
+        <h4><a href="https://support.zenodo.org/help/en-gb/2-safelisting">Safelisting</a></h4>
+    </div>
+</div>
+<div class="row" style="margin-bottom:20px;">
+    <div class="col-md-3">
+        <h4><a href="https://support.zenodo.org/help/en-gb/24-github-integration">GitHub integration</a></h4>
+    </div>
+    <div class="col-md-3">
+        <h4><a href="https://support.zenodo.org/help/en-gb/13-policies">Policies</a></h4>
+    </div>
+    <div class="col-md-3">
+        <h4><a href="https://support.zenodo.org/help/en-gb/15-reuse">Reuse</a></h4>
+    </div>
+    <div class="col-md-3">
+    </div>
+</div>
+
+**Tip**: OpenAIRE provides general guides/training on open science, Horizon Europe, research data management (RDM) and legal issues for researchers:
+
+- [Guides](https://www.openaire.eu/guides)
+- [Webinars](https://www.openaire.eu/support/webinars)
+- [Open science in Europe](https://www.openaire.eu/open-science-europe-overview)
