@@ -40,13 +40,14 @@ Zenodo is funded by:
 Zenodo is developed and supported as a marginal activity, and hosted on top of existing infrastructure and services at CERN, in order to reduce operational costs and rely on existing efforts for High Energy Physics. CERN has some of the world’s top experts in running large scale research data infrastructures and digital repositories that we rely on in order to deliver a trusted digital repository.
 
 #### Staff
-Zenodo is operated currently by:
+
+Zenodo is currently operated by:
 
 - **Steering board:** Alexandros Ioannidis-Pantopikos, Jose Benito Gonzalez Lopez, Lars Holm Nielsen, Tim Smith
 - **Service manager:** Alexandros Ioannidis-Pantopikos
-- **Developers and supporters:** Dimitris Frangiadakis, Jenny Bonsak, Manuel Alejandro De Oliveira da Costa, Pablo Panero, Rodrigo Almeida
+- **Developers and supporters:** Carlin MacKenzie, Fatimah Zulfiqar, Manuel Alejandro De Oliveira da Costa, Pablo Tamarit, Yash Lamba
 
-Zenodo is however embedded in a much larger team, headed by Jose Benito Gonzalez Lopez, which runs services such as [CERN Document Server](https://cds.cern.ch), [CERN Open Data](http://opendata.cern.ch), CERN Analysis Preservation and we rely heavily on co-developing features via the [Invenio digital library framework](https://inveniosoftware.org).
+We co-develop InvenioRDM (the underlying technical software platform) with CERN's Institutional Repositories team who builds and operates services such as [CERN Document Server](https://cds.cern.ch) and [CERN Open Data](http://opendata.cern.ch). We rely heavily on CERN IT Department's teams and infrastructure such as database services, search services, platform-as-a-service, monitoring and logging services, storage services, compute and network services, project support services to mention a few. We further co-develop InvenioRDM with the wider InvenioRDM community consisting of 25+ institutional partners.
 
 #### Memberships
 
@@ -61,34 +62,39 @@ CERN is an active member of the following organisations and international bodies
 - [SCOAP3](https://scoap3.org/)
 
 <hr />
+
 ## Technical
-Zenodo is powered by [CERN Data Centre](https://home.cern/science/computing/data-centre) and the [Invenio digital library framework](https://inveniosoftware.org) and is fully run on open source products all the way through.
+Zenodo is powered by [CERN Data Centre](https://home.cern/science/computing/data-centre) and the [InvenioRDM](https://inveniordm.docs.cern.ch) and is fully run on open source products all the way through.
 
 Physically, Zenodo's entire technical infrastructure is located on CERN's premises which is subject to CERN's legal status (see above).
 
 #### Server management
-Zenodo servers are managed via [OpenStack](https://openstack.org/) and [Puppet](https://puppet.com) configuration management system which ensures that our servers always have the latest security patches applied. Servers are monitored via CERN’s monitoring infrastructure based on Flume, Elasticsearch, Kibana and Hadoop. Application errors are logged and aggregated in a local [Sentry](https://sentry.io/) instance. Traffic to Zenodo frontend servers is load balanced via a combination of DNS load balancing and HAProxy load balancers.
 
-We are furthermore running two independent systems: one **production** system and one **quality assurance** system. This ensures that all changes, whether at infrastructure level or source code level, can be tested and validated on our quality assurance system prior to being applied to our production system.
+Zenodo servers are managed via [OpenShift](https://docs.openshift.com) which itself runs on top of CERN's private cloud which is using [OpenStack](https://openstack.org/) and [Puppet](https://puppet.com) configuration management system. Servers are monitored via CERN’s monitoring infrastructure based on Logstash, OpenSearch, and Hadoop. Application errors are logged and aggregated in a local [Sentry](https://sentry.io/) instance. Traffic to Zenodo frontend servers is load balanced via a combination of DNS load balancing and HAProxy load balancers.
+
+We are furthermore running three independent systems: one **production** system, one **quality assurance** system, and one **development** system. This ensures that all changes, whether at infrastructure level or source code level, can be tested and validated on our quality assurance system prior to being applied to our production system.
 
 #### Frontend servers
-Zenodo frontend servers are responsible for running the Invenio repository platform application which is based on Python and the Flask web development framework. The frontend servers are running nginx HTTP server and uwsgi application server in front of the application and nginx is in addition in charge of serving static content.
+
+Zenodo frontend servers are responsible for running the InvenioRDM repository platform application which is based on Python and the Flask web development framework. The frontend servers are running nginx HTTP server and uwsgi application server in front of the application and nginx is in addition in charge of serving static content.
 
 #### Data storage
-All files uploaded to Zenodo are stored in CERN’s [EOS service](https://eos-web.web.cern.ch/eos-web/) in an 18 petabytes disk cluster. Each file copy has two replicas located on different disk servers.
+
+All files uploaded to Zenodo are stored in CERN’s [EOS service](https://eos-web.web.cern.ch/eos-web/) in an 5 petabytes disk cluster. Each file copy has two replicas located on different disk servers. A daily incremental backup is performed of the EOS storage cluster into a [Ceph](https://docs.ceph.com/en/reef/) storage cluster located in a different geographical location (~3.5 km apart). The backup retention policy keeps the last 7 daily backups, last 5 weekly backups and last 6 monthly backups.
 
 For each file we store two independent MD5 checksums. One checksum is stored by Invenio, and used to detect changes to files made from outside of Invenio. The other checksum is stored by EOS, and used for automatic detection and recovery of file corruption on disks.
 
-Zenodo may, depending on access patterns in the future, move the archival and/or the online copy to CERN’s offline long-term tape storage system CASTOR in order to minimize long-term storage costs.
-
-EOS is the primary low latency storage infrastructure for physics data from the Large Hadron Collider (LHC) and CERN currently operates multiple instances totalling 150+ petabytes of data with expected growth rates of 30-50 petabytes per year. CERN’s CASTOR system currently manages 100+ petabytes of LHC data which are regularly checked for data corruption.
-
-Invenio provides an object store like file management layer on top of EOS which is in charge of e.g. version changes to files.
+EOS is the primary low latency storage infrastructure for physics data from the Large Hadron Collider (LHC) and CERN currently operates multiple instances totalling 1+ exabyte of data.
 
 #### Metadata storage
-Metadata and persistent identifiers in Zenodo are stored in a PostgreSQL instance operated on CERN’s Database on Demand infrastructure with 12-hourly backup cycle with one backup sent to tape storage once a week. Metadata is in addition indexed in an Elasticsearch cluster for fast and powerful searching. Metadata is stored in JSON format in PostgreSQL in a structure described by versioned JSONSchemas. All changes to metadata records on Zenodo are versioned, and happening inside database transactions.
+
+Metadata and persistent identifiers in Zenodo are stored in a PostgreSQL instance (with a master-slave setup) operated on CERN’s Database on Demand infrastructure with 24-hourly backup cycle with one backup sent to tape storage once a week. Metadata is in addition indexed in an OpenSearch cluster for fast and powerful searching. Metadata is stored in JSON format in PostgreSQL in a structure described by versioned JSONSchemas. All changes to metadata records on Zenodo are versioned, and happening inside database transactions.
 
 In addition to the metadata and data storage, Zenodo relies on Redis for caching and RabbitMQ and python Celery for distributed background jobs.
+
+#### Additional infrastructure
+
+Zenodo uses self-hosted versions of [Zammad](https://zammad.org) for helpdesk management, [listmonk](https://listmonk.app) for newsletter management, [PgBouncer](https://www.pgbouncer.org) for database connection pooling, and [IIPServer](https://iipimage.sourceforge.io) for our image zoom serving.
 
 <hr />
 ## <a id="security"></a> Security
