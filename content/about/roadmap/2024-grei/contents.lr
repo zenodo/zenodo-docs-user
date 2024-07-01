@@ -1,12 +1,12 @@
-column: near-term
+column: current
 ---
 body:
-We will be working on backend related features to improve our management and update of vocabularies such as ROR, ORCID and EuroSciVoc.
+We will be working on performing regular updates of some of our backend vocabularies such as ROR (funders/affiliations), ORCID (names) and subject vocabularies (EuroSciVoc, Medical Subject Headings).
 
-*Planned mid-2024*
+*Planned July 2024*
 ---
 category: Development
 ---
-title: Vocabularies backend
+title: Vocabularies (ROR, ORCID, MeSH)
 ---
 year: 2024
