@@ -1,12 +1,14 @@
-column: future
+column: near-term
 ---
 body:
-The EU Open Research Repository will be expanded with improved curation capabilities. Learn more about the planned features in [HORIZON-ZEN FAIR-enabling deposit workflow design](https://doi.org/10.5281/zenodo.10901185)
+We will be working on a workflow for automatic detection and quality assurance
+of EU-funded records so that they can be included into the EU Open Research
+Repository.
 
-*Planned releases in December 2024 and March 2025*
+*Planned release in December 2024*
 ---
 category: Projects
 ---
-title: EU Open Research Repository
+title: Automated detection of EU-funded records
 ---
 year: 2024
