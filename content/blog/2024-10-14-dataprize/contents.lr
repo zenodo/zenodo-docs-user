@@ -1,0 +1,44 @@
+title: Win the 2024 Dataworks! $100,000 Grand Prize by reusing Zenodo data
+---
+author: pearl
+---
+body:
+
+#### Announcing the 2024 DataWorks! Prize!
+
+The Federation of American Societies for Experimental Biology (FASEB) and the National Institutes of Health (NIH) invite you to submit your data reuse project proposal that demonstrates the power of data reuse to advance human health.
+
+The 2024 DataWorks! Prize is a collaboration with the seven generalist repositories participating in the NIH-funded Generalist Repositories Ecosystem Initiative (GREI) and will focus on best practices in data reuse and secondary analysis that advance human health. Participants will participate in a two-phase challenge.
+
+- **Phase 1:** Research teams will submit a proposal for a secondary analysis research project that can be completed within a 6 month period and incorporates data from one or more generalist repositories participating in the GREI ([more information on GREI](https://datascience.nih.gov/data-ecosystem/generalist-repository-ecosystem-initiative)); data from other repositories can be combined.
+- **Phase 2:** Selected teams will complete their reuse/secondary analysis research projects and share their findings publicly.
+
+#### Awards and Prizes
+
+The NIH Office of Data Science Strategy will award up to $500,000 total in cash prizes to the Challenge winners. NIH will award the prize purse in the following amounts:
+- Phase 1: $25,000 per winner, up to ten (10) winners
+- Phase 2: Grand Prize: $100,000 for one (1) winner; Distinguished Achievement Awards: $75,000 per winner, up to two (2) winners
+
+#### Successful submissions must:
+
+- Address a pivotal health research question via data reuse and secondary data analysis
+- Include data from at least one [GREI repository](https://datascience.nih.gov/data-ecosystem/generalist-repository-ecosystem-initiative), including [Zenodo](https://zenodo.org/).
+- Share results with the broader community
+- Be submitted by October 24, 2024
+
+#### Reusing data in Zenodo:
+
+As a cross-domain repository, Zenodo enables researchers to share and preserve a wide range of interdisciplinary research outputs, including research papers, data sets, research software, reports, presentations, and any other research related digital outputs.
+
+#### How can I find Zenodo data for reuse?
+
+Search for data by simply typing keywords of interest in the search box at the top of the [Zenodo home page](https://zenodo.org/). Facet search results by using the menu on the left side of the page by resource type (e.g., dataset), access status (e.g., open), subject area, and file type (for example, [hypertension](https://zenodo.org/search?q=hypertension&f=resource_type%3Adataset&l=list&p=1&s=10&sort=bestmatch), [pathogen](https://zenodo.org/search?q=pathogen&f=resource_type%3Adataset&f=access_status%3Aopen&l=list&p=1&s=10&sort=newest), [comparative genomics](https://zenodo.org/search?q=%22comparative%20genomics%22&f=resource_type%3Adataset&f=access_status%3Aopen&l=list&p=1&s=10&sort=newest), [precision medicine](https://zenodo.org/search?q=%22precision%20medicine%22&f=resource_type%3Adataset&f=access_status%3Aopen&l=list&p=1&s=10&sort=mostviewed)). You can order the search results based on date, best match, most viewed, etc. Use the Zenodo Search Guide to further craft your search.
+
+You can also try your search in [Zenodo Communities](https://zenodo.org/communities), A Zenodo community provides a space for domains, projects, and institutions to curate and manage a collection of their research outputs and share with members of the community and beyond (for example, [some Communities funded by NIH](https://zenodo.org/communities/search?q=&f=funder%3A01cwqze88&l=list&p=1&s=10&sort=newest)).
+
+**Full details about the challenge can be found [here](https://www.herox.com/dataworks).**
+
+We encourage you and your team to submit your project proposals. Your ideas could shape the future of healthcare.
+
+---
+date: 2024-10-14

@@ -39,6 +39,10 @@
     "name": "Daniella Lowenberg",
     "img": ""
   },
+  "pearl": {
+    "name": "Pearl D. Go",
+    "img": ""
+  },
   "mteperek": {
     "name": "Marta Teperek",
     "img": ""
@@ -62,7 +66,7 @@
   "korellana": {
     "name": "K. Samanta Orellana",
     "orcid" : "https://orcid.org/0000-0002-4098-5823"
-  }, 
+  },
   "nu-cern-nih": {
     "name": "Northwestern University, CERN and NIH",
     "img": ""
