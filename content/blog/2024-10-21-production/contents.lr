@@ -1,0 +1,44 @@
+title: EU Open Research Repository Moves to Production
+---
+author: lnielsen
+---
+body:
+
+In March 2024, the EU and CERN officially launched the [EU Open Research Repository](https://zenodo.org/communities/eu/) on Zenodo in a pilot phase, and since then, it has rapidly gained momentum. Over the past several months, we have successfully onboarded 130 EU-funded projects as EU projects communities - a feature that provides projects an easy go-to solution for sharing and preserving the research outputs from their projects. About 23% of all EU-funded projects (FP7, Horizon 2020 and Horizon Europe) during the past 10 years have a research output on Zenodo amounting to 11.000 different grants.
+
+As we now move from the pilot to the production phase, the EU Open Research Repository is set to become an essential tool for EU projects, offering an easy, accessible platform to support the broader implementation of EU open science policies.
+
+<div align="center" style="padding:20px"><img src="/2024/10/21/2024-10-21-production/frontpage.png" width="100%" /></div>
+
+#### Supporting EU Open Science policy
+
+The EU has long been a driving force behind open science, progressively supporting its adoption through successive Research and Innovation Framework Programmes. This effort began with the Open Access pilot in FP7, followed by the addition of Open Data provisions in Horizon 2020, and now, in Horizon Europe, through a strong commitment to comprehensive open science practices. These practices include open access to scientific publications, responsible management of research data, and a clear focus on FAIR (Findable, Accessible, Interoperable, Reusable) principles.
+
+The establishment of the EU Open Research Repository represents a continuation of these efforts. Built upon the foundation of Zenodo — a general-purpose open repository operated by CERN — the new repository enables researchers to deposit a wide range of outputs, including papers, datasets, software, posters, presentations, and more. This platform provides an easy, go-to solution for EU programme beneficiaries to comply with open science requirements, helping them make their research outputs FAIR in practice.
+
+Managed by CERN on behalf of the European Commission, the EU Open Research Repository helps EU-funded projects streamline the management and dissemination of their research outputs, supporting the continued growth of the open science ecosystem in Europe.
+
+#### New Features During the Pilot
+
+Today, we are also excited to announce the launch of our new browse feature, which offers users an overview of the content within the EU Open Research Repository. This feature allows users to browse research outputs by funding programme, subject, or project, providing an intuitive, user-friendly experience. All of this is made possible thanks to the integration of high-quality open data from CORDIS, the EU’s project database, which provides funding programme details and subject classifications using EuroSciVoc.
+
+<div align="center" style="padding:20px"><img src="/2024/10/21/2024-10-21-production/browse.png" width="100%" /></div>
+
+The pilot phase introduced several new features designed to make it easier for EU-funded projects to manage their research outputs. One of the key additions was a workflow for projects to request a project community, which allows them to either create a new community or integrate an existing Zenodo community into the EU Open Research Repository.
+
+#### What's next?
+
+As we transition into the production phase, we have several key objectives. First and foremost, we will continue to integrate feedback from the early adopters who participated in the pilot phase. Their insights have been invaluable in shaping the platform, and we are committed to ensuring that their needs and suggestions are addressed as we move forward.
+
+In addition to this, we plan to onboard approximately 2,700 project communities that we have already identified on Zenodo. These projects will benefit from the new features and improved workflows that have been developed during the pilot.
+
+Another important focus for the future is the automatic integration of EU-funded submissions made to Zenodo that fall outside of dedicated project communities. This will further streamline the process of depositing research outputs and ensure that all relevant submissions are included in the EU Open Research Repository.
+
+Lastly, we are committed to enhancing the FAIRness of Zenodo by implementing improvements that will better support domain-specific features. This will also involve harmonizing curation efforts across different projects to ensure the high quality of metadata associated with deposited research outputs.
+
+#### Funding
+The EU Open Research Repository is funded by the European Union under grant agreement no. 101122956 (HORIZON-ZEN).
+
+You can learn more about the HORIZON-ZEN project on https://about.zenodo.org/projects/horizon-zen/
+---
+date: 2024-10-21

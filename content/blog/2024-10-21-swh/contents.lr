@@ -1,0 +1,43 @@
+title: Zenodo launches integration with Software Heritage
+---
+author: lnielsen
+---
+body:
+
+Zenodo and [Software Heritage](https://www.softwareheritage.org/), through the EU-funded [FAIRCORE4EOSC](https://faircore4eosc.eu/) project, have launched a new integration. In order to fulfill the promise of an interconnected and interoperable academic ecosystem, research software infrastructures should support the archiving of source code within the universal source code archive, contributing to the global software commons.
+This integration ensures that software source code deposited in Zenodo is automatically archived in Software Heritage. It implements the recommendations from the [EOSC Scholarly Infrastructures for Research Software](https://data.europa.eu/doi/10.2777/28598) report:
+
+*“In the 21st century, many research activities use computing systems to monitor their experiments, to visualise or analyse their results, or to check hypotheses through simulation.It has therefore become essential to archive, preserve and share research software.”*
+
+*“Over the past decade, awareness has been raised about the importance of software in the scholarly world. Several infrastructures have started to be built, or adapted, to address some of the following key challenges that need to be tackled to put software on equal footing with other research outputs in the scholarly world:*
+
+- *Archiving software to ensure research software artifacts are not lost.*
+- *Referencing software to ensure research artifacts can be precisely identified.*
+- *Describing software to easily discover and identify research software artifacts.*
+- *Crediting all authors to ensure their contributions are recognized.”*
+
+#### Zenodo: Research software + Versioning + GitHub
+
+Zenodo has long had a strong focus on supporting research software. Since 2014 Zenodo has an integration with GitHub that enables researchers to easily archive research software in GitHub into Zenodo. Upon deposit of the research software in Zenodo (either from GitHub or directly in Zenodo), the researcher would obtain a DOI (Digital Object Identifier) which would facilitate the persistent identification of software and support researchers in adopting the [Software Citation Principles](https://doi.org/10.7717/peerj-cs.86), in particular in citing research software papers. The Zenodo versioning feature further enabled both the citation of individual snapshots of software vs. citing a software project as a whole. Today, Zenodo is the [largest minter of software DOIs](https://doi.org/10.5438/1nmy-9902) and is able to [track citations to software independently](https://blog.zenodo.org/2019/01/10/2019-01-10-asclepias/) of which persistent identifier was used in the citation.
+
+#### Integration with Software Heritage
+
+The new integration between Zenodo and Software Heritage enhances the capabilities to archive, reference, describe, and cite research software artifacts. Most of the process occurs behind the scenes, ensuring seamless and transparent software archiving for researchers, regardless of their workflow.
+
+<div align="center" style="padding:20px"><img src="/2024/10/21/2024-10-21-swh/zenodo.png" width="100%" /><br/><i>Figure 1 - Zenodo record for a software deposit showing that it has been archived in Software Heritage in the bottom right corner.</i></div>
+
+When a researcher deposits software in Zenodo, the software will be automatically sent to Software Heritage (if the files are publicly accessible). Zenodo then obtains the associated Software Hash Identifier ([SWHID](https://www.swhid.org/)), links it with the DOI, and displays it on the record landing page. The DOI integrates with the scholarly publishing ecosystem, while the SWHID provides direct access to the archived source code, including the full version history. This bi-directional linking ensures interoperability between two key identifiers for research software.
+
+<div align="center" style="padding:20px"><img src="/2024/10/21/2024-10-21-swh/swh.png" width="100%" /><br/><i>Figure 2 - The corresponding Zenodo software record in Software Heritage.</i></div>
+
+In addition to archiving software in Software Heritage, Zenodo has enhanced the upload form with software-specific fields, such as programming languages and repository URLs on top of our already existing fields such as the SPDX license field. We’ve also added support for CodeMeta and Citation File Format export formats.
+
+#### What’s next?
+While the core integration with Software Heritage has launched, further backend improvements are planned for the coming six months, primarily aimed at improving interoperability. Additionally, this integration will be fully incorporated into InvenioRDM, making it easier for other repositories, such as institutional ones, to [integrate with Software Heritage](https://docs.softwareheritage.org/devel/swh-deposit/index.html).
+
+This work was funded by the European Commission through grant agreement no. [101057264](https://doi.org/10.3030/101057264) (FAIRCORE4EOSC).
+
+---
+date: 2024-10-21
+---
+_hidden: true
