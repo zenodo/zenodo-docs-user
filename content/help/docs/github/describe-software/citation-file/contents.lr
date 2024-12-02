@@ -1,0 +1,17 @@
+_model: docspage
+---
+title: CITATION.cff file
+---
+menu: /help/docs/github
+---
+sort_key: 2
+---
+body: 
+CITATION stuff
+---
+docs: 
+#### docsheader ####
+text: Create a CITATION.cff file
+#### docsheader ####
+text: Validate a CITATION.cff file
+

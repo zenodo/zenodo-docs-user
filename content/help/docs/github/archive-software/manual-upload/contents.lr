@@ -1,0 +1,65 @@
+_model: docspage
+---
+title: Upload software manually
+---
+menu: /help/docs/github
+---
+sort_key: 1
+---
+body:
+This guide will help you create a **Software** record to be archived in [Software Heritage](https://www.softwareheritage.org/). It assumes you have already created (but not published) a new upload. If you need help starting a new upload, read the following guide:
+
+- [Create a new upload](https://help.zenodo.org/docs/deposit/create-new-upload/#new-upload)
+
+---
+docs:
+
+#### docsheader ####
+
+text:  Create a software deposit
+
+----
+#### docsstep ####
+step: 1
+----
+text: 
+
+In the deposit form of your upload, add a single **ZIP** file that contains your software's source code
+
+**NOTE**: It is mandatory that only one compressed file (e.g. ZIP) is present in the record. Otherwise, the record is deemed invalid and not archived in Software Heritage
+
+----
+image: https://codimd.web.cern.ch/uploads/upload_5c2f71987c22ea0a41d5868dcd268e0f.png
+----
+#### docsstep ####
+step: 2
+----
+text: Under *Resource type* select **Software**
+----
+image: https://codimd.web.cern.ch/uploads/upload_362d7ed8d76e99d0bb38cca0f208d868.png
+----
+#### docsstep ####
+step: 3
+----
+text: Describe the record according to your needs. Learn more about the deposit form fields here:
+
+- [Describe records](https://help.zenodo.org/docs/deposit/describe-records/)
+----
+#### docsstep ####
+step: 4
+----
+text: It is strongly suggested to use software-specific fields. To do so, scroll-down to the *Software* category:
+----
+image: https://codimd.web.cern.ch/uploads/upload_cd2c5679f034671be3f70591cf58062d.png
+----
+#### docsstep ####
+step: 5
+----
+text: Publish the record
+----
+#### docsstep ####
+step: 6
+----
+text: In the record page, check the archival status under **External resources** > **Archived in**. The record will be archived soon.
+----
+image: archive-wait.png

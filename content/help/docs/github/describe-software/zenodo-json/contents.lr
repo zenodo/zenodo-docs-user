@@ -1,0 +1,16 @@
+_model: docspage
+---
+title: Zenodo JSON file
+---
+menu: /help/docs/github
+---
+sort_key: 3
+---
+body: 
+.zenodo.json
+---
+docs: 
+#### docsheader ####
+text: Create a .zenodo.json file
+
+
