@@ -7,10 +7,90 @@ menu: /help/docs/github
 sort_key: 3
 ---
 body: 
-.zenodo.json
+A `.zenodo.json` file can be added to your Github repository to describe the software after it is preserved in Zenodo.
 ---
 docs: 
 #### docsheader ####
 text: Create a .zenodo.json file
+#### docstext ####
+----
+#### docsstep ####
+step: 1
+----
+text: Open your repository on Github
+#### docsstep ####
+step: 2
+----
+text: Add a new file
+#### docsstep ####
+step: 3
+----
+text: Name it `.zenodo.json`
+#### docsstep ####
+step: 4
+----
+text: Commit the file
+#### docsstep ####
+step: 6
+----
+text: [Archive the release](../../archive-software/github-upload)
+----
+#### docstext ####
+text: Find below an example of a `.zenodo.json` file:
+
+```
+{
+    "creators": [
+        {
+            "affiliation": "University of Example",
+            "name": "Research Data Management Support"
+        }
+    ],
+    "contributors": [
+        {
+            "name": "John Doe",
+            "affiliation": "University of Example",
+            "orcid": "0000-0000-0000-0000",
+            "type": "ProjectMember"
+        }
+    ],
+    "title": "Data Privacy Handbook",
+    "access_right": "open",
+    "related_identifiers": [
+        {
+            "identifier": "https://exampleuniversity.github.io/dataprivacyhandbook",
+            "relation": "isAlternateIdentifier",
+            "resource_type": "other"
+        },
+        {
+            "identifier": "https://github.com/ExampleUniversity/dataprivacyhandbook",
+            "relation": "isAlternateIdentifier",
+            "resource_type": "other"
+        },
+        {
+            "identifier": "https://exampleuniversity.nl/privacyhandbook",
+            "relation": "isAlternateIdentifier",
+            "resource_type": "other"
+        },
+        {
+            "identifier": "https://exampleuniversity.github.io/dataprivacyproject",
+            "relation": "describes",
+            "resource_type": "other"
+        }
+    ],
+    "keywords": [
+        "data privacy",
+        "research",
+        "gdpr",
+        "academia",
+        "general data protection regulation"
+    ],
+    "license": "afl-1.1",
+    "upload_type": "publication",
+    "publication_type": "book",
+    "language": "eng",
+}
+```
+
 
 

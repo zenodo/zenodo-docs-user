@@ -7,11 +7,81 @@ menu: /help/docs/github
 sort_key: 2
 ---
 body: 
-CITATION stuff
+A `CITATION.cff` file can be added to your Github repository to describe the software after it is preserved in Zenodo.
 ---
 docs: 
 #### docsheader ####
 text: Create a CITATION.cff file
+#### docstext ####
+----
+#### docsstep ####
+step: 1
+----
+text: Open your repository on Github
+#### docsstep ####
+step: 2
+----
+text: Add a new file
+#### docsstep ####
+step: 3
+----
+text: Name it `CITATION.cff`
+#### docsstep ####
+step: 4
+----
+text: (Optional) Validate the contents of the file, see the instructions [below](#validate) for more information.
+#### docsstep ####
+step: 5
+----
+text: Commit the file
+#### docsstep ####
+step: 6
+----
+text: [Archive the release](../../archive-software/github-upload)
+----
+#### docstext ####
+text: Currently Zenodo implements a subset of the `CITATION.cff` schema, find an example with all the fields that are supported below:
+
+```
+cff-version: 1.2.0
+title: >-
+  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+version: 1.8.0
+abstract: >-
+  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+license: "bsd-3-clause"
+message: >-
+  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+type: software
+authors:
+  - given-names: John
+    family-names: Doe
+    affiliation: University of Example
+    orcid: 'https://orcid.org/0000-0000-0000-0000'
+  - given-names: Jane
+    family-names: Smith
+    affiliation: Example University
+    orcid: 'https://orcid.org/0000-0000-0000-0001'
+  - given-names: Alex
+    family-names: Johnson
+    affiliation: Example National Lab
+    email: example@example.com
+    orcid: 'https://orcid.org/0000-0000-0000-0002'
+keywords:
+  - data science
+  - ecosystem models
+  - climate science
+  - ecological forecasting
+```
 #### docsheader ####
 text: Validate a CITATION.cff file
+----
+ref: validate
 
+#### docstext ####
+text: A `CITATION.cff` can be validated using tools such as [cff-convert](https://github.com/citation-file-format/cffconvert). Even though this is not maintained by Zenodo, we use it to validate our users' files and it is also recommended by the [Citation File Format](https://github.com/citation-file-format/citation-file-format?tab=readme-ov-file#validation-heavy_check_mark).
+
+Instructions on how to install and execute the tool can be found on their repository:
+
+- [How to install](https://github.com/citation-file-format/cffconvert?tab=readme-ov-file#installing)
+- [How to use](https://github.com/citation-file-format/cffconvert?tab=readme-ov-file#validating-a-local-citationcff-file)
