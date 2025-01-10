@@ -1,9 +1,57 @@
 _model: docspage
 ---
-title: Enable repository
----
-docs: 
+title: Enable a repository
 ---
 menu: /help/docs/github
 ---
-sort_key: 2
+sort_key: 1
+---
+body:
+
+This guide will walk you through the steps to enable a GitHub repository for integration, ensuring it is properly linked. Once connected, new releases from the repository will be automatically ingested and archived.
+
+As a prerequisite, make sure you have a connected Github account. Learn here how to connect your account here:
+
+- [Linking your GitHub/ORCID/OpenAIRE account](https://help.zenodo.org/docs/profile/linking-accounts/)
+
+---
+docs:
+
+#### docsheader ####
+
+text: Enable a repository
+----
+#### docsstep ####
+step: 1
+----
+docstext: Click the profile menu in the header and click **Github**
+----
+image: profile.png
+----
+#### docsstep ####
+step: 2
+----
+text: Click **Sync now** in the header
+----
+image: sync.png
+----
+#### docsstep ####
+step: 3
+----
+text: Find a repository you wish to enable, then toggle the slider to connect it to Zenodo
+----
+image: repos.png
+----
+#### docsstep ####
+step: 4
+----
+text: The repository is now connected to Zenodo:
+----
+image: success_repo.png
+----
+#### docsstep ####
+step: 5
+----
+text: Refresh the page to update the list of enabled repositories
+----
+image: enabled_repos.png

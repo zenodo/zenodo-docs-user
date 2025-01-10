@@ -1,0 +1,99 @@
+_model: docspage
+---
+title: Archive a release from Github
+---
+menu: /help/docs/github
+---
+sort_key: 1
+---
+body: 
+This guide will help you create a **Software** record to be archived in [Software Heritage](https://www.softwareheritage.org/). It assumes you have already enabled a repository. 
+
+If you need help to enable a repository, read the following guide:
+
+- [Enable a repository](../../enable-repository)
+---
+docs:
+#### docsheader ####
+text: Create a release
+----
+ref:create-a-release
+#### docsstep ####
+step: 1
+----
+text: Open the profile menu and click **Github**
+----
+image: profile.png
+#### docsstep ####
+step: 2
+----
+text: Select the repository
+----
+image: enabled_repos.png
+#### docsstep ####
+step: 3
+----
+text: Click the **Create release** button
+----
+image: create-release.png
+#### docsstep ####
+step: 4
+----
+text:
+
+Create a release in Github.  Find more information on how to manage releases here:
+
+- [Managing releases in a repository](https://docs.github.com/en/repositories/releasing-projects-on-github/managing-releases-in-a-repository)
+----
+image: 
+#### docsstep ####
+step: 5
+----
+text:
+
+Wait for the release to be processed. 
+
+This could take some time, depending on the size of the release file and the load of Zenodo at that time.
+----
+image: 
+#### docsstep ####
+step: 6
+----
+text: When the release is finished, click the record DOI to go to the record
+----
+image: release.png
+----
+#### docsstep ####
+step: 7
+----
+text: In the record page, check the archival status under **External resources** > **Archived in**. The record will be archived soon.
+----
+image: ../manual-upload/archive-wait.png
+----
+#### docsheader ####
+text: Debug a failed release
+#### docsstep ####
+step: 1
+----
+text: Select the repository (see step 2 above)
+----
+#### docsstep ####
+step: 2
+----
+text: Select the failed release 
+----
+image: failed-release.png
+#### docsstep ####
+step: 3
+----
+text: In the collapsable window that just open, select **Errors**
+----
+#### docsstep ####
+step: 4
+----
+text: Check if the error is related to your release metadata. If so, you can fix it and release your software again.
+
+**Note**: you can use tools such as [cff-converter](https://github.com/citation-file-format/cff-converter-python) to validate your `CITATION.cff` file.
+**Note**: we provide complete [examples](../../describe-software) of `CITATION.cff` and `.zenodo.json` files.
+----
+image: failed-release-errors.png

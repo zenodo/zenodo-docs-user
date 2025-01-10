@@ -1,0 +1,25 @@
+_model: docspage
+---
+title: Describe software
+---
+menu: /help/docs/github
+---
+sort_key: 3
+---
+body: 
+---
+docs: 
+#### docstext ####
+text: 
+The metadata schema used by Zenodo was extended with fields based on the [CodeMeta](https://codemeta.github.io/) standard, providing support for software-specific metadata.
+
+Moreover, Zenodo supports `CITATION.cff` and `.zenodo.json` files for software releases originating from GitHub, enhancing the integration and making the content easier to cite. 
+
+Find more information about citing content on Github here:
+
+- [Referencing and citing content](https://docs.github.com/en/repositories/archiving-a-github-repository/referencing-and-citing-content)
+
+These are the supported methods to describe software records:
+#### docstoc ####
+menu: /help/docs/github/describe-software
+

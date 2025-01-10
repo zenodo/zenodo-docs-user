@@ -1,15 +1,17 @@
 _model: docspage
 ---
-_hidden: true
+_hidden: false
 ---
-title: GitHub
+title: GitHub and Software
 ---
 sort_key: 10
 ---
 menu: /help/docs/github
 ---
 body:
-
-bla bla
 ---
 docs:
+#### docstext ####
+text: This section covers the Zenodo/GitHub integration and provides details on how software records are archived in [Software Heritage](https://www.softwareheritage.org/)
+#### docstoc ####
+menu: /help/docs/github

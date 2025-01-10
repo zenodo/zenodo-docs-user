@@ -1,0 +1,20 @@
+_model: docspage
+---
+title: Archive software
+---
+menu: /help/docs/github
+---
+sort_key: 4
+---
+body:
+---
+docs:
+#### docstext ####
+text: 
+This section explains how to archive software records in [Software Heritage](https://www.softwareheritage.org/) through Zenodo.
+
+All the software records with a single compressed file are considered for archival, this guide covers the following methods:
+
+#### docstoc ####
+menu: /help/docs/github/archive-software
+
