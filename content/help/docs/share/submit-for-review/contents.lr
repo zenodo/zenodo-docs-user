@@ -57,7 +57,7 @@ image: new-upload.png
 #### docsstep ####
 step: 4
 ----
-text: Verify that your selected community is not displayed in the header of the deposit form.
+text: Verify that your selected community is now displayed in the header of the deposit form.
 ----
 image: deposit-form.png
 #### docsstep ####
