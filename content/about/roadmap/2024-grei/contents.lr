@@ -1,4 +1,4 @@
-column: current
+column: done
 ---
 body:
 We will be working on performing regular updates of some of our backend vocabularies such as ROR (funders/affiliations), ORCID (names) and subject vocabularies (EuroSciVoc, Medical Subject Headings).
