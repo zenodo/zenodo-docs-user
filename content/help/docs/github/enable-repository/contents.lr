@@ -10,7 +10,7 @@ body:
 
 This guide will walk you through the steps to enable a GitHub repository for integration, ensuring it is properly linked. Once connected, new releases from the repository will be automatically ingested and archived.
 
-As a prerequisite, make sure you have a connected Github account. Learn here how to connect your account here:
+As a prerequisite, make sure you have a connected GitHub account. Learn here how to connect your account here:
 
 - [Linking your GitHub/ORCID/OpenAIRE account](https://help.zenodo.org/docs/profile/linking-accounts/)
 
@@ -24,7 +24,7 @@ text: Enable a repository
 #### docsstep ####
 step: 1
 ----
-docstext: Click the profile menu in the header and click **Github**
+text: Click the profile menu in the header and click **GitHub**
 ----
 image: profile.png
 ----

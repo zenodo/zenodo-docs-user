@@ -12,6 +12,6 @@ body:
 ---
 docs:
 #### docstext ####
-text: This section covers the Zenodo/GitHub integration and provides details on how software records are archived in [Software Heritage](https://www.softwareheritage.org/)
+text: This section covers the Zenodo/GitHub integration and provides details on how software records are archived in [Software Heritage](https://www.softwareheritage.org/).
 #### docstoc ####
 menu: /help/docs/github

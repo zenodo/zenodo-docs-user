@@ -1,6 +1,6 @@
 _model: docspage
 ---
-title: Archive a release from Github
+title: Archive a release from GitHub
 ---
 menu: /help/docs/github
 ---
@@ -21,7 +21,7 @@ ref:create-a-release
 #### docsstep ####
 step: 1
 ----
-text: Open the profile menu and click **Github**
+text: Open the profile menu and click **GitHub**
 ----
 image: profile.png
 #### docsstep ####
@@ -41,7 +41,7 @@ step: 4
 ----
 text:
 
-Create a release in Github.  Find more information on how to manage releases here:
+Create a release in GitHub.  Find more information on how to manage releases here:
 
 - [Managing releases in a repository](https://docs.github.com/en/repositories/releasing-projects-on-github/managing-releases-in-a-repository)
 ----

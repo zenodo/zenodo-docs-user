@@ -15,7 +15,7 @@ The metadata schema used by Zenodo was extended with fields based on the [CodeMe
 
 Moreover, Zenodo supports `CITATION.cff` and `.zenodo.json` files for software releases originating from GitHub, enhancing the integration and making the content easier to cite. 
 
-Find more information about citing content on Github here:
+Find more information about citing content on GitHub here:
 
 - [Referencing and citing content](https://docs.github.com/en/repositories/archiving-a-github-repository/referencing-and-citing-content)
 

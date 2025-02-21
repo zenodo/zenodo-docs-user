@@ -7,7 +7,7 @@ menu: /help/docs/github
 sort_key: 2
 ---
 body: 
-A `CITATION.cff` file can be added to your Github repository to describe the software after it is preserved in Zenodo.
+A `CITATION.cff` file can be added to your GitHub repository to describe the software after it is preserved in Zenodo.
 ---
 docs: 
 #### docsheader ####
@@ -17,7 +17,7 @@ text: Create a CITATION.cff file
 #### docsstep ####
 step: 1
 ----
-text: Open your repository on Github
+text: Open your repository on GitHub
 #### docsstep ####
 step: 2
 ----
