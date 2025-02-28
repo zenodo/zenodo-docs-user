@@ -45,7 +45,7 @@ Zenodo is currently operated by:
 
 - **Steering board:** Alexandros Ioannidis-Pantopikos, Jose Benito Gonzalez Lopez, Lars Holm Nielsen, Tim Smith
 - **Service manager:** Alexandros Ioannidis-Pantopikos
-- **Developers and supporters:** Carlin MacKenzie, Fatimah Zulfiqar, Manuel Alejandro De Oliveira da Costa, Pablo Tamarit, Yash Lamba
+- **Developers and supporters:** Carlin MacKenzie, Fatimah Zulfiqar, Pablo Tamarit, Yash Lamba
 
 We co-develop InvenioRDM (the underlying technical software platform) with CERN's Institutional Repositories team who builds and operates services such as [CERN Document Server](https://cds.cern.ch) and [CERN Open Data](http://opendata.cern.ch). We rely heavily on CERN IT Department's teams and infrastructure such as database services, search services, platform-as-a-service, monitoring and logging services, storage services, compute and network services, project support services to mention a few. We further co-develop InvenioRDM with the wider InvenioRDM community consisting of 25+ institutional partners.
 
