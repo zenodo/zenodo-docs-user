@@ -44,34 +44,21 @@ text: Currently Zenodo implements a subset of the `CITATION.cff` schema, find an
 
 ```
 cff-version: 1.2.0
-title: >-
-  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+title: "Memory bus simulation scripts"
 version: 1.8.0
-abstract: >-
-  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-license: "bsd-3-clause"
-message: >-
-  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+license: "MIT"
 type: software
+abstract: "These are the scripts used to simulate a memory bus"
+message: "If you use this software, please cite it as below."
 authors:
-  - given-names: John
-    family-names: Doe
-    affiliation: University of Example
-    orcid: 'https://orcid.org/0000-0000-0000-0000'
-  - given-names: Jane
-    family-names: Smith
-    affiliation: Example University
-    orcid: 'https://orcid.org/0000-0000-0000-0001'
-  - given-names: Alex
-    family-names: Johnson
-    affiliation: Example National Lab
-    email: example@example.com
-    orcid: 'https://orcid.org/0000-0000-0000-0002'
+  - given-names: Josiah
+    family-names: Carberry
+    affiliation: Brown University
+    orcid: "https://orcid.org/0000-0002-1825-0097"
 keywords:
-  - data science
-  - ecosystem models
-  - climate science
-  - ecological forecasting
+  - computer science
+  - psychoceramics
+  - journaling filesystems
 ```
 #### docsheader ####
 text: Validate a CITATION.cff file
