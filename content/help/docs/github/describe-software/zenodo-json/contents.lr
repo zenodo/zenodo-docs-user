@@ -42,7 +42,7 @@ text: Find below an example of a `.zenodo.json` file:
 {
     "creators": [
         {
-            "name": "Carberry, Josiah"
+            "name": "Carberry, Josiah",
             "orcid": "0000-0002-1825-0097",
             "affiliation": "Brown University",
             "type": "ProjectMember"
