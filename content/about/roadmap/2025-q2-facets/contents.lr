@@ -1,10 +1,10 @@
-column: near-term
+column: current
 ---
 body:
 We will be improving the search capabilities of Zenodo. This includes both
 improved ranking as well as filters and facets for advanced search capabilities.
 
-*Planned Q2 2025*
+*Planned release in Q3 2025*
 ---
 category: Development
 ---

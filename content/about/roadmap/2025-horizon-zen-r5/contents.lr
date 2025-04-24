@@ -1,12 +1,12 @@
-column: current
+column: completed
 ---
 body:
-The EU Open Research Repository will be expanded with improved curation capabilities. Learn more about the planned features in [HORIZON-ZEN FAIR-enabling deposit workflow design](https://doi.org/10.5281/zenodo.10901185)
+The EU Open Research Repository will be expanded with improved curation capabilities through automated curation checks for Horizon Europe open science compliance. Learn more about the planned features in [HORIZON-ZEN FAIR-enabling deposit workflow design](https://doi.org/10.5281/zenodo.10901185)
 
-*Planned release in March 2025*
+*Completed March 2025*
 ---
 category: Projects
 ---
-title: EU Open Research Repository
+title: EU Open Research Repository: Automated checks
 ---
 year: 2025
