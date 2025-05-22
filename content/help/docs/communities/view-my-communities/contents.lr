@@ -23,7 +23,7 @@ text: Click **My dashboard** menu item in the header.
 #### docsstep ####
 step: 2
 ----
-text: Click **My communities** in the tab. All communities of which you are an owner or a member will be shown the list.
+text: Click **Communities** in the tab. All communities of which you are an owner or a member will be shown the list.
 ----
 image: mycommunities.png
 

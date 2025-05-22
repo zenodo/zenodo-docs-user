@@ -1,0 +1,27 @@
+_model: docspage
+---
+title: About EU Open Research Repository
+---
+sort_key: 1
+---
+menu: /help/guides/eu
+---
+tocdesc: Presents an overview of the repository and it's features.
+---
+body:
+
+The EU Open Research Repository (a Zenodo-community) is a trusted repository for sharing research outputs funded by the European Union. It is designed to help researchers meet the Horizon Europe open science requirements, while ensuring long-term preservation and discoverability of their work.
+
+The repository provides a free and trusted service for publishing digital research objects including publications, datasets, software, and other outputs. It is open to all researchers receiving EU funding through Horizon Europe (including ERC and MCSA), as well as earlier Framework Programmes and Euratom.
+
+In addition to Zenodo's normal capabilities, the EU Open Research Repository also features:
+
+- **EU Project Communities** - a way for your EU project to collaboratively share and manage your research outputs including publications and data.
+- **Automated compliance checks** - all uploads are checked for compliance against the related Horizon Europe open science requirements.
+- **FAIR enablers** - all uploaded files are checked if they are using open and/or scientific file formats, and you can use domain-specific vocabularies such as GEMET, MeSH, EuroSciVoc as well as domain-specific metadata fields.
+- **Browsing** - all content can be browsed by funding programme, subject, or project.
+- **Curation** - all content in the EU Open Research Repository goes through curation to ensure the uploads have been funded by the European Commission.
+
+The EU Open Research Repository is managed by CERN on behalf of the European Commission.
+---
+docs:

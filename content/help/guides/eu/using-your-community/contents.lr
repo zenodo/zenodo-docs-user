@@ -1,0 +1,42 @@
+_model: docspage
+---
+_hidden: false
+---
+title: Use your EU Project Community
+---
+sort_key: 4
+---
+menu: /help/guides/eu
+---
+tocdesc: Explains how to manage and use your community including collaborative features.
+---
+body:
+
+This guide is an overview over how you can manage and use your EU Project Community. An EU Project Community
+is a special type of community:
+
+- **Indexed in EU Open Research Repository** - all content in the community is automatically available in the EU Open Research Repository.
+- **Automated curation checks** - submissions to the community is subject to the curation policy of the EU Open Research Repository. The curation policy is automatically checked and ensures compliance with the related Horizon Europe open science requirements.
+- **Verified community** - the community gets a verification checkmark, to highlight to other users that it's a verified community.
+---
+docs:
+
+#### docsheader ####
+text: Managing your community
+----
+ref: overview
+#### docstext ####
+text: Following is an overview over how to manage your community including how to **invite members** to help curate your repository, how you **review submissions** and how to **manage and edit records** in your community.
+----
+#### docstoc ####
+menu: /help/docs/communities
+
+#### docsheader ####
+text: Collaborative and sharing features
+----
+ref: overview
+#### docstoc ####
+menu: /help/docs/share
+
+
+

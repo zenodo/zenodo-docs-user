@@ -1,0 +1,68 @@
+_model: docspage
+---
+_hidden: false
+---
+title: Request an EU Project Community
+---
+sort_key: 4
+---
+menu: /help/guides/eu
+---
+tocdesc: Explains how the process how to request a new EU project community.
+---
+body:
+
+This guide explains how you request an EU Project Community. An EU Project Community
+is a special type of [community](../../../docs/communities/):
+
+- **Indexed in EU Open Research Repository** - all content in the community is automatically available in the EU Open Research Repository.
+- **Automated curation checks** - submissions to the community is subject to the curation policy of the EU Open Research Repository. The curation policy is automatically checked and ensures compliance with the related Horizon Europe open science requirements.
+- **Verified community** - the community gets a verification checkmark, to highlight to other users that it's a verified community.
+---
+docs:
+
+#### docsheader ####
+text: Requesting an EU Project Community
+----
+ref: requesting-a-community
+
+#### docsstep ####
+step: 1
+----
+text: **ATTENTION: Institutional email address required!** First make sure that your Zenodo account is registered with an institutional email address. If not, you can change your email address by [editing your profile](../../../docs/profile/editing-your-profile/#edit).
+
+We required an institutional email address so that we can verify your institutional affiliation matches with that of one of the project partners.
+#### docsstep ####
+step: 2
+----
+text: Next, go to [EU Open Research Repository](https://zenodo.org/communities/eu) and click **"Join with your EU project"** in the top right header.
+----
+image: step1.png
+
+#### docsstep ####
+step: 3
+----
+text: Next, click **"Join with your EU project"** on the bottom of the page.
+----
+image: step2.png
+
+#### docsstep ####
+step: 4
+----
+text: Fill in the form for the request and click **Create community** once done:
+
+- **Do you already have an existing community?** - if you have already created the a community for your EU project, you can select the community from your existing communities (not, it's the owner of the community who have to make the request).
+- **Project** - search for your EU project using e.g. the acronym or the grant number. The data is coming from the [CORDIS](https://cordis.europa.eu) which releases data once per month, and thus new projects may not always be present.
+- **Community name** - this is automatically filled from the project information.
+- **Identifer** -  this is automatically filled from the project information with the acronym.
+----
+image: step3.png
+
+#### docsstep ####
+step: 5
+----
+text: You are done! The request will be reviewed and approved if all is in order by Zenodo staff. You can communicate with Zenodo by writing [comments in the request](../../../docs/share/manage-submissions/reply-comments/).
+
+You can already start [using the new community](../using-your-community/) while you wait for the approval.
+----
+image: step4.png

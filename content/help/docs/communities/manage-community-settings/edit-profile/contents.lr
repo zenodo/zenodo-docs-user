@@ -37,6 +37,8 @@ text: Edit the basic information and funding information according to the follow
 - **Website**: Link to your website (displayed in header).
 - **Organisations**: Link one or more organisations from the [ROR database](https://ror.org) to your community (enables user to browse communities by organisation).
 - **Awards**: Link one or more funders or awards to your community (enables user to browse communities by funder/award).
+- **Subjects**: Add one or more disciplinary subjects to your community.
+
 #### docsstep ####
 step: 3
 ----

@@ -1,0 +1,131 @@
+_model: docspage
+---
+title: Navigating EU Open Research Repository
+---
+sort_key: 2
+---
+menu: /help/guides/eu
+---
+tocdesc: Get an overview of the user interface for the repository.
+---
+body:
+
+You access the EU Open Research Repository on the following link:
+
+- https://zenodo.org/communities/eu/
+
+The following section gives a basic overview how to navigate EU Open Research Repository's user interface. The EU Open Research Repository features a branded community portal with the following elements:
+---
+docs_show_toc: true
+---
+docs:
+
+#### docsheader ####
+text: Frontpage
+----
+ref: frontpage
+#### docstext ####
+text:
+
+<img src="frontpage.png" width="100%" />
+
+The EU Open Research Repository features a small Zenodo header from where you can access Zenodo's normal features including (see [navigating Zenodo](../../../docs/get-started/navigating-zenodo/) for details):
+
+- **Search**: Search for records in EU Open Research Repository or all of Zenodo.
+- **Communities**: Browse and search for communities in Zenodo.
+- **My dashboard**: The dashboard provides access your content in Zenodo - to your uploads, communities and requests.
+
+
+
+The EU Open Research Repository in addition features a menu for accessing:
+
+- **Records/Search** - searching and filtering content in the repository.
+- **Browse** - browsing the content in the repository by funding programme, by subject or by project.
+- **Submit / How to submit** - a detailed guidance on how to submit content.
+- **Join with your EU project** - allows you to request an EU Project Community.
+- **Curation policy** - the full curation policy.
+- **About** - general information about the EU Open Research Repository
+- **Footer** - provides access to documentation and support request form.
+
+#### docsheader ####
+text: Records/Search
+----
+ref: records
+#### docstext ####
+text:
+
+The [search](https://zenodo.org/communities/eu/records) field is contextualised, so that if you search while browsing a EU Open Research Repository, you have the option to search only this community or all of Zenodo or one of the collections. The search field supports simple keyword style searches as well as advanced search (see the [advanced search guide](../../search/)).
+
+<img src="search.png" width="100%" />
+
+#### docsheader ####
+text: Browse
+----
+ref: browse
+#### docstext ####
+text:
+
+The [browse](https://zenodo.org/communities/eu/browse) menu allows you to browse content by collections. The following collections:
+
+- **Funding programme** - organise the content into collections based on the funding programme. The funding programme is automatically discovered on records when they are linked to the grant.
+- **Subjects** - organise the content into collections based on the subject programme. A record may appear in multiple subject collections. The subject is discovered from the grant or explicitly from the record.
+- **Projects** - allows you to search and browse all EU Project Communities and filter project by participating organisation.
+
+<img src="browse.png" width="100%" />
+
+#### docsheader ####
+text: Submit / How to submit
+----
+ref: submit
+#### docstext ####
+text:
+
+The [submit](https://zenodo.org/communities/eu/pages/how-to-submit) menu and "How to submit" button explains how to submit content to the repository and provides access to the two submission methods.
+
+<img src="submit.png" width="100%" />
+
+#### docsheader ####
+text: Join
+----
+ref: join
+#### docstext ####
+text:
+
+The [join](https://zenodo.org/communities/eu/pages/join) explains about EU Project Communities and allows you to request a new EU Project Community.
+
+<img src="join.png" width="100%" />
+
+#### docsheader ####
+text: Curation policy
+----
+ref: curation-policy
+#### docstext ####
+text:
+
+The [curation policy](https://zenodo.org/communities/eu/curation-policy) provides a detailed description of the criteria and requirements of what content is within scope of the repository.
+
+<img src="curation-policy.png" width="100%" />
+
+![](plusmenu.png)
+
+#### docsheader ####
+text: About
+----
+ref: about
+#### docstext ####
+text:
+
+The [about](https://zenodo.org/communities/eu/about) page provide general information about the EU Open Research Repository
+
+<img src="about.png" width="100%" />
+
+#### docsheader ####
+text: Footer
+----
+ref: footer
+#### docstext ####
+text:
+
+In the footer you'll find a links to documentation about EU Open Research Repository as well as our privacy policy, terms of use and not to mention the link to our support request form.
+
+<img src="footer.png" width="100%" />

@@ -1,0 +1,28 @@
+_model: docspage
+---
+_hidden: false
+---
+title: Horizon Europe Guidance
+---
+sort_key: 1
+---
+menu: /help/guides/eu
+---
+body:
+
+This guide is for beneficiaries of one EU's research and innovation funding programmes such as Horizon Europe (including ERC and MCSA) or Euratom.
+
+The **EU Open Research Repository** is a trusted repository managed by CERN on behalf of the European Commission that supports beneficiaries of research funding from e.g. Horizon Europe to comply with the related open science requirements.
+
+The following guide provides an overview of how beneficiaries can use the EU Open Research Repository. For a more general overview, please see [Open Science in Horizon Europe](https://zenodo.org/communities/eu/pages/open-science), [about](https://zenodo.org/communities/eu/about), and the [curation policy](https://zenodo.org/communities/eu/curation-policy).
+
+
+---
+docs:
+
+#### docsheader ####
+text: Overview
+----
+ref: overview
+#### docstoc ####
+menu: /help/guides/eu

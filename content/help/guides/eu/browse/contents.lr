@@ -1,0 +1,150 @@
+_model: docspage
+---
+_hidden: false
+---
+title: Browse collections
+---
+sort_key: 4
+---
+menu: /help/guides/eu
+---
+tocdesc: Explains how you can browse by subject, funding programme or projects.
+---
+body:
+
+The EU Open Research Repository allows you to browse collections of content of the repository.
+The collections are managed automatically based on the metadata in the records. Each section below details how the specific collection is being managed.
+
+This guide covers:
+---
+docs_show_toc: True
+
+---
+docs:
+
+#### docstoc ####
+menu: /help/guides/eu/browse
+
+
+#### docsheader ####
+text: Browsing overview
+----
+ref: overview
+
+#### docsstep ####
+step: 1
+----
+text: Click **Browse** in the menu in EU Open Research Repository (see how in [navigation](../navigation/#browse)). The browse page has three sections
+- **Funding programmes** - Allows you to browse by specific funding programmes such has Horizon Europe, Horizon 2020, Euratom, ERC and MCSA.
+- **Subjects** - Allows you to browse by specific subjects such as Social Sciences, Natural sciences etc.
+- **Projects** - Allows you to browse and search EU project communities.
+----
+image: step1.png
+
+
+#### docsstep ####
+step: 2
+----
+text: Alternatively, the high-level collections are also displayed on the frontpage (see [navigation](../navigation/#frontpage)) of the EU Open Research Repository.
+----
+image: step2.png
+
+
+
+#### docsheader ####
+text: Browse by funding programme
+----
+ref: funding-programme
+#### docstext ####
+text: The funding programme collections are managed automatically based on the grant(s) linked in the record. Note that records with custom grants will not be browsable in the funding programme collections.
+
+#### docsstep ####
+step: 1
+----
+text: Click any of the collections under Funding programme (see above) - for instance **Horizon Europe**.
+----
+image: step1-funding.png
+#### docsstep ####
+step: 2
+----
+text: Next, you'll be able to browse and search the specific collection like a normal Zenodo search result. See how to [search in a collection](#search) below.
+----
+image: step2-funding.png
+
+
+#### docsheader ####
+text: Browse by subject
+----
+ref: subject
+#### docstext ####
+text: The subject collections are managed automatically based on the subjects specified in the record as well as the associated grant(s) linked in the record (except for custom grants). Each grant has an associated set of subjects set by CORDIS in our grant database.
+
+#### docsstep ####
+step: 1
+----
+text: Click any of the collections under Subjects - for instance **Biological sciences**.
+----
+image: step1-subjects.png
+#### docsstep ####
+step: 2
+----
+text: Next, you'll be able to browse and search the specific collection like a normal Zenodo search result. See how to [search in a collection](#search) below.
+----
+image: step2-subjects.png
+#### docsstep ####
+step: 3
+----
+text: You can navigate up the subject hierarchy (i.e. in case of biological sciences to go to natural sciences) using the collection breadcrumb navigation.
+----
+image: step3-subjects.png
+
+
+
+
+
+#### docsheader ####
+text: Browse by projects
+----
+ref: projects
+
+#### docsstep ####
+step: 1
+----
+text: Click the **See all** link next to the title.
+----
+image: step1-projects.png
+#### docsstep ####
+step: 2
+----
+text: Next, you'll be able search through EU Project Communities (see search field in screenshot below). You can also use the facets to filter by:
+- **Funders** - for projects that are co-funded by other funders.
+- **Organizations** - which are partners on the projects.
+----
+image: step2-projects.png
+
+
+
+
+
+
+
+
+
+
+
+#### docsheader ####
+text: Search in a collection
+----
+ref: search
+#### docsstep ####
+step: 1
+----
+text: You can search in any of the collections using the normal header search field (see [navigation](../navigation/#records)). The search field is contextualized, so you can choose to search in either:
+
+- the collection
+- the EU Open Research Repository
+- all of Zenodo.
+
+Just use the arrow up and down to select where you want to search. By default, you search the collection you are viewing.
+----
+image: step1-search.png
