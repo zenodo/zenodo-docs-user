@@ -1,0 +1,98 @@
+_model: docspage
+---
+_hidden: false
+---
+title: File format checks
+---
+sort_key: 2
+---
+menu: /help/guides/eu
+---
+tocdesc: Learn about checks performed on the files you upload.
+---
+body:
+
+Files in submissions to the EU Open Research Repository are automatically checked against if the format used is **an open or scientific file format**. Open or scientific file formats are important because they ensure long-term accessibility, interoperability, and reuse of research outputs.
+
+
+The guide covers the following:
+
+---
+docs_show_toc: true
+---
+docs:
+
+#### docsheader ####
+text: Viewing file format checks (as uploader)
+----
+ref: deposit-checks
+#### docsstep ####
+step: 1
+----
+text: During [creating a new upload](../../../../docs/deposit/create-new-upload/), click **Save draft** (make sure you have uploaded files). Any closed proprietary file format will be highlighted in the file upload:
+----
+image: step1.png
+
+
+#### docsheader ####
+text: Viewing file format checks (as curator)
+----
+ref: request-checks
+#### docsstep ####
+step: 1
+----
+text: During [review of submissions](../../../../docs/communities/review-submissions/), click the **Checks**-tab:
+----
+image: ../metadata-checks/curator-step1.png
+#### docsstep ####
+step: 2
+----
+text: Next, click the **File format checks** in the side menu.
+----
+image: curator-step2.png
+
+#### docsstep ####
+step: 3
+----
+text: The tab will show detailed information about about which files failed the file format checks if any.
+----
+image: curator-step3.png
+
+
+#### docsheader ####
+text: Finding an alternative to closed/proprietary file format
+----
+ref: find-format
+
+#### docstext ####
+text:
+Using open or scientific file formats helps ensure that your research outputs remain accessible and reusable in the future. If your data is in a closed proprietary format, consider the following approaches to find an alternative:
+
+- **Check your software options**: Many applications allow you to export or save your data in multiple formats.
+- **Beware of conversion pitfalls**: File format conversion is delicate as representation can change or information may be lost, especially with complex data. Always validate the result.
+- **Provide both formats**: If you're unsure whether conversion affects your data integrity, consider including both the original and converted files in your upload.
+- **Use trusted resources**: Refer to the [Library of Congress Recommended Formats](https://www.loc.gov/preservation/digital/formats/index.html) for guidance on preservation-friendly formats.
+- **Ask an AI assistant**: Tools like ChatGPT, Gemini, or Copilot can help suggest appropriate open or scientific file formats or tools for conversion based on your use case (please however still beware of conversion pitfalls).
+
+When in doubt, include a README file to explain any limitations or choices made during the conversion process.
+
+#### docsheader ####
+text: List of open and/or scientific file formats
+----
+ref: list-formats
+#### docstext ####
+text:
+The list of open and/or scientific file formats used by Zenodo was originally sourced from
+[F-UJI - Automated FAIR Data Assessment Tool](https://www.f-uji.net) as well as [Library of Congress](https://www.loc.gov/preservation/digital/formats/index.html).
+
+You can find the current list of formats on our [GitHub repository](https://github.com/zenodo/zenodo-rdm/blob/master/app_data/known_file_formats.yaml).
+
+#### docsheader ####
+text: Report a missing format
+----
+ref: report-format
+#### docstext ####
+text:
+Are we missing an open and/or scientific file format on the list? Please contact us on [support](https://zenodo.org/support) so we can evaluate the format and add it to the list.
+
+

@@ -1,0 +1,125 @@
+_model: docspage
+---
+_hidden: false
+---
+title: Metadata checks
+---
+sort_key: 1
+---
+menu: /help/guides/eu
+---
+tocdesc: Learn about the metadata requirements for submissions.
+---
+body:
+
+Submissions to the EU Open Research Repository are automatically checked against the open science requirements in Horizon Europe. To learn more about the open science requirements please see:
+
+- [Open Science in Horizon Europe](https://zenodo.org/communities/eu/pages/open-science)
+
+The metadata checks are either:
+- **required** - you must fix the error in order to publish/submit for review.
+- **recommended** - you can publish/submit for review without fixing the recommendation.
+
+The guide covers the following:
+
+---
+docs_show_toc: true
+---
+docs:
+
+
+#### docsheader ####
+text: Viewing metadata checks (as uploader)
+----
+ref: deposit-checks
+#### docsstep ####
+step: 1
+----
+text: During [creating a new upload](../../../../docs/deposit/create-new-upload/), click **Save draft** to see metadata validation errors.
+#### docsstep ####
+step: 2
+----
+text: A summary of the errors are display in the header message (click links to jump to section).
+----
+image: step2.png
+#### docsstep ####
+step: 3
+----
+text:
+Each section highlights the number of errors and recommendations:
+----
+image: step3.png
+#### docsstep ####
+step: 4
+----
+text:
+Each field highlights the specific error or recommendation:
+----
+image: step4.png
+
+
+
+#### docsheader ####
+text: Viewing metadata checks (as curator)
+----
+ref: request-checks
+#### docsstep ####
+step: 1
+----
+text: During [review of submissions](../../../../docs/communities/review-submissions/), click the **Checks**-tab:
+----
+image: curator-step1.png
+#### docsstep ####
+step: 2
+----
+text: The **Checks**-tab will provide you an overview of which checks passed and failed. See [review of submissions](../../../../docs/communities/review-submissions/#review) for how to edit the record.
+----
+image: curator-step2.png
+
+
+
+#### docsheader ####
+text: List of required metadata checks
+----
+ref: required-checks
+#### docstext ####
+text:
+
+- **Submissions must have a grant/award from the European Commission** - The EU Open Research Repository only accepts submissions stemming from one of EU’s research and innovation funding programmes, which currently include Horizon Europe (including ERC, MSCA), earlier Framework Programmes (eg Horizon 2020), as well as Euratom.
+    - Note, if you submit to an EU Project Community, your upload must come from the grant associated with the community.
+    - See TODO
+- **Journal articles must specify the publishing venue** - To comply with Horizon Europe's open science requirements, peer-reviewed scientific publications must specify the publishing venue (e.g. journal) it was published in.
+    - See TODO
+- **All submissions must specify licensing terms** - To comply with Horizon Europe's open science requirements, a submission must specify the licensing terms.
+    - See how to manage [license and rights](../../../../docs/deposit/describe-records/licenses/).
+
+#### docsheader ####
+text: List of recommended metadata checks
+----
+ref: recommended-checks
+#### docstext ####
+text:
+
+The recommended checks will warn you in case there's a problem, but you will still be able to submit for review.
+
+**Persistent identifiers for authors**
+
+Persistent identifiers for authors are mandatory in the Horizon Europe open science requirements, but for specific use cases they may not be possible to provide and thus the following checks are only recommended:
+
+- **All creators should have a persistent identifier (e.g. an ORCID)** - To comply with Horizon Europe's open science requirements, you should provide persistent identifiers for creators (e.g., ORCID, GND, or ISNI).
+
+- **All contributors should have a persistent identifier (e.g. an ORCID)** - To comply with Horizon Europe's open science requirements, you should provide persistent identifiers for contributors (e.g., ORCID, GND, or ISNI).
+
+
+**License requirements per resource type**
+
+The following requirements are checked as recommended, when we detect that the default license is not used (see [license and rights](../../../../docs/deposit/describe-records/licenses/) for how to change license):
+
+- **Journal articles should have a CC-BY license or license with equivalent rights** - To comply with Horizon Europe's open science requirements, peer-reviewed scientific publications must be available under the latest Creative Commons Attribution International license (CC-BY) or a license with equivalent rights.
+
+- **Books should have a CC-BY, CC-BY-NC or CC-BY-ND license** To comply with Horizon Europe's open science requirements, monographs or other long-text must be available under the latest Creative Commons Attribution International license (CC-BY) or a license with equivalent rights. Monographs and other long-texts may exclude commercial or derivative works (i.e. CC-BY-NC or CC-BY-ND).
+
+- **Submissions (except journal articles, books, or software) should have CC BY license, CC0 dedication or equivalent** - To comply with Horizon Europe's open science requirements, all submission except journal articles, books and software must be available under the latest available Creative Commons Attribution International license (CC-BY), or Creative Commons Public Domain Dedication (CC0) or a license/dedication with equivalent rights (following the principle as open as possible, as closed as necessary and with exceptions possible).
+
+- **Software should have an OSI-approved license** - To comply with Horizon Europe's open science requirements, software should be available under a OSI-approved license (following the principle as open as possible, as closed as necessary and with exceptions possible).
+

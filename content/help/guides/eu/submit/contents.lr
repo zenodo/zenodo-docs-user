@@ -1,6 +1,6 @@
 _model: docspage
 ---
-_hidden: true
+_hidden: false
 ---
 title: Submitting content
 ---
@@ -12,9 +12,82 @@ tocdesc: Explains the different methods for submitting content to the EU Open Re
 ---
 body:
 
-Following is a guide on
+Records can be submitted to the EU Open Research Repository in 3 ways (see [curation policy](https://zenodo.org/communities/eu/curation-policy)):
 
+- **Via EU Project Community (preferred)** - all EU projects can [request an EU Project Community](../requesting-a-community/) and self-manage submissions. This is preferred submission method, especially if you plan to submit more than a couple of records.
+- **Via direct submissions (single submissions only)** - if you only need to submit 1-2 records you can submit them directly to the EU Open Research Repository. These submission are curated by Zendo staff, and have a longer delay in getting approved than if you submit via your own self-managed EU Project Community.
+- **Via automated harvesting** - we automatically harvest records deposited in Zenodo and linked with a grants from the European Commission (i.e. if you haven't learned of the EU Open Research Repository or forgot to use one of above methods). The process is fully automated and only records which can be automatically verified is added. This means even if the records is linked to an EU grant, it's not sure the record will be added to the EU Open Research Repository.
 
+#### Requirements
+
+All submissions to the EU Open Research Repository are subject to stricter metadata requirements than Zenodo it self. In particular submission must pass:
+
+- **[Metadata checks](metadata-checks/):**  Checks for compliance with the [Horizon Europe open science requirements](https://zenodo.org/communities/eu/pages/open-science).
+- **[File format checks](file-checks/):** Checks for usage of open or scientific file formats for improved reusability and preservation of the files.
+
+In this guide you find:
+
+---
+docs_show_toc: True
 ---
 docs:
 
+#### docsheader ####
+text: Overview
+----
+ref: overview
+#### docsstep ####
+step: 1
+----
+text: Click the yellow **How to submit**-button in the header (see [navigation](../navigation/#submit)). The page gives a quick overview of submission methods, and what content is in scope for the repository:
+----
+image: step1.png
+
+
+#### docsheader ####
+text: Submit via EU Project Community (preferred)
+----
+ref: eu-project-community
+
+#### docsstep ####
+step: 1
+----
+text: First, find the EU Project Community you want to submit to:
+
+- If you're a member of the community, you can find it under [**My Dashboard > My communities**](https://zenodo.org/me/communities).
+- If you're **NOT** a member of the community, you can find it under [**Browse > Projects**](https://zenodo.org/communities/eu/browse/subcommunities) (see [browse by projects](../browse/#projects)).
+
+Alternatively, the owner of the community may have send you a direct submission link.
+
+**Don't have an EU Project Community?** If you don't already have an EU Project Community, you can [request a new one](../requesting-a-community/) and start using it immediately while you wait for the final approval).
+#### docsstep ####
+step: 2
+----
+text: Once, you have identified the EU Project Community, you can use one of two methods:
+
+- [Submit for review](../../../docs/share/submit-for-review/) - for *new* submissions not already published on Zenodo.
+- [Submit to community](../../../docs/share/submit-to-community/) - for *existing* records that you have already published on Zenodo.
+
+
+#### docsheader ####
+text: Submit directly (single submissions only)
+----
+ref: direct
+
+#### docsstep ####
+step: 1
+----
+text: Click the yellow **How to submit**-button in the header (see [navigation](../navigation/#submit)).
+#### docsstep ####
+step: 2
+----
+text: Click **Submit directly** under Option 2:
+----
+image: step2.png
+#### docsstep ####
+step: 3
+----
+text: Follow our guide to [create a new upload](../../../docs/deposit/create-new-upload/). Note, submission to the EU Open Research Repository are subject to stricter metadata requirements. See
+
+- [Metadata checks](metadata-checks/)
+- [File format checks](file-checks/)
