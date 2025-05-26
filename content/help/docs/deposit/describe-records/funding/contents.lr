@@ -1,0 +1,88 @@
+_model: docspage
+---
+title: Funding information
+---
+menu: /help/docs/deposit
+---
+sort_key: 8
+---
+tocdesc: Learn to choose a funding for your record.
+---
+body:
+
+The **funding** field is a recommended field. Use funding to provide information about the awards or grants which funded the research output published in the record.
+
+A funding can be either a:
+- Standard award/grant
+- Custom award/grant
+
+<img src="funding.png" />
+
+Choose **standard awards/grants** for awards/grants funded by one of the following organizations:
+- National Institutes of Health (US)
+- U.S. National Science Foundation (US)
+- Swiss National Science Foundation (CH)
+- UK Research and Innovation (GB)
+- Foundation for Science and Technology (PT)
+- European Commission (BE)
+- Dutch Research Council (NL)
+- National Agency for Research (FR)
+- National Health and Medical Research Council (AU)
+- Australian Research Council (AU)
+
+Choose **custom awards/grants** for awards/grants funded by other organizations. Please note that the funder must be registered in the [Research Organization Registry (ROR)](https://ror.org/).
+---
+docs:
+
+#### docsheader ####
+text: Add an award/grant
+----
+ref: 
+#### docsstep ####
+step: 1
+----
+text: Click the **Add** button (see top image).
+----
+image: 
+#### docsstep ####
+step: 2
+----
+text: Search by award/grant name or number. Optionally narrow your search results by filtering by a specific funder.
+----
+image: funding-standard.png
+#### docsheader ####
+text: Add a custom award/grant
+----
+ref: 
+#### docsstep ####
+step: 1
+----
+text: Click the **Add custom** button (see top image).
+----
+image: 
+#### docsstep ####
+step: 2
+----
+text: Provide a **funder** by searching by name. Optionally provide the number, title, and URL of the award/grant.
+----
+image: funding-custom.png
+#### docsheader ####
+text: Remove an award/grant
+----
+ref: 
+#### docsstep ####
+step: 1
+----
+text: Click the **Remove** button next to a funding to remove a funding from the list.
+----
+image: funding-remove-reorder.png
+#### docsheader ####
+text: Reorder an award/grant
+----
+ref: 
+#### docsstep ####
+step: 1
+----
+text: Click and hold the <i class="fa fa-bars"></i>-icon. You can now drag and drop the funding into the desired order in the list.
+----
+image: funding-remove-reorder.png
