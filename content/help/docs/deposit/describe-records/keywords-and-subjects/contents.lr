@@ -1,0 +1,71 @@
+_model: docspage
+---
+title: Keywords and subjects
+---
+menu: /help/docs/deposit
+---
+sort_key: 9
+---
+tocdesc: Learn to choose keywords and subjects for your record.
+---
+body:
+
+The **keywords and subjects** field can be used to associate a record to custom tags or to controlled vocabularies. Providing such information helps making records more discoverable.
+
+A keyword/subject can be either a:
+- Controlled vocabulary term
+- Custom keyword/subject
+
+<img src="subjects.png" width="100%" />
+
+Use a **controlled vocabulary term** if the term is covered by one of our currently supported controlled vocabularies:
+- [European Science Vocabulary (EuroSciVoc)](https://op.europa.eu/en/web/eu-vocabularies/euroscivoc)
+- [Medical Subject Headings (MeSH)](http://www.nlm.nih.gov/mesh/)
+- [General Multilingual Environmental Thesaurus (GEMET)](https://www.eionet.europa.eu/gemet/en/about/)
+
+Use a **custom keyword/subject** otherwise.
+---
+docs:
+
+#### docsheader ####
+text: Add a controlled vocabulary term
+----
+ref: 
+#### docsstep ####
+step: 1
+----
+text: Click the field and search for terms from one of our currently supported controlled vocabularies.
+----
+image: subjects-controlled.png
+#### docsstep ####
+step: 2
+----
+text: Select the line corresponding to the desired controlled vocabulary and term.
+----
+image: 
+#### docsheader ####
+text: Add a custom keyword/subject
+----
+ref: 
+#### docsstep ####
+step: 1
+----
+text: Click the field and type the custom keyword/subject.
+----
+image: subjects-custom.png
+#### docsstep ####
+step: 2
+----
+text: Select the line appering as "Add ..."
+----
+image: 
+#### docsheader ####
+text: Remove a keyword/subject
+----
+ref: 
+#### docsstep ####
+step: 1
+----
+text: Keywords/subjects can be removed, by clicking the <i class="fa fa-times"></i>-icon next to each entry.
+----
+image: subjects-remove.png
