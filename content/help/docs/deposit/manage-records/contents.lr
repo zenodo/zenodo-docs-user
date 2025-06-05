@@ -23,7 +23,7 @@ ref: browse
 #### docsstep ####
 step: 1
 ----
-text: To browse you uploads, click the **My dashboard** header menu. This will by default take you to the list of records you have uploaded.
+text: To browse your uploads, click the **My dashboard** header menu. This will by default take you to the list of records you have uploaded.
 ----
 image: browse.png
 #### docsstep ####
