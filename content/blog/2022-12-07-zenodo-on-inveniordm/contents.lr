@@ -96,7 +96,7 @@ You can find the documentation for our new REST API in the [InvenioRDM documenta
 
 #### Will the community curators be able to edit my existing records?
 
-No. You will have to opt-in to allow community curators to edit the metadata of records already uploaded on Zenodo. Metadata of new recods you upload after the launch will by default be editable by curators (and you'll be asked to confirm).
+No. You will have to opt-in to allow community curators to edit the metadata of records already uploaded on Zenodo. Metadata of new records you upload after the launch will by default be editable by curators (and you'll be asked to confirm).
 
 #### Will feature X still work?
 
