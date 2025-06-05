@@ -25,6 +25,7 @@ text: Prepare files
 ref: prepare
 #### docstext ####
 text:
+
 We support file uploads up 50GB (= 50.000 MB) and max 100 files. See how to [request a quota increase](quota-increase/).
 
 Please take the following into consideration when you prepare your files for upload:
@@ -34,7 +35,6 @@ Please take the following into consideration when you prepare your files for upl
 - **Use open non-proprietary formats**:  For further guidance on preservation-friendly formats please see the following resources:
     - [Digital Preservation Handbook - File formats and standards](https://www.dpconline.org/handbook/technical-solutions-and-tools/file-formats-and-standards)
     - [Library of Congress recommended format specifications](http://www.loc.gov/preservation/resources/rfs/index.html)
-
 
 #### docsheader ####
 text: Add files
@@ -62,7 +62,6 @@ step: 1
 text: Click the **<i class="fa fa-trash-o"></i>-icon** to remove an already uploaded file.
 ----
 image: finished.png
-
 #### docsheader ####
 text: Set the default preview
 ----
@@ -73,21 +72,20 @@ step: 1
 text: By default, the first previewable file in alphanumeric order will be the one being displayed on the your record landing page. You can change the default previewed file by checking the checkbox in the **Preview** column.
 ----
 image: set-preview.png
-
 #### docsheader ####
 text: Pending state
 ----
 ref: pending
 #### docstext ####
-text: You may experience a file displaying the state **Pending** in the **Progress** column. The pending state means that a file is in progress of being uploaded. It happens e.g.
+text:
 
+You may experience a file displaying the state **Pending** in the **Progress** column. The pending state means that a file is in progress of being uploaded. It happens e.g.
 - If a file is uploaded from a different browser window or by a different user (multiple people can edit a draft)
 - If a file upload is broken off and you reload the browser page.
 
 In the latter case, you can follow the [remove file](#remove) to fix the issue.
 
 <img src="pending.png" />
-
 #### docsheader ####
 text: Modify files after publication
 ----
@@ -95,6 +93,6 @@ ref: modify
 #### docstext ####
 text:
 
-We do not allow modification (add, remove, modify) of files after it has been published. Instead, you can use our [versioning](../manage-versions/) to create a new version of the record.
+If you would like to modify the files of a record, we recommend that you use our [versioning](../manage-versions/) to create a new version of the record.
 
-We however offer a one-month grace period after publication in which the files in a specific version can still be changed if mistakes have been found. After the one-month grace period we only allow modification in duly justified cases (such as copyright infringements, or exposure of personal data). All requests for modifications must be submitted to our [support line](https://zenodo.org/support), however please consider using our [versioning](../manage-versions/) feature instead.
+We do however offer a one-month grace period after publication in which files can be added, removed or modified. After the one-month grace period we only allow modification in duly justified cases (such as copyright infringements, or exposure of personal data). All requests for modifications must be submitted to our [support line](https://zenodo.org/support), however please consider using our [versioning](../manage-versions/) feature instead.
