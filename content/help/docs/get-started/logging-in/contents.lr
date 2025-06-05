@@ -17,7 +17,6 @@ body:
 docs:
 
 #### docsheader ####
-
 text: Log in
 ----
 ref: login
@@ -27,36 +26,39 @@ step: 1
 text: Click the white **Log in** button in the header.
 ----
 image: step1.png
-
+#### docsstep ####
+step: 1
+----
+text: If the Log in button is not visible, tap on the three lines in the top right to open the menu
+----
+image: mobile-log-in.png
 #### docsstep ####
 step: 2
 ----
-text: Choose your preferred method to log in depending on you [created your account](../create-an-account/)
+text: Choose your preferred method to log in depending on how you [created your account](../create-an-account/)
 ----
 image: step2.png
-
 #### docsheader ####
 text: Log out
 ----
 ref: logout
-
 #### docsstep ####
 step: 1
 ----
 text: Click the down-arrow button on your username in the header to open the drop-down menu.
 ----
 image: step3.png
-
 #### docsstep ####
 step: 2
 ----
 text: Click **Log out** to log out of Zenodo.
-
+----
+image: 
 #### docsstep ####
 step: 3
 ----
 text: You will now have been logged out the current device you are using. If you logged in from other devices, these may still be logged in. Learn how to [view logged in devices](../../profile/viewing-devices/).
-
+----
+image: 
 ---
-todo:
-- step 2 pciture must be updated
+todo: - step 2 pciture must be updated
