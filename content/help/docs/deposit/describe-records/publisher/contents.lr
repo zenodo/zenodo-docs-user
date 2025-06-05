@@ -1,0 +1,17 @@
+_model: docspage
+---
+title: Publisher
+---
+menu: /help/docs/deposit
+---
+sort_key: 9
+---
+tocdesc: Learn to use date ranges or imprecise dates.
+---
+body:
+
+The **publisher** field is a required field as it is needed to generate the citation. By default, it is set to "Zenodo". If your upload was previously published somewhere else (e.g. a journal article), please use the name of the original publisher.
+
+<img src="publisher.png" width="100%" />
+---
+docs:
