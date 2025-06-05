@@ -1,0 +1,46 @@
+_model: docspage
+---
+_hidden: false
+---
+title: Manage multiple accounts
+---
+tocdesc: Learn how to merge your Zenodo accounts
+---
+sort_key: 7
+---
+menu: /help/docs/profile
+---
+body:
+If you have more than one Zenodo account, for example if you signed up with ORCID and then later sign up again with GitHub, follow the steps below to move your external accounts and delete the one you do not wish to keep
+---
+docs:
+
+#### docsheader ####
+text: Merging accounts
+----
+ref: merge-accounts
+
+#### docsstep ####
+step: 1
+----
+text: Choose which Zenodo account you would like to keep (in most cases the one in which you have uploaded more records).
+#### docsstep ####
+step: 2
+----
+text: Log into the Zenodo account you **do not** wish to keep.
+#### docsstep ####
+step: 3
+----
+text: [Disconnect all external accounts](../../profile/linking-accounts/#disconnect).
+#### docsstep ####
+step: 4
+----
+text: Contact us on [support](https://zenodo.org/support) and request to delete the account you **do not** wish to keep.
+#### docsstep ####
+step: 5
+----
+text: Log into the Zenodo account you **do** wish to keep.
+#### docsstep ####
+step: 6
+----
+text: [Connect all external accounts](../../profile/linking-accounts/#connect).
