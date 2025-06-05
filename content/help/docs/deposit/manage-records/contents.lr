@@ -81,6 +81,6 @@ image:
 #### docsstep ####
 step: 2
 ----
-text: From the deposit form, click the red **Delete-button**.
+text: From the deposit form, click the red **Delete button**.
 ----
 image: delete.png

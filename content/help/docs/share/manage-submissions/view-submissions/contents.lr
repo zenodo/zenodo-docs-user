@@ -44,7 +44,7 @@ ref: requests
 #### docsstep ####
 step: 1
 ----
-text: Click **My dashboard** in the header, and afterwards click **My requests**. By default all open review requests is displayed. Click the Closed-button to show closed requests.
+text: Click **My dashboard** in the header, and afterwards click **My requests**. By default all open review requests is displayed. Click the Closed button to show closed requests.
 ----
 image: myrequests.png
 #### docsstep ####

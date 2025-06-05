@@ -39,7 +39,7 @@ ref: overview
 #### docsstep ####
 step: 1
 ----
-text: Click the yellow **How to submit**-button in the header (see [navigation](../navigation/#submit)). The page gives a quick overview of submission methods, and what content is in scope for the repository:
+text: Click the yellow **How to submit** button in the header (see [navigation](../navigation/#submit)). The page gives a quick overview of submission methods, and what content is in scope for the repository:
 ----
 image: step1.png
 
@@ -77,7 +77,7 @@ ref: direct
 #### docsstep ####
 step: 1
 ----
-text: Click the yellow **How to submit**-button in the header (see [navigation](../navigation/#submit)).
+text: Click the yellow **How to submit** button in the header (see [navigation](../navigation/#submit)).
 #### docsstep ####
 step: 2
 ----
