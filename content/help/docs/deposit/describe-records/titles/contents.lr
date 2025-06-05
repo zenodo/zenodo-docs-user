@@ -36,3 +36,9 @@ image: formfields.png
 step: 3
 ----
 text: Optionally, set the language of the additional title.
+#### docsstep ####
+step: 4
+----
+text: Additional titles appear below the files of the record
+----
+image: published-additional-titles.png
