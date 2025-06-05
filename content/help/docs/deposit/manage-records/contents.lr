@@ -23,7 +23,7 @@ ref: browse
 #### docsstep ####
 step: 1
 ----
-text: To browse you uploads, click the **My dashboard** header menu. This will by default take you to the list of records you have uploaded.
+text: To browse your uploads, click the **My dashboard** header menu. This will by default take you to the list of records you have uploaded.
 ----
 image: browse.png
 #### docsstep ####
@@ -66,6 +66,6 @@ text: To delete an **unpublished**, first edit the record (see above).
 #### docsstep ####
 step: 2
 ----
-text: From the deposit form, click the red **Delete-button**.
+text: From the deposit form, click the red **Delete button**.
 ----
 image: delete.png

@@ -28,7 +28,7 @@ FAIR Principles definition as referenced from:
 - **F1**: (meta)data are assigned a globally unique and persistent identifier
  - A DOI is issued to every published record on Zenodo.
 - **F2**: data are described with rich metadata (defined by R1 below)
- - Zenodo's metadata is compliant with [DataCite's Metadata Schema](https://schema.datacite.org/) minimum and recommended terms, with a few additional enrichements.
+ - Zenodo's metadata is compliant with [DataCite's Metadata Schema](https://schema.datacite.org/) minimum and recommended terms, with a few additional enrichments.
 - **F3**: metadata clearly and explicitly include the identifier of the data it describes
  - The DOI is a top-level and a mandatory field in the metadata of each record.
 - **F4**: (meta)data are registered or indexed in a searchable resource
