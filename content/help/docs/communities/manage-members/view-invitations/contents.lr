@@ -24,7 +24,7 @@ ref: view
 #### docsstep ####
 step: 1
 ----
-text: Go to [**Members**](../#manage)-tab in your community and, click on **Invitations** in the left menu.
+text: Go to [**Members**](../#manage) tab in your community and, click on **Invitations** in the left menu.
 ----
 image: view.png
 #### docsstep ####

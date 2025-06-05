@@ -23,7 +23,7 @@ ref: transfer
 #### docsstep ####
 step: 1
 ----
-text: Go to [**Members**](../#manage)-tab in your community.
+text: Go to [**Members**](../#manage) tab in your community.
 ----
 image: members.png
 #### docsstep ####
