@@ -8,9 +8,7 @@ sort_key: 6
 ---
 tocdesc: Learn how to add abstracts and notes.
 ---
-body:
-
-Description is a recommended field. You will usually use it to provide an abstract of your record. In addition you can add additional descriptions such as methods, technical information and notes.
+body: Description is a recommended field. You will usually use it to provide an abstract of your record. In addition you can add additional descriptions such as methods, technical information and notes.
 ---
 docs:
 
@@ -24,7 +22,6 @@ step: 1
 text: Enter an abstract for your record. You may use basic formatting such as paragraphs, headings, bold/italic, links, bullet lists and quotes.
 ----
 image: description.png
-
 #### docsheader ####
 text: Add an additional description (note, methods, ...)
 ----
@@ -47,3 +44,9 @@ step: 3
 text: Choose a **description type**, and optionally select the language of the description.
 ----
 image: types.png
+#### docsstep ####
+step: 4
+----
+text: If you were to add every type of description it would appear as follows
+----
+image: additional-descriptions.png
