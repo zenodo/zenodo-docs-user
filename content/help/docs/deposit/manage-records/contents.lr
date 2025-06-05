@@ -8,9 +8,7 @@ sort_key: 5
 ---
 menu: /help/docs/deposit
 ---
-body:
-
-This following sections describe how you can browse your records, edit the metadata of records and how you can delete records.
+body: This following sections describe how you can browse your records, edit the metadata of records and how you can delete records.
 ---
 docs_show_toc: True
 ---
@@ -35,34 +33,51 @@ image: browse2.png
 #### docsstep ####
 step: 3
 ----
-text: You can **view** or **edit** each of the record. See below.
+text: You can **view** or **edit** each record by using the buttons on the right.
+----
+image: 
 #### docsheader ####
 text: Edit published records
 ----
 ref: edit
 #### docstext ####
-text: You can edit the metadata (title, creators, etc) of a published record at any time. Files in the record however cannot be edited (add/delete/modify) after publication. See [manage files](../manage-files/) and [manage versions](../manage-versions/) for further details.
-
+text: You can edit the metadata (title, creators, etc) of a published record at any time. Files in the record however can only be edited (added, modified or deleted) after publication by contacting support. See [manage files](../manage-files/) and [manage versions](../manage-versions/) for further details.
 #### docsstep ####
 step: 1
 ----
 text: You can edit a record either by clicking the **Edit** button on the record under **My uploads** (see above.)
+----
+image: 
 #### docsstep ####
-step: 2
+step: 1
 ----
 text: Alternatively, from the record landing page you can also click the **Edit** button.
 ----
 image: edit.png
+#### docsstep ####
+step: 2
+----
+text: You can now edit the record's metadata and/or file visibility
+----
+image: 
+#### docsstep ####
+step: 3
+----
+text: To make the changes visible, click the green publish button to publish the record. This does not affect your DOI.
+----
+image: edit-publish.png
 #### docsheader ####
 text: Delete records
 ----
 ref: delete
 #### docstext ####
-text: You can only delete an **unpublished** record. **Published** records cannot be deleted except under special circumstances. Please submit a request via our [support line](https://zenodo.org/support) to delete a published record.
+text: You can only delete an **unpublished** record (also known as a draft). **Published** records cannot be deleted except under special circumstances. Please submit a request via our [support line](https://zenodo.org/support) to delete a published record.
 #### docsstep ####
 step: 1
 ----
 text: To delete an **unpublished**, first edit the record (see above).
+----
+image: 
 #### docsstep ####
 step: 2
 ----
