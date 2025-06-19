@@ -24,7 +24,7 @@ ref: invite
 #### docsstep ####
 step: 1
 ----
-text: Go to [**Members**](../#manage)-tab in your community and, click on the green **Invite** button.
+text: Go to [**Members**](../#manage) tab in your community and, click on the green **Invite** button.
 ----
 image: button.png
 #### docsstep ####

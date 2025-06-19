@@ -41,7 +41,7 @@ ref: request-checks
 #### docsstep ####
 step: 1
 ----
-text: During [review of submissions](../../../../docs/communities/review-submissions/), click the **Checks**-tab:
+text: During [review of submissions](../../../../docs/communities/review-submissions/), click the **Checks** tab:
 ----
 image: ../metadata-checks/curator-step1.png
 #### docsstep ####

@@ -66,13 +66,13 @@ ref: request-checks
 #### docsstep ####
 step: 1
 ----
-text: During [review of submissions](../../../../docs/communities/review-submissions/), click the **Checks**-tab:
+text: During [review of submissions](../../../../docs/communities/review-submissions/), click the **Checks** tab:
 ----
 image: curator-step1.png
 #### docsstep ####
 step: 2
 ----
-text: The **Checks**-tab will provide you an overview of which checks passed and failed. See [review of submissions](../../../../docs/communities/review-submissions/#review) for how to edit the record.
+text: The **Checks** tab will provide you an overview of which checks passed and failed. See [review of submissions](../../../../docs/communities/review-submissions/#review) for how to edit the record.
 ----
 image: curator-step2.png
 
