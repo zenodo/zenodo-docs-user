@@ -40,7 +40,7 @@ image: no.png
 #### docsstep ####
 step: 3
 ----
-text: A DOI will now have been reserved for you. You can include this DOI in files prior to uploading them (e.g. in the text document). Also, you can remove it again, but by clicking the X button next to the DOI.
+text: A DOI will now have been reserved for you. You can include this DOI in files prior to uploading them (e.g. in the text document). Also, you can remove it again, but by clicking the **X** button next to the DOI.
 ----
 image: reserved.png
 #### docstext ####
