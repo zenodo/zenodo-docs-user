@@ -60,7 +60,7 @@ ref: communities-curation
 #### docstext ####
 text:
 
-As briefly described in the [Members](#communities-members)-section, curators are now able to edit the metadata of published records. Similarly, curators can during reviews edit both the metadata and files of the records submitted by the uploader to the community.
+As briefly described in the [**Members**](#communities-members) section, curators are now able to edit the metadata of published records. Similarly, curators can during reviews edit both the metadata and files of the records submitted by the uploader to the community.
 
 Modification of files in published records still has to go through the Zenodo support line (we have a 1-month grace period in which we allow addition/removal/modificaiton of files after which modifications are only exceptionally granted).
 
