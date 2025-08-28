@@ -8,7 +8,7 @@ sort_key: 5
 ---
 menu: /help/docs/deposit
 ---
-body: This following sections describe how you can browse your records, edit the metadata of records and how you can delete records.
+body: This following sections describe how you can browse your records, edit the metadata and request deletion of them.
 ---
 docs_show_toc: True
 ---
@@ -27,7 +27,7 @@ image: browse.png
 #### docsstep ####
 step: 2
 ----
-text: From **My Uploads** tab you are able to see all your published as well as unpublished records.
+text: From **My Uploads** tab you are able to see all your published as well as unpublished records (drafts).
 ----
 image: browse2.png
 #### docsstep ####
@@ -71,16 +71,44 @@ text: Delete records
 ----
 ref: delete
 #### docstext ####
-text: You can only delete an **unpublished** record (also known as a draft). **Published** records cannot be deleted except under special circumstances. Please submit a request via our [support line](https://zenodo.org/support) to delete a published record.
+text: Records on Zenodo can be deleted by **their owner within 30 days**. If the record is older than this, then a deletion request can be created with a justification which will be reviewed by Zenodo Support.
 #### docsstep ####
 step: 1
 ----
-text: To delete an **unpublished**, first edit the record (see above).
+text: From the record landing page, click on the Manage record dropdown and then delete record
 ----
-image: 
+image: manage-dropdown.png
 #### docsstep ####
 step: 2
 ----
-text: From the deposit form, click the red **Delete button**.
+text: Otherwise, from the edit record page, click the red **Delete record** button at the bottom of the sidebar.
 ----
-image: delete.png
+image: edit-delete-record.jpg
+#### docstext ####
+text: **Immediate deletion**
+#### docsstep ####
+step: 3
+----
+text: In the modal that appears, acknowledge that the record will be deleted and select the removal reason. Finally press the **Delete immediately** button on the bottom right.
+----
+image: modal-immediate.jpg
+#### docsstep ####
+step: 4
+----
+text: The record will be deleted and you will be redirected to the tombstone page containing the citation for archival purposes
+----
+image: 
+#### docstext ####
+text: **Request deletion**
+#### docsstep ####
+step: 3
+----
+text: In the modal that appears, acknowledge that the record will be deleted, select the removal reason and provide a detailed justification. Finally press the **Request deletion** button on the bottom right.
+----
+image: modal-request.jpg
+#### docsstep ####
+step: 4
+----
+text: You will be redirected to the deletion request,  which you can find later in **My Dashboard**
+----
+image: 
