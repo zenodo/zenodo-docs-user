@@ -45,7 +45,7 @@ text: You can edit the metadata (title, creators, etc) of a published record at 
 #### docsstep ####
 step: 1
 ----
-text: You can edit a record either by clicking the **Edit** button on the record under **My uploads** (see above.)
+text: You can edit a record either by clicking the **Edit** button on the record under **My uploads** (see above).
 ----
 image: 
 #### docsstep ####
@@ -57,7 +57,7 @@ image: edit.png
 #### docsstep ####
 step: 2
 ----
-text: You can now edit the record's metadata and/or file visibility
+text: You can now edit the record's metadata and/or file visibility.
 ----
 image: 
 #### docsstep ####
@@ -71,11 +71,11 @@ text: Delete records
 ----
 ref: delete
 #### docstext ####
-text: Records on Zenodo can be deleted by **their owner within 30 days**. If the record is older than this, then a deletion request can be created with a justification which will be reviewed by Zenodo Support.
+text: Records on Zenodo can be deleted by **their owner within 30 days** after publication. If the record is older than this, then a deletion request can be created with a justification which will be reviewed by Zenodo Support.
 #### docsstep ####
 step: 1
 ----
-text: From the record landing page, click on the Manage record dropdown and then delete record
+text: From the record landing page, click on the **Manage** record dropdown and then the **Delete record** button.
 ----
 image: manage-dropdown.png
 #### docsstep ####
@@ -95,9 +95,9 @@ image: modal-immediate.jpg
 #### docsstep ####
 step: 4
 ----
-text: The record will be deleted and you will be redirected to the tombstone page containing the citation for archival purposes
+text: The record will be deleted and you will be redirected to the tombstone page containing the citation for archival purposes.
 ----
-image: 
+image: tombstone.jpg
 #### docstext ####
 text: **Request deletion**
 #### docsstep ####
@@ -109,6 +109,6 @@ image: modal-request.jpg
 #### docsstep ####
 step: 4
 ----
-text: You will be redirected to the deletion request,  which you can find later in **My Dashboard**
+text: You will be redirected to the deletion request,  which you can find later in **My Dashboard**.
 ----
-image: 
+image: deletion-request.jpg
