@@ -22,12 +22,11 @@
   ],
   "projects": [
     ["/about/projects/", "Projects"],
-    ["/about/projects/bicikl/", "BiCIKL"],
-    ["/about/projects/arcadia2/", "BLR"],
-    ["/about/projects/faircore4eosc/", "FAIRCORE4EOSC"],
+    ["/about/projects/airdec/", "AIRDEC"],
+    ["/about/projects/everse/", "EVERSE"],
     ["/about/projects/grei/", "GREI"],
-    ["/about/projects/horizon-zen/", "HORIZON-ZEN"],
-    ["/about/projects/everse/", "EVERSE"]
+    ["/about/projects/horizon-zen-plus/", "HORIZON-ZEN+"]
+
   ],
   "main": [
     ["http://127.0.0.1:5000/about", "About"],

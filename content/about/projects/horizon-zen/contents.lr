@@ -16,7 +16,11 @@ The project will specifically:
 ---
 funder: European Commission
 ---
+doi: https://doi.org/10.3030/101122956
+---
 partners: CERN
+---
+status: Completed
 ---
 years: 2023 - 2025
 ---
@@ -35,23 +39,6 @@ A specific aim of EU’s Open Science policy is to require all publicly funded r
 EU has over the past 10 years funded Zenodo, an open data repository built by CERN and OpenAIRE, to help beneficiaries comply with first open access, and then open data contractual requirements. This grant capitalizes on past investments made in Zenodo and helps EC programme beneficiaries comply with the new FAIR and open science requirements, by implementing an easy go-to solution in Zenodo for beneficiaries to make data FAIR in practice.
 
 HORIZON-ZEN’s overarching aim is to provide the EC’s programme beneficiaries with enhanced depositing services for digital research objects that are FAIR-enabling and compliant with Horizon Europe requirements, and to establish best practices for how scientific repositories can support the implementation of FAIR data principles by leading by example. This will be achieved by enhancing Zenodo with FAIR-enabling capabilities that support programme beneficiaries during the depositing of research outputs and by leveraging Zenodo’s simple and seamless user experience.
-
-<div class="alert alert-info">
-<h4>Want to be an early adopter?</h4>
-
-<p>Are you a EU project coordinator? We are looking for EU-funded projects covering a diverse set of domains which are willing to help test and provide feedback. We're extending our communities with features specifically tailored for EU-funded projects.
-</p>
-<p>
-What's involved?:
-<ul>
-    <li>The early adopters will be involved in the design process and provide feedback on concepts developed.</li>
-    <li>For some early adopters we'll be extending Zenodo to support domain-specificity of the project's domain.</li>
-    <li>Participation is voluntary, but will help shape Zenodo in a direction that supports your projects better.</li>
-</ul>
-</p>
-<p><strong>Interested?</strong></p>
-<p>Contact <a href="mailto:lars.holm.nielsen@cern.ch">lars.holm.nielsen@cern.ch</a></p>
-</div>
 
 ### Objectives
 
@@ -88,3 +75,47 @@ The project will adopt an open community-driven methodology which co-designs obj
 ### Implementation
 
 Follow our project on [GitHub](https://github.com/zenodo/horizon-zen)
+
+
+### Key results
+
+The main outcome of HORIZON-ZEN is the launch and running of the EU Open Research Repository (https://zenodo.org/communities/eu/) as an enabler of EU’s open science policy. The EU Open Research Repository, a trusted repository, at the end of the project hosted 128.000+ EU-funded research outputs (publications, research data, software, …) and 23% of all projects in FP7, Horizon 2020 and Horizon Europe collectively had at least one research output in the EU Open Research Repository.
+
+The EU Open Research Repository provides FAIR-enabling depositing services for research outputs and makes it easy for researchers to comply with the related Horizon Europe open science requirements. A key result is the distributed data curation framework which enables more than 2.100+ EU-funded projects to create, curate and manage dedicated areas thereby supporting a more cost-effective and scalable data curation framework. Automated checks supports the harmonisation of curation performed by the large number of curators.
+
+The EU Open Research Repository establishes a concrete example of how scientific repositories can implement the FAIR principles. The full developed technology layer is further available for reuse through the InvenioRDM open source repository platform.
+
+
+Beyond the launch the EU Open Research Repository itself as highlighted in above in the main
+achievements, the project's key results also include:
+
+- A distributed data curation framework: A data curation framework that currently enables more than
+2100+ EU projects to create, curate and manage their dedicated areas under the EU Open Research
+Repository together with Zenodo support staff. The framework is supported by a hierarchical Zenodo-
+community feature with delegation of rights, as well as a request workflow that verifies EU projects
+before being granted access. The curation framework is combined with automated harvesting and
+identification of EU-funded outputs through heuristics, as well as the support for single depositors to
+cater to the largest number of users.
+
+- FAIR-enabling deposit workflow: The deposit workflow for the EU Open Research Repository
+added support for discipline-specific metadata and vocabularies supporting researchers in describing
+their research outputs more precisely. This included e.g. vocabularies such as GEneral Multilingual
+Environmental Thesaurus (GEMET), EuroSciV oc (European Science V ocabulary), Medical Subject
+Headings (MeSH), and the European Directory of Marine Organisations. In addition, overall
+FAIRness of Zenodo repository software was increased to maximise FAIR scoring by adding features
+such as FAIR Signposting (a standard making it easier for machines to discover datasets across the
+web). An additional check, also checks uploaded data files to see if they are in an open or scientific
+file format increasing their potential for reuse in the future.
+
+- Automated curation checks for Horizon Europe compliance: The EU Open Research Repository
+performs automated curation checks for depositors and curators to ensure they comply with the
+Horizon Europe open science requirements as stipulated in their grant agreements. This include
+ensuring correct licensing depending on the resource type, linking to persistent identifiers for grants,
+authors and organisations.
+
+- Subject-based browsing based on grant data: The project enabled subject-based browsing without
+depositors having to specify the subject. The feature uses the mandatory link to the funding grant
+to automatically pull in the subject classification of the grant. This allowed to also demonstrate the
+multi-disciplinarily of the EU Open Research Repository covering all areas such as social sciences,
+natural sciences, engineering and technology, humanities, agricultural sciences and medical and health
+sciences.

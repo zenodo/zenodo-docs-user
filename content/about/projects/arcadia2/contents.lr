@@ -10,6 +10,8 @@ partners: Plazi, CERN, Data Futures
 ---
 years: 2022 - 2025
 ---
+status: Completed
+---
 description:
 
 The grant will help build on the momentum created in the first Arcadia supported project (years 2018-2021) by: (1) leading the data extraction effort and building a critical mass of FAIR scientific data and related tools involving the community; and (2) establishing a long lasting, self-sustaining research infrastructure.
@@ -20,6 +22,8 @@ body:
 The Biodiversity Literature Repository (BLR) is a research infrastructure (RI) comprising the BLR Community on Zenodo at the European Center for Nuclear Research (CERN), and services to search and retrieve the data such as Ocellus, Zenodeo API, and the BLR website. BLR’s focus is on biodiversity data liberated from scholarly publications, and it uses custom metadata linking to external vocabularies covering the needs of the biodiversity community. This includes taxonomic treatments and figures as well as the original article annotated with metadata describing the data contained in the article including the related identifiers for figures and treatments therein. The main data import is via the TreatmentBank or the publishers such as Pensoft. With over 650,000 deposits, BLR is the single largest community in Zenodo. Its data is widely reused, for example by the Global Biodiversity Information Facility (GBIF). All data in BLR is published under the CC0 Public Domain Dedication, remaining free for anyone to use, anywhere, for any purpose.
 
 The grant will help build on the momentum created in the first Arcadia supported project (years 2018-2021) by: (1) leading the data extraction effort and building a critical mass of FAIR scientific data and related tools involving the community; and (2) establishing a long lasting, self-sustaining research infrastructure.
+
+<a href="https://zenodo.org/communities/biosyslit/"><div align="center"><img src="frontpage.png" width="100%" /></div></a>
 
 ### Objectives
 
@@ -50,3 +54,32 @@ Document all the digital tools, APIs and infrastructure to make them more access
 ##### Objective 7: Data Intelligence
 
 Reuse of the liberated data for follow-up research is a key indicator of the adoption of annotations in scientific research publications. To provide data intelligence, we will develop tools that will allow users (scientists, publishers, institutions and other data creators) to assess and quantify the extent and depth of their contributions.
+
+
+### Key results
+
+The Arcadia project has significantly advanced open access to biodiversity knowledge and strengthened Zenodo’s role as a global infrastructure for FAIR and reusable data.
+
+##### Transformative integration
+- A fully automated workflow now makes newly published biodiversity data available within 24 hours through GBIF, the Catalogue of Life, and Biodiversity PMC.
+- The <a href="https://zenodo.org/communities/biosyslit/">Biodiversity Literature Repository (BLR)</a> on Zenodo has become the world’s largest open repository of taxonomic literature, transforming Zenodo into a flexible, domain-specific platform.
+
+##### Data liberation and infrastructure links
+- Over 1.13 million treatments and 12,500 new species were liberated from 195 journals.
+- 26 GBIF-hosted portals now use Plazi-processed data.
+- Integration achieved across GBIF, ChecklistBank/CoL, and Biodiversity PMC for seamless data reuse.
+
+##### Zenodo developments
+- IIIF support implemented in Zenodo for high-resolution image and annotation display.
+- Mirador viewer added to visualise WADM annotations directly within records.
+- Long-term preservation of TreatmentBank data secured using OCFL-based storage.
+
+##### Training and community impact
+- Modular training and outreach reached more than 1,000 participants in 14 countries.
+- The 2024 Disentis Workshop united 54 experts and led to the Disentis Roadmap for open biodiversity knowledge.
+
+##### Reach and legacy
+- BLR attracts 1.7 million monthly visits and over 70 million downloads.
+- TreatmentBank traffic grew to 7.5 million monthly visits.
+
+Arcadia’s support has left a lasting legacy by making biodiversity knowledge openly accessible and by enhancing Zenodo into a model platform for domain-specific, data-rich open science.

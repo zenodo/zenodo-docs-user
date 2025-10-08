@@ -1,0 +1,39 @@
+_model: projectitem
+---
+title: AIRDEC
+---
+longtitle: AI-assisted Repository DEposit and Curation (AIRDEC)
+---
+description:
+
+The project will transform how research outputs are deposited and curated by integrating AI-powered automation into Zenodo, the CERN Document Server (CDS), and other InvenioRDM-based repositories. Its goal is to make deposit and curation:
+
+- Scalable, cost-effective, and low-burden, keeping pace with growing open science outputs
+- AI-assisted and human-supervised, combining automation with human-in-the-loop transparency
+- High-quality and FAIR-aligned, ensuring trusted, machine-actionable metadata
+
+---
+funder: The Navigation Fund
+---
+doi: https://doi.org/10.71707/WDQR-2J50
+---
+status: Ongoing
+---
+partners: CERN
+---
+logo: horizontal_color.png
+---
+years: 2025 - 2027
+---
+sidebox:
+
+---
+body:
+
+<div align="center"><img src="horizontal_color.svg" width="70%" /></div>
+
+The project aims to transform the way research outputs are deposited and curated in scholarly repositories by integrating AI-powered automation directly into production systems of Zenodo and the CERN Document Server (CDS) as well as making the resulting platform broadly reusable across InvenioRDM-based repositories. The overarching goal is to create a joyful, low-burden, cost-effective, and scalable deposit and curation experience that keeps pace with the rapidly increasing volume of research outputs being shared and driven by open science and FAIR mandates. This transformation is essential to preserving the repositories' role as trusted sources of scientific information and enabling high-quality, machine-actionable metadata for research discovery and reuse.
+
+To achieve this, the project will develop an AI-assisted agent that extracts structured information from uploaded research files, uses tools such as similarity search across reference vocabularies (e.g. ORCID, ROR, grants), and helps researchers and curators complete metadata workflows with reduced manual effort. The AI agent will act as a supportive assistant providing suggestions, validations, and classifications while leaving decision-making under human control through transparent human-in-the-loop designs. The technical infrastructure will be modular and scalable, ensuring efficient resource use, sustainability, and continuous improvement.
+
+The project will result in a production-grade AI agent platform tested at scale on Zenodo and CDS and ready for reuse across the global InvenioRDM community. Researchers will benefit from reduced friction and improved metadata quality; curators will save time on routine checks and focus on expert-level tasks; repository operators will gain a modular automation platform; and the open science ecosystem will advance through greater FAIR compliance and trust in research infrastructure. These outcomes will have lasting impact by significantly reducing curation costs and improving scalability, all while enabling widespread reuse and continued innovation across repositories worldwide.

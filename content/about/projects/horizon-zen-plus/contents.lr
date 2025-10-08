@@ -1,0 +1,65 @@
+_model: projectitem
+---
+title: HORIZON-ZEN+
+---
+longtitle: Evolution and operation of EU Open Research Repository in Zenodo (HORIZON-ZEN+)
+---
+description:
+
+The HORIZON-ZEN+ project aims to advance the EU Open Research Repository (EOR Repository) on Zenodo, a key enabler of the European Commission’s Open Science policy. Building on the success of the HORIZON-ZEN project (2023–2025), HORIZON-ZEN+ enhances the repository’s ability to support FAIR (Findable, Accessible, Interoperable, and Reusable) and AI-ready research outputs. The project addresses two strategic challenges: enabling cost-effective, scalable data curation, and facilitating the discovery and reuse of high-quality datasets across disciplines for AI applications.
+---
+funder: European Commission
+---
+status: Ongoing
+---
+doi: https://doi.org/10.3030/101256740
+---
+partners: CERN
+---
+years: 2025 - 2027
+---
+sidebox:
+<div class="well">
+<dl><strong>Project deliverables</strong></dl>
+<dd><a href="https://zenodo.org/communities/horizon-zen">HORIZON-ZEN</a></dd>
+<dd><a href="https://github.com/zenodo/horizon-zen">GitHub</a></dd>
+</div>
+---
+body:
+
+The HORIZON-ZEN+ project aims to advance the EU Open Research Repository (EOR Repository) on Zenodo, a key enabler of the European Commission’s Open Science policy. Building on the success of the HORIZON-ZEN project (2023–2025), HORIZON-ZEN+ enhances the repository’s ability to support FAIR (Findable, Accessible, Interoperable, and Reusable) and AI-ready research outputs.
+
+The project addresses two strategic challenges: enabling cost-effective, scalable data curation, and facilitating the discovery and reuse of high-quality datasets across disciplines for AI applications. To this end, the project will integrate AI-assisted curation tools, advanced metadata validation, and automated support workflows; improve deposit and discovery interfaces with support for AI-specific metadata and data packaging standards; and deepen interoperability with the EOSC EU Node and Open Research Europe platform.
+
+By embedding these enhancements directly in Zenodo and its open-source platform InvenioRDM, HORIZON-ZEN+ ensures broad uptake and long-term sustainability, strengthening Europe’s open science infrastructure and supporting researchers in meeting FAIR and AI-readiness mandates.
+
+<a href="https://zenodo.org/communities/eu/"><div align="center"><img src="frontpage.png" width="100%" /></div></a>
+
+### Objectives
+
+##### Objective 1: AI-assisted curation and support automation
+
+The project will develop AI-assisted curation and support automation to reduce operational costs and improve the user experience, this includes:
+
+- Self-service handling for standard support requests.
+- AI-assisted handling of certain support, curation and submissions tasks.
+- Advanced curation checks for submissions.
+
+##### Objective 2: Enhanced deposit and discovery workflow
+
+THe project will develop an enhanced deposit and discovery workflow supporting FAIR and AI-ready datasets:
+
+- Support for data packaging format for AI-datasets.
+- Integration of automated subject classification.
+- Support for geospatial metadata.
+- Enhanced discovery capabilities.
+- Integration of new citation metrics into the Zenodo search engine.
+
+##### Objective 3: EOSC EU Node and Open Research Europe platform
+
+- Deep the integration between EU Open Research Repository, EOSC EU Node and the Open Research Europe (ORE) platform.
+- Build a demonstrator for FAIR and AI-ready datasets/models covering the use case of a researcher depositing in Zenodo, discovering data in Zenodo, and reusing the data in the EOSC EU Node for training an AI-model, and publishing on ORE.
+
+##### Objective 4: Continued provision of the EU Open Research Repository for research programme beneficiaries
+
+- Run and operate the EU Open Research Repository including providing support, curation, training, user surveys and regular integration of external data sources such as CORDIS.

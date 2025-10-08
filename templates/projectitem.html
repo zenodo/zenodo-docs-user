@@ -49,14 +49,22 @@
       <dd>{{this.funder}}</dd>
       <dl><strong>Project period</strong></dl>
       <dd>{{this.years}}</dd>
-      {% if this.website %}
+      {%- if this.status %}
+      <dl><strong>Status</strong></dl>
+      <dd>{{this.status}}</dd>
+      {%- endif%}
+      {%- if this.website %}
       <dl><strong>Website</strong></dl>
       <dd><a href="{{this.website}}">{{this.website}}</a></dd>
-      {%endif%}
-      {% if this.partners %}
+      {%- endif%}
+      {%- if this.partners %}
       <dl><strong>Project partners</strong></dl>
       <dd>{{this.partners}}</dd>
-      {%endif%}
+      {%- endif%}
+      {%- if this.doi %}
+      <dl><strong>DOI</strong></dl>
+      <dd><a href="{{this.doi}}">{{this.doi}}</a></dd>
+      {%- endif%}
     </div>
     {% if this.sidebox %}
     {{this.sidebox}}
