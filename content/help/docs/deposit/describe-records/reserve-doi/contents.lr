@@ -60,7 +60,4 @@ image: yes.png
 #### docsstep ####
 step: 2
 ----
-text: Copy/paste (to avoid typo mistakes) the existing DOI into the field. The DOI will be validated for conformity, and a given DOI may only be deposited once in Zenodo (i.e. we detect duplicates).
----
-todo:
-- Describe differences between internal/external DOIs - can edit files vs responsibility.
+text: Copy/paste (to avoid any typo mistakes) the existing DOI into the field. The DOI will be validated for conformity, and a given DOI may only be deposited once in Zenodo (i.e. we detect duplicates).

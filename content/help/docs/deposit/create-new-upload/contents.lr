@@ -9,9 +9,9 @@ menu: /help/docs/deposit
 body:
 
 !!! info
-    **Want to test Zenodo?** Use our sandbox environment on [https://sandbox.zenodo.org](https://sandbox.zenodo.org) to play.
+    **Want to test Zenodo?** Use our sandbox environment on [https://sandbox.zenodo.org](https://sandbox.zenodo.org) to try out our features.
 
-See the [quick start](../../get-started/quickstart/) guide for a short introduction to publishing an upload in 3 simple steps. This guide goes in further detail about how to create a new record, and subsequent sections covers each part in detail.
+See the [quick start](../../get-started/quickstart/) guide for a short introduction to publishing an upload in 3 simple steps. This guide goes in further detail about how to create a new record, and subsequent sections cover each part in detail.
 ---
 tocdesc: Overview of how to create a new upload, add/remove files, fill metadata, save for later, set visibility, preview a record, apply an embargo and publish.
 ---
@@ -28,7 +28,7 @@ ref: new-upload
 #### docsstep ####
 step: 1
 ----
-text: Click the plus icon in the header, and select **New upload** from the drop-down menu. S
+text: Click the plus icon in the header, and select **New upload** from the drop-down menu.
 ----
 image: create-new-upload.png
 #### docsstep ####
@@ -46,7 +46,7 @@ step: 1
 ----
 text:
 
-Click the **Upload files** button, or drag and drop one or more files onto the drop zone to start uploading files. By default, you can maximum upload up to 100 files and a total of 50GB.
+Click the **Upload files** button, or drag and drop one or more files onto the drop zone to start uploading files. You can upload up to 100 files and a total of 50GB.
 
 **ATTENTION:** After the record is published it is not longer possible to add, remove or modify files by yourself.
 ----
@@ -54,7 +54,7 @@ image: files-empty.png
 #### docsstep ####
 step: 2
 ----
-text: You can delete a file by clicking the trashcan-icon.
+text: You can delete a file by clicking the <i class="fa fa-trash-o"></i> icon.
 ----
 image: files.png
 #### docsheader ####
@@ -104,7 +104,7 @@ image: publicationdate.png
 step: 6
 ----
 text:
-**Creators**: Click the **Add creator** button to add one or more creators/authors of the record. Creators appear in the citation string of your upload. A creator can be a person or organisation. You can search for creators (based on ORCiD profiles for persons and ROR registry for organisations), or you can manually enter their information. Name identifiers (e.g. ORCIDs, GNDs) are validated. You can add one or more affiliations for a creator, and if desired you can assign a role for each creator. Once one or more authors have been added, you can edit, remove and reorder creators from the deposit form.
+**Creators**: Click the **Add creator** button to add one or more creators/authors of the record. Creators appear in the citation string of your upload. A creator can be a person or organisation. You can search for creators (based on ORCID profiles for persons and ROR registry for organisations), or you can manually enter their information. Name identifiers (e.g. ORCIDs, GNDs) are validated. You can add one or more affiliations for a creator, and if desired you can assign a role for each creator. After one or more authors have been added, you can edit, remove and reorder creators from the deposit form.
 ----
 image: creators.png
 #### docsheader ####
@@ -142,9 +142,7 @@ image: visibility.png
 #### docsstep ####
 step: 2
 ----
-text:
-
- You can choose between **public** or **restricted** visibility for the files. If the files are restricted you can later set an embargo date and share the record with specific users.
+text: You can choose between **public** or **restricted** visibility for the files. You can [share](../../share/about/) restricted files after publishing.
 ----
 image:
 #### docsheader ####
@@ -176,7 +174,7 @@ ref: preview
 #### docsstep ####
 step: 1
 ----
-text: Click the **Preview** button to see how the record will look like once published. Note, you have to provide the minimal required metadata (see above) to be able to preview the record.
+text: Click the **Preview** button to see how the record will look like once published. Note, you have to provide the [minimal required metadata](#metadata) to be able to preview the record.
 ----
 image: save-for-later.png
 #### docsheader ####
@@ -208,15 +206,6 @@ image: delete.png
 #### docsstep ####
 step: 2
 ----
-text: **ATTENTION:** You will loose any reserved DOI if you delete the upload, and any uploaded files will also be removed.
+text: **ATTENTION:** You will lose any reserved DOI if you delete the draft, and any uploaded files will also be removed.
 ----
 image:
-#### docsstep ####
-step: 3
-----
-text: After you publish, you will NOT be able to delete the record by yourself.
-----
-image:
----
-todo:
-- Add screenshots

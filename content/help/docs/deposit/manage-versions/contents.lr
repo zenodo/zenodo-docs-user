@@ -51,7 +51,7 @@ ref: import-files
 #### docsstep ####
 step: 1
 ----
-text: In files section of the deposit form, click the **Import files** button to import files from a previous. Using this feature saves storage space as we don't duplicate the previous files.
+text: In files section of the deposit form, click the **Import files** button to import files from the previous version. Using this feature saves storage space as we don't duplicate the previous files.
 ----
 image: import-files.png
 #### docsstep ####
@@ -80,7 +80,7 @@ ref: create-version
 #### docsstep ####
 step: 1
 ----
-text: Find the previous version you want to edit using e.g. [browse versions](#browse-versions).
+text: Find the previous version you want to edit using [browse versions](#browse-versions).
 #### docsstep ####
 step: 2
 ----

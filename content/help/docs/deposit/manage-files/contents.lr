@@ -13,7 +13,7 @@ body:
 !!! warning
     **Heads up**: You CANNOT modify files *after* your record is published, instead use [versioning](../manage-versions/).
 
-The following sections documents how to manage files for a draft and record. You can by default upload up to a 100 files and a total volume of 50GB (50.000.000.000 bytes).
+The following sections documents how to manage files for a draft and record. You can by default upload up to a 100 files and a total volume of 50GB (50,000,000,000 bytes).
 ---
 docs_show_toc: True
 ---
@@ -26,13 +26,12 @@ ref: prepare
 #### docstext ####
 text:
 
-We support file uploads up 50GB (= 50.000 MB) and max 100 files. See how to [request a quota increase](quota-increase/).
+We support file uploads up 50GB (= 50,000 MB) and max 100 files. If you would like to upload up to 200GB of data, please [request a quota increase](quota-increase/).
 
-Please take the following into consideration when you prepare your files for upload:
+We have the following recommendations for when you're preparing your files for upload:
 - **20+ files**: We recommend that you package them in a ZIP archive
-- **Hidden files**: We often see hidden files in ZIP archives like "__MACOSX", ".DS_Store", or "Thumbs.db" (see these guides on  [Stack Overflow](https://stackoverflow.com/questions/10924236/mac-zip-compress-without-macosx-folder) and [Microsoft](https://support.microsoft.com/en-us/windows/show-hidden-files-0320fe58-0117-fd59-6851-9b7f9840fdb2) for how to remove them).
-- **No changes**: You CANNOT modify files after your record is published.
-- **Use open non-proprietary formats**:  For further guidance on preservation-friendly formats please see the following resources:
+- **Hidden files**: We often see hidden files in ZIP archives like "__MACOSX", ".DS_Store", or "Thumbs.db" which should ideally be removed (see these guides on  [Stack Overflow](https://stackoverflow.com/questions/10924236/mac-zip-compress-without-macosx-folder) and [Microsoft](https://support.microsoft.com/en-us/windows/show-hidden-files-0320fe58-0117-fd59-6851-9b7f9840fdb2) for how to remove them).
+- **Use open non-proprietary formats**: Non-properietary formats mean that your files will remain accessible in the future. For guidance on preservation-friendly formats please see the following resources:
     - [Digital Preservation Handbook - File formats and standards](https://www.dpconline.org/handbook/technical-solutions-and-tools/file-formats-and-standards)
     - [Library of Congress recommended format specifications](http://www.loc.gov/preservation/resources/rfs/index.html)
 
@@ -59,7 +58,7 @@ ref: remove
 #### docsstep ####
 step: 1
 ----
-text: Click the **<i class="fa fa-trash-o"></i>-icon** to remove an already uploaded file.
+text: Click the **<i class="fa fa-trash-o"></i> icon** to remove an already uploaded file.
 ----
 image: finished.png
 #### docsheader ####
@@ -77,13 +76,11 @@ text: Pending state
 ----
 ref: pending
 #### docstext ####
-text:
-
-You may experience a file displaying the state **Pending** in the **Progress** column. The pending state means that a file is in progress of being uploaded. It happens e.g.
+text:You may find that a file is in the **Pending** state the **Progress** column. This means that a file is in process of being uploaded. It happens when:
 - If a file is uploaded from a different browser window or by a different user (multiple people can edit a draft)
 - If a file upload is broken off and you reload the browser page.
 
-In the latter case, you can follow the [remove file](#remove) to fix the issue.
+In the latter case, [remove the file](#remove) to fix the issue.
 
 <img src="pending.png" />
 #### docsheader ####
