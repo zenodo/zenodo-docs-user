@@ -2,7 +2,7 @@ _model: docspage
 ---
 title: Manage versions
 ---
-tocdesc: Learn how modify files by creating a new version.
+tocdesc: Learn how to create a new version.
 ---
 sort_key: 6
 ---
@@ -14,9 +14,9 @@ The following sections describe how you can create a new version of record, impo
 
 **When to use versioning?**
 
-Versioning is used if you need to *add/remove/modify files* in your published record. If you just need to edit metadata (title, creators, description etc) then see [Edit published records](../manage-records/#edit).
+Versioning is used when you have updated the files of your published record. If you just need to edit metadata (title, creators, description etc) then see [Edit published records](../manage-records/#edit), and if you want to correct minor errors then see [Modify files](../manage-files/#modify).
 
-Read more about versioning in [about records](../about-records/).
+This is a completely new record with separate metadata, files and persistent identifier, but it is linked to all previous and future versions. This ensures that if a researcher cite the specific version, they can be sure the files did not change.
 
 The section covers:
 ---

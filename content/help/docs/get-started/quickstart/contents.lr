@@ -40,7 +40,7 @@ image: step1.png
 #### docsstep ####
 step: 3
 ----
-text: Upload one or more files by clicking the **Upload files** button to select files from your computer. Note that you will not be able to add, remove or modify files once published.
+text: Upload one or more files by clicking the **Upload files** button to select files from your computer.
 ----
 image: step2.png
 
