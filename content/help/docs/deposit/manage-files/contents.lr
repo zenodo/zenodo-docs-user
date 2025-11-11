@@ -8,12 +8,7 @@ sort_key: 4
 ---
 menu: /help/docs/deposit
 ---
-body:
-
-!!! warning
-    **Heads up**: You CANNOT modify files *after* your record is published, instead use [versioning](../manage-versions/).
-
-The following sections documents how to manage files for a draft and record. You can by default upload up to a 100 files and a total volume of 50GB (50,000,000,000 bytes).
+body: The following sections document how to manage files for a draft and record. You can upload up to a 100 files and a total volume of 50GB (50,000,000,000 bytes).
 ---
 docs_show_toc: True
 ---
@@ -34,7 +29,6 @@ We have the following recommendations for when you're preparing your files for u
 - **Use open non-proprietary formats**: Non-properietary formats mean that your files will remain accessible in the future. For guidance on preservation-friendly formats please see the following resources:
     - [Digital Preservation Handbook - File formats and standards](https://www.dpconline.org/handbook/technical-solutions-and-tools/file-formats-and-standards)
     - [Library of Congress recommended format specifications](http://www.loc.gov/preservation/resources/rfs/index.html)
-
 #### docsheader ####
 text: Add files
 ----
@@ -90,6 +84,32 @@ ref: modify
 #### docstext ####
 text:
 
-If you would like to modify the files of a record, we recommend that you use our [versioning](../manage-versions/) to create a new version of the record.
+If you would like to update the files of a record, we recommend that you use [versioning](../manage-versions/) to create a new version of the record.
 
-We do however offer a one-month grace period after publication in which files can be added, removed or modified. After the one-month grace period we only allow modification in duly justified cases (such as copyright infringements, or exposure of personal data). All requests for modifications must be submitted to our [support line](https://zenodo.org/support), however please consider using our [versioning](../manage-versions/) feature instead.
+Instead if you would like to make minor corrections, and you are within 30 days of publishing, you can edit the uploaded files of the record.
+#### docsstep ####
+step: 1
+----
+text: Open the **Edit files** accordion
+----
+image: accordion.jpg
+#### docsstep ####
+step: 2
+----
+text: Click **Edit published files**
+----
+image: accordion-open.jpg
+#### docsstep ####
+step: 3
+----
+text: Read and complete the **Edit files** modal
+----
+image: modal.jpg
+#### docsstep ####
+step: 4
+----
+text: You can now change the files of the record. The draft must be published within 45 days of the original publishing of the record. Publishing the draft will not change the DOI.
+----
+image: unlocked.jpg
+#### docstext ####
+text: If you are outside of this time period, we only allow modification in duly justified cases (such as copyright infringement or exposure of personal data). All requests for modifications must be submitted to our [support line](https://zenodo.org/support), however please consider restricting the files and/or using our [versioning](../manage-versions/) feature instead.

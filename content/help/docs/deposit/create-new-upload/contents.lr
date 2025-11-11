@@ -48,7 +48,7 @@ text:
 
 Click the **Upload files** button, or drag and drop one or more files onto the drop zone to start uploading files. You can upload up to 100 files and a total of 50GB.
 
-**ATTENTION:** After the record is published it is not longer possible to add, remove or modify files by yourself.
+**ATTENTION:** After the record is published you can only add, remove or modify files by yourself within 45 days.
 ----
 image: files-empty.png
 #### docsstep ####
@@ -190,7 +190,7 @@ image: save-for-later.png
 #### docsstep ####
 step: 2
 ----
-text: Confirm that you wish to publish. ATTENTION: Once published, you can no longer change the files. You can always update/edit the metadata of the record.
+text: Confirm that you wish to publish. Once published, you can edit the metadata of the record at any time but you can only edit the files within 45 days.
 ----
 image: publish.png
 #### docsheader ####
