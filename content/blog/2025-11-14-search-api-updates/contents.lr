@@ -1,0 +1,50 @@
+title: New rate-limits to Search API
+---
+author: aioannidis
+---
+body:
+
+As Zenodo continues to grow, we're taking steps to keep the service fast and reliable for everyone.
+Over the past year, we've seen a sharp rise in aggressive and covert harvesting activity targeting our search endpoints, and often at volumes that disrupt normal use.
+Our team has been blocking misbehaving clients on an almost daily basis to maintain stability for researchers who rely on Zenodo for browsing, searching, and depositing their work.
+As these attacks have intensified, we're introducing new rate limits on our records search API to help protect the platform and ensure fair access for all users.
+
+### What's changing?
+
+Starting today, we're enforcing the following limits on our **records search endpoints**:
+
+- **Page sizes**: Maximum 25 results per page for anonymous requests, 100 results per page for authenticated requests
+- **Request frequency**: Maximum 30 requests per minute (for both anonymous and authenticated users)
+
+These limits ensure that Zenodo remains responsive for everyone.
+The higher page limit for authenticated requests also allows us to contact users if we notice usage patterns that our other APIs could better serve.
+
+### Why these changes?
+
+Our infrastructure prioritizes researchers who are searching, browsing, and discovering content on Zenodo.
+But we've seen automated systems request very large amounts of data very quickly (up to 500 requests per second), which uses up resources and slows things down for everyone else.
+
+After analysing current access patterns, we designed these new limits to accommodate typical use cases.
+If you're just searching for related work, browsing records, or managing your community, you won't notice a difference.
+
+### Better alternatives for bulk data access
+
+If you've built scripts, applications, or integrations using the search API for bulk harvesting, or need large amounts of Zenodo metadata (to build indexes, perform analysis, or keep external systems synchronized), we highly recommend using the following methods:
+
+- **[OAI-PMH](https://developers.zenodo.org/#oai-pmh)**: A standardized protocol for harvesting metadata and keeping systems synchronized with repositories like Zenodo.
+It supports incremental updates (only fetching what's new or changed), filtering by community, and multiple metadata formats.
+OAI-PMH delivers 50 records per page and has the same 30 requests per minute limit.
+- **[Metadata dumps](https://developers.zenodo.org/#metadata-dumps)**: Monthly exports of all Zenodo metadata that you can download and process on your own systems.
+This is the most efficient way to access bulk metadata, especially if you need to analyze large portions of Zenodo's content.
+The dumps are available in DataCite XML and JSON formats.
+
+### Looking ahead
+
+We're working to scale Zenodo sustainably while keeping the service responsive and user-friendly.
+We'll closely monitor how these changes perform and make adjustments if needed.
+As the threat landscape is evolving rapidly, we are very likely to introduce further mitigation measures in the future.
+
+If you have questions regarding these changes, or need help transitioning to OAI-PMH or metadata dumps, please [contact our support team](https://zenodo.org/support).
+
+---
+date: 2025-11-25
