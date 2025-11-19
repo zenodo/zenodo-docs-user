@@ -22,12 +22,10 @@
   ],
   "projects": [
     ["/projects/", "Projects"],
-    ["/projects/bicikl/", "BiCIKL"],
-    ["/projects/arcadia2/", "BLR"],
-    ["/projects/faircore4eosc/", "FAIRCORE4EOSC"],
+    ["/projects/airdec/", "AIRDEC"],
+    ["/projects/everse/", "EVERSE"],
     ["/projects/grei/", "GREI"],
-    ["/projects/horizon-zen/", "HORIZON-ZEN"],
-    ["/projects/everse/", "EVERSE"]
+    ["/projects/horizon-zen-plus/", "HORIZON-ZEN+"]
   ],
   "main": [
     ["https://about.zenodo.org", "About"],
