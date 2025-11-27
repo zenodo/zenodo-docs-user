@@ -6,8 +6,15 @@ menu: /help/docs/github
 ---
 sort_key: 2
 ---
-body: 
+body:
 A `CITATION.cff` file can be added to your GitHub repository to describe the software after it is preserved in Zenodo.
+
+**Note:** If your repository also contains a `.zenodo.json` file, Zenodo will **only** use the `.zenodo.json` metadata and ignore the `CITATION.cff` entirely. However, we still recommend having a `CITATION.cff` file because GitHub uses it to display a [citation suggestion](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-citation-files) on your repository page, making it easier for others to cite your software.
+
+**Looking forward:** Zenodo's long-term preference is for open metadata formats like `CITATION.cff` to eventually make the `.zenodo.json` format unnecessary. We hope to see the Citation File Format evolve in two directions:
+
+- **Broader metadata support:** Adoption of widely-used metadata attributes such as funding information.
+- **Extension mechanisms:** Support for platform-specific extensions that would allow services like Zenodo to utilize custom attributes (such as specifying Zenodo communities).
 ---
 docs: 
 #### docsheader ####

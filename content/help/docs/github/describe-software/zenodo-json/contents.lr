@@ -6,8 +6,18 @@ menu: /help/docs/github
 ---
 sort_key: 3
 ---
-body: 
+body:
 A `.zenodo.json` file can be added to your GitHub repository to describe the software after it is preserved in Zenodo.
+
+**Note:** If your repository contains both a `.zenodo.json` and a `CITATION.cff` file, Zenodo will **only** use the `.zenodo.json` metadata. The `CITATION.cff` will be completely ignored for the GitHub release archiving.
+
+**Why use .zenodo.json?** The `.zenodo.json` format supports Zenodo-specific metadata that `CITATION.cff` does not yet support, such as:
+
+- **Funding information** via the `grants` field
+- **Zenodo communities** via the `communities` field
+- Other Zenodo-specific fields like `access_right`, `related_identifiers`, and contributor roles
+
+**If you don't need these Zenodo-specific features, a `CITATION.cff` file alone is sufficient.**
 ---
 docs: 
 #### docsheader ####
@@ -79,6 +89,9 @@ text: Find below an example of a `.zenodo.json` file:
     "language": "eng",
     "grants": [
         {"id": "10.13039/501100000780::101122956"}
+    ],
+    "communities": [
+        {"identifier": "simulation-software"}
     ]
 }
 ```

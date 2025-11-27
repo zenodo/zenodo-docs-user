@@ -13,11 +13,14 @@ docs:
 text: 
 The metadata schema used by Zenodo was extended with fields based on the [CodeMeta](https://codemeta.github.io/) standard, providing support for software-specific metadata.
 
-Moreover, Zenodo supports `CITATION.cff` and `.zenodo.json` files for software releases originating from GitHub, enhancing the integration and making the content easier to cite. 
+Moreover, Zenodo supports `CITATION.cff` and `.zenodo.json` files for software releases originating from GitHub, enhancing the integration and making the content easier to cite.
+
+**Important:** If both files are present in your repository, **only** the `.zenodo.json` metadata will be used for the GitHub release archiving. The `CITATION.cff` metadata will be ignored by Zenodo. See the individual pages below for more details on when to use each format.
 
 Find more information about citing content on GitHub here:
 
 - [Referencing and citing content](https://docs.github.com/en/repositories/archiving-a-github-repository/referencing-and-citing-content)
+- [About CITATION files](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-citation-files)
 
 These are the supported methods to describe software records:
 #### docstoc ####
