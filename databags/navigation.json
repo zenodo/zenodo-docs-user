@@ -29,10 +29,10 @@
 
   ],
   "main": [
-    ["http://127.0.0.1:5000/about", "About"],
-    ["http://127.0.0.1:5000/blog", "Blog"],
-    ["http://127.0.0.1:5000/help/", "Help"],
-    ["http://127.0.0.1:5000/about/projects/", "Projects"],
+    ["/about", "About"],
+    ["/blog", "Blog"],
+    ["/help/", "Help"],
+    ["/about/projects/", "Projects"],
     ["https://developers.zenodo.org", "Developers"]
   ]
 }
