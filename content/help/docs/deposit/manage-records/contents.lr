@@ -71,7 +71,14 @@ text: Delete records
 ----
 ref: delete
 #### docstext ####
-text: Records on Zenodo can be deleted by **their owner within 30 days** after publication. If the record is older than this, then a deletion request can be created with a justification which will be reviewed by Zenodo Support.
+text: Records on Zenodo can be deleted by **their owner within 30 days** after publication.
+
+Alternatively, you can always [restrict public access to files](../create-new-upload/#visibility), [add a public note](../describe-records/descriptions/), and optionally [upload a new version](../manage-versions/) with corrected files.
+
+!!! warning
+    For records **outside of the 30 days time period**, we only allow deletion in duly justified cases, such as copyright infringement or exposure of personal data. Please submit a request under the appropriate category through our [support line](https://zenodo.org/support).
+    **Requests without a valid justification will be automatically declined**.
+
 #### docsstep ####
 step: 1
 ----
@@ -84,8 +91,6 @@ step: 2
 text: Otherwise, from the edit record page, click the red **Delete record** button at the bottom of the sidebar.
 ----
 image: edit-delete-record.jpg
-#### docstext ####
-text: **Immediate deletion**
 #### docsstep ####
 step: 3
 ----
@@ -98,17 +103,3 @@ step: 4
 text: The record will be deleted and you will be redirected to the tombstone page containing the citation for archival purposes.
 ----
 image: tombstone.jpg
-#### docstext ####
-text: **Request deletion**
-#### docsstep ####
-step: 3
-----
-text: In the modal that appears, acknowledge that the record will be deleted, select the removal reason and provide a detailed justification. Finally press the **Request deletion** button on the bottom right.
-----
-image: modal-request.jpg
-#### docsstep ####
-step: 4
-----
-text: You will be redirected to the deletion request,  which you can find later in **My Dashboard**.
-----
-image: deletion-request.jpg
