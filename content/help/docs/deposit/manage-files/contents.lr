@@ -84,9 +84,13 @@ ref: modify
 #### docstext ####
 text:
 
-If you would like to update the files of a record, we recommend that you use [versioning](../manage-versions/) to create a new version of the record.
+If you would like to make significant changes to the files of a record, we recommend that you use [versioning](../manage-versions/) to create a new version of the record. For the original record, you can [restrict public access to existing files](../create-new-upload/#visibility) and/or [add a public note](../describe-records/descriptions/) to explain changes introduced in future versions.
 
-Instead if you would like to make minor corrections, and you are within 30 days of publishing, you can edit the uploaded files of the record.
+Instead if you would like to make minor corrections, and you are **within 30 days** after publication, you can edit the uploaded files of the record.
+
+!!! warning
+    For records **outside of the 30 days time period**, we only allow modification in duly justified cases, such as copyright infringement or exposure of personal data. Requests for modifications must be submitted under the appropriate category through our [support line](https://zenodo.org/support). **Requests without a valid justification will be automatically declined**.
+
 #### docsstep ####
 step: 1
 ----
@@ -111,5 +115,3 @@ step: 4
 text: You can now change the files of the record. The draft must be published within 45 days of the original publishing of the record. Publishing the draft will not change the DOI.
 ----
 image: unlocked.jpg
-#### docstext ####
-text: If you are outside of this time period, we only allow modification in duly justified cases (such as copyright infringement or exposure of personal data). All requests for modifications must be submitted to our [support line](https://zenodo.org/support), however please consider restricting the files and/or using our [versioning](../manage-versions/) feature instead.
