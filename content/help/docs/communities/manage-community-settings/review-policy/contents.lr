@@ -1,6 +1,6 @@
 _model: docspage
 ---
-title: Set review policy
+title: Set submission policy
 ---
 sort_key: 1
 ---
@@ -10,30 +10,36 @@ tocdesc: Modify how submissions from community owners, managers and curators are
 ---
 body:
 
-The review policy enables communities to set how submissions from community owners/managers/curators are handled. There following two options exists:
+The review policy enables communities to set how submissions from community owners/managers/curators are handled, based on the following options of the **Review policy**:
 
-- **Review all submissions:** All submissions goes through a review by community curators.
-- **Allow curators to publish without review**: Submissions by community owners, managers and curators automatically published in the community without a review.
+- **Review all submissions:** All submissions go through a review by community curators.
+- **Allow curators, managers and owners to publish without review**: Submissions by community owners, managers and curators are automatically published in the community without a review.
+- **Allow all members to publish without review**: Submissions by all community members are automatically published without a review.
+
+Additionally, communities can control who can submit records through the **Records submission policy**:
+
+- **Open:** All authenticated users can submit records to the community.
+- **Closed:** Only members can submit records to the community.
 
 ---
 docs:
 
 #### docsheader ####
-text: Set review policy
+text: Set submission policy
 ----
 ref: review
 
 #### docsstep ####
 step: 1
 ----
-text: Go to your [community settings](../#manage) and click **Review policy** in the left menu.
+text: Go to your [community settings](../#manage) and click **Submission policy** in the left menu.
 
 #### docsstep ####
 step: 2
 ----
-text: On the **Review policy** you can modify the submission review policy for the community.
+text: On the **Submission policy** page you can modify both the record **Review policy** and **Records submission policy** for the community.
 ----
-image: review-policy.png
+image: submission-policy.png
 #### docsstep ####
 step: 3
 ----

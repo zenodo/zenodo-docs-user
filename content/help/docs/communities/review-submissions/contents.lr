@@ -14,9 +14,9 @@ Any Zenodo user can submit records to your community via two different methods:
 
 The following sections explain how you as a community curator review these submissions.
 
-##### Review policy
+##### Submission policy
 
-Community owners can set the [review policy](../manage-community-settings/review-policy/) to allow curators, managers and owners to submit without review.
+Community owners can set the [submission policy](../manage-community-settings/review-policy/) to allow curators, managers and owners to submit without review. They can also control if the community is open to submissions from all Zenodo users or only existing community members.
 
 ##### Permissions
 
