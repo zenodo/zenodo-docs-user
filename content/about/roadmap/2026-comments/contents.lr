@@ -1,0 +1,12 @@
+column: current
+---
+body:
+We will enhance Zenodo's commenting system for submission reviews with several new features:
+LaTeX equation previews, quote functionality, direct comment replies, local draft autosave,
+comment collapsing, permalinks, and file attachments.
+---
+category: Development
+---
+title: Enhanced comments system
+---
+year: 2026
