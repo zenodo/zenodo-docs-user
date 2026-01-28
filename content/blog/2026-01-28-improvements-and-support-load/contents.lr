@@ -1,0 +1,47 @@
+title: Planned improvements and support expectations
+---
+author: ntarocco
+---
+body:
+
+Over the past months, many of you have experienced periods of slowness and occasional service interruptions on Zenodo.
+We would like to explain the current situation and outline the steps we are taking to address it.
+
+### Increased traffic and automated access
+
+Zenodo traffic has increased significantly, not only from human users but also from automated systems,
+including bots, **harvesters for AI and people using AI**. These systems generate a **sustained and aggressive load** on the platform.
+Many of these automated systems do not respect our rate limits and actively try to circumvent them, creating additional strain.
+On average, we now observe around 180 requests per second. At peak times during working hours, this can easily reach 250 requests
+per second and more. The current Zenodo infrastructure was designed based on the traffic patterns observed during the migration
+to the next-generation platform, InvenioRDM, in 2023, when the load was lower and more predictable.
+
+This affects both browsing and file transfers, resulting in **slower uploads and downloads**,
+as well as occasional unavailability. Basic mitigation techniques such as blocking and
+rate limiting are no longer sufficient on their own. More advanced traffic management and
+protection mechanisms are required, together with infrastructure upgrades.
+
+### Planned improvements
+
+In the coming weeks, we will **progressively upgrade the platform** and deploy additional
+mitigation measures to better handle the increased load and reduce the impact of abusive or malicious traffic.
+These changes will be rolled out step by step in order to preserve service continuity.
+
+During this period, we kindly ask for your **patience**. At the moment, support requests
+related to performance issues or temporary slowness are difficult to address individually,
+as the root causes are already identified and are being handled at the infrastructure level.
+
+As Zenodo grows, our support team is receiving **more support requests than ever**.
+While we work through these requests, the fastest way to find a solution is often through our [Help Portal and FAQs](https://help.zenodo.org).
+We've designed these resources to give you instant answers to common questions so you can get back to your research without the wait.
+
+We will keep you informed of major developments and improvements as they are deployed.
+
+As always, Zenodo remains committed to its core mission of supporting open science,
+reserving research outputs, and providing reliable access to research for the global community.
+Ensuring that research remains open, accessible, and reusable continues to guide our technical and operational decisions.
+
+Thank you for your understanding and for your continued use of Zenodo.
+
+---
+date: 2026-01-28

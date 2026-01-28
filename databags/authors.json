@@ -23,6 +23,10 @@
     "name": "Jose Benito Gonzalez Lopez",
     "img": "/static/img/authors/jbenito.png"
   },
+  "ntarocco": {
+    "name": "Nicola Tarocco",
+    "img": "/static/img/authors/ntarocco.jpg"
+  },
   "tsmith": {
     "name": "Tim Smith",
     "img": "/static/img/authors/tsmith.png"
@@ -57,7 +61,7 @@
   },
   "dshorthouse": {
     "name": "David P. Shorthouse",
-    "orcid":"https://orcid.org/0000-0001-7618-5230"
+    "orcid": "https://orcid.org/0000-0001-7618-5230"
   },
   "zgoodwin": {
     "name": "Dr. Zoë Goodwin",
@@ -65,7 +69,7 @@
   },
   "korellana": {
     "name": "K. Samanta Orellana",
-    "orcid" : "https://orcid.org/0000-0002-4098-5823"
+    "orcid": "https://orcid.org/0000-0002-4098-5823"
   },
   "nu-cern-nih": {
     "name": "Northwestern University, CERN and NIH",
