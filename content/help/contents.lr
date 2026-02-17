@@ -54,7 +54,7 @@ body:
         <h4><a href="https://support.zenodo.org/help/en-gb/25-citations">Citations</a></h4>
     </div>
     <div class="col-md-3">
-        <h4><a href="https://support.zenodo.org/help/en-gb/2-safelisting">Safelisting</a></h4>
+        <h4><a href="https://support.zenodo.org/help/en-gb/2-content">Content</a></h4>
     </div>
 </div>
 <div class="row" style="margin-bottom:20px;">
@@ -65,7 +65,7 @@ body:
         <h4><a href="https://support.zenodo.org/help/en-gb/13-policies">Policies</a></h4>
     </div>
     <div class="col-md-3">
-        <h4><a href="https://support.zenodo.org/help/en-gb/15-reuse">Reuse</a></h4>
+        <h4><a href="https://support.zenodo.org/help/en-gb/31-api">API</a></h4>
     </div>
     <div class="col-md-3">
     </div>
