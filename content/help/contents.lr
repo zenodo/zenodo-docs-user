@@ -70,12 +70,7 @@ body:
     <div class="col-md-3">
     </div>
 </div>
-
-**Tip**: OpenAIRE provides general guides/training on open science, Horizon Europe, research data management (RDM) and legal issues for researchers:
-
-- [Guides](https://www.openaire.eu/guides)
-- [Webinars](https://www.openaire.eu/support/webinars)
-- [Open science in Europe](https://www.openaire.eu/open-science-europe-overview)
+ 
 
 #### sectionindex ####
 title: Docs
@@ -83,15 +78,15 @@ title: Docs
 body:
 ----
 menu: /help/docs
+
 #### sectionindex ####
 title: Guides
 ----
 body:
+**Tip**: OpenAIRE provides general guides/training on open science, Horizon Europe, research data management (RDM) and legal issues for researchers:
+
+- [Guides](https://www.openaire.eu/guides)
+- [Webinars](https://www.openaire.eu/support/webinars)
+- [Open science in Europe](https://www.openaire.eu/open-science-europe-overview)
 ----
 menu: /help/guides
-#### sectionindex ####
-title: Developers
-----
-body:
-----
-menu: /help/developers
