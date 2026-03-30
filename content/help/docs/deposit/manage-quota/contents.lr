@@ -1,0 +1,92 @@
+_model: docspage
+---
+title: Manage quota
+---
+sort_key: 5
+---
+menu: /help/docs/deposit
+---
+body:Each record comes with a default storage quota of **50GB** and you can upload an unlimited number of records under 50GB. For larger files, you also have an additional allowance of up to **150GB** that can be distributed across your uploads as needed.
+
+You can view detailed information about your quota usage in your <a href="#settings">storage settings</a>.
+---
+docs:
+
+#### docsheader ####
+text: Add quota to a draft
+----
+ref: request
+
+#### docsstep ####
+step: 1
+----
+text: Visit the draft, and click on the **Manage storage** button at the top-right of the Files section.
+----
+image: manage-storage-btn.png
+
+#### docsstep ####
+step: 2
+----
+text: Use the slider or the input field to allocate/deallocate storage quota to the record from your available quota allowance. 
+----
+image:manage-quota-manager.jpg
+
+#### docstext ####
+text:
+
+The bar provides a visual summary of your allocated quota:
+
+- **Blue (Default)**: Base storage assigned to each record.
+- **Green (Additional)**: Extra quota assigned from your allowance.
+- **Grey (Available)**: Remaining quota not yet allocated.
+
+#### docsstep ####
+step: 3
+----
+text: Click **Apply** to assign the quota to your record.
+----
+image:
+
+#### docsheader ####
+text: Quota overview
+----
+ref: settings
+
+#### docstext ####
+text: 
+  The **<a href="https://zenodo.org/account/settings/quota/">Quota overview</a>** page allows you to see your default quota, additional quota assigned, and quota usage across all your records. 
+
+#### docsstep ####
+step: 1
+----
+text: Click on the **Storage** option in the user [Profile menu](../../get-started/navigating-zenodo/#profile) dropdown
+----
+image: storage-setting-menu.jpg
+
+#### docstext ####
+
+text: 
+
+The **Storage overview** page opens:
+
+<img src="storage-overview.jpg" width="100%"/>
+ 
+The top section shows an at-a-glance **quota summary** of your storage limits and usage:
+- **Default quota per record:** By default, each record has a quota of **50GB**.
+- **Available quota:** Remaining additional quota you can assign out of the **150GB** total allowance.
+- **Quota granted across records:** Total additional quota currently assigned to records.
+
+<img src="quota-overview.png" width="100%"/>
+
+The **quota usage bar** shows how much of your additional quota you have used via file uploads. 
+
+<img src="quota-progress-bar.png" width="100%"/>
+
+The **Allocated storage** table lists all your records for which you have assigned additional quota. 
+The columns are:
+- **Record:** Title and link to the record.
+- **Additional quota:** Additional quota assigned to this record.
+- **Usage:** Progress bar showing usage of the total quota.
+- **Date:** Creation date.
+- **Status:** Whether it is a draft or published.
+<img src="allocated-storage-table.png" width="100%"/>
