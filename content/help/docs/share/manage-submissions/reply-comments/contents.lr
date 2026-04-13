@@ -33,6 +33,25 @@ step: 2
 text: Write a comment in the comment field. You may use basic formatting. Submit the comment by clicking the green **Comment** button.
 ----
 image: conversation.png
+#### docsstep ####
+step: 3
+----
+text: Instead of adding a new comment, you can also reply to an existing comment to continue the conversation.
+----
+image: conversation-reply.jpg
+#### docsstep ####
+step: 4
+----
+text: You can take advantage of the formatting options to make your comment more clear, and other features such as:
+
+- Each comment has its own **persistent direct link** (permalink) that can be copied and shared.
+- Comments support **mathematical equations**, which can be included using LaTeX syntax. Use the delimiters `$` for equations inline with text, and `$$` for full-width 'block' equations. For example, write `$E=mc^2$` to display the famous equation inline.
+- Inline images or other supporting material files **can be attached** to comments.
+- Text from existing comments can be selected and **quoted** in a new comment to provide context for your reply.
+- While writing a comment, the text is **automatically saved** as a draft, so you can safely navigate away from the page and return later to continue writing without losing your progress (only saved in your current browser session).
+
+----
+image: conversation-advanced.png
 
 #### docsheader ####
 text: Edit a comment

@@ -82,6 +82,17 @@ ref: comment
 #### docstext ####
 text: See [reply/edit/delete comments](../../share/manage-submissions/reply-comments/) for details on how to communicate with the submitter.
 
+You may wish to **lock the conversation**.
+
+<img src="conversation-lock.jpg" class="img-thumbnail">
+
+Community curators, managers and owners can lock and unlock the conversation at any time. When a conversation is locked, the following applies:
+
+- New comments cannot be created by anyone, including community curators.
+- Existing comments cannot be edited.
+- Existing comments can still be deleted.
+
+Replying to existing comments is still allowed.
 
 #### docsheader ####
 text: Accept a submission
