@@ -9,9 +9,9 @@ We're excited to share a new round of updates designed to improve collaboration,
 ### Improved record deposits
 
 We've introduced updates to simplify the deposition and publication process:
+- You can now request a **storage quota increase** directly during record deposition, making it easier to manage larger datasets. See the [Manage quota](https://help.zenodo.org/docs/deposit/manage-quota/) documentation page for more information.
 - When editing a published record and changing files, you will now see **remaining days left to publish**. See the [Modify files after publication](https://help.zenodo.org/docs/deposit/manage-files/#modify) documentation page for more information.
 - In the deposit form, the "Creators" section has been renamed to "**Creators/Authors**" for improved clarity when uploading datasets or publications.
-- You can now request a **storage quota increase** directly during record deposition, making it easier to manage larger datasets. See the [Manage quota](https://help.zenodo.org/docs/deposit/manage-quota/) documentation page for more information.
 
 <div align="center" style="padding:20px"><img src="/2026/04/13/2026-04-13-latest-platform-updates/quota-increase.png" width="50%" /><br/><i>Zenodo deposit form file upload section with the new quota increase feature</i></div>
 
@@ -21,6 +21,7 @@ When [reviewing submissions](https://help.zenodo.org/docs/communities/review-sub
 - The new **threaded comments** feature is now available, enabling to reply to specific comments in a clearer and more structured way.
 - You can now include **mathematical equations** when writing comments.
 - Each comment now has its own persistent direct link (permalink), making it easy to share and reference specific points in discussions.
+- You can now attach files to each comment, such as inline images or other support material.
 - From the published record landing page, the new link "View comments", in the "Communites" side panel, makes it easier to access to the submission review page.
 - Community managers can now **lock conversations** and disable the addition of new comments, ensuring better moderation and control when needed.
 
@@ -30,7 +31,7 @@ Finding relevant research is now faster and more intuitive. In the search page:
 - The new sorting option "**Most downloaded**" helps finding impactful records.
 - The new "**Publication date**" filter allows for more precise search refinement.
 
-<div align="center" style="padding:20px"><img src="/2026//04/13/2026-04-13-latest-platform-updates/date-facets.png" width="40%" /><br/><i>Zenodo search page with new publication date facet</i></div>
+<div align="center" style="padding:20px"><img src="/2026/04/13/2026-04-13-latest-platform-updates/date-facets.png" width="40%" /><br/><i>Zenodo search page with new publication date facet</i></div>
 
 ### Metadata standardization for theses and dissertations
 
