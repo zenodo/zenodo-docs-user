@@ -13,7 +13,7 @@ We've introduced updates to simplify the deposition and publication process:
 - In the deposit form, the "Creators" section has been renamed to "**Creators/Authors**" for improved clarity when uploading datasets or publications.
 - You can now request a **storage quota increase** directly during record deposition, making it easier to manage larger datasets. See the [Manage quota](https://help.zenodo.org/docs/deposit/manage-quota/) documentation page for more information.
 
-<div align="center" style="padding:20px"><img src="/2026/04/13/2026-04-13-latest-platform-updates/quota-increase.png" width="50%" /><br/><i>Figure - Zenodo deposit form file upload section with the new quota increase feature</i></div>
+<div align="center" style="padding:20px"><img src="/2026/04/13/2026-04-13-latest-platform-updates/quota-increase.png" width="50%" /><br/><i>Zenodo deposit form file upload section with the new quota increase feature</i></div>
 
 ### Enhanced commenting and discussion
 
@@ -29,6 +29,8 @@ When [reviewing submissions](https://help.zenodo.org/docs/communities/review-sub
 Finding relevant research is now faster and more intuitive. In the search page:
 - The new sorting option "**Most downloaded**" helps finding impactful records.
 - The new "**Publication date**" filter allows for more precise search refinement.
+
+<div align="center" style="padding:20px"><img src="/2026//04/13/2026-04-13-latest-platform-updates/date-facets.png" width="40%" /><br/><i>Zenodo search page with new publication date facet</i></div>
 
 ### Metadata standardization for theses and dissertations
 
