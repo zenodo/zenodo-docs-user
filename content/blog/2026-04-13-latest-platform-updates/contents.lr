@@ -1,0 +1,72 @@
+title: Latest platform improvements and updates
+---
+author: ntarocco
+---
+body:
+
+We're excited to share a new round of updates designed to improve collaboration, transparency, and usability across Zenodo and the EU Open Research Repository (EOR).
+
+### Improved record deposits
+
+We've introduced updates to simplify the deposition and publication process:
+- When editing a published record and changing files, you will now see **remaining days left to publish**. See the [Modify files after publication](https://help.zenodo.org/docs/deposit/manage-files/#modify) documentation page for more information.
+- In the deposit form, the "Creators" section has been renamed to "**Creators/Authors**" for improved clarity when uploading datasets or publications.
+- You can now request a **storage quota increase** directly during record deposition, making it easier to manage larger datasets. See the [Manage quota](https://help.zenodo.org/docs/deposit/manage-quota/) documentation page for more information.
+
+<div align="center" style="padding:20px"><img src="/2026/04/13/2026-04-13-latest-platform-updates/quota-increase.png" width="50%" /><br/><i>Figure - Zenodo deposit form file upload section with the new quota increase feature</i></div>
+
+### Enhanced commenting and discussion
+
+When [reviewing submissions](https://help.zenodo.org/docs/communities/review-submissions/), engaging with other users is now more seamless and interactive:
+- The new **threaded comments** feature is now available, enabling to reply to specific comments in a clearer and more structured way.
+- You can now include **mathematical equations** when writing comments.
+- Each comment now has its own persistent direct link (permalink), making it easy to share and reference specific points in discussions.
+- From the published record landing page, the new link "View comments", in the "Communites" side panel, makes it easier to access to the submission review page.
+- Community managers can now **lock conversations** and disable the addition of new comments, ensuring better moderation and control when needed.
+
+### Improved discovery and filtering
+
+Finding relevant research is now faster and more intuitive. In the search page:
+- The new sorting option "**Most downloaded**" helps finding impactful records.
+- The new "**Publication date**" filter allows for more precise search refinement.
+
+### Metadata standardization for theses and dissertations
+
+To enhance interoperability and align with the DataCite schema, we are standardizing the resource type for `theses`.
+
+We recently identified an unnecessary distinction between “Thesis” and “Dissertation” in our metadata model. The user interface will now only display "Thesis" as an option, while internally, all records will use the DataCite-compliant "Dissertation" type. Existing DOIs will be updated to reflect this change, by converting the custom metadata:
+```
+  "types": {
+    "resourceType": "Thesis",
+    "resourceTypeGeneral": "Text"
+  }
+```
+to the standard DataCite representation:
+```
+  "types": {
+    "resourceTypeGeneral": "Dissertation"
+  }
+```
+
+For API usage, we will maintain backward compatibility. The custom value “publication-thesis” will still be accepted, but it will be automatically converted internally to “publication-dissertation”.
+
+### New integration in OpenAIRE
+
+In OpenAIRE [CONNECT](https://connect.openaire.eu/) and [EXPLORE](https://explore.openaire.eu/), you can now upload the Open Access version of a publication to Zenodo in a very easy way. To discover the feature, read the related [OpenAIRE blog post](https://www.openaire.eu/community/blogs/did-you-know-upload-open-access-versions-to-zenodo-with-openaire-connect-and-explore).
+
+### Share your feedback
+
+These updates are part of our ongoing commitment to support open science and foster better collaboration across the research community. We encourage you to explore these new features and continue sharing your valuable feedback!
+
+**Share your feedback:** help us by answering the EU Open Research Repository (EOR) [Survey](https://ec.europa.eu/eusurvey/runner/Zenodo-EOR-Repository-Feedback-2026-03)! The survey is open to **all Zenodo users**. Your input is essential to help us better understand your needs and guide future improvements. We encourage you to take a few minutes to share your feedback and contribute to shaping the platform.
+
+**Upcoming webinar:** The EOR will also be presented during [OAPEN EU Project: Insights from EU-Funded Authors Webinar](https://openaccessbooksnetwork.hcommons.org/2026/01/23/oapen-eu-project-insights-from-eu-funded-authors/) on **Tuesday 21 April 2026, 14:00 – 15:15 CEST**.  Registration is open [here](https://us06web.zoom.us/meeting/register/9OLk88UzT6CiW9W19pqJmA#/registration)!
+
+**Stay Connected & Informed:**
+- Subscribe to our [newsletter](https://newsletters.zenodo.org/subscription/form).
+- Explore the [updated documentation pages](https://help.zenodo.org/docs/).
+
+Thank you for being part of Zenodo!
+
+---
+date: 2026-04-13
