@@ -1,0 +1,47 @@
+_model: docspage
+---
+title: Quota increase
+---
+sort_key: 1
+---
+menu: /help/docs/deposit
+---
+body:
+
+We exceptionally grant a **one-time quota increase up to 200GB** for datasets.
+---
+docs:
+
+#### docsheader ####
+text: Request a quota increase.
+----
+ref: request
+#### docsstep ####
+step: 1
+----
+text: Make sure your request does not exceed 200GB (200.000 MB) and has less than 100 files.
+#### docsstep ####
+step: 2
+----
+text: [Login to your account](../../../get-started/logging-in/) and create a new draft record (i.e. don't publish). See [create a record](../../../deposit/create-new-upload/) for details. Please provide as much metadata as possible in particular:
+
+- Title
+- Description
+- Creators/Authors (with affiliations)
+- Related works (in particular peer-reviewed papers)
+- License
+- Funding information
+
+
+#### docsstep ####
+step: 3
+----
+text: Copy the browser URL - should look similar to ``https://zenodo.org/uploads/1235``.
+#### docsstep ####
+step: 4
+----
+text: Go to our [support form](https://zenodo.org/support) and select the category **File upload quota increase**. Please include the following information with your request:
+
+- URL that you copied in step 3.
+- Total size of your dataset (in GB, not GiB - i.e. 200 GB = 200.000 MB)
+- Information (not already provided in the draft metadata) related to the organization, project or grant which was involved in the research, as well as any papers or future papers that will cite this dataset (if applicable).
