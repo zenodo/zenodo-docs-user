@@ -21,7 +21,7 @@ ref: prepare
 #### docstext ####
 text:
 
-We support file uploads up 50GB (= 50,000 MB) and max 100 files. If you would like to upload up to 200GB of data, please see [manage quota increase](../manage-quota).
+We support file uploads up 50GB (= 50,000 MB) and max 100 files. If you would like to upload up to 200GB of data, please see [Manage storage quota](../manage-quota).
 
 We have the following recommendations for when you're preparing your files for upload:
 - **20+ files**: We recommend that you package them in a ZIP archive

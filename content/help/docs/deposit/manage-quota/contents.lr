@@ -1,6 +1,6 @@
 _model: docspage
 ---
-title: Manage quota
+title: Manage storage quota
 ---
 sort_key: 5
 ---
@@ -13,7 +13,7 @@ You can view detailed information about your quota usage in your <a href="#setti
 docs:
 
 #### docsheader ####
-text: Add quota to a draft
+text: Add storage quota to a draft
 ----
 ref: request
 
@@ -27,7 +27,7 @@ image: manage-storage-btn.png
 #### docsstep ####
 step: 2
 ----
-text: Use the slider or the input field to allocate/deallocate storage quota to the record from your available quota allowance. 
+text: Use the slider or the input field to allocate/deallocate storage quota to the record from your available quota allowance.
 ----
 image:manage-quota-manager.jpg
 
@@ -48,13 +48,13 @@ text: Click **Apply** to assign the quota to your record.
 image:
 
 #### docsheader ####
-text: Quota overview
+text: Storage quota overview
 ----
 ref: settings
 
 #### docstext ####
-text: 
-  The **<a href="https://zenodo.org/account/settings/quota/">Quota overview</a>** page allows you to see your default quota, additional quota assigned, and quota usage across all your records. 
+text:
+  The **<a href="https://zenodo.org/account/settings/quota/">Storage quota overview</a>** page allows you to see your default quota, additional quota assigned, and quota usage across all your records.
 
 #### docsstep ####
 step: 1
@@ -65,12 +65,12 @@ image: storage-setting-menu.jpg
 
 #### docstext ####
 
-text: 
+text:
 
 The **Storage overview** page opens:
 
 <img src="storage-overview.jpg" width="100%"/>
- 
+
 The top section shows an at-a-glance **quota summary** of your storage limits and usage:
 - **Default quota per record:** By default, each record has a quota of **50GB**.
 - **Available quota:** Remaining additional quota you can assign out of the **150GB** total allowance.
@@ -78,11 +78,11 @@ The top section shows an at-a-glance **quota summary** of your storage limits an
 
 <img src="quota-overview.png" width="100%"/>
 
-The **quota usage bar** shows how much of your additional quota you have used via file uploads. 
+The **quota usage bar** shows how much of your additional quota you have used via file uploads.
 
 <img src="quota-progress-bar.png" width="100%"/>
 
-The **Allocated storage** table lists all your records for which you have assigned additional quota. 
+The **Allocated storage** table lists all your records for which you have assigned additional quota.
 The columns are:
 - **Record:** Title and link to the record.
 - **Additional quota:** Additional quota assigned to this record.
