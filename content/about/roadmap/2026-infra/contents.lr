@@ -1,8 +1,8 @@
-column: near-term
+column: current
 ---
 body:
-To address increased traffic from AI-harvesters, we will implement infrastructure
-improvements to enhance system performance, reliability, and scalability.
+Infrastructure changes to absorb the surge of traffic from AI harvesters
+without degrading service for human users.
 ---
 category: DevOps
 ---

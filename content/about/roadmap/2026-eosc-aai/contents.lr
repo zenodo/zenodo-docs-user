@@ -1,0 +1,11 @@
+column: near-term
+---
+body:
+Authentication via the EOSC EU Node AAI. New user accounts are validated
+automatically using AAI attributes.
+---
+category: Development
+---
+title: EOSC EU Node AAI integration
+---
+year: 2026
