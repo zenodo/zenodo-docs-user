@@ -36,7 +36,7 @@
             <div class="col-md-8 col-md-offset-2 text-center">
                 Our roadmap helps us share what we are working on next and the direction that we're taking Zenodo. <br>The roadmap is updated quarterly in January, April, July and October.
                 </p>
-                <p><small>Last update: January 22, 2026</small></p>
+                <p><small>Last update: April 28, 2026</small></p>
             </div>
         </div>
         <div class="row">
@@ -50,11 +50,9 @@
                             <summary>
                                 <h3>{{ year }}</h3>
                             </summary>
-                            <div class="row">
+                            <div class="completed-grid">
                                 {%- for card in cards %}
-                                <div class="col-md-4">
                                     {{ render_roadmap_card(card) }}
-                                </div>
                                 {%- endfor %}
                             </div>
                         </details>

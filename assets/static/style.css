@@ -126,6 +126,29 @@ h5 {
   margin-bottom: 8px;
 }
 
+.roadmap-section .completed-grid {
+  column-count: 3;
+  column-gap: 20px;
+}
+
+.roadmap-section .completed-grid .panel {
+  break-inside: avoid;
+  display: inline-block;
+  width: 100%;
+}
+
+@media (max-width: 991px) {
+  .roadmap-section .completed-grid {
+    column-count: 2;
+  }
+}
+
+@media (max-width: 767px) {
+  .roadmap-section .completed-grid {
+    column-count: 1;
+  }
+}
+
 summary {
   cursor: pointer;
 }
