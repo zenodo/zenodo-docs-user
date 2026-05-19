@@ -78,13 +78,23 @@ In the latter case, [remove the file](#remove) to fix the issue.
 
 <img src="pending.png" />
 #### docsheader ####
+text: Set the files' visibility
+----
+ref: visibility
+#### docsstep ####
+step: 1
+----
+text: Set the desired visibility of the files in the record once published (note, the metadata is always publicly accessible). The visibility can also be edited after the record is published by (editing the record)[../manage-records/#edit].
+----
+image: visibility.png
+#### docsheader ####
 text: Modify files after publication
 ----
 ref: modify
 #### docstext ####
 text:
 
-If you would like to make significant changes to the files of a record, we recommend that you use [versioning](../manage-versions/) to create a new version of the record. For the original record, you can [restrict public access to existing files](../create-new-upload/#visibility) and/or [add a public note](../describe-records/descriptions/) to explain changes introduced in future versions.
+If you would like to make significant changes to the files of a record, we recommend that you use [versioning](../manage-versions/) to create a new version of the record. For the original record, you can [restrict public access to existing files](../create-new-upload/#visibility) at any point in time, and/or [add a public note](../describe-records/descriptions/) to explain changes introduced in future versions.
 
 Instead if you would like to make minor corrections, and you are **within 30 days** after publication, you can edit the uploaded files of the record.
 

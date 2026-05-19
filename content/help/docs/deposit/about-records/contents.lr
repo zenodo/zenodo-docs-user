@@ -73,7 +73,7 @@ ref: access
 #### docstext ####
 text:
 
-Metadata for all records in Zenodo are always publicly accessible. You have the possibility to restrict access to the files, and once you restrict access you have the possibility to share with specific people.
+Metadata for all records in Zenodo are always publicly accessible. You have the possibility to restrict access to the files at anytime, both when (creating an upload)[../create-new-upload/#visibility] or (editing a published record)[../manage-records/#edit]. Once you restrict access you have the possibility to share with specific people.
 
 The reason we support restricted access is for cases such as embargoed content, content under peer-review, content that cannot be made generally available (e.g. anonymized clinical trial data), etc.
 
