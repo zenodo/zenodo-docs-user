@@ -1,0 +1,84 @@
+title: Session exposure incident (May 13–15, 2026)
+---
+author: ntarocco
+---
+body:
+
+<div class="alert alert-warning" align="left" style="margin: 20px auto;max-width: 90%;">
+<p>
+Between May 13 and 15, 2026, a misconfiguration briefly caused some signed-in Zenodo user sessions to be served to other website visitors. This was an internal technical error, and <strong>not an external malicious attack or hack.</strong>
+</p>
+<br>
+<p>We have already fixed the issue and taken the necessary remediation steps, <strong>and for nearly everyone, no action is required.</strong></p>
+</p>
+</div>
+
+On May 15, 2026, the Zenodo team identified and resolved a web caching misconfiguration that temporarily exposed user sessions to other active users visiting specific URL pathways.
+
+- **Incident start:** May 13, 2026, at 15:30 CEST (13:30 UTC)
+- **Incident resolution & fix applied:** May 15, 2026, at 15:15 CEST (13:15 UTC)
+
+We take data privacy and platform security seriously. Below is a transparent breakdown of what happened, the limited scope of the impact, how we resolved it, and what it means for your account.
+
+#### Why was the change made?
+Zenodo has experienced a dramatic increase in platform traffic, driven in large part by automated traffic and AI scrapers/bots (see also [our recent blog post](https://blog.zenodo.org/2026/01/28/2026-01-28-improvements-and-support-expectations/)). To ensure we continue providing a high-quality, fast, and responsive service to our research community, our team has been actively optimizing and scaling our infrastructure to cope with this high load.
+
+Unfortunately, during one of these infrastructure scaling adjustments to our web caching, an unexpected configuration error was introduced.
+
+#### What happened?
+While adjusting our caching rules to better handle heavy automated traffic, we incorrectly configured the ones for the DOI badge images, visible in the record landing pages.
+
+Instead of serving a static badge image, the caching layer inadvertently cached the active session state (anonymous or authenticated) of the user requesting it. As a result, if a subsequent user visited a record landing page that triggered that specific badge path, they were accidentally served the session of the previous user, effectively impersonating their account. In practical terms, for as long as a session was mixed up, the other person could see and do the same things the account owner could while signed-in.
+
+Users navigating the site during these 48 hours may have experienced:
+- Being suddenly logged out of their account.
+- Finding themselves temporarily logged into another user's account.
+
+User reports of unexpected account behaviour during this period confirmed our analysis of the access logs.
+
+#### Impact analysis
+We analysed approximately 5.8 million HTTP access log entries from our monitoring systems and cross-referenced them with every affected account.
+
+Our findings show that the real-world impact was largely contained:
+
+- Approximately 3,000 accounts had their session reused by a different IP address. Because a signed-in user's email address is shown in the account menu, that email address may have been visible to another person in roughly 2,200 of these cases. In a smaller subset, other account settings pages were opened, which also show full name, e-mail, affiliation, and linked accounts.
+- One user accidentally modified personal information of another account. Both accounts have been fully restored, no credentials or tokens were leaked.
+- One user accidentally published a record on behalf of another user due to a cached session. The issue has been solved.
+- A limited number of users connected their external login to the wrong account. All wrong accounts have been unlinked.
+- No users generated shared links or granted permanent unauthorized access to restricted records.
+- For 221 records that have restricted files, the in-browser file preview could have been shown to another person holding the owner's session, and for some of these a preview was opened. We confirmed that none of these restricted files were downloaded.
+
+Where we were able to follow up with the users involved, they confirmed that these actions were accidental.
+
+#### Actions taken
+As soon as the bug was identified, we took Zenodo offline for about 45 minutes on May 15. The faulty caching rule was completely removed and we invalidated all active user sessions, logging everyone out and immediately terminating any lingering or mixed sessions.
+
+As a strict precautionary measure, **all private access tokens created during the 48-hour incident window have been permanently revoked**.
+
+All affected users have been contacted. In line with our data-protection obligations, we assessed the incident together with our Data Protection Officer and agreed on the scope and the actions described here.
+
+___
+
+#### Frequently Asked Questions (FAQ)
+
+##### Do I need to change my password or tokens?
+**No.** Passwords and tokens are encrypted and are never exposed in plain text.
+
+##### Why did my API/Personal Access Token stop working?
+If you generated a Personal Access Token between **May 13 (15:30 CEST) and May 15 (15:15 CEST)**, we proactively revoked it to protect your account. You simply need to go to your profile settings and generate a new token. *Tokens created before or after this window are completely unaffected.*
+
+##### Was my restricted data accessed?
+No restricted files were downloaded, which was confirmed from our access logs. For a number of records with restricted files, the in-browser preview, which shows part of a file, may have been visible to another person during the window. If you own one of these records, we have contacted you directly with the details.
+
+##### I noticed a strange change on my account or a duplicate record. What should I do?
+If you still see something unexpected that occurred strictly during the May 13–15 window, please contact us on support.
+
+##### How do I know if I was affected?
+If you were affected, we have emailed the address on your account. If you did not receive an email from us about this incident, you were not in the affected group.
+
+___
+
+We sincerely apologize for this incident and any confusion or concern it may have caused. While it is essential to adapt our infrastructure to handle modern web and AI traffic, we are reviewing our internal staging and testing procedures to ensure traffic-handling updates undergo stricter isolation rules before reaching production.
+
+---
+date: 2026-05-21
