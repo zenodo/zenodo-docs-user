@@ -20,6 +20,8 @@ jobs:
         run: |
           pip install -U pip
           pip install "Lektor>=3.3.4"
+          pip install "pagefind[extended]"
+          pip install beautifulsoup4
           pip freeze
       - name: Deploy
         env:

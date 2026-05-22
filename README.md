@@ -39,6 +39,16 @@ the following command and open
 $ lektor server
 ```
 
+#### Documentation search with Pagefind
+
+In order to test the documentation search functionality, install the `pagefind[extended]` and `beautifulsoup4` packages and run the following commands:
+
+```console
+$ lektor build
+$ python pagefind_index.py "$(lektor project-info --output-path)"
+$ python -m http.server --directory "$(lektor project-info --output-path)"
+```
+
 ### Contributing
 
 Contributions are welcome, and they are greatly appreciated! Every little bit

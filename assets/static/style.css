@@ -170,3 +170,12 @@ summary {
 .docs-blocks h3 {
   margin-top: 50px;
 }
+
+:root {
+  /*
+  Making the max-width of the Pagefind searchbox wide enough,
+  so that it fits the full width of its parent container.
+  See: https://pagefind.app/docs/css-variables/
+  */
+  --pf-searchbox-max-width: 800px !important;
+}
