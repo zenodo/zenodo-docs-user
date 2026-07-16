@@ -41,7 +41,7 @@ $ lektor server
 
 #### Documentation search with Pagefind
 
-In order to test the documentation search functionality, install the `pagefind[extended]` and `beautifulsoup4` packages and run the following commands:
+In order to test the documentation search functionality, install the `pagefind[extended]`, `beautifulsoup4` and `requests` packages and run the following commands:
 
 ```console
 $ lektor build
