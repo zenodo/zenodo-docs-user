@@ -26,11 +26,19 @@ def scrape_zammad_answer(url, answers):
     soup = fetch(url)
 
     soup_body = soup.select_one("main article .container")
-    # Setting the attribute to `None` is the way to have the attribute added but without a value.
-    soup_body["data-pagefind-body"] = None
+    if soup_body:
+        # Setting the attribute to `None` is the way to have the attribute added but without a value.
+        soup_body["data-pagefind-body"] = None
 
-    answer_soup_meta = soup_body.select_one(".article-meta")
-    answer_soup_meta["data-pagefind-ignore"] = None
+        soup_meta = soup_body.select_one(".article-metaz")
+        if soup_meta:
+            soup_meta["data-pagefind-ignore"] = None
+        else:
+            print(
+                "Answer metadata cannot be found, the metadata will not be excluded from indexing"
+            )
+    else:
+        print("Answer body cannot be found, all the page content will be indexed")
 
     answers.append(
         {
