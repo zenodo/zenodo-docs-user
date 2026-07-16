@@ -30,7 +30,7 @@ def scrape_zammad_answer(url, answers):
         # Setting the attribute to `None` is the way to have the attribute added but without a value.
         soup_body["data-pagefind-body"] = None
 
-        soup_meta = soup_body.select_one(".article-metaz")
+        soup_meta = soup_body.select_one(".article-meta")
         if soup_meta:
             soup_meta["data-pagefind-ignore"] = None
         else:
