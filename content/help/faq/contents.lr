@@ -8,19 +8,18 @@ faqlist:
 ---
 toptext:
 
-# Frequently Asked Questions
-<hr />
-
-
 <div class="row" style="margin-bottom:20px;">
     <div class="col-md-3"></div>
-    <div class="col-md-6">
+    <div class="col-md-6 text-center">
 
-        <h4 class="text-center"><a href="https://support.zenodo.org/help/">Search FAQ</a></h4>
+        <pagefind-searchbox>Search widget</pagefind-searchbox>
 
     </div>
     <div class="col-md-3"></div>
 </div>
+
+# Frequently Asked Questions
+<hr />
 
 <div class="row">
     <div class="col-md-3">

@@ -51,7 +51,7 @@
     </div>
     <div class="col-md-8">
       {{ render_breadcrumb(this, root=site.get(breadcrumb_root)) }}
-      <div class="docs-blocks">
+      <div class="docs-blocks" data-pagefind-body>
       <h1>{{this.title}}</h1>
       {%if this.lead%}
       <h2><small>{{this.lead}}</small></h2>{% endif%}
