@@ -1,0 +1,104 @@
+_model: docspage
+---
+_hidden: false
+---
+title: Project checks
+---
+sort_key: 1
+---
+menu: /help/guides/eu
+---
+tocdesc: Learn about checks performed when you request a new EU project community.
+---
+body:
+
+When requesting an EU Project Community, a set of automated curation checks run on the project, providing helpful information for curators and project managers.
+
+The guide covers the following:
+
+---
+docs_show_toc: true
+---
+docs:
+
+#### docsheader ####
+text: Automated curation checks on project requests
+----
+ref: automated-subcommunity-checks
+
+Once your request is submitted, automated curation checks will run on the project. As the project manager, you can see the status of the checks in the request page. From there, you can make changes to the project, if needed, to maximize compliance with the requirements of the EU Open Research Repository.
+#### docsstep ####
+step: 1
+----
+text: Navigate to the request page and click on the **Checks** tab.
+
+**Note:** the request link is sent to the project manager by email.
+---
+image: check-step1.png
+
+#### docsstep ####
+step: 2
+----
+text: Use the check tabs to verify different aspects of your request: member affiliation, project validation, record metadata, and community metadata.
+---
+image: check-step2.png
+
+#### docsstep ####
+step: 3
+----
+text: The tab **Member affiliation** displays checks on the project members, indicating whether or not they are affiliated with the project's organizations. This verification is based on the member's email address, which should belong to one of the project's organizations.
+
+You can [manage the members of your project](https://help.zenodo.org/docs/communities/manage-members/) at any point. Members can also change their email address to use an affiliated email address by [editing their profile](https://help.zenodo.org/docs/profile/editing-your-profile/#edit).
+
+This check can be rerun by clicking the **Rerun check** button.
+---
+image: check-step3.png
+
+#### docsstep ####
+step: 4
+----
+text: The **Project validation** tab verifies that the project has at least one grant, and whether or not there already exists a project in the EU Open Research Repository for the same grant.
+---
+image: check-step4.png
+
+#### docsstep ####
+step: 5
+----
+text: The tab **Record metadata** verifies each record that is already part of the project, to check if the records contain the same award as that of the project. This check can only be rerun manually by clicking the **Rerun check** button (pink arrow).
+
+If there are records that do not match the project's award, you can see a list of them by clicking the **View affected records** button (pink box).
+---
+image: check-step5.png
+
+#### docsstep ####
+step: 6
+----
+text: The **Community metadata** tab shows whether or not the project metadata includes required fields (project name, description, website), and whether the organizations match those listed in the project consortium.
+
+To edit the project metadata, [manage the settings of the community](https://help.zenodo.org/docs/communities/manage-community-settings/).
+---
+image: check-step6.png
+
+#### docsheader ####
+text: List of required project checks
+----
+ref: required-subcommunity-checks
+#### docstext ####
+text:
+
+- **Projects must be of type Project**
+- **At least one of the community owners or managers is affiliated with one of the award's organizations**
+- **Project must have at least one funding** - The EU Open Research Repository only accepts projects associated with one of EU’s research and innovation funding programmes, which currently include Horizon Europe (including ERC, MSCA), earlier Framework Programmes (eg Horizon 2020), as well as Euratom.
+- **No other project for the same grant exists in the EU Open Research Repository**
+
+#### docsheader ####
+text: List of recommended project checks
+----
+ref: recommended-subcommunity-checks
+#### docstext ####
+text:
+
+The recommended checks will warn you in case there's a problem, but you will still be able to submit the request for review.
+
+- **Project metadata** - The project metadata should include the project short description, website and the participating organizations.
+- **Records funding should match the project's award** - Records in the project must come from the grant associated with the project.

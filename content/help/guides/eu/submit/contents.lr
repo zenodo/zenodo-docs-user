@@ -24,6 +24,7 @@ All submissions to the EU Open Research Repository are subject to stricter metad
 
 - **[Metadata checks](metadata-checks/):**  Checks for compliance with the [Horizon Europe open science requirements](https://zenodo.org/communities/eu/pages/open-science).
 - **[File format checks](file-checks/):** Checks for usage of open or scientific file formats for improved reusability and preservation of the files.
+- **[Funding checks](funding-checks/):** Checks if the record's title and description relate to the project's award.
 
 In this guide you find:
 
@@ -91,3 +92,4 @@ text: Follow our guide to [create a new upload](../../../docs/deposit/create-new
 
 - [Metadata checks](metadata-checks/)
 - [File format checks](file-checks/)
+- [Funding checks](funding-checks/)

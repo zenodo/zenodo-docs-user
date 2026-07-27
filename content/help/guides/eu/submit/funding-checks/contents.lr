@@ -1,0 +1,45 @@
+_model: docspage
+---
+_hidden: false
+---
+title: Funding checks
+---
+sort_key: 3
+---
+menu: /help/guides/eu
+---
+tocdesc: Learn about the funding check that runs on submissions.
+---
+body:
+
+When a record or draft is submitted to a project within the EU Open Research Repository, a funding relevance check runs automatically, verifying whether the record's metadata (title and description) is reasonably related to the project's award. To avoid blocking submissions, records can be published even if this check does not pass.
+
+The funding check uses AI to compare your record's title and description with the project's official award description.  Read [our AI Usage Notice here](https://about.zenodo.org/ai-usage-notice/).
+---
+docs:
+
+
+#### docsheader ####
+text: Viewing funding checks
+----
+ref: request-checks
+#### docsstep ####
+step: 1
+----
+text: After submitting a request, it is possible to access the request page either via the [project's requests page](../../../../docs/communities/review-submissions/) (for project curators), or [via your dashboard](https://help.zenodo.org/docs/share/manage-submissions/view-submissions/) (for submitters).
+
+On the request page, click the **Checks** tab:
+----
+image: ../metadata-checks/curator-step1.png
+#### docsstep ####
+step: 2
+----
+text: Next, click **Funding relevance** in the side menu.
+----
+image: step2.png
+#### docsstep ####
+step: 3
+----
+text: The tab will show whether the record's metadata matches the project's award description, as well as a summary explaining the decision.
+----
+image: step3.png

@@ -18,6 +18,9 @@ is a special type of [community](../../../docs/communities/):
 - **Indexed in EU Open Research Repository** - all content in the community is automatically available in the EU Open Research Repository.
 - **Automated curation checks** - submissions to the community is subject to the curation policy of the EU Open Research Repository. The curation policy is automatically checked and ensures compliance with the related Horizon Europe open science requirements.
 - **Verified community** - the community gets a verification checkmark, to highlight to other users that it's a verified community.
+
+After requesting an EU Project Community, [automated curation checks on the project](project-checks/) will also run, allowing both the project managers and the curators of the EU Open Research Repository to quickly assess whether the request matches the criteria for approval or not.
+
 ---
 docs:
 
@@ -54,9 +57,12 @@ text: Fill in the form for the request and click **Create community** once done:
 - **Do you already have an existing community?** - if you have already created the a community for your EU project, you can select the community from your existing communities (not, it's the owner of the community who have to make the request).
 - **Project** - search for your EU project using e.g. the acronym or the grant number. The data is coming from the [CORDIS](https://cordis.europa.eu) which releases data once per month, and thus new projects may not always be present.
 - **Community name** - this is automatically filled from the project information.
-- **Identifer** -  this is automatically filled from the project information with the acronym.
+- **Identifier** -  this is automatically filled from the project information with the acronym.
+- **Short description** - a short description of the project. This is automatically filled from the project information, if available.
+- **Website** - the website of the project. This is automatically filled from the project information, if available.
+- **Organizations** - the organizations from the project's consortium. This is automatically filled from the project information, if available.
 ----
-image: step3.png
+image: step4.png
 
 #### docsstep ####
 step: 5
@@ -65,4 +71,6 @@ text: You are done! The request will be reviewed and approved if all is in order
 
 You can already start [using the new community](../using-your-community/) while you wait for the approval.
 ----
-image: step4.png
+image: step5.png
+
+- [Project checks](project-checks/)
