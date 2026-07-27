@@ -62,12 +62,13 @@ body:
         <h4><a href="https://support.zenodo.org/help/en-gb/13-policies">Policies</a></h4>
     </div>
     <div class="col-md-3">
-        <h4><a href="https://support.zenodo.org/help/en-gb/31-api">API</a></h4>
+        <h4><a href="https://support.zenodo.org/help/en-gb/32-data-privacy">Data Privacy</a></h4>
     </div>
     <div class="col-md-3">
+        <h4><a href="https://support.zenodo.org/help/en-gb/31-api">API</a></h4>
     </div>
 </div>
- 
+
 
 #### sectionindex ####
 title: Docs
