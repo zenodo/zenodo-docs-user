@@ -7,8 +7,6 @@ body:
 # Privacy policy
 <hr />
 
-If you have any questions about Zenodo's privacy policy, please don't hesitate to [contact us](https://zenodo.org/support).
-
 ## Legal framework
 
 Zenodo is hosted at CERN and subject to CERN's special legal status as an Intergovernmental Organization (IGO) and thus enjoys certain privileges and immunities under international law. Processing of personal data at CERN is governed by [CERN's Operational Circular 11 (OC11)](https://privacy.web.cern.ch/cerns-legal-framework) that offers data protection at the same high standards and is comparable to EU's General Data Protection Regulation (GDPR).
@@ -95,7 +93,7 @@ The personal data we have, and how it's used:
     </tr>
     <tr>
       <td>Which deposits you have created and records you have published, incl. timestamp	</td>
-      <td>[User] To allow you to manage and edit records you upload; To prevent spam and misuse of Zenodo; To monitor compliance with Zenodo's policies	</td>
+      <td>[User] To allow you to manage and edit records you upload; To prevent spam and misuse of Zenodo; To monitor compliance with Zenodo's policies; To generate automated field suggestions (e.g., keywords, metadata extraction) during deposit, subject to user approval</td>
       <td>Legitimate interest of CERN	</td>
       <td>Your input</td>
     </tr>
@@ -521,7 +519,13 @@ What automated decision making or profiling is being done by Zenodo with your pe
   </tbody>
 </table>
 
-For more detailed information about personal data and privacy please refer to the [Data Privacy web site](https://privacy.web.cern.ch/).
+## AI processing
+
+Zenodo utilizes automated tools to assist with metadata curation and funder grant verification. Processing takes place locally within the CERN Data Centre without external third-party cloud providers. Model improvements (such as keyword and subject recommendations) rely exclusively on aggregated, non-personal metadata and do not involve personal data.
+
+<hr />
+
+For more detailed information about personal data and privacy please refer to the [Zenodo Data Privacy FAQs](https://support.zenodo.org/help/en-gb/32-data-privacy) and the [Data Privacy web site](https://privacy.web.cern.ch/).
 
 For questions regarding this Privacy Notice, please [contact us](https://zenodo.org/support).
 
@@ -531,6 +535,6 @@ To request to exercise data subject rights please fill and submit the following 
 
 This Privacy Notice is subject to revision.
 
-*Last revision: 23-04-2024*
+*Last revision: 31-07-2026*
 
 <a href="#src-foot-1"><sup id="foot-1">1</sup></a> The retention period may be temporarily extended for special circumstances, in accordance with the provisions of the operation circular governing data privacy.
