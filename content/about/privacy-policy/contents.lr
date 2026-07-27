@@ -88,95 +88,95 @@ The personal data we have, and how it's used:
     <tr>
       <td>Your historic login information (last login timestamp and login count)</td>
       <td>[User] For account security and debugging; To generate summary statistics; To prevent spam and misuse of Zenodo</td>
-      <td>Legitimate interest of CERN	</td>
+      <td>Legitimate interest of CERN</td>
       <td>Automatically recorded when you authenticate on Zenodo</td>
     </tr>
     <tr>
-      <td>Which deposits you have created and records you have published, incl. timestamp	</td>
+      <td>Which deposits you have created and records you have published, incl. timestamp</td>
       <td>[User] To allow you to manage and edit records you upload; To prevent spam and misuse of Zenodo; To monitor compliance with Zenodo's policies; To generate automated field suggestions (e.g., keywords, metadata extraction) during deposit, subject to user approval</td>
-      <td>Legitimate interest of CERN	</td>
+      <td>Legitimate interest of CERN</td>
       <td>Your input</td>
     </tr>
     <tr>
-      <td>Which communities you have created and manage, incl. timestamps	</td>
-      <td>[User] To allow you to manage communities you create; To prevent spam and misuse of Zenodo; To monitor compliance with Zenodo's policies	</td>
-      <td>Legitimate interest of CERN	</td>
+      <td>Which communities you have created and manage, incl. timestamps</td>
+      <td>[User] To allow you to manage communities you create; To prevent spam and misuse of Zenodo; To monitor compliance with Zenodo's policies</td>
+      <td>Legitimate interest of CERN</td>
       <td>Your input</td>
     </tr>
     <tr>
-      <td>Which records you have been granted access to	</td>
-      <td>[User] To allow you to access restricted content from other users	</td>
-      <td>Legitimate interest of CERN	</td>
+      <td>Which records you have been granted access to</td>
+      <td>[User] To allow you to access restricted content from other users</td>
+      <td>Legitimate interest of CERN</td>
       <td>Access granted by another user to records they own
 </td>
     </tr>
     <tr>
-      <td>Your authorized third-party applications	</td>
-      <td>[OAuth] To allow you to authenticate with your Zenodo account on third-party websites; To provide third-party websites with API access to your account	</td>
+      <td>Your authorized third-party applications</td>
+      <td>[OAuth] To allow you to authenticate with your Zenodo account on third-party websites; To provide third-party websites with API access to your account</td>
       <td>Consent</td>
       <td>Your input
 </td>
     </tr>
     <tr>
-      <td>Your access tokens and developer applications	</td>
-      <td>[OAuth] To authenticate you on the REST API; To allow you to authenticate Zenodo users in your third-party website	</td>
+      <td>Your access tokens and developer applications</td>
+      <td>[OAuth] To authenticate you on the REST API; To allow you to authenticate Zenodo users in your third-party website</td>
       <td>Consent</td>
       <td>Your input or generated upon your request
 </td>
     </tr>
     <tr>
-      <td>Your browser sessions (IP address, corresponding timestamp, country, browser and device)	</td>
-      <td>[Session] For account security, debugging and rate limiting; To allow you to logout from your devices remotely; To prevent spam and misuse of Zenodo; to infer the country from the IP address of your devices.	</td>
-      <td>Legitimate interest of CERN	</td>
+      <td>Your browser sessions (IP address, corresponding timestamp, country, browser and device)</td>
+      <td>[Session] For account security, debugging and rate limiting; To allow you to logout from your devices remotely; To prevent spam and misuse of Zenodo; to infer the country from the IP address of your devices.</td>
+      <td>Legitimate interest of CERN</td>
       <td>Automatically detected from the web browser you are using
 </td>
     </tr>
     <tr>
-      <td>Your support requests and enquiries (including name, affiliation and email address)	</td>
-      <td>[Support] To provide you with the requested service; To manage the handling of your request; To investigate compliants	</td>
-      <td>Legitimate interest of CERN	</td>
+      <td>Your support requests and enquiries (including name, affiliation and email address)</td>
+      <td>[Support] To provide you with the requested service; To manage the handling of your request; To investigate compliants</td>
+      <td>Legitimate interest of CERN</td>
       <td>Your input
 </td>
     </tr>
     <tr>
-      <td>Your linked accounts (GitHub, ORCID and OpenAIRE IDs)	</td>
-      <td>[Linked accounts] To allow you to use GitHub, ORCID and OpenAIRE AAI to signup and authenticate; To facilitate integration with GitHub, ORCID and OpenAIRE; To generate summary statistics; To prevent spam and misuse of Zenodo;	</td>
-      <td>Legitimate interest of CERN	</td>
+      <td>Your linked accounts (GitHub, ORCID and OpenAIRE IDs)</td>
+      <td>[Linked accounts] To allow you to use GitHub, ORCID and OpenAIRE AAI to signup and authenticate; To facilitate integration with GitHub, ORCID and OpenAIRE; To generate summary statistics; To prevent spam and misuse of Zenodo;</td>
+      <td>Legitimate interest of CERN</td>
       <td>From GitHub, ORCID or OpenAIRE when you use them to sign up, authenticate or link your external account
 </td>
     </tr>
     <tr>
-      <td>Your subscription to our newsletters	</td>
-      <td>[Newsletter] To send you email newsletters about Zenodo	</td>
+      <td>Your subscription to our newsletters</td>
+      <td>[Newsletter] To send you email newsletters about Zenodo</td>
       <td>Consent</td>
       <td>Your input
 </td>
     </tr>
     <tr>
-      <td>Which communities you are a member of, your role in them, and your membership visibility	</td>
-      <td>[Memberships] To grant you access to a specific community and its content; To display your membership to other members; To display your membership publicly (if requested); To prevent spam and misuse of Zenodo	</td>
-      <td>Legitimate interest of CERN	</td>
+      <td>Which communities you are a member of, your role in them, and your membership visibility</td>
+      <td>[Memberships] To grant you access to a specific community and its content; To display your membership to other members; To display your membership publicly (if requested); To prevent spam and misuse of Zenodo</td>
+      <td>Legitimate interest of CERN</td>
       <td>Your input by accepting an invitation to join a community
 </td>
     </tr>
     <tr>
-      <td>Which communities you have been invited to and which invitations you have sent, and the corresponding timestamp with you action.	</td>
-      <td>[Invitations] To allow you to invite other users to become members of a community; To allow you to accept/decline invitations and for the community manager to see your response; To prevent spam and misuse of Zenodo	</td>
-      <td>Legitimate interest of CERN	</td>
+      <td>Which communities you have been invited to and which invitations you have sent, and the corresponding timestamp with you action.</td>
+      <td>[Invitations] To allow you to invite other users to become members of a community; To allow you to accept/decline invitations and for the community manager to see your response; To prevent spam and misuse of Zenodo</td>
+      <td>Legitimate interest of CERN</td>
       <td>Your input by inviting users; Your input by accepting/declining an invitation to join a community
 </td>
     </tr>
     <tr>
       <td>Your requests, your comments/assignments/reviews on requests, and actions you perform on requests</td>
-      <td>[Requests] To allow you to make requests to other users and administrators and perform actions on those requests; To communicate with other users; To allow other users involved in the request to see your actions on the request as well as see historic requests	</td>
-      <td>Legitimate interest of CERN	</td>
+      <td>[Requests] To allow you to make requests to other users and administrators and perform actions on those requests; To communicate with other users; To allow other users involved in the request to see your actions on the request as well as see historic requests</td>
+      <td>Legitimate interest of CERN</td>
       <td>Your input
 </td>
     </tr>
     <tr>
-      <td>Your access requests (including email address, name and justification) to restricted/embargoed records	</td>
-      <td>[Requests] To allow you to request access to restricted content from other users without having a Zenodo account	</td>
-      <td>Legitimate interest of CERN	</td>
+      <td>Your access requests (including email address, name and justification) to restricted/embargoed records</td>
+      <td>[Requests] To allow you to request access to restricted content from other users without having a Zenodo account</td>
+      <td>Legitimate interest of CERN</td>
       <td>Your input
 </td>
     </tr>
@@ -188,42 +188,42 @@ The personal data we have, and how it's used:
     </tr>
     <tr>
       <td>Your IP address, visited URLs on Zenodo, any errors you experienced, and corresponding timestamp</td>
-      <td>[Logs] To provide you with user support for website debugging, security auditing and to produce anonymous aggregated statistics; To prevent spam and misuse	</td>
-      <td>Legitimate interest of CERN	</td>
+      <td>[Logs] To provide you with user support for website debugging, security auditing and to produce anonymous aggregated statistics; To prevent spam and misuse</td>
+      <td>Legitimate interest of CERN</td>
       <td>Automatically detected when you are browsing on the Zenodo web sites
 </td>
     </tr>
     <tr>
-      <td>Any actions you perform in a community including on records part of the community and corresponding timestamp while logged in	</td>
-      <td>[Community audit logs] To provide transparency for actions performed by the community, to facilitate collaborative editing and team work	</td>
-      <td>Legitimate interest of CERN	</td>
+      <td>Any actions you perform in a community including on records part of the community and corresponding timestamp while logged in</td>
+      <td>[Community audit logs] To provide transparency for actions performed by the community, to facilitate collaborative editing and team work</td>
+      <td>Legitimate interest of CERN</td>
       <td>Automatically recorded when you perform actions
 </td>
     </tr>
     <tr>
-      <td>Any actions you perform while logged in	</td>
-      <td>[Audit log] For security auditing and troubleshooting; To prevent spam and misuse	</td>
-      <td>Legitimate interest of CERN	</td>
+      <td>Any actions you perform while logged in</td>
+      <td>[Audit log] For security auditing and troubleshooting; To prevent spam and misuse</td>
+      <td>Legitimate interest of CERN</td>
       <td>Automatically recorded when you perform actions
 </td>
     </tr>
     <tr>
-      <td>Your names, affiliations, persistent person identifiers (e.g. ORCID, ISNI or GND)	</td>
-      <td>[Vocabularies] To uniquely identify you as an author; To facilitate search for authors; For auto-completion of personal names in the record metadata	</td>
-      <td>Legitimate interest of CERN	</td>
+      <td>Your names, affiliations, persistent person identifiers (e.g. ORCID, ISNI or GND)</td>
+      <td>[Vocabularies] To uniquely identify you as an author; To facilitate search for authors; For auto-completion of personal names in the record metadata</td>
+      <td>Legitimate interest of CERN</td>
       <td>ORCID; OpenAIRE Graph
 </td>
     </tr>
     <tr>
-      <td>Your names, affiliations, persistent person identifiers (e.g. ORCID, ISNI or GND) and role as part of the record metadata, record files and references/citations	</td>
-      <td>[Research outputs] For the scientific justification of published records and cited/citing sources; To curate metadata of records	</td>
-      <td>Legitimate interest of CERN	</td>
+      <td>Your names, affiliations, persistent person identifiers (e.g. ORCID, ISNI or GND) and role as part of the record metadata, record files and references/citations</td>
+      <td>[Research outputs] For the scientific justification of published records and cited/citing sources; To curate metadata of records</td>
+      <td>Legitimate interest of CERN</td>
       <td>Your and other users input; Automatically through deduplication and enrichment of record metadata</td>
     </tr>
     <tr>
-      <td>Your Submission Information Packages (SIPs) containing IP Address, email address, the record metadata and files	</td>
-      <td>[SIP] For quality assurance, for instance to be able to recover your published record in case of technical issues; For scientific justification of published records.	</td>
-      <td>Legitimate interest of CERN	</td>
+      <td>Your Submission Information Packages (SIPs) containing IP Address, email address, the record metadata and files</td>
+      <td>[SIP] For quality assurance, for instance to be able to recover your published record in case of technical issues; For scientific justification of published records.</td>
+      <td>Legitimate interest of CERN</td>
       <td>Your input
 </td>
     </tr>
@@ -257,89 +257,89 @@ The personal data we store, for how long and why:
   <tbody>
     <tr>
       <td>All data labelled [User]</td>
-      <td>Lifetime of your Zenodo account	</td>
+      <td>Lifetime of your Zenodo account</td>
       <td>To provide you with the Zenodo service
 </td>
     </tr>
     <tr>
-      <td>All data labelled [Newsletter], Your email address	</td>
-      <td>Until you unsubscribe or email address bounces twice, whatever comes first	</td>
+      <td>All data labelled [Newsletter], Your email address</td>
+      <td>Until you unsubscribe or email address bounces twice, whatever comes first</td>
       <td>To send you email newsletters about Zenodo</td>
     </tr>
     <tr>
-      <td>All data labelled [OAuth]	</td>
-      <td>Lifetime of your Zenodo account, or until your token expires (1 year validity) or until you delete it, whatever comes first	</td>
+      <td>All data labelled [OAuth]</td>
+      <td>Lifetime of your Zenodo account, or until your token expires (1 year validity) or until you delete it, whatever comes first</td>
       <td>To allow you to authenticate with your Zenodo account on third-party websites; To provide third-party websites with API access to your account; To authenticate you on the REST API; To allow you to authenticate Zenodo users in your third-party website
 </td>
     </tr>
     <tr>
-      <td>All data labelled [Session]	</td>
-      <td>Lifetime of your Zenodo account, or 30 days after your last activity, whatever comes first	</td>
+      <td>All data labelled [Session]</td>
+      <td>Lifetime of your Zenodo account, or 30 days after your last activity, whatever comes first</td>
       <td>For account security, debugging and rate limiting; To allow you to logout from your devices remotely; To prevent spam and misuse of Zenodo;
 </td>
     </tr>
     <tr>
-      <td>All data labelled [Linked accounts]	</td>
-      <td>Lifetime of your Zenodo account or if you disconnect the linked account or the link expires, whatever comes first	</td>
+      <td>All data labelled [Linked accounts]</td>
+      <td>Lifetime of your Zenodo account or if you disconnect the linked account or the link expires, whatever comes first</td>
       <td>To allow you to use GitHub, ORCID and OpenAIRE AAI to signup and authenticate; To facilitate integration with GitHub, ORCID and OpenAIRE; To generate summary statistics; To prevent spam and misuse of Zenodo;
 </td>
     </tr>
     <tr>
-      <td>All data labelled [Support]	</td>
-      <td>7 years after the closure of your request	</td>
+      <td>All data labelled [Support]</td>
+      <td>7 years after the closure of your request</td>
       <td>To provide you with the requested service; To manage the handling of your request; To investigate complaints and disputes that may arise after the closure of the request; To facilitate the handling of future similar cases
 </td>
     </tr>
     <tr>
-      <td>All data labelled [Memberships]	</td>
-      <td>Lifetime of your Zenodo account or until you leave the community, whatever comes first	</td>
+      <td>All data labelled [Memberships]</td>
+      <td>Lifetime of your Zenodo account or until you leave the community, whatever comes first</td>
       <td>To grant you access to a specific community and its content; To display your membership to other members; To display your membership publicly (if visibility is set to public); To prevent spam and misuse of Zenodo
 </td>
     </tr>
     <tr>
-      <td>All data labelled [Invitations]	</td>
-      <td>Lifetime of your Zenodo account or 1 year after the invitation was created, whatever comes first	</td>
+      <td>All data labelled [Invitations]</td>
+      <td>Lifetime of your Zenodo account or 1 year after the invitation was created, whatever comes first</td>
       <td>To allow you to invite other users or to become members of a community; To allow you to accept/decline invitations and for the community manager to see your response; To prevent spam and misuse of Zenodo
 </td>
     </tr>
     <tr>
-      <td>All data labelled [Requests]	</td>
-      <td>Lifetime of your Zenodo account or 1 year after granted access expires, whatever comes first	</td>
+      <td>All data labelled [Requests]</td>
+      <td>Lifetime of your Zenodo account or 1 year after granted access expires, whatever comes first</td>
       <td>To allow you to make requests to other users and administrators; To communicate with other users; To allow other users involved in the request to see your actions on the request; To allow you to request access to restricted content from other users without having a Zenodo account; To facilitate the management of access requests by providing transparency
 </td>
     </tr>
     <tr>
-      <td>All data labelled [GitHub]	</td>
-      <td>Lifetime of your Zenodo account or deactivation of the synchronisation with GitHub, whatever comes first	</td>
+      <td>All data labelled [GitHub]</td>
+      <td>Lifetime of your Zenodo account or deactivation of the synchronisation with GitHub, whatever comes first</td>
       <td>To allow automatic submissions from your GitHub repository into to Zenodo
 </td>
     </tr>
     <tr>
-      <td>All data labelled [Logs]	</td>
-      <td>13 months from date of action	</td>
+      <td>All data labelled [Logs]</td>
+      <td>13 months from date of action</td>
       <td>To provide you with user support for website debugging, security auditing and to produce anonymous aggregated statistics; To prevent spam and misuse
 </td>
     </tr>
     <tr>
-      <td>All data labelled [Community audit logs]	</td>
-      <td>5 months from date of action	</td>
+      <td>All data labelled [Community audit logs]</td>
+      <td>5 months from date of action</td>
       <td>To provide transparency for actions performed by the community, to facilitate collaborative editing and team work
 </td>
     </tr>
     <tr>
-      <td>All data labelled [Audit logs]	</td>
-      <td>13 months from date of action	</td>
+      <td>All data labelled [Audit logs]</td>
+      <td>13 months from date of action</td>
       <td>For security auditing; To prevent spam and misuse
 </td>
     </tr>
     <tr>
-      <td>All data labelled [Vocabularies]	</td>
+      <td>All data labelled [Vocabularies]</td>
       <td>Unlimited</td>
       <td>To uniquely identify you as an author; To facilitate search for authors; For auto-completion of personal names in the record metadata
 </td>
     </tr>
     <tr>
-      <td>All data labelled [Research outputs] and [SIP]	</td>
+      <td>All data labelled [Research outputs] and [SIP]</td>
       <td>Unlimited</td>
       <td>For the scientific justification of published records and cited/citing sources; To curate metadata of records; For quality assurance, for instance to be able to recover your published record in case of technical issues. You have one month after the publication to request the deletion, afterwards the request will only be granted in exceptional circumstances upon justification
 </td>
@@ -366,50 +366,50 @@ In addition to yourself, personal data collected by Zenodo is accessible by the 
   </thead>
   <tbody>
     <tr>
-      <td>All data above	</td>
+      <td>All data above</td>
       <td>Zenodo Service</td>
       <td>To provide you with the Zenodo service; For debugging, security auditing & incident investigation and response; To prevent spam and misuse; For technical support and troubleshooting; To establish anonymous reports and statistics
 </td>
     </tr>
     <tr>
-      <td>All data above	</td>
-      <td>Database on Demand Service	</td>
+      <td>All data above</td>
+      <td>Database on Demand Service</td>
       <td>To store the data and to provide managed database service for Zenodo including replication and backup; For technical support and troubleshooting
 </td>
     </tr>
     <tr>
-      <td>All data above except those labelled [Newsletter], [Support]	</td>
-      <td>OpenSearch Service	</td>
+      <td>All data above except those labelled [Newsletter], [Support]</td>
+      <td>OpenSearch Service</td>
       <td>To store the data; To provide managed search engine service for Zenodo; For technical support and troubleshooting
 </td>
     </tr>
     <tr>
-      <td>All data labelled [Logs]	</td>
-      <td>Platform-as-a-Service, Web Application Hosting Service	</td>
+      <td>All data labelled [Logs]</td>
+      <td>Platform-as-a-Service, Web Application Hosting Service</td>
       <td>To provide managed web application hosting for Zenodo; For technical support and troubleshooting
 </td>
     </tr>
     <tr>
-      <td>All data labelled [Logs]	</td>
-      <td>Web Analytics Service	</td>
+      <td>All data labelled [Logs]</td>
+      <td>Web Analytics Service</td>
       <td>To provide managed web analytics infrastructure for Zenodo; For technical support and troubleshooting
 </td>
     </tr>
     <tr>
-      <td>All data labelled [Logs]	</td>
-      <td>Monitoring Service, HADOOP Services	</td>
+      <td>All data labelled [Logs]</td>
+      <td>Monitoring Service, HADOOP Services</td>
       <td>To provide managed logging infrastructure for Zenodo; For technical support and troubleshooting
 </td>
     </tr>
     <tr>
-      <td>All data labelled [Logs]	</td>
-      <td>Sentry Service	</td>
+      <td>All data labelled [Logs]</td>
+      <td>Sentry Service</td>
       <td>To provide managed error logging and aggregation service for Zenodo; For technical support and troubleshooting
 </td>
     </tr>
     <tr>
-      <td>All data labelled [Research ouputs]	</td>
-      <td>EOS for Physics Service, Ceph Service, Tape Archive (CTA) Service	</td>
+      <td>All data labelled [Research ouputs]</td>
+      <td>EOS for Physics Service, Ceph Service, Tape Archive (CTA) Service</td>
       <td>To store the data and to provide managed storage infrastructure for Zenodo; For technical support and troubleshooting
 </td>
     </tr>
@@ -435,56 +435,56 @@ Personal data we share with entities or individuals outside the Organization:
   </thead>
   <tbody>
     <tr>
-      <td>All data labelled [Research outputs]	</td>
-      <td>DataCite (Germany), OpenAIRE (Greece), Software Heritage (France)	</td>
+      <td>All data labelled [Research outputs]</td>
+      <td>DataCite (Germany), OpenAIRE (Greece), Software Heritage (France)</td>
       <td>To register/update a Digital Object Identifier (DOI) for your published record; For fast indexing into the OpenAIRE Scholarly Knowledge Graph; For archiving in Software Heritage of records with public software source code
 </td>
     </tr>
     <tr>
-      <td>All data labelled [Research outputs] and [Vocabularies]	</td>
-      <td>General public	</td>
+      <td>All data labelled [Research outputs] and [Vocabularies]</td>
+      <td>General public</td>
       <td>For the scientific justification of published records and cited/citing sources; For attribution of the work in published records; For dissemination of research. All information that has been published by you, will be searchable and harvestable through our user interface and our API
 </td>
     </tr>
     <tr>
-      <td>Your account name, full name, affiliation, profile picture, linked accounts (GitHub, ORCID, OpenAIRE) and account status	</td>
-      <td>General public	</td>
+      <td>Your account name, full name, affiliation, profile picture, linked accounts (GitHub, ORCID, OpenAIRE) and account status</td>
+      <td>General public</td>
       <td>To display publicly on community members pages (if you set your membership to public); To display publicly on Zenodo (if profile visibility is public) related to content you have uploaded
 </td>
     </tr>
     <tr>
-      <td>Your account name, full name and affiliation	</td>
-      <td>Zenodo users	</td>
+      <td>Your account name, full name and affiliation</td>
+      <td>Zenodo users</td>
       <td>Allowing others to find you on Zenodo (if profile visibility is enabled); To display to other members in communities you are a member of; To allow other users to grant you access to their restricted content
 </td>
     </tr>
     <tr>
-      <td>Your email address (if email visibility is enabled)	</td>
-      <td>Zenodo users	</td>
+      <td>Your email address (if email visibility is enabled)</td>
+      <td>Zenodo users</td>
       <td>Allowing others to find you on Zenodo and to communicate with you; To allow other users grant you access to their restricted content
 </td>
     </tr>
     <tr>
-      <td>All data labelled [Invitations]	</td>
-      <td>Zenodo users who owns or manages the community	</td>
+      <td>All data labelled [Invitations]</td>
+      <td>Zenodo users who owns or manages the community</td>
       <td>For the community manager to invite you and see your response and historic invitations
 </td>
     </tr>
     <tr>
-      <td>All data labelled [Requests]	</td>
-      <td>Zenodo users with whom you are corresponding	</td>
+      <td>All data labelled [Requests]</td>
+      <td>Zenodo users with whom you are corresponding</td>
       <td>To allow you to make requests to other users and administrators; To communicate with other users; To allow other users involved in the request to see your actions on the request and the related resource (e.g. record or community); To allow the owner of the restricted records to evaluate your request for access and see historic requests
 </td>
     </tr>
     <tr>
-      <td>All data labelled [Community Audit Logs]	</td>
-      <td>Zenodo users who owns the community	</td>
+      <td>All data labelled [Community Audit Logs]</td>
+      <td>Zenodo users who owns the community</td>
       <td>To enable community owners to audit actions on the community and it's records
 </td>
     </tr>
     <tr>
-      <td>Your access token for a third-party application	</td>
-      <td>Third-party applications on which you login with your Zenodo account	</td>
+      <td>Your access token for a third-party application</td>
+      <td>Third-party applications on which you login with your Zenodo account</td>
       <td>To enable you to grant a third-party application access to your Zenodo account and perform actions on your behalf.
 </td>
     </tr>
