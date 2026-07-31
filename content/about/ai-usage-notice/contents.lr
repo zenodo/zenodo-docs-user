@@ -4,7 +4,55 @@ title: AI Usage Notice
 ---
 body:
 
-To be filled in
+# AI Usage Notice <small>v1.0</small>
 
+<hr />
+
+Zenodo’s core mission is to provide a repository open and free to all researchers. Behind the scenes, we strive to adopt Open Science best practices and align with international standards to enhance system interoperability. This includes continuously improving metadata quality, correctness, and completeness.
+
+With the evolution of AI technologies, we selectively adopt these tools to support our mission while maintaining strict standards for data privacy, user control, and human oversight.
+
+### Principles
+
+1. **Local-only infrastructure**: AI models are evaluated, deployed, and run strictly within the [CERN Data Centre](https://about.zenodo.org/infrastructure/).
+
+1. **Open models & no external cloud providers**: We rely exclusively on open-source AI models. No data is ever sent to third-party commercial cloud providers or external APIs.
+
+1. **Data isolation**: Any information processed by our AI models stays entirely within Zenodo and CERN infrastructure.
+
+1. **Human-in-the-Loop**: AI tools are never used as primary authors or autonomous decision-makers. Humans retain full responsibility and final oversight for all published content.
+
+### Where we use AI today
+
+Currently, we utilize AI for the following features:
+- **Funder grant verification**: For records submitted to the [EU Open Research Repository (EOR)](https://zenodo.org/communities/eu/), Zenodo uses AI to perform a preliminary check if the record's title and description match the corresponding grant description in the official EU project database (CORDIS). The human curators of the EU Open Research Repository are still responsible and fully verify submissions based on the curation policy. *Note: This verification step is a required system process and cannot be opted out of to ensure compliance with EOR curation policy*.
+- **Classification tasks**: We train machine learning models for classification tasks, such as spam detection and subject/keyword suggestions.
+
+### Future scope
+
+As we explore new AI capabilities to assist depositors, we plan to introduce optional features such as:
+- **Automated keywords**: users may request AI-driven suggestions for relevant keywords when submitting to improve record discoverability.
+- **Metadata assistance**: to accelerate submissions and enhance data accuracy, AI can extract from your uploaded files and suggest values for specific fields like **title**, **description**, **DOI**, **publication date**, or **authors**.
+
+These upcoming submission features will be optional. Users can choose whether or not to use AI suggestions during the deposit process, and any suggested values must be explicitly reviewed and accepted by the user. You will always have the option to opt out.
+
+### Frequently Asked Questions (FAQ)
+
+#### Q1: Will my uploaded files be used to train AI models?
+**No.** Zenodo uses machine learning models for classification, such as identifying relevant keywords and detecting spam content. To offer enhanced recommendations during the submission process, we train models utilizing only published metadata, such as titles, descriptions, and keywords/subjects.
+
+#### Q2: Does the AI grant check process my attached files or private data?
+**No.** The automated funder grant check only analyzes the public metadata fields (title, description and awards/grants) to verify alignment with official [CORDIS](https://cordis.europa.eu) grant records. It does not inspect or process your attached dataset or publication files.
+
+#### Q3: What happens if the AI grant verification check fails or flags a mismatch?
+The grant check is purely an internal quality and validation tool. An AI flag will not automatically reject, delete, or block your deposit.
+
+#### Q4: Why can’t I opt out of the EU grant verification check?
+Because grant verification is an automated quality assurance check required for compliance with EU Open Research metadata standards, individual opt-outs for this specific background process are not supported. However, future deposit-assistance features *can* be opted-out.
+
+#### Q5: In what way will AI-generated or AI-suggested text be identifiable?
+The user interface will feature a prominent label alongside specific icons <i class="fa fa-magic"></i> or <img src="fire-icon.png" alt="Blue fire icon" style="height: 1em; vertical-align: middle;"> to make it explicitly clear whenever suggested text has been created by AI or a curation check has AI input.
+
+*Last revision: 31-07-2026*
 ---
 _slug: /ai-usage-notice
