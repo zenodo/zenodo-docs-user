@@ -1,7 +1,5 @@
 {
-  "blog": [
-    ["/", "Blog"]
-  ],
+  "blog": [["/", "Blog"]],
   "blog-pagination-all": "/all",
   "help": [
     ["/", "Help"],
@@ -15,6 +13,7 @@
     ["/cookie-policy/", "Cookie policy"],
     ["/terms-of-use/", "Terms of use"],
     ["/policies/", "General policies"],
+    ["/ai-usage-notice/", "AI usage notice"],
     ["/infrastructure/", "Infrastructure"],
     ["/principles/", "Principles"],
     ["/roadmap/", "Roadmap"],

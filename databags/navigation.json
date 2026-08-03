@@ -1,7 +1,5 @@
 {
-  "blog": [
-    ["/blog/", "Blog"]
-  ],
+  "blog": [["/blog/", "Blog"]],
   "blog-pagination-all": "/blog/all",
   "help": [
     ["/help/", "Help"],
@@ -15,6 +13,7 @@
     ["/about/cookie-policy/", "Cookie policy"],
     ["/about/terms-of-use/", "Terms of use"],
     ["/about/policies/", "General policies"],
+    ["/about/ai-usage-notice/", "AI usage notice"],
     ["/about/infrastructure/", "Infrastructure"],
     ["/about/principles/", "Principles"],
     ["/about/roadmap/", "Roadmap"],
@@ -26,7 +25,6 @@
     ["/about/projects/everse/", "EVERSE"],
     ["/about/projects/grei/", "GREI"],
     ["/about/projects/horizon-zen-plus/", "HORIZON-ZEN+"]
-
   ],
   "main": [
     ["/about", "About"],
