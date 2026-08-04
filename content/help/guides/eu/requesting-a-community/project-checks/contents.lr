@@ -33,14 +33,14 @@ step: 1
 text: Navigate to the request page and click on the **Checks** tab.
 
 **Note:** the request link is sent to the project manager by email.
----
+----
 image: check-step1.png
 
 #### docsstep ####
 step: 2
 ----
 text: Use the check tabs to verify different aspects of your request: member affiliation, project validation, record metadata, and community metadata.
----
+----
 image: check-step2.png
 
 #### docsstep ####
@@ -51,14 +51,14 @@ text: The tab **Member affiliation** displays checks on the project members, ind
 You can [manage the members of your project](https://help.zenodo.org/docs/communities/manage-members/) at any point. Members can also change their email address to use an affiliated email address by [editing their profile](https://help.zenodo.org/docs/profile/editing-your-profile/#edit).
 
 This check can be rerun by clicking the **Rerun check** button.
----
+----
 image: check-step3.png
 
 #### docsstep ####
 step: 4
 ----
 text: The **Project validation** tab verifies that the project has at least one grant, and whether or not there already exists a project in the EU Open Research Repository for the same grant.
----
+----
 image: check-step4.png
 
 #### docsstep ####
@@ -67,7 +67,7 @@ step: 5
 text: The tab **Record metadata** verifies each record that is already part of the project, to check if the records contain the same award as that of the project. This check can only be rerun manually by clicking the **Rerun check** button (pink arrow).
 
 If there are records that do not match the project's award, you can see a list of them by clicking the **View affected records** button (pink box).
----
+----
 image: check-step5.png
 
 #### docsstep ####
@@ -76,7 +76,7 @@ step: 6
 text: The **Community metadata** tab shows whether or not the project metadata includes required fields (project name, description, website), and whether the organizations match those listed in the project consortium.
 
 To edit the project metadata, [manage the settings of the community](https://help.zenodo.org/docs/communities/manage-community-settings/).
----
+----
 image: check-step6.png
 
 #### docsheader ####
