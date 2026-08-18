@@ -1,0 +1,45 @@
+title: Latest developments designed to improve Zenodo and the European Open Research Repository (EOR) portal
+---
+author: lgugliel
+---
+body:
+
+### Smarter setup for your EU project community
+
+Setting up a new EU project community is now simpler thanks to the EU projects database [CORDIS](https://cordis.europa.eu/) and [the OpenOrgs database](https://openorgs.openaire.eu).
+
+When [creating a new project community](https://zenodo.org/communities/eu/subcommunities/new) on the [EOR](https://zenodo.org/communities/eu/), key information is now populated automatically, including:
+- a project short description;
+- links to the project's website;
+- participating organisations.
+
+<div align="center" style="padding:20px"><img src="/2026/08/18/2026-08-18-latest-improvements-eor/subcommunity-form.png" width="50%" /><br/><i>EU project community form with additional fields populated automatically</i></div>
+
+### Automated curation, better metadata quality
+
+A new set of automated curation checks help improve the metadata quality of your records in your EU project community:
+
+*Record submission checks* validate funding information by comparing metadata against your project’s description.
+
+*Project community checks* validate funding information, detect existing project communities to avoid duplications, verify the presence of required project metadata (including website, logo, and participating organisations), and verify members' affiliations with your community.
+
+These enhancements will guide you towards creating high-quality metadata submissions while supporting compliance with Horizon Europe Open Science requirements. *Together, this will speed up about 40% of curation tasks that were previously carried out manually!*
+
+<div align="center" style="padding:20px"><img src="/2026/08/18/2026-08-18-latest-improvements-eor/funding-check.png" width="50%" /><br/><i>Record submission check</i></div>
+
+*Learn more about our approach to AI* in [our new dedicated page](https://about.zenodo.org/ai-usage-notice/), which explains how AI is used, how data is processed, and how these checks are applied consistently to all submissions to ensure a fair and harmonised curation process.
+
+### Archive and preview websites in Zenodo
+A WARC (Web ARChive) previewer has been enabled in Zenodo. This new feature, developed by our collaboration partners directly in InvenioRDM, allows users to preview and inspect archived web content directly within the repository.
+
+<div align="center" style="padding:20px"><img src="/2026/08/18/2026-08-18-latest-improvements-eor/warc-previewer.png" width="50%" /><br/><i>Web ARChive previewer</i></div>
+
+### Learn more
+Did you miss the [OpenAIRE webinar](https://doi.org/10.5281/zenodo.20631491) on the European Open Research Repository? You can [rewatch the session](https://youtu.be/dIWm925uvKc?si=5cvdvmshur2PYI9G) on YouTube and learn more about the EOR!
+
+**Stay Connected & Informed:**
+- Subscribe to our [newsletter](https://newsletters.zenodo.org/subscription/form).
+- Explore the [updated documentation pages](https://help.zenodo.org/docs/).
+
+---
+date: 2026-08-18
