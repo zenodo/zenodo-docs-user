@@ -1,4 +1,4 @@
-title: Latest developments designed to improve Zenodo and the European Open Research Repository (EOR) portal
+title: Latest platform improvements and updates
 ---
 author: lgugliel
 ---
@@ -19,15 +19,15 @@ When [creating a new project community](https://zenodo.org/communities/eu/subcom
 
 A new set of automated curation checks help improve the metadata quality of your records in your EU project community:
 
-*Record submission checks* validate funding information by comparing metadata against your project’s description.
+**Record submission checks** validate funding information by comparing metadata against your project’s description.
 
-*Project community checks* validate funding information, detect existing project communities to avoid duplications, verify the presence of required project metadata (including website, logo, and participating organisations), and verify members' affiliations with your community.
+**Project community checks** validate funding information, detect existing project communities to avoid duplications, verify the presence of required project metadata (including website, logo, and participating organisations), and verify members' affiliations with your community.
 
-These enhancements will guide you towards creating high-quality metadata submissions while supporting compliance with Horizon Europe Open Science requirements. *Together, this will speed up about 40% of curation tasks that were previously carried out manually!*
+These enhancements will guide you towards creating high-quality metadata submissions while supporting compliance with Horizon Europe Open Science requirements. **Together, this will speed up about 40% of curation tasks that were previously carried out manually!**
 
 <div align="center" style="padding:20px"><img src="/2026/08/18/2026-08-18-latest-improvements-eor/funding-check.png" width="50%" /><br/><i>Record submission check</i></div>
 
-*Learn more about our approach to AI* in [our new dedicated page](https://about.zenodo.org/ai-usage-notice/), which explains how AI is used, how data is processed, and how these checks are applied consistently to all submissions to ensure a fair and harmonised curation process.
+**Learn more about our approach to AI** in [our new dedicated page](https://about.zenodo.org/ai-usage-notice/), which explains how AI is used, how data is processed, and how these checks are applied consistently to all submissions to ensure a fair and harmonised curation process.
 
 ### Archive and preview websites in Zenodo
 A WARC (Web ARChive) previewer has been enabled in Zenodo. This new feature, developed by our collaboration partners directly in InvenioRDM, allows users to preview and inspect archived web content directly within the repository.
