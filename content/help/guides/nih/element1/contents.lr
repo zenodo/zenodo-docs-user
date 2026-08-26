@@ -1,6 +1,6 @@
 _model: docspage
 ---
-title: Element 1: Data Types
+title: Element 1: Maximum Appropriate Data Sharing
 ---
 sort_key: 1
 ---
@@ -8,20 +8,18 @@ menu: /help/guides/nih
 ---
 body:
 
-#### Background
+#### Question
 
-All research outputs of any file format are accepted in Zenodo. In the upload form you can designate your resource/publication type.
+Will there be [maximum appropriate sharing of scientific data](https://grants.nih.gov/policy-and-compliance/policy-topics/sharing-policies/dms/writing-dms-plan#maximum-appropriate-sharing-of-scientific-data) underlying peer-reviewed publications and other findings resulting from the work supported by this award (including preprints, refereed papers reported at conferences, and other findings)?
 
-#### NIH-specific guidance on Element 1: Data Types
+#### Guidance for Response
 
-**1.A:** Summarize the types, format, and estimated amount of scientific data expected to be generated in the project
-
-**1.B:** Describe which scientific data from the project will be preserved and shared and provide the rationale for this decision. Describe the aggregation and processing levels of the data to be shared.
-
-**1.C:** Briefly list the metadata, other relevant data, and any associated documentation (e.g., study protocols and data collection instruments) that will be made accessible to facilitate interpretation of the scientific data.
+A response of "Yes" is expected, unless there is a [justifiable reason](https://grants.nih.gov/faqs#/data-management-and-sharing-policy.htm?anchor=56549) to limit data sharing from the project (which can be explained as a response to Element 4). A "Yes" response indicates that the investigator will share as much of their data as can safely be shared to either NIH- sponsored, discipline-specific, institutional, or generalist repositories by the end of the project period.
 
 !!! info
-  **Sample text (adjust to your situation)**  …. In addition to the deposited data files, a data dictionary describing variables will be deposited as a supporting documentation file in the same Zenodo record. These materials will be described with elements of the robust and FAIR [DataCite metadata schema](https://support.datacite.org/docs/datacite-metadata-schema-44), on which Zenodo’s deposit page fields are based.
+    **Zenodo note:** Sometimes, data will be shared to more than one type of repository within a single project. For example, studies with heterogeneous datasets, such as those investigating neurological conditions, may include highly specialized brain imaging files for which NIH-sponsored and discipline-specific repositories should be used, and accompanying quantitative and qualitative .csv and other types of files, for which a generalist repository can be used (as long as these files are fully anonymized).
+    <br><br>
+    In these situations, Zenodo is an ideal option for the accompanying .csv files. Through Zenodo's Related Works fields, DOIs and other types of links can be added from the related records in discipline-specific repositories, thus creating persistent linkages between digital deposits related to a single study.
 
 ---
 docs:

@@ -1,0 +1,28 @@
+_model: docspage
+---
+title: Element 7: For studies subject to the NIH Genomic Data Sharing Policy (GDS)
+---
+sort_key: 7
+---
+menu: /help/guides/nih
+---
+body:
+
+#### Question
+
+For studies subject to the NIH Genomic Data Sharing Policy (GDS) (e.g., using NIH funds to generate large-scale human genomic data):
+<ol type="a">
+  <li>Will you share all large-scale human genomic and associated data in a NIH-designated repository according to the accelerated timelines expected in the GDS Policy?</li>
+  <li>Do you anticipate that when sharing you will be able to meet the <a href="https://grants.nih.gov/policy-and-compliance/policy-topics/sharing-policies/gds/institutional-certifications">expectations of the Institutional Certification</a> in the GDS Policy?</li>
+</ol>
+
+#### Guidance for Response
+
+A response of "Yes" is expected. If "No" must be responded, provide an explanation in Element 4.
+
+Information about Institutional Certifications for studies involving large-scale human genomic data can be found at the link above.
+
+For repository deposits for this genomic data, NIH-hosted genomic and phenotypic data repositories should be used. For additional information, see [Accessing Genomic Data from NIH Repositories](http://grants.nih.gov/policy-and-compliance/policy-topics/sharing-policies/accessing-data/genomic-data).
+
+---
+docs:
