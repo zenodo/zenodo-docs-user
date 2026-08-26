@@ -1,6 +1,6 @@
 _model: docspage
 ---
-title: Element 4: Data Preservation, Access, and Associated Timelines
+title: Element 4: If "No" was Responded to any of the First Three Questions, Provide Explanation
 ---
 sort_key: 4
 ---
@@ -8,26 +8,29 @@ menu: /help/guides/nih
 ---
 body:
 
-#### Background
+#### Question
 
-For all datasets that you and your collaborators have agreed to deposit to a public, generalist repository, and which are either non-sensitive in nature or fully anonymized, Zenodo will serve your data preservation needs. It is the depositor’s responsibility to anonymize datasets / remove sensitive personal data (see FAQs, [How does Zenodo handle sensitive datasets?](../../../faq/)). Zenodo supports long-term preservation of your data deposits, as the repository is projected to be maintained for the lifetime of the host laboratory CERN, defined as at least the next twenty years (see Zenodo’s [Policies](https://about.zenodo.org/policies/)).
+If you answered "No" to elements 1, 2, or 3, or if you anticipate that sharing will be limited in some other way, please describe these limitations and the ethical, legal, or technical factors for them. Your response should specify a particular reason(s) for limiting sharing.
 
-Embargoes may be employed for datasets that you wish to make available after a certain date, such as when the associated publication is made public. [Creative Commons Attribution](https://creativecommons.org/licenses/by/4.0/legalcode) licenses may be assigned to deposited datasets.
+#### Guidance for Response
 
-#### NIH-specific guidance on Element 4: Data Preservation, Access, and Associated Timelines
+To address the time-based questions (Elements 2 and 3) first, use your response to this Element to explain any reasons why data sharing may need to take place later than the recommended deadlines (e.g., student involvement in a project, patents/licenses, data use agreements, etc.)
 
-**4.A**: List Zenodo.org as the repository where your scientific data and metadata arising from the project will be archived. Note: Zenodo may be employed in combination with deposits to other repositories (e.g., in a case where subsets of data needing access controls might be deposited to an NIH-sponsored repository, while other subsets that are safe to make publicly available may be deposited in Zenodo).
+Also use this space to explain why data may not be made available for as long as any required or expected retention periods, as outlined by a journal, etc.
 
-**4.B**: Describe how the scientific data will be findable and identifiable, i.e., via a persistent unique identifier or other standard indexing tools.
+If a limitation to the maximum amount of data sharing must be explained (e.g., a "No" response to Element 1), consult NIH's FAQ on [What are justifiable reasons for limiting sharing of data](https://grants.nih.gov/faqs#/data-management-and-sharing-policy.htm?anchor=56549).
+
+Justifiable reasons to limit data sharing include:
+
+- The project's informed consents limit the scope of data sharing
+- Existing consent (e.g., for previously collected biospecimens) prohibits sharing or limits the scope or extent of sharing
+- A dataset is impossible to de-identify sufficiently to guarantee that the privacy and safety of the research participants can be protected (and [Certificates of Confidentiality](https://grants.nih.gov/policy-and-compliance/policy-topics/human-subjects/coc) would also be insufficient)
+- Datasets cannot be digitized with reasonable efforts.
 
 !!! info
-    **Sample text for section 4.B:** ... In accordance with the FAIR principles, Zenodo follows the standard of issuing a DOI (digital object identifier) for all deposited datasets, as well as any related materials. This unique persistent identifier makes the data permanently Findable, Identifiable, and retrievable on the web.
-
-**4.C**: Describe when the scientific data will be made available to other users (i.e., no later than time of an associated publication or end of the performance period, whichever comes first) and for how long data will be available.
-
-!!! info
-    **Zenodo note:** Zenodo’s features meet the primary [Desirable Characteristics for All Data Repositories](https://sharing.nih.gov/data-management-and-sharing-policy/sharing-scientific-data/selecting-a-data-repository#desirable-characteristics-for-all-data-repositories) outlined by the NIH, which denote repositories appropriate for sharing scientific data. These include issuing a unique persistent identifier (DOI), provenance, and long-term sustainability. In section 4.C, you may mention that data will be made available in a timely and compliant manner through the use of an Embargo (e.g., a deposited dataset can be embargoed in Zenodo until it is made Open Access to coincide with the availability of the first associated publication).
-
+    **Zenodo note:** While sensitive datasets should never be shared through Zenodo, Restricted or Closed Access uploads are possible for datasets that cannot be deposited as Open Access. Open Access data deposits and metadata records are fully visible and available to the public. Restricted/Closed Access uploads are not visible on the front page, but are still discoverable through any communities in which they are included, via the DOI, and through search queries. Data depositors control whether their deposits and records are Open Access, Restricted/Closed Access, or Embargoed.
+    <br><br>
+    Licenses in Zenodo empower depositors to outline the ways in which downloads of their materials may be used. Users are responsible for monitoring subsequent uses of their materials. All metadata (e.g., the descriptive metadata comprising the non-file portions of a Zenodo record) is licensed CC0 (public domain), and can be exported and harvested via the OAI-PMH protocol. See the Terms of Use and Policies for more details on users' rights and responsibilities with regard to access and re-use of their data.
 
 ---
 docs:

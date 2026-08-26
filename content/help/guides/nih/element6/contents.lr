@@ -1,6 +1,6 @@
 _model: docspage
 ---
-title: Element 6: Oversight of Data Management and Sharing
+title: Element 6: Table for Expected Data Type and Established Repository or Example
 ---
 sort_key: 6
 ---
@@ -8,24 +8,34 @@ menu: /help/guides/nih
 ---
 body:
 
-#### Background
+#### Question
 
-Oversight of the daily work of data management and sharing is the responsibility of the institution that originates and/or analyses, manipulates, and processes the data. In most studies and organizations, the responsible party is the principal investigator. In certain institutions, the office of research or other organizational bodies may also assist in this process. Check your organization’s data management or compliance webpages to be sure. Zenodo assumes no responsibility for oversight of data management and sharing.
+In the table below, please list [100 words maximum]:
 
-#### NIH-specific guidance on Element 6: Oversight of Data Management and Sharing
+<ol type="a">
+  <li>Key types of scientific data anticipated to be generated during the project, including the species and modality, if known (e.g., “human genomic data,” “rat functional magnetic resonance imaging data”). NIH recognizes that not all data types expected to be generated in the study will meet the definition of scientific data or can be anticipated in advance.  If a data type does not appear on the list, it does not imply that that data type will not be shared if it is generated in the study.</li>
+  <li>The repository or an example of a repository where the scientific data may be managed and shared, if the scientific data is known at time of application. NIH expects the use of established repositories for preserving and sharing scientific data when they are available.</li>
+</ol>
 
-**6.A:** Describe how compliance with this Plan will be monitored and managed, frequency of oversight, and by whom at your institution (e.g., titles, roles).
+| Expected Data Type | Established Repository or Example |
+| --- | --- |
+| - | - |
+
+#### Guidance for Response
+
+Since expected, example responses for data type are outlined above, we will concentrate on guidance for the repository portion of the table. List [Zenodo.org](https://zenodo.org) as the repository where scientific data arising from your project will be managed and shared. Note: Zenodo may be employed in combination with deposits to other repositories (e.g., in a case where subsets of data needing access controls might be deposited to an NIH-sponsored repository, while other subsets that are safe to make publicly available may be deposited in Zenodo).
 
 !!! info
-    **Zenodo note:** Zenodo should not be listed as responsible for data management and sharing oversight on NIH DMSPs. Curation services may be needed as part of daily data management and sharing work, and is highly recommended for datasets you are considering depositing to this or any other repository.
+    **Zenodo note:** Zenodo's features meet the primary [Desirable Characteristics for All Data Repositories](https://sharing.nih.gov/data-management-and-sharing-policy/sharing-scientific-data/selecting-a-data-repository#desirable-characteristics-for-all-data-repositories) outlined by the NIH. These include issuing a unique persistent identifier (DOI), provenance, and long-term sustainability.
 
-Curation costs may be included as part of your grant. See the [NIH Supplement: Allowable Costs for Data Management and Sharing](https://grants-nih-gov.ezproxy.galter.northwestern.edu/grants/guide/notice-files/NOT-OD-21-015.html), as well as the following data management budgeting and cost estimators:
+These qualities of Zenodo keep it aligned with the FAIR principles:
 
-- National Academies of Science, Engineering, and Medicine's (NASEM) guide: [Forecasting Costs of Biomedical Data Preservation: A User Guide for Biomedical Researchers](https://nap.nationalacademies.org/resource/25639/Researcher_User_Guide_Biomedical_Data.pdf), as well as the NASEM's Ad Hoc Committee for [Forecasting Costs for Preserving, Archiving, and Promoting Access to Biomedical Data](https://www.nationalacademies.org/our-work/forecasting-costs-for-preserving-archiving-and-promoting-access-to-biomedical-data), whose products include:
-    - Report: [Life-Cycle Decisions for Biomedical Data: The Challenge of Forecasting Costs](https://nap.nationalacademies.org/catalog/25639/life-cycle-decisions-for-biomedical-data-the-challenge-of-forecasting)
-     - [Cost Drivers Workbook](https://urldefense.com/v3/__https://nam12.safelinks.protection.outlook.com/?url=https*3A*2F*2Fwww.nap.edu*2Fresource*2F25639*2FCost_Driver_Template_Word_0715.doc&data=05*7C01*7Cddc*40list.pitt.edu*7C02beed79f7ce489d8ca808da47d91bf5*7C9ef9f489e0a04eeb87cc3a526112fd0d*7C1*7C0*7C637901295058036645*7CUnknown*7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0*3D*7C3000*7C*7C*7C&sdata=GvjJav4DHwCjlvcFT5vA5DaNVUlRdeh6UM6vnuzvhCk*3D&reserved=0__;JSUlJSUlJSUlJSUlJSUlJSUlJSUlJQ!!Dq0X2DkFhyF93HkjWTBQKhk!UtyYOPnzVPd1Aje9uQd8GL7_wudsTel9-0sn59Rp9by4O4QCYxzMQa8LoeER78197OtrbZlXBGAGZAkbDARaeCw$) (and related [quick video](https://vimeo.com/444647256))
-     - [User Guide for Biomedical Researchers](https://nap.nationalacademies.org/resource/25639/Researcher_User_Guide_Biomedical_Data.pdf)
-- NIMH Data Archive's [Data Submission Cost Estimation Tool](https://s3.amazonaws.com/stage.nimhda.org/Documents/NDA_Data_Submission_Cost_Estimation_Tool.xlsx) (a spreadsheet that can be adapted for any project's data management costs)
+| Principle | Description |
+| --- | --- |
+| Findable | Each deposit is issued a DOI, making it permanently findable, identifiable, and retrievable via the internet |
+| Accessible | Zenodo's emphasis on Open Access deposits helps to ensure that deposited datasets are accessible for the foreseeable future |
+| Interoperable | The use of widely adopted code and API standards make Zenodo records highly interoperable |
+| Reusable | Zenodo offers the user a wide selection of licenses for their deposits, ensuring that they can specify the conditions of data re-use |
 
 ---
 docs:

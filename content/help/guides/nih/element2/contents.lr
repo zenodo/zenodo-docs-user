@@ -1,6 +1,6 @@
 _model: docspage
 ---
-title: Element 2: Related Tools, Software and/or Code:
+title: Element 2: Deadline for Data Sharing
 ---
 sort_key: 2
 ---
@@ -8,17 +8,16 @@ menu: /help/guides/nih
 ---
 body:
 
-#### Background
+#### Question
 
-Software and code deposits are encouraged in Zenodo. Zenodo also supports GitHub integration and archiving of GitHub repositories that have been used to generate software and analysis code for research studies. Please see the [Zenodo documentation](../../../docs/) for more information as well as [GitHub documentation](https://docs.github.com/en/repositories/archiving-a-github-repository/referencing-and-citing-content).
+Will the scientific data underlying peer-reviewed publications be shared by the time of publication, or for other findings, by the end of the period of performance, which includes no-cost extensions?
 
+#### Guidance for Response
 
-#### NIH-specific guidance on Element 2: Related Tools, Software and/or Code
-
-**2.A:** State whether specialized tools, software, and/or code are needed to access or manipulate shared scientific data, and if so, provide the name(s) of the needed tool(s) and software and specify how they can be accessed.
+A response of "Yes" is expected, unless there are mitigating factors that might push the date of data sharing farther out than the deadlines listed above. These can include student involvement in a research project, or an institution's requirements for certain data files to remain under institutional control for set periods due to patents, licensing, data use agreements, etc. Check with your office of research and/or office of sponsored projects; patent, IP, or inventions office; or legal office if you have questions about the start date for data sharing.
 
 !!! info
-    **Zenodo note:** The software that has been used to collect, analyze, and otherwise manipulate the data can be described in the Description field of the dataset’s deposit record. In addition, you may create a Zenodo record specifically for the software, and it can be linked to your data record using the Related Identifiers fields on the deposit form.See [describing records](../../../docs/deposit/describe-records/) for further information.
+    **Zenodo note:** Zenodo offers the ability to embargo deposited files until a date the depositor specifies. Therefore, if you receive institutional permission to make your data files available to the public on a certain date, you can set that date within your deposit record, and the associated files' status will automatically be updated from "Private" to "Public" on that date.
 
 ---
 docs:
