@@ -4,18 +4,22 @@ on:
   push:
     branches:
     - 'master'
+  workflow_dispatch:
+    inputs:
+      reason:
+        default: "Manual trigger"
 
 jobs:
   Build-n-Deploy:
     name: Build and deploy Lektor websites
-    runs-on: ubuntu-24.04
+    runs-on: ubuntu-latest
     steps:
       - name: Checkout branch
         uses: actions/checkout@v7
       - name: Setup Python
         uses: actions/setup-python@v7
         with:
-          python-version: '3.9'
+          python-version: '3.14'
       - name: Install dependencies
         run: |
           pip install -U pip
