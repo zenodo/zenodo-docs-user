@@ -9,47 +9,63 @@
 Zenodo user documentation uses [Lektor](https://www.getlektor.com), a powerful
 static content management system.
 
-## Install and running Lektor
+Dependencies are managed with [uv](https://docs.astral.sh/uv/). They are
+declared in `pyproject.toml` and pinned in `uv.lock`.
 
-Lektor can be installed either as an macOS desktop application *or* as a
-command line tool.
+## Install
 
-### Desktop Application
+1. Install `uv` (see [other installation methods](https://docs.astral.sh/uv/getting-started/installation/)):
 
-Download and install the desktop application from
-[Lektor's website](https://www.getlektor.com/downloads/).
+    ```console
+    $ curl -LsSf https://astral.sh/uv/install.sh | sh
+    ```
 
-Next, launch the application and browse to ``zenodo-docs-user.lektorproject``
-in the root folder of the repository and open the file.
+2. From the root of the repository, create the virtual environment and install
+   the pinned dependencies:
 
-### Command Line Tool
+    ```console
+    $ uv sync
+    ```
 
-Copy/paste the following to your command prompt to install Lektor (or see
-[Lektor's website](https://www.getlektor.com/downloads/) for alternative ways):
+`uv` reads `.python-version` and downloads the right Python for you, so there
+is nothing else to set up.
 
-```console
-$ curl -sf https://www.getlektor.com/install.sh | sh
-```
-
-Next, go into the root directory of the repository and run
-the following command and open
-[http://localhost:5000/](http://localhost:5000/) in your browser afterwards:
+## Run the site locally
 
 ```console
-$ lektor server
+$ uv run lektor server
 ```
 
-#### Documentation search with Pagefind
+Then open [http://localhost:5000/](http://localhost:5000/) in your browser.
 
-In order to test the documentation search functionality, install the `pagefind[extended]`, `beautifulsoup4` and `requests` packages and run the following commands:
+Prefix any command with `uv run` to execute it inside the project environment.
+Alternatively, activate the environment once with `source .venv/bin/activate`
+and drop the prefix.
+
+## Run the tests
 
 ```console
-$ lektor build
-$ python pagefind_index.py "$(lektor project-info --output-path)"
-$ python -m http.server --directory "$(lektor project-info --output-path)"
+$ uv run ./runtests.sh
 ```
 
-### Contributing
+## Documentation search with Pagefind
 
-Contributions are welcome, and they are greatly appreciated! Every little bit
-helps, and credit will always be given.
+The search index needs a few extra packages, grouped under `search` in
+`pyproject.toml`. Install them and build the index:
+
+```console
+$ uv sync --group search
+$ uv run lektor build
+$ uv run python pagefind_index.py "$(uv run lektor project-info --output-path)"
+$ uv run python -m http.server --directory "$(uv run lektor project-info --output-path)"
+```
+
+Note that plain `uv sync` and `uv run` remove the `search` packages again. Pass
+`--group search` to keep them installed.
+
+## Lektor desktop application
+
+As an alternative to the command line, download and install the desktop
+application from [Lektor's website](https://www.getlektor.com/downloads/).
+Launch it, then browse to `zenodo-docs-user.lektorproject` in the root folder of
+the repository and open the file.
