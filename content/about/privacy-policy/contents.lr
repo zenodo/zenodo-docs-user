@@ -17,6 +17,16 @@ Each service at CERN is responsible for compiling its own Privacy Notice regardi
 
 This Privacy Notice is part of [CERN’s Layered Privacy Notice](https://cern.service-now.com/service-portal?id=layered_privacy_notice) and details the processing that is unique to Zenodo. It does not address processing by other services on which this service may rely and which have their own Privacy Notice.
 
+<hr />
+
+**Description of the processing activity that is documented in this privacy notice**
+
+Handling of personal data to manage access to the Zenodo application and to enable the compliant use of the service.
+
+**Description of the categories of data subjects concerned by the processing**
+
+Holders of a Zenodo account.
+
 ### Personal Data we process
 
 The personal data we have, and how it's used:
@@ -93,7 +103,7 @@ The personal data we have, and how it's used:
     </tr>
     <tr>
       <td>Which deposits you have created and records you have published, incl. timestamp</td>
-      <td>[User] To allow you to manage and edit records you upload; To prevent spam and misuse of Zenodo; To monitor compliance with Zenodo's policies; To generate automated field suggestions (e.g., keywords, metadata extraction) during deposit, subject to user approval</td>
+      <td>[User] To allow you to manage and edit records you upload; To generate automated field suggestions (e.g., keywords, metadata extraction) during deposit, subject to your approval; To prevent spam and misuse of Zenodo; To monitor compliance with Zenodo's policies</td>
       <td>Legitimate interest of CERN</td>
       <td>Your input</td>
     </tr>
@@ -518,10 +528,6 @@ What automated decision making or profiling is being done by Zenodo with your pe
     </tr>
   </tbody>
 </table>
-
-## AI processing
-
-Zenodo utilizes automated tools to assist with metadata curation and funder grant verification. Processing takes place locally within the CERN Data Centre without external third-party cloud providers. Model improvements (such as keyword and subject recommendations) rely exclusively on aggregated, non-personal metadata and do not involve personal data.
 
 <hr />
 
