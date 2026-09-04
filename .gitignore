@@ -6,6 +6,7 @@
 build
 dist
 venv
+.venv
 lektor/admin/static/gen
 .zammad-cache.json
 

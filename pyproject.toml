@@ -1,0 +1,21 @@
+[project]
+name = "zenodo-docs-user"
+version = "0.0.0"
+description = "Zenodo user documentation, built with Lektor."
+requires-python = ">=3.12"
+dependencies = [
+    "Lektor>=3.3.4",
+]
+
+# Extra packages needed to build the Pagefind search index (see pagefind_index.py).
+# Required for deployment; optional for local development.
+[dependency-groups]
+search = [
+    "pagefind[extended]",
+    "beautifulsoup4",
+    "requests",
+]
+
+[tool.uv]
+# This project is a website, not a distributable Python package.
+package = false
