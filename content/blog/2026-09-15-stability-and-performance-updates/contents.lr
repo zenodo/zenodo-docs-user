@@ -1,0 +1,70 @@
+title: Zenodo performance: an update on the current situation
+---
+author: lgugliel,jhinge
+---
+body:
+
+Over the past few weeks, many users have noticed that Zenodo is slower than usual. Pages and searches may take longer to load, and uploads and downloads may sometimes fail or take longer than expected.
+
+We understand that this can be frustrating, particularly when working with Zenodo as part of research workflows.
+
+This post provides an update on the current situation and what we’re doing about it.
+
+### Why is Zenodo slow?
+
+Zenodo continues to grow, both in the amount of research it hosts and in the number of people and services accessing it.
+
+Following our [January 2026 update](https://blog.zenodo.org/2026/01/28/2026-01-28-improvements-and-support-expectations/), we made improvements to and scaled up Zenodo’s infrastructure, which helped address the immediate performance issues for several months. Since then, continued growth in demand, together with an increase in automated traffic, has created new performance challenges.
+
+The graph below illustrates the sustained increase in incoming requests to Zenodo over time. This higher traffic volume, together with changes in the nature and distribution of requests, is putting additional pressure on the service.
+
+<div align="center" style="padding:20px"><img src="/blog/2026/09/15/2026-09-15-stability-and-performance-updates/increase-in-traffic.jpg" width="75%" /><br/><i>Increase in incoming requests to Zenodo over time</i></div>
+
+This automated traffic includes crawlers, harvesters, AI-related systems, and other automated clients accessing Zenodo at high frequency. It puts significant pressure on the service and affects performance for many users. Infrastructure scaling alone is no longer sufficient, so we are now working on the next set of measures to improve Zenodo’s performance and resilience.
+
+Because Zenodo is an open service, we want to keep its content accessible and reusable for all users. Our goal is therefore not only to make Zenodo faster, but also to make it more reliable when demand is high.
+
+### What are we doing?
+
+We are working on several improvements in parallel.
+
+1. **Improving Zenodo’s software:** We are continuing performance work in the Zenodo codebase, including:
+   1. upgrading to Python 3.14
+   2. working through a number of application-level performance improvements, such as identifying and reducing expensive operations in the application. Where possible, these improvements will be implemented in [InvenioRDM](https://invenio-software.org/products/rdm/), the underlying digital repository technology, so that Zenodo and other InvenioRDM adopters can benefit from the improvements.
+
+2. **Improving traffic management:** We are improving how we identify and manage different types of traffic to Zenodo. This includes fine-tuning rate limits and better identifying the sources of incoming requests, allowing us to apply appropriate measures based on the type and volume of traffic while keeping legitimate use responsive. Read our [Search API update](https://blog.zenodo.org/2025/11/25/2025-11-14-search-api-updates/).
+
+3. **Improving bulk access:** To support large-scale reuse of Zenodo metadata without putting unnecessary strain on the live service, we are developing exporter dumps and other bulk-access mechanisms.
+
+   This will help us provide responsive access for researchers while making large-scale harvesting more efficient and sustainable.
+
+4. **Testing additional protections:** We are testing targeted Proof-of-Work challenges to help distinguish normal browser traffic from certain forms of automated access.
+
+   These measures will be applied selectively and carefully to avoid creating unnecessary barriers for researchers, accessibility tools, and legitimate integrations.
+
+5. **Working with CERN and the wider community:** Zenodo is operated within CERN’s infrastructure, and discussions are ongoing with CERN teams about the wider traffic situation.
+
+   We are also sharing knowledge with partners in the InvenioRDM community to better identify and filter problematic automated traffic earlier.
+
+### What do users need to do?
+
+If you use Zenodo interactively to search, browse, deposit or download research outputs, some operations may take longer, but **you do not need to change how you use the service.**
+
+**If you operate a crawler, harvester, AI system or other application that makes large numbers of requests, please respect Zenodo's published rate limits, use bulk-access options where available and use a clear and identifiable User-Agent.** We recommend a format such as “AppName/1.0 (+https://example.com; contact@example.com)”, which allows us to identify the source of traffic, apply appropriate measures or contact you in case of need. Requests using generic or unidentifiable User-Agents, such us “curl/8.5.0”, “python-requests/2.34.1” or similar, may be subject to blocking.
+
+For large-scale metadata access, please use services such as OAI-PMH, metadata dumps and other mechanisms designed for this purpose rather than repeatedly querying the interactive Search API.
+
+This helps keep Zenodo available and responsive for everyone.
+
+### What happens next?
+
+This is ongoing work. In the short term, we are continuing to improve application performance, tune rate limits and mitigate excessive automated traffic. In parallel, we are developing longer-term improvements to make Zenodo more resilient as the service continues to grow.
+
+Our objective is not simply to get through the current period of high load, but to build a service that remains reliable and responsive as the scale and nature of demand continue to change.
+
+We will share further updates as significant improvements become available.
+
+Thank you for your patience, feedback and continued use of Zenodo.
+
+---
+date: 2026-09-15
