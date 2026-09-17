@@ -50,7 +50,8 @@ We are working on several improvements in parallel.
 
 If you use Zenodo interactively to search, browse, deposit or download research outputs, some operations may take longer, but **you do not need to change how you use the service.**
 
-**If you operate a crawler, harvester, AI system or other application that makes large numbers of requests, please respect Zenodo's published rate limits, use bulk-access options where available and use a clear and identifiable User-Agent.** We recommend a format such as “AppName/1.0 (+https://example.com; contact@example.com)”, which allows us to identify the source of traffic, apply appropriate measures or contact you in case of need. Requests using generic or unidentifiable User-Agents, such us “curl/8.5.0”, “python-requests/2.34.1” or similar, may be subject to blocking.
+**If you operate a crawler, harvester, AI system or other application that makes large numbers of requests, please respect Zenodo's published rate limits, use bulk-access options where available and use a clear and identifiable User-Agent.** We recommend a format such as “AppName/1.0 (+https://example.com; contact@example.com)”, which allows us to identify the source of traffic, apply appropriate measures or contact you in case of need.
+To prevent automated abuse, high-volume requests using generic User-Agents (such as default "curl" or "python-requests") may be rate-limited or blocked. We strongly encourage adding a custom User-Agent string to your scripts.
 
 For large-scale metadata access, please use services such as OAI-PMH, metadata dumps and other mechanisms designed for this purpose rather than repeatedly querying the interactive Search API.
 
