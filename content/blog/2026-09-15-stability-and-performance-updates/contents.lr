@@ -18,7 +18,7 @@ Following our [January 2026 update](https://blog.zenodo.org/2026/01/28/2026-01-2
 
 The graph below illustrates the sustained increase in incoming requests to Zenodo over time. This higher traffic volume, together with changes in the nature and distribution of requests, is putting additional pressure on the service.
 
-<div align="center" style="padding:20px"><img src="/blog/2026/09/15/2026-09-15-stability-and-performance-updates/increase-in-traffic.jpg" width="75%" /><br/><i>Increase in incoming requests to Zenodo over time</i></div>
+<div align="center" style="padding:20px"><img src="/2026/09/15/2026-09-15-stability-and-performance-updates/increase-in-traffic.png" width="50%" /><br/><i>Increase in incoming requests to Zenodo over time</i></div>
 
 This automated traffic includes crawlers, harvesters, AI-related systems, and other automated clients accessing Zenodo at high frequency. It puts significant pressure on the service and affects performance for many users. Infrastructure scaling alone is no longer sufficient, so we are now working on the next set of measures to improve Zenodo’s performance and resilience.
 
