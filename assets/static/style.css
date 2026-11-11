@@ -173,9 +173,15 @@ summary {
 
 :root {
   /*
-  Making the max-width of the Pagefind searchbox wide enough,
-  so that it fits the full width of its parent container.
+  Full-width searchbox
   See: https://pagefind.app/docs/css-variables/
   */
-  --pf-searchbox-max-width: 800px !important;
+  --pf-searchbox-max-width: none !important;
+  --pf-input-height: 56px !important;
+  --pf-input-font-size: 20px !important;
+}
+
+.help-searchbox-row {
+  margin-top: 30px;
+  margin-bottom: 30px;
 }
