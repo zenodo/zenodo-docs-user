@@ -23,7 +23,7 @@
 {% block subpagename %}Help{% endblock %}
 {% block subnavbaritems %}
 {% set rootpath = bag('navigation.help.0.0') %}
-{%- if this.path != rootpath.rstrip('/') %}
+{%- if this.path != rootpath %}
     {% for path, label in bag('navigation.help') %}
       {% set highlight = (path != rootpath and this.is_child_of(path)) or (this.path == path and path == rootpath)%}
       <li{% if highlight %} class="active"{% endif %}><a href="{{ path|url }}">{{ label }}</a></li>
