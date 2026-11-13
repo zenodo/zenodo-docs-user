@@ -19,10 +19,10 @@ jobs:
       - name: Install uv
         uses: astral-sh/setup-uv@v10.0.1
         with:
-          enable-cache: true
+          enable-cache: false
       - name: Install dependencies
         run: |
-          uv sync --locked --group search
+          uv sync --group search
           uv pip list
       - name: Deploy
         env:
