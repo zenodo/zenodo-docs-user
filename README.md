@@ -10,7 +10,9 @@ Zenodo user documentation uses [Lektor](https://www.getlektor.com), a powerful
 static content management system.
 
 Dependencies are managed with [uv](https://docs.astral.sh/uv/). They are
-declared in `pyproject.toml` and pinned in `uv.lock`.
+declared in `pyproject.toml` and are not pinned: there is no committed
+`uv.lock`, so every install (locally and in CI) resolves the latest versions
+allowed by `pyproject.toml`.
 
 ## Install
 
@@ -21,11 +23,14 @@ declared in `pyproject.toml` and pinned in `uv.lock`.
     ```
 
 2. From the root of the repository, create the virtual environment and install
-   the pinned dependencies:
+   the dependencies:
 
     ```console
     $ uv sync
     ```
+
+   `uv sync` writes a local `uv.lock` (ignored by git) and keeps reusing it. To
+   pick up newer releases later, run `uv sync --upgrade`.
 
 `uv` reads `.python-version` and downloads the right Python for you, so there
 is nothing else to set up.

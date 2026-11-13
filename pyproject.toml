@@ -19,3 +19,4 @@ search = [
 [tool.uv]
 # This project is a website, not a distributable Python package.
 package = false
+exclude-newer = "3 days"
