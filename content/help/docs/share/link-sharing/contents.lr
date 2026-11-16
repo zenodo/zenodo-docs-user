@@ -18,6 +18,12 @@ You can give the secret link one of the following three permissions:
 
 Note, the permissions apply to all current and future versions of a record/draft.
 
+##### Peer review and anonymity
+
+**Zenodo cannot guarantee your anonymity in double-blind peer review.**
+
+Reviewers don't need a Zenodo account to open a secret link, so they can stay anonymous to you. However, you are not anonymous to them. Anyone who can view your record or draft, including through a secret link, can find out the username, full name and affiliation of the account that uploaded it. This applies even if you are not listed as a creator and your **Profile visibility** is set to **Hidden**.
+
 ---
 menu: /help/docs/share
 ---
