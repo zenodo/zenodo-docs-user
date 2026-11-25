@@ -97,10 +97,11 @@ The profile menu allows you to manage your account and settings:
 - **Profile**: Your full name, affiliations, email address as well as profile/email visibility.
 - **Change password**: Allows you to update your password if you logged in with a local account.
 - **Notifications**: Change if you want to receive notifications from Zenodo or not.
-- **Security**: View all devices logged into your current account.
 - **Linked accounts**: All external accounts linked to Zenodo user (e.g. GitHub, ORCID and/or OpenAIRE).
-- **Applications**: Allows you to create API access tokens and API applications.
 - **GitHub**: Allows you to setup automatic archiving from GitHub.
+- **GitLab**: Allows you to setup automatic archiving from GitLab.
+- **Security**: View all devices logged into your current account.
+- **Applications**: Allows you to create API access tokens and API applications.
 
 ![](profilemenu.png)
 

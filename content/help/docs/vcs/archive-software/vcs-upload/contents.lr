@@ -1,8 +1,8 @@
 _model: docspage
 ---
-title: Archive a release from GitHub
+title: Archive a release from GitHub or GitLab
 ---
-menu: /help/docs/github
+menu: /help/docs/vcs
 ---
 sort_key: 1
 ---
@@ -15,15 +15,15 @@ If you need help to enable a repository, read the following guide:
 ---
 docs:
 #### docsheader ####
-text: Create a release
+text: Create a release from GitHub
 ----
-ref:create-a-release
+ref:create-a-gitlab-release
 #### docsstep ####
 step: 1
 ----
 text: Open the profile menu and click **GitHub**
 ----
-image: profile.png
+image: profile-github.png
 #### docsstep ####
 step: 2
 ----
@@ -69,6 +69,55 @@ step: 7
 text: In the record page, check the archival status under **External resources** > **Archived in**. The record will be archived soon.
 ----
 image: ../manual-upload/archive-wait.png
+----
+#### docsheader ####
+text: Create a release from GitLab
+----
+ref:create-a-release
+#### docsstep ####
+step: 1
+----
+text: Open the profile menu and click **GitLab**
+----
+image: profile_gitlab.png
+#### docsstep ####
+step: 2
+----
+text: Select the project
+----
+image: enabled_projects.png
+#### docsstep ####
+step: 3
+----
+text: Click the **Create release** button
+----
+image: project_release.png
+#### docsstep ####
+step: 4
+----
+text:
+
+Create a release in GitLab.  Find more information on how to manage releases here:
+
+- [Create a release](https://docs.gitlab.com/user/project/releases/#create-a-release)
+----
+image:
+#### docsstep ####
+step: 5
+----
+text:
+
+Wait for the release to be processed.
+
+This could take some time, depending on the size of the release file and the load of Zenodo at that time.
+----
+image:
+#### docsstep ####
+step: 6
+----
+text: When the release is finished, click the record DOI to go to the record
+----
+image: release_gitlab.png
 ----
 #### docsheader ####
 text: Debug a failed release

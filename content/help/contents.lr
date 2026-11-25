@@ -54,7 +54,7 @@ body:
 </div>
 <div class="row" style="margin-bottom:20px;">
     <div class="col-md-3">
-        <h4><a href="https://support.zenodo.org/help/en-gb/24-github-integration">GitHub integration</a></h4>
+        <h4><a href="https://support.zenodo.org/help/en-gb/24-github-integration">VCS integration</a></h4>
     </div>
     <div class="col-md-3">
         <h4><a href="https://support.zenodo.org/help/en-gb/13-policies">Policies</a></h4>

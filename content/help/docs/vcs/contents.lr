@@ -1,0 +1,17 @@
+_model: docspage
+---
+_hidden: false
+---
+title: Version Control Systems and Software
+---
+sort_key: 10
+---
+menu: /help/docs/vcs
+---
+body:
+---
+docs:
+#### docstext ####
+text: This section covers the Zenodo/GitHub and Zenodo/GitLab integrations and provides details on how software records are archived in [Software Heritage](https://www.softwareheritage.org/).
+#### docstoc ####
+menu: /help/docs/vcs

@@ -1,6 +1,6 @@
 _model: docspage
 ---
-title: Linking your GitHub/ORCID/OpenAIRE account
+title: Linking your GitHub/GitLab/ORCID/OpenAIRE account
 ---
 tocdesc: Manage which external accounts you can login with on Zenodo.
 ---
@@ -15,7 +15,9 @@ body:
 
 Zenodo enables you to login with your an external account. The following authentication providers are supported:
 
+- **EOSC AAI**: Enables you to login via the European Open Science Cloud Authentication and Authorization Infrastructure.
 - **GitHub**: Linking your GitHub account enables you to automatically archive your repositories on GitHub via our GitHub integration.
+- **GitLab**: Linking your GitLab account enables you to automatically archive your GitLab projects via our GitLab integration.
 - **ORCID**: Enables you to login with your ORCID account and associates your ORCID with your Zenodo account.
 - **OpenAIRE**: Enables you to login via your institutional account (if the institution is connected to eduGAIN) and other EOSC Core services.
 
@@ -45,7 +47,7 @@ image: accounts.png
 #### docsstep ####
 step: 3
 ----
-text: You will be redirected to the chosen service provider (i.e. GitHub, ORCID or OpenAIRE) to authenticate on their platform. Once you have successfully authenticated you will be redirected back to Zenodo.
+text: You will be redirected to the chosen service provider (i.e. EOSC AAI, GitLab, GitHub, ORCID or OpenAIRE) to authenticate on their platform. Once you have successfully authenticated you will be redirected back to Zenodo.
 #### docsstep ####
 step: 4
 ----
