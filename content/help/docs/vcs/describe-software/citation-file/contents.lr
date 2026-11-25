@@ -2,14 +2,14 @@ _model: docspage
 ---
 title: CITATION.cff file
 ---
-menu: /help/docs/github
+menu: /help/docs/vcs
 ---
 sort_key: 2
 ---
 body:
-A `CITATION.cff` file can be added to your GitHub repository to describe the software after it is preserved in Zenodo.
+A `CITATION.cff` file can be added to your GitHub or GitLab repository to describe the software after it is preserved in Zenodo.
 
-**Note:** If your repository also contains a `.zenodo.json` file, Zenodo will **only** use the `.zenodo.json` metadata and ignore the `CITATION.cff` entirely. However, we still recommend having a `CITATION.cff` file because GitHub uses it to display a [citation suggestion](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-citation-files) on your repository page, making it easier for others to cite your software.
+**Note:** If your repository also contains a `.zenodo.json` file, Zenodo will **only** use the `.zenodo.json` metadata and ignore the `CITATION.cff` entirely. However, we still recommend having a `CITATION.cff` file because GitHub uses it to display a [citation suggestion](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-citation-files) on your repository page, making it easier for others to cite your software. Similarly, since [GitLab 19.6](https://docs.gitlab.com/releases/19/gitlab-19-6-released/#citationcff-file-detection), GitLab detects `CITATION.cff` files and shows a link to the file (or an option to add one) on the project overview page.
 
 **Looking forward:** Zenodo's long-term preference is for open metadata formats like `CITATION.cff` to eventually make the `.zenodo.json` format unnecessary. We hope to see the Citation File Format evolve in two directions:
 
@@ -18,13 +18,13 @@ A `CITATION.cff` file can be added to your GitHub repository to describe the sof
 ---
 docs: 
 #### docsheader ####
-text: Create a CITATION.cff file
+text: Create a CITATION.cff file on GitHub or GitLab
 #### docstext ####
 ----
 #### docsstep ####
 step: 1
 ----
-text: Open your repository on GitHub
+text: Open your repository on GitHub or GitLab
 #### docsstep ####
 step: 2
 ----
@@ -44,7 +44,7 @@ text: Commit the file
 #### docsstep ####
 step: 6
 ----
-text: [Archive the release](../../archive-software/github-upload)
+text: [Archive the release](../../archive-software/vcs-upload)
 ----
 #### docstext ####
 text: Currently Zenodo implements a subset of the `CITATION.cff` schema, find an example with all the fields that are supported below:
